@@ -1,5 +1,7 @@
 ---
-description: The home page. Feels.... Homey
+description: >-
+  The one stop shop for all content GTFO modding wiki related! Datablock and
+  guides oh my.
 ---
 
 # Home
