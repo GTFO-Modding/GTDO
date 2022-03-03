@@ -1,3 +1,11 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [Home](README.md)
+
+## Guides
+
+* [Guide Root](guides/guide-root.md)
+
+## Datablock Reference
+
+* [Datablock Root](datablock-reference/datablock-root.md)
