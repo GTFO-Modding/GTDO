@@ -5,7 +5,8 @@
 
 ## Guides
 
-* [Guides](guides/guides.md)
+* [Guides](guides/guides/README.md)
+  * [Test Page](guides/guides/test-page.md)
 
 ## Reference
 
