@@ -108,3 +108,4 @@
   * [Weapon](reference/datablocks/weapon.md)
   * [WeaponMuzzleFlash](reference/datablocks/weaponmuzzleflash.md)
   * [WeaponShellCasing](reference/datablocks/weaponshellcasing.md)
+* [Enum Types](reference/enum-types.md)
