@@ -5,8 +5,8 @@
 
 ## Guides
 
-* [Test Page](guides/test-page.md)
-* [Guides](guides/guides.md)
+* [Guides](guides/guides/README.md)
+  * [The Complete Newbie Guide](guides/guides/the-complete-newbie-guide.md)
 
 ## Reference
 
@@ -108,4 +108,6 @@
   * [Weapon](reference/datablocks/weapon.md)
   * [WeaponMuzzleFlash](reference/datablocks/weaponmuzzleflash.md)
   * [WeaponShellCasing](reference/datablocks/weaponshellcasing.md)
+* [Nested Types](reference/nested-types/README.md)
+  * [ZonePlacementWeights](reference/nested-types/zoneplacementweights.md)
 * [Enum Types](reference/enum-types.md)
