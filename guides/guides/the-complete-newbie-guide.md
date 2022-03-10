@@ -37,13 +37,29 @@ As previously stated, the developers control what is stored in datablocks, makin
 
 ## Installation/Setup
 
+For a quick, hassle free setup it's recommened that you use [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/), a mod manager built to work with the Thunderstore.
+
+### Instalation with R2Modman
+
+1. Install the latest version of [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/)
+2. Launch the mod manager and select GTFO
+3. Create a new profile and name it&#x20;
+4. Select "Online" and install any mods you would like to play
+5. Open `Settings>Locations>Change GTFO directory`. Locate and select the install location of GTFO. By default this is `C:\Program Files (x86)\Steam\steamapps\common\GTFO`
+6. Hit the "Play Modded" button.
+7. You're done!
+
+_Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chance of the game breaking._
+
+### Manual Instalation
+
 1. Make sure you have the latest version of GTFO installed. You can verify your game files through Steam just to be sure.
 2. Download the following plugins and follow the instructions to install them:\
-   [https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/)\
-   [https://gtfo.thunderstore.io/package/dakkhuza/MTFO/](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/)
+   [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/)\
+   [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/)
 3. Once everything is installed, run the game, the datablock files should generate in the following folder:\
-   GTFO\BepInEx\plugins\GameData\_XXXXX\
-   XXXXX being the latest game version
+   `GTFO\BepInEx\plugins\GameData_XXXXX`\
+   `XXXXX` being the latest game version
 
 You can always regenerate the JSON files by deleting the ones you want to refresh.
 
