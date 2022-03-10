@@ -45,18 +45,18 @@ For a quick, hassle free setup it's recommened that you use [R2Modman](https://g
 2. Launch the mod manager and select GTFO
 3. Create a new profile and name it&#x20;
 4. Select "Online" and install any mods you would like to play
-5. Open `Settings>Locations>Change GTFO directory`. Locate and select the install location of GTFO. By default this is `C:\Program Files (x86)\Steam\steamapps\common\GTFO`
+5. Open `Settings -> Locations -> Change GTFO directory`. Locate and select the install location of GTFO. By default this is `C:\Program Files (x86)\Steam\steamapps\common\GTFO`
 6. Hit the "Play Modded" button.
 7. You're done!
 
-_Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chance of the game breaking._
+Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chance of the game breaking.
+
+You can find the profile folder by going `Settings -> All -> Browse Profile Folder`
 
 ### Manual Instalation
 
 1. Make sure you have the latest version of GTFO installed. You can verify your game files through Steam just to be sure.
-2. Download the following plugins and follow the instructions to install them:\
-   [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/)\
-   [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/)
+2. Download [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/) and [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/), then follow their instalation instructions
 3. Once everything is installed, run the game, the datablock files should generate in the following folder:\
    `GTFO\BepInEx\plugins\GameData_XXXXX`\
    `XXXXX` being the latest game version
