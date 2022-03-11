@@ -18,7 +18,7 @@ No description provided.
 
 No description provided.
 
-### FireMode - [eWeaponFireMode](../enum-types.md#eWeaponFireMode) (enum)
+### FireMode - [eWeaponFireMode](../enum-types.md#eweaponfiremode) (enum)
 
 No description provided.
 
