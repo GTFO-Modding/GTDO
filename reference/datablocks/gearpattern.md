@@ -1,2 +1,23 @@
+---
+description: GearPattern
+---
+
 # GearPattern
 
+No description provided.
+
+***
+
+## Fields
+
+### Pattern - String
+
+No description provided.
+
+### AssetBundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+
+No description provided.
+
+### AssetBundleShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+
+No description provided.

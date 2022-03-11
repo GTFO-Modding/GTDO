@@ -1,2 +1,15 @@
+---
+description: TechMarker
+---
+
 # TechMarker
 
+No description provided.
+
+***
+
+## Fields
+
+### CommonData - [MarkerDataCommon](../nested-types/MarkerDataCommon.md) (nested type)
+
+No description provided.
