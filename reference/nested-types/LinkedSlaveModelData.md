@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### AnimationSet - [AnimatorControllerHandleName](../enum-types.md#AnimatorControllerHandleName) (enum)
+### AnimationSet - [AnimatorControllerHandleName](../enum-types.md#animatorcontrollerhandlename) (enum)
 
 No description provided.
 

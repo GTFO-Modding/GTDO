@@ -1,8 +1,8 @@
 ---
-description: MiningMarker
+description: GameData_MiningMarkerDataBlock_bin.json
 ---
 
-# MiningMarker
+# MiningMarkerDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### CommonData - [MarkerDataCommon](../nested-types/MarkerDataCommon.md) (nested type)
+### CommonData - [MarkerDataCommon](../nested-types/markerdatacommon.md) (nested type)
 
 No description provided.

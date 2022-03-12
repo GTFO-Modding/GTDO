@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### Role - [eEnemyRole](../enum-types.md#eEnemyRole) (enum)
+### Role - [eEnemyRole](../enum-types.md#eenemyrole) (enum)
 
 No description provided.
 
-### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eEnemyRoleDifficulty) (enum)
+### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
 No description provided.
 

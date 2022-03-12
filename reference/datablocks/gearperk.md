@@ -1,8 +1,8 @@
 ---
-description: GearPerk
+description: GameData_GearPerkDataBlock_bin.json
 ---
 
-# GearPerk
+# GearPerkDataBlock
 
 No description provided.
 
@@ -10,30 +10,30 @@ No description provided.
 
 ## Fields
 
-### PerkSpecials - [List GearSpecialPerkData](../nested-types/GearSpecialPerkData.md) (nested type)
+### PerkSpecials - [List GearSpecialPerkData](../nested-types/gearspecialperkdata.md) (nested type)
 
 No description provided.
 
-### ModFirerate - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModFirerate - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.
 
-### ModDamage - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModDamage - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.
 
-### ModReloadTime - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModReloadTime - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.
 
-### ModRange - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModRange - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.
 
-### ModRecoilReduction - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModRecoilReduction - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.
 
-### ModHandling - [GearPerkModifierData](../nested-types/GearPerkModifierData.md) (nested type)
+### ModHandling - [GearPerkModifierData](../nested-types/gearperkmodifierdata.md) (nested type)
 
 No description provided.

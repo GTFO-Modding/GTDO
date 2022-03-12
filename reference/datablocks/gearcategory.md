@@ -1,8 +1,8 @@
 ---
-description: GearCategory
+description: GameData_GearCategoryDataBlock_bin.json
 ---
 
-# GearCategory
+# GearCategoryDataBlock
 
 No description provided.
 
@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### PublicName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### PublicName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### Description - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Description - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -38,7 +38,7 @@ No description provided.
 
 No description provided.
 
-### ThirdPersonFullbodyMovement - [eFullbodyPlayerMovementSet](../enum-types.md#eFullbodyPlayerMovementSet) (enum)
+### ThirdPersonFullbodyMovement - [eFullbodyPlayerMovementSet](../enum-types.md#efullbodyplayermovementset) (enum)
 
 No description provided.
 
@@ -62,6 +62,6 @@ No description provided.
 
 No description provided.
 
-### PartAlignPriority - [List GearPartAlignPriority](../nested-types/GearPartAlignPriority.md) (nested type)
+### PartAlignPriority - [List GearPartAlignPriority](../nested-types/gearpartalignpriority.md) (nested type)
 
 No description provided.

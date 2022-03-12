@@ -1,8 +1,8 @@
 ---
-description: Loot
+description: GameData_LootDataBlock_bin.json
 ---
 
-# Loot
+# LootDataBlock
 
 No description provided.
 
@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### Category - [LootCategory](../enum-types.md#LootCategory) (enum)
+### Category - [LootCategory](../enum-types.md#lootcategory) (enum)
 
 No description provided.
 
@@ -22,6 +22,6 @@ No description provided.
 
 No description provided.
 
-### LootCollection - [List Loot](../nested-types/Loot.md) (nested type)
+### LootCollection - [List Loot](../nested-types/loot.md) (nested type)
 
 No description provided.

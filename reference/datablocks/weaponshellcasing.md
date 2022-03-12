@@ -1,8 +1,8 @@
 ---
-description: WeaponShellCasing
+description: GameData_WeaponShellCasingDataBlock_bin.json
 ---
 
-# WeaponShellCasing
+# WeaponShellCasingDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### ShellCasingType - [ShellTypes](../enum-types.md#ShellTypes) (enum)
+### ShellCasingType - [ShellTypes](../enum-types.md#shelltypes) (enum)
 
 No description provided.

@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### stateAfterMaxTime - [MUS_State](../enum-types.md#MUS_State) (enum)
+### stateAfterMaxTime - [MUS_State](../enum-types.md#mus_state) (enum)
 
 No description provided.

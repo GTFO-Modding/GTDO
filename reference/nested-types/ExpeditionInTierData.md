@@ -22,31 +22,31 @@ No description provided.
 
 No description provided.
 
-### Accessibility - [eExpeditionAccessibility](../enum-types.md#eExpeditionAccessibility) (enum)
+### Accessibility - [eExpeditionAccessibility](../enum-types.md#eexpeditionaccessibility) (enum)
 
 No description provided.
 
-### UnlockedByExpedition - [ExpeditionIndex](./ExpeditionIndex.md) (nested type)
+### UnlockedByExpedition - [ExpeditionIndex](./expeditionindex.md) (nested type)
 
 No description provided.
 
-### CustomProgressionLock - [RundownTierProgressionData](./RundownTierProgressionData.md) (nested type)
+### CustomProgressionLock - [RundownTierProgressionData](./rundowntierprogressiondata.md) (nested type)
 
 No description provided.
 
-### Descriptive - [DescriptiveData](./DescriptiveData.md) (nested type)
+### Descriptive - [DescriptiveData](./descriptivedata.md) (nested type)
 
 No description provided.
 
-### Seeds - [BuildSeedData](./BuildSeedData.md) (nested type)
+### Seeds - [BuildSeedData](./buildseeddata.md) (nested type)
 
 No description provided.
 
-### Expedition - [ExpeditionData](./ExpeditionData.md) (nested type)
+### Expedition - [ExpeditionData](./expeditiondata.md) (nested type)
 
 No description provided.
 
-### VanityItemsDropData - [VanityItemsDropData](./VanityItemsDropData.md) (nested type)
+### VanityItemsDropData - [VanityItemsDropData](./vanityitemsdropdata.md) (nested type)
 
 No description provided.
 
@@ -54,7 +54,7 @@ No description provided.
 
 No description provided.
 
-### MainLayerData - [LayerData](./LayerData.md) (nested type)
+### MainLayerData - [LayerData](./layerdata.md) (nested type)
 
 No description provided.
 
@@ -66,11 +66,11 @@ No description provided.
 
 No description provided.
 
-### BuildSecondaryFrom - [BuildLayerFromData](./BuildLayerFromData.md) (nested type)
+### BuildSecondaryFrom - [BuildLayerFromData](./buildlayerfromdata.md) (nested type)
 
 No description provided.
 
-### SecondaryLayerData - [LayerData](./LayerData.md) (nested type)
+### SecondaryLayerData - [LayerData](./layerdata.md) (nested type)
 
 No description provided.
 
@@ -82,15 +82,15 @@ No description provided.
 
 No description provided.
 
-### BuildThirdFrom - [BuildLayerFromData](./BuildLayerFromData.md) (nested type)
+### BuildThirdFrom - [BuildLayerFromData](./buildlayerfromdata.md) (nested type)
 
 No description provided.
 
-### ThirdLayerData - [LayerData](./LayerData.md) (nested type)
+### ThirdLayerData - [LayerData](./layerdata.md) (nested type)
 
 No description provided.
 
-### DimensionDatas - [List DimensionInExpeditionData](./DimensionInExpeditionData.md) (nested type)
+### DimensionDatas - [List DimensionInExpeditionData](./dimensioninexpeditiondata.md) (nested type)
 
 No description provided.
 
@@ -98,6 +98,6 @@ No description provided.
 
 No description provided.
 
-### SpecialOverrideData - [SpecialExpeditionOverridesData](./SpecialExpeditionOverridesData.md) (nested type)
+### SpecialOverrideData - [SpecialExpeditionOverridesData](./specialexpeditionoverridesdata.md) (nested type)
 
 No description provided.

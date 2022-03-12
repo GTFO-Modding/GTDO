@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### m_type - [LootType](../enum-types.md#LootType) (enum)
+### m_type - [LootType](../enum-types.md#loottype) (enum)
 
 No description provided.
 

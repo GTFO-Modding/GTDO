@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### GameEvent - [eGameEvent](../enum-types.md#eGameEvent) (enum)
+### GameEvent - [eGameEvent](../enum-types.md#egameevent) (enum)
 
 No description provided.
 

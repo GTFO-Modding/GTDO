@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### Title - [LocalizedText](./LocalizedText.md) (nested type)
+### Title - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
-### TextLog - [LocalizedText](./LocalizedText.md) (nested type)
+### TextLog - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
@@ -22,7 +22,7 @@ No description provided.
 
 No description provided.
 
-### Visuals - [RundownStorytellingVisualData](./RundownStorytellingVisualData.md) (nested type)
+### Visuals - [RundownStorytellingVisualData](./rundownstorytellingvisualdata.md) (nested type)
 
 No description provided.
 
@@ -30,6 +30,6 @@ No description provided.
 
 No description provided.
 
-### SurfaceDescription - [LocalizedText](./LocalizedText.md) (nested type)
+### SurfaceDescription - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.

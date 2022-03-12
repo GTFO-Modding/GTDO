@@ -1,8 +1,8 @@
 ---
-description: GearPalette
+description: GameData_GearPaletteDataBlock_bin.json
 ---
 
-# GearPalette
+# GearPaletteDataBlock
 
 No description provided.
 

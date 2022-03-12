@@ -1,8 +1,8 @@
 ---
-description: ConsumableDistribution
+description: GameData_ConsumableDistributionDataBlock_bin.json
 ---
 
-# ConsumableDistribution
+# ConsumableDistributionDataBlock
 
 No description provided.
 
@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### SpawnData - [List ConsumableSpawnData](../nested-types/ConsumableSpawnData.md) (nested type)
+### SpawnData - [List ConsumableSpawnData](../nested-types/consumablespawndata.md) (nested type)
 
 No description provided.

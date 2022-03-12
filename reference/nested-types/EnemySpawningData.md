@@ -10,15 +10,15 @@ No description provided.
 
 ## Fields
 
-### GroupType - [eEnemyGroupType](../enum-types.md#eEnemyGroupType) (enum)
+### GroupType - [eEnemyGroupType](../enum-types.md#eenemygrouptype) (enum)
 
 No description provided.
 
-### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eEnemyRoleDifficulty) (enum)
+### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
 No description provided.
 
-### Distribution - [eEnemyZoneDistribution](../enum-types.md#eEnemyZoneDistribution) (enum)
+### Distribution - [eEnemyZoneDistribution](../enum-types.md#eenemyzonedistribution) (enum)
 
 No description provided.
 

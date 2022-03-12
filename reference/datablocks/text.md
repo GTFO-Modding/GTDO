@@ -1,8 +1,8 @@
 ---
-description: Text
+description: GameData_TextDataBlock_bin.json
 ---
 
-# Text
+# TextDataBlock
 
 No description provided.
 
@@ -30,51 +30,51 @@ No description provided.
 
 No description provided.
 
-### Mood - [Mood](../enum-types.md#Mood) (enum)
+### Mood - [Mood](../enum-types.md#mood) (enum)
 
 No description provided.
 
-### French - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### French - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Italian - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Italian - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### German - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### German - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Spanish - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Spanish - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Russian - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Russian - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Portuguese_Brazil - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Portuguese_Brazil - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Polish - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Polish - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Japanese - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Japanese - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Korean - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Korean - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Chinese_Traditional - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Chinese_Traditional - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 
-### Chinese_Simplified - [LanguageData](../nested-types/LanguageData.md) (nested type)
+### Chinese_Simplified - [LanguageData](../nested-types/languagedata.md) (nested type)
 
 No description provided.
 

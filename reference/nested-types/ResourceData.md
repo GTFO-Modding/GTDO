@@ -14,10 +14,10 @@ No description provided.
 
 No description provided.
 
-### SubComplex - [SubComplex](../enum-types.md#SubComplex) (enum)
+### SubComplex - [SubComplex](../enum-types.md#subcomplex) (enum)
 
 No description provided.
 
-### Shard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### Shard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

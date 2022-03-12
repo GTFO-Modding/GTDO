@@ -1,8 +1,8 @@
 ---
-description: WeaponMuzzleFlash
+description: GameData_WeaponMuzzleFlashDataBlock_bin.json
 ---
 
-# WeaponMuzzleFlash
+# WeaponMuzzleFlashDataBlock
 
 No description provided.
 
@@ -18,10 +18,10 @@ No description provided.
 
 No description provided.
 
-### AssetBundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### AssetBundleName - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### AssetBundleShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### AssetBundleShard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

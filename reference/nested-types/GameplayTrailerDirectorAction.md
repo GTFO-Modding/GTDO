@@ -14,11 +14,11 @@ No description provided.
 
 No description provided.
 
-### Action - [GameplayTrailerActionName](../enum-types.md#GameplayTrailerActionName) (enum)
+### Action - [GameplayTrailerActionName](../enum-types.md#gameplaytraileractionname) (enum)
 
 No description provided.
 
-### Trigger - [GameplayTrailerActionTrigger](../enum-types.md#GameplayTrailerActionTrigger) (enum)
+### Trigger - [GameplayTrailerActionTrigger](../enum-types.md#gameplaytraileractiontrigger) (enum)
 
 No description provided.
 

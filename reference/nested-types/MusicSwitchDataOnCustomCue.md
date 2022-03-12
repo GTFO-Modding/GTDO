@@ -14,6 +14,6 @@ No description provided.
 
 No description provided.
 
-### switches - [List MusicSwitchData](./MusicSwitchData.md) (nested type)
+### switches - [List MusicSwitchData](./musicswitchdata.md) (nested type)
 
 No description provided.

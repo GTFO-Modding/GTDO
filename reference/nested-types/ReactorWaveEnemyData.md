@@ -22,6 +22,6 @@ No description provided.
 
 No description provided.
 
-### SpawnType - [eReactorWaveSpawnType](../enum-types.md#eReactorWaveSpawnType) (enum)
+### SpawnType - [eReactorWaveSpawnType](../enum-types.md#ereactorwavespawntype) (enum)
 
 No description provided.

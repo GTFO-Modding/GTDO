@@ -46,14 +46,14 @@ No description provided.
 
 No description provided.
 
-### ZoneForVerification - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### ZoneForVerification - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 
-### EnemyWaves - [List ReactorWaveEnemyData](./ReactorWaveEnemyData.md) (nested type)
+### EnemyWaves - [List ReactorWaveEnemyData](./reactorwaveenemydata.md) (nested type)
 
 No description provided.
 
-### Events - [List WardenObjectiveEventData](./WardenObjectiveEventData.md) (nested type)
+### Events - [List WardenObjectiveEventData](./wardenobjectiveeventdata.md) (nested type)
 
 No description provided.

@@ -22,10 +22,10 @@ No description provided.
 
 No description provided.
 
-### function - [ExpeditionFunction](../enum-types.md#ExpeditionFunction) (enum)
+### function - [ExpeditionFunction](../enum-types.md#expeditionfunction) (enum)
 
 No description provided.
 
-### Shard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### Shard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

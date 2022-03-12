@@ -90,7 +90,7 @@ No description provided.
 
 No description provided.
 
-### StaticEnemySpawningInZone - [List EnemySpawningData](./EnemySpawningData.md) (nested type)
+### StaticEnemySpawningInZone - [List EnemySpawningData](./enemyspawningdata.md) (nested type)
 
 No description provided.
 
@@ -114,7 +114,7 @@ No description provided.
 
 No description provided.
 
-### StaticGroundSpawnersInZone - [eZoneDistributionAmount](../enum-types.md#eZoneDistributionAmount) (enum)
+### StaticGroundSpawnersInZone - [eZoneDistributionAmount](../enum-types.md#ezonedistributionamount) (enum)
 
 No description provided.
 
@@ -134,7 +134,7 @@ No description provided.
 
 No description provided.
 
-### StaticTerminalPlacements - [List TerminalPlacementData](./TerminalPlacementData.md) (nested type)
+### StaticTerminalPlacements - [List TerminalPlacementData](./terminalplacementdata.md) (nested type)
 
 No description provided.
 
@@ -142,7 +142,7 @@ No description provided.
 
 No description provided.
 
-### EventsOnBossDeath - [List WardenObjectiveEventData](./WardenObjectiveEventData.md) (nested type)
+### EventsOnBossDeath - [List WardenObjectiveEventData](./wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
@@ -254,10 +254,10 @@ No description provided.
 
 No description provided.
 
-### ObjectiveType - [DimensionObjectiveType](../enum-types.md#DimensionObjectiveType) (enum)
+### ObjectiveType - [DimensionObjectiveType](../enum-types.md#dimensionobjectivetype) (enum)
 
 No description provided.
 
-### LinkedToLayer - [LG_LayerType](../enum-types.md#LG_LayerType) (enum)
+### LinkedToLayer - [LG_LayerType](../enum-types.md#lg_layertype) (enum)
 
 No description provided.

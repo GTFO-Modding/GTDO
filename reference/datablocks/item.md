@@ -1,8 +1,8 @@
 ---
-description: Item
+description: GameData_ItemDataBlock_bin.json
 ---
 
-# Item
+# ItemDataBlock
 
 No description provided.
 
@@ -26,7 +26,7 @@ No description provided.
 
 No description provided.
 
-### LocalizedName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### LocalizedName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -46,15 +46,15 @@ No description provided.
 
 No description provided.
 
-### DimensionWarpType - [ItemWarpType](../enum-types.md#ItemWarpType) (enum)
+### DimensionWarpType - [ItemWarpType](../enum-types.md#itemwarptype) (enum)
 
 No description provided.
 
-### Shard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### Shard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.
 
-### inventorySlot - [InventorySlot](../enum-types.md#InventorySlot) (enum)
+### inventorySlot - [InventorySlot](../enum-types.md#inventoryslot) (enum)
 
 No description provided.
 
@@ -62,7 +62,7 @@ No description provided.
 
 No description provided.
 
-### crosshair - [Crosshair](../enum-types.md#Crosshair) (enum)
+### crosshair - [Crosshair](../enum-types.md#crosshair) (enum)
 
 No description provided.
 
@@ -142,7 +142,7 @@ No description provided.
 
 No description provided.
 
-### ThirdPersonFullbodyMovementSet - [eFullbodyPlayerMovementSet](../enum-types.md#eFullbodyPlayerMovementSet) (enum)
+### ThirdPersonFullbodyMovementSet - [eFullbodyPlayerMovementSet](../enum-types.md#efullbodyplayermovementset) (enum)
 
 No description provided.
 

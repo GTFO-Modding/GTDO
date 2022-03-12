@@ -1,8 +1,8 @@
 ---
-description: StaticSpawn
+description: GameData_StaticSpawnDataBlock_bin.json
 ---
 
-# StaticSpawn
+# StaticSpawnDataBlock
 
 No description provided.
 
@@ -18,7 +18,7 @@ No description provided.
 
 No description provided.
 
-### RandomType - [LG_RandomType](../enum-types.md#LG_RandomType) (enum)
+### RandomType - [LG_RandomType](../enum-types.md#lg_randomtype) (enum)
 
 No description provided.
 
@@ -30,7 +30,7 @@ No description provided.
 
 No description provided.
 
-### PlacementType - [LG_StaticPlacementType](../enum-types.md#LG_StaticPlacementType) (enum)
+### PlacementType - [LG_StaticPlacementType](../enum-types.md#lg_staticplacementtype) (enum)
 
 No description provided.
 
@@ -78,7 +78,7 @@ No description provided.
 
 No description provided.
 
-### SpawnConstraints - [LG_StaticSpawnConstraints](../enum-types.md#LG_StaticSpawnConstraints) (enum)
+### SpawnConstraints - [LG_StaticSpawnConstraints](../enum-types.md#lg_staticspawnconstraints) (enum)
 
 No description provided.
 
@@ -86,6 +86,6 @@ No description provided.
 
 No description provided.
 
-### PrefabDistancePairs - [List StaticSpawnPrefabDistancePair](../nested-types/StaticSpawnPrefabDistancePair.md) (nested type)
+### PrefabDistancePairs - [List StaticSpawnPrefabDistancePair](../nested-types/staticspawnprefabdistancepair.md) (nested type)
 
 No description provided.

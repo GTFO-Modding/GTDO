@@ -1,8 +1,8 @@
 ---
-description: Enemy
+description: GameData_EnemyDataBlock_bin.json
 ---
 
-# Enemy
+# EnemyDataBlock
 
 No description provided.
 
@@ -14,19 +14,19 @@ No description provided.
 
 No description provided.
 
-### m_internalMaterial - [MaterialType](../enum-types.md#MaterialType) (enum)
+### m_internalMaterial - [MaterialType](../enum-types.md#materialtype) (enum)
 
 No description provided.
 
-### EnemyType - [eEnemyType](../enum-types.md#eEnemyType) (enum)
+### EnemyType - [eEnemyType](../enum-types.md#eenemytype) (enum)
 
 No description provided.
 
-### AssetBundle - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### AssetBundle - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### BundleShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### BundleShard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.
 
@@ -34,7 +34,7 @@ No description provided.
 
 No description provided.
 
-### ModelDatas - [List ModelData](../nested-types/ModelData.md) (nested type)
+### ModelDatas - [List ModelData](../nested-types/modeldata.md) (nested type)
 
 No description provided.
 
@@ -58,11 +58,11 @@ No description provided.
 
 No description provided.
 
-### LinkedSlaveModels - [List LinkedSlaveModelData](../nested-types/LinkedSlaveModelData.md) (nested type)
+### LinkedSlaveModels - [List LinkedSlaveModelData](../nested-types/linkedslavemodeldata.md) (nested type)
 
 No description provided.
 
-### InternalMaterial - [MaterialType](../enum-types.md#MaterialType) (enum)
+### InternalMaterial - [MaterialType](../enum-types.md#materialtype) (enum)
 
 No description provided.
 
@@ -74,6 +74,6 @@ No description provided.
 
 No description provided.
 
-### AI_Abilities - [List AbilityData](../nested-types/AbilityData.md) (nested type)
+### AI_Abilities - [List AbilityData](../nested-types/abilitydata.md) (nested type)
 
 No description provided.

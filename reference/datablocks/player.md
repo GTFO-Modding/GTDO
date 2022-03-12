@@ -1,8 +1,8 @@
 ---
-description: Player
+description: GameData_PlayerDataBlock_bin.json
 ---
 
-# Player
+# PlayerDataBlock
 
 No description provided.
 
@@ -146,15 +146,15 @@ No description provided.
 
 No description provided.
 
-### DofDefault - [DOFSettingsData](../nested-types/DOFSettingsData.md) (nested type)
+### DofDefault - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
 
 No description provided.
 
-### DofInElevator - [DOFSettingsData](../nested-types/DOFSettingsData.md) (nested type)
+### DofInElevator - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
 
 No description provided.
 
-### DofInTerminal - [DOFSettingsData](../nested-types/DOFSettingsData.md) (nested type)
+### DofInTerminal - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
 
 No description provided.
 

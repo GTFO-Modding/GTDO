@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### PlacementWeights - [ZonePlacementWeights](./ZonePlacementWeights.md) (nested type)
+### PlacementWeights - [ZonePlacementWeights](./zoneplacementweights.md) (nested type)
 
 No description provided.
 

@@ -38,6 +38,6 @@ No description provided.
 
 No description provided.
 
-### Subtitle - [LocalizedText](./LocalizedText.md) (nested type)
+### Subtitle - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.

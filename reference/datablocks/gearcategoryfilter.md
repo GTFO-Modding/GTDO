@@ -1,8 +1,8 @@
 ---
-description: GearCategoryFilter
+description: GameData_GearCategoryFilterDataBlock_bin.json
 ---
 
-# GearCategoryFilter
+# GearCategoryFilterDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### AllowedCategories - [List GearCategoryFilterData](../nested-types/GearCategoryFilterData.md) (nested type)
+### AllowedCategories - [List GearCategoryFilterData](../nested-types/gearcategoryfilterdata.md) (nested type)
 
 No description provided.

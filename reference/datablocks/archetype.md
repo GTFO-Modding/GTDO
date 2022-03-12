@@ -1,8 +1,8 @@
 ---
-description: Archetype
+description: GameData_ArchetypeDataBlock_bin.json
 ---
 
-# Archetype
+# ArchetypeDataBlock
 
 No description provided.
 
@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### PublicName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### PublicName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### Description - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Description - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -26,7 +26,7 @@ No description provided.
 
 No description provided.
 
-### DamageBoosterEffect - [AgentModifier](../enum-types.md#AgentModifier) (enum)
+### DamageBoosterEffect - [AgentModifier](../enum-types.md#agentmodifier) (enum)
 
 No description provided.
 
@@ -82,7 +82,7 @@ No description provided.
 
 No description provided.
 
-### EquipSequence - [List WeaponAnimSequenceItem](../nested-types/WeaponAnimSequenceItem.md) (nested type)
+### EquipSequence - [List WeaponAnimSequenceItem](../nested-types/weaponanimsequenceitem.md) (nested type)
 
 No description provided.
 
@@ -90,7 +90,7 @@ No description provided.
 
 No description provided.
 
-### AimSequence - [List WeaponAnimSequenceItem](../nested-types/WeaponAnimSequenceItem.md) (nested type)
+### AimSequence - [List WeaponAnimSequenceItem](../nested-types/weaponanimsequenceitem.md) (nested type)
 
 No description provided.
 

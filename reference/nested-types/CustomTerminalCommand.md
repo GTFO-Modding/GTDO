@@ -18,14 +18,14 @@ No description provided.
 
 No description provided.
 
-### PostCommandOutputs - [List TerminalOutput](./TerminalOutput.md) (nested type)
+### PostCommandOutputs - [List TerminalOutput](./terminaloutput.md) (nested type)
 
 No description provided.
 
-### CommandEvents - [List WardenObjectiveEventData](./WardenObjectiveEventData.md) (nested type)
+### CommandEvents - [List WardenObjectiveEventData](./wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
-### SpecialCommandRule - [TERM_CommandRule](../enum-types.md#TERM_CommandRule) (enum)
+### SpecialCommandRule - [TERM_CommandRule](../enum-types.md#term_commandrule) (enum)
 
 No description provided.

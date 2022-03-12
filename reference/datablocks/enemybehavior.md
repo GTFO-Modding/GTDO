@@ -1,8 +1,8 @@
 ---
-description: EnemyBehavior
+description: GameData_EnemyBehaviorDataBlock_bin.json
 ---
 
-# EnemyBehavior
+# EnemyBehaviorDataBlock
 
 No description provided.
 
@@ -10,55 +10,55 @@ No description provided.
 
 ## Fields
 
-### MeleeAttackDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### MeleeAttackDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### RangedAttackDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### RangedAttackDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### StrafeDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### StrafeDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### HowOftenToStrafe - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### HowOftenToStrafe - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### DistanceToStrafeWithoutLOS - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### DistanceToStrafeWithoutLOS - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### DistanceToStrafeInTargetsLOS - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### DistanceToStrafeInTargetsLOS - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### DistanceToStrafeWithoutTargetsLOS - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### DistanceToStrafeWithoutTargetsLOS - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### MoveCloserDelayAfterAttack - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### MoveCloserDelayAfterAttack - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### MoveTowardsTargetDuration - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### MoveTowardsTargetDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### ClosestTargetDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### ClosestTargetDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### StartWalkDuration - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### StartWalkDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### StartWalkTimeoutUntilNext - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### StartWalkTimeoutUntilNext - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### ScreamStateDelay - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### ScreamStateDelay - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -90,19 +90,19 @@ No description provided.
 
 No description provided.
 
-### Flyer_HibernateRemap - [AgentMode](../enum-types.md#AgentMode) (enum)
+### Flyer_HibernateRemap - [AgentMode](../enum-types.md#agentmode) (enum)
 
 No description provided.
 
-### PathingTargetOffsetY - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### PathingTargetOffsetY - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### PathingTargetDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### PathingTargetDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### StrafeVerticalDistance - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### StrafeVerticalDistance - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -118,11 +118,11 @@ No description provided.
 
 No description provided.
 
-### Flyer_AttackChargeDuration - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_AttackChargeDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### Flyer_BackToMovementAfterAttack - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_BackToMovementAfterAttack - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -134,11 +134,11 @@ No description provided.
 
 No description provided.
 
-### Flyer_RecoilForce - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_RecoilForce - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### Flyer_RecoilTorque - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_RecoilTorque - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -154,7 +154,7 @@ No description provided.
 
 No description provided.
 
-### Flyer_DeathDealy - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_DeathDealy - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -166,10 +166,10 @@ No description provided.
 
 No description provided.
 
-### Flyer_SpawnOutOfBossStateDuration - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_SpawnOutOfBossStateDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### Flyer_EstimatedDistanceFromBoss - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### Flyer_EstimatedDistanceFromBoss - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.

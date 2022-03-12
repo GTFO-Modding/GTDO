@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### LocalIndex - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### LocalIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 
-### SeedType - [eSeedType](../enum-types.md#eSeedType) (enum)
+### SeedType - [eSeedType](../enum-types.md#eseedtype) (enum)
 
 No description provided.
 

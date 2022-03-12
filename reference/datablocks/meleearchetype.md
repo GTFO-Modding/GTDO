@@ -1,8 +1,8 @@
 ---
-description: MeleeArchetype
+description: GameData_MeleeArchetypeDataBlock_bin.json
 ---
 
-# MeleeArchetype
+# MeleeArchetypeDataBlock
 
 No description provided.
 
@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### NoiseLevel - [DamageNoiseLevel](../enum-types.md#DamageNoiseLevel) (enum)
+### NoiseLevel - [DamageNoiseLevel](../enum-types.md#damagenoiselevel) (enum)
 
 No description provided.
 

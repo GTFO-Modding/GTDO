@@ -22,10 +22,10 @@ No description provided.
 
 No description provided.
 
-### TransitionDirection - [LG_FloorTransitionDirection](../enum-types.md#LG_FloorTransitionDirection) (enum)
+### TransitionDirection - [LG_FloorTransitionDirection](../enum-types.md#lg_floortransitiondirection) (enum)
 
 No description provided.
 
-### LevelProgression - [LG_LevelProgression](../enum-types.md#LG_LevelProgression) (enum)
+### LevelProgression - [LG_LevelProgression](../enum-types.md#lg_levelprogression) (enum)
 
 No description provided.

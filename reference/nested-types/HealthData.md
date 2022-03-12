@@ -30,7 +30,7 @@ No description provided.
 
 No description provided.
 
-### HitreactOnLimbDestruction - [ES_HitreactType](../enum-types.md#ES_HitreactType) (enum)
+### HitreactOnLimbDestruction - [ES_HitreactType](../enum-types.md#es_hitreacttype) (enum)
 
 No description provided.
 

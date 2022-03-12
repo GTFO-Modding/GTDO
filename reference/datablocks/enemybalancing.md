@@ -1,8 +1,8 @@
 ---
-description: EnemyBalancing
+description: GameData_EnemyBalancingDataBlock_bin.json
 ---
 
-# EnemyBalancing
+# EnemyBalancingDataBlock
 
 No description provided.
 
@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Health - [HealthData](../nested-types/HealthData.md) (nested type)
+### Health - [HealthData](../nested-types/healthdata.md) (nested type)
 
 No description provided.
 

@@ -14,15 +14,15 @@ No description provided.
 
 No description provided.
 
-### m_compositions - [List MarkerComposition](./MarkerComposition.md) (nested type)
+### m_compositions - [List MarkerComposition](./markercomposition.md) (nested type)
 
 No description provided.
 
-### Compositions - [List MarkerComposition](./MarkerComposition.md) (nested type)
+### Compositions - [List MarkerComposition](./markercomposition.md) (nested type)
 
 No description provided.
 
-### AssetBundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### AssetBundleName - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 

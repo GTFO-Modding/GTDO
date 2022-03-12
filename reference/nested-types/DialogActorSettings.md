@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### charFilter - [DialogCharFilter](../enum-types.md#DialogCharFilter) (enum)
+### charFilter - [DialogCharFilter](../enum-types.md#dialogcharfilter) (enum)
 
 No description provided.
 
-### conditions - [List DialogCondition](../enum-types.md#DialogCondition) (enum)
+### conditions - [List DialogCondition](../enum-types.md#dialogcondition) (enum)
 
 No description provided.

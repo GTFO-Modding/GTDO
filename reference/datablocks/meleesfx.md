@@ -1,8 +1,8 @@
 ---
-description: MeleeSFX
+description: GameData_MeleeSFXDataBlock_bin.json
 ---
 
-# MeleeSFX
+# MeleeSFXDataBlock
 
 No description provided.
 

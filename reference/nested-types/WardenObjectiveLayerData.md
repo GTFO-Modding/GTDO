@@ -10,14 +10,14 @@ No description provided.
 
 ## Fields
 
-### Id - UInt32
+### DataBlockId - UInt32
 
 No description provided.
 
-### WinCondition - [eWardenObjectiveWinCondition](../enum-types.md#eWardenObjectiveWinCondition) (enum)
+### WinCondition - [eWardenObjectiveWinCondition](../enum-types.md#ewardenobjectivewincondition) (enum)
 
 No description provided.
 
-### ZonePlacementDatas - [List List ZonePlacementData](./ZonePlacementData.md) (nested type)
+### ZonePlacementDatas - [List List ZonePlacementData](./zoneplacementdata.md) (nested type)
 
 No description provided.

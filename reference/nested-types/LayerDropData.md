@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Layer - [ExpeditionLayers](../enum-types.md#ExpeditionLayers) (enum)
+### Layer - [ExpeditionLayers](../enum-types.md#expeditionlayers) (enum)
 
 No description provided.
 

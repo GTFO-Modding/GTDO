@@ -1,8 +1,8 @@
 ---
-description: ChainedPuzzle
+description: GameData_ChainedPuzzleDataBlock_bin.json
 ---
 
-# ChainedPuzzle
+# ChainedPuzzleDataBlock
 
 No description provided.
 
@@ -42,7 +42,7 @@ No description provided.
 
 No description provided.
 
-### ChainedPuzzle - [List ChainedPuzzleComponent](../nested-types/ChainedPuzzleComponent.md) (nested type)
+### ChainedPuzzle - [List ChainedPuzzleComponent](../nested-types/chainedpuzzlecomponent.md) (nested type)
 
 No description provided.
 

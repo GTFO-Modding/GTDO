@@ -1,8 +1,8 @@
 ---
-description: ItemFPSSettings
+description: GameData_ItemFPSSettingsDataBlock_bin.json
 ---
 
-# ItemFPSSettings
+# ItemFPSSettingsDataBlock
 
 No description provided.
 
@@ -90,7 +90,7 @@ No description provided.
 
 No description provided.
 
-### transitionToAim - [eFPISTransitionTime](../enum-types.md#eFPISTransitionTime) (enum)
+### transitionToAim - [eFPISTransitionTime](../enum-types.md#efpistransitiontime) (enum)
 
 No description provided.
 
@@ -122,11 +122,11 @@ No description provided.
 
 No description provided.
 
-### DofDefault - [DOFSettingsData](../nested-types/DOFSettingsData.md) (nested type)
+### DofDefault - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
 
 No description provided.
 
-### DofAim - [DOFSettingsData](../nested-types/DOFSettingsData.md) (nested type)
+### DofAim - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
 
 No description provided.
 

@@ -22,7 +22,7 @@ No description provided.
 
 No description provided.
 
-### ProgressionVisualStyle - [eProgressionVisualStyle](../enum-types.md#eProgressionVisualStyle) (enum)
+### ProgressionVisualStyle - [eProgressionVisualStyle](../enum-types.md#eprogressionvisualstyle) (enum)
 
 No description provided.
 
@@ -30,15 +30,15 @@ No description provided.
 
 No description provided.
 
-### EstimatedDuration - [LocalizedText](./LocalizedText.md) (nested type)
+### EstimatedDuration - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
-### ExpeditionDescription - [LocalizedText](./LocalizedText.md) (nested type)
+### ExpeditionDescription - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
-### RoleplayedWardenIntel - [LocalizedText](./LocalizedText.md) (nested type)
+### RoleplayedWardenIntel - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 

@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### onlyWhenExitingTo - [MUS_State](../enum-types.md#MUS_State) (enum)
+### onlyWhenExitingTo - [MUS_State](../enum-types.md#mus_state) (enum)
 
 No description provided.
 

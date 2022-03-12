@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### Tier - [eRundownTier](../enum-types.md#eRundownTier) (enum)
+### Tier - [eRundownTier](../enum-types.md#erundowntier) (enum)
 
 No description provided.
 
-### Exp - [eBuildAutoExpeditionNumber](../enum-types.md#eBuildAutoExpeditionNumber) (enum)
+### Exp - [eBuildAutoExpeditionNumber](../enum-types.md#ebuildautoexpeditionnumber) (enum)
 
 No description provided.

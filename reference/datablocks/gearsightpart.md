@@ -1,8 +1,8 @@
 ---
-description: GearSightPart
+description: GameData_GearSightPartDataBlock_bin.json
 ---
 
-# GearSightPart
+# GearSightPartDataBlock
 
 No description provided.
 
@@ -10,14 +10,14 @@ No description provided.
 
 ## Fields
 
-### General - [GearPartGeneralData](../nested-types/GearPartGeneralData.md) (nested type)
+### General - [GearPartGeneralData](../nested-types/gearpartgeneraldata.md) (nested type)
 
 No description provided.
 
-### Aligns - [List GearPartAlignData](../nested-types/GearPartAlignData.md) (nested type)
+### Aligns - [List GearPartAlignData](../nested-types/gearpartaligndata.md) (nested type)
 
 No description provided.
 
-### SightProperties - [GearSightPartProperties](../nested-types/GearSightPartProperties.md) (nested type)
+### SightProperties - [GearSightPartProperties](../nested-types/gearsightpartproperties.md) (nested type)
 
 No description provided.

@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Trigger - [eWardenObjectiveEventTrigger](../enum-types.md#eWardenObjectiveEventTrigger) (enum)
+### Trigger - [eWardenObjectiveEventTrigger](../enum-types.md#ewardenobjectiveeventtrigger) (enum)
 
 No description provided.
 
@@ -22,19 +22,19 @@ No description provided.
 
 No description provided.
 
-### Type - [eWardenObjectiveEventType](../enum-types.md#eWardenObjectiveEventType) (enum)
+### Type - [eWardenObjectiveEventType](../enum-types.md#ewardenobjectiveeventtype) (enum)
 
 No description provided.
 
-### Layer - [LG_LayerType](../enum-types.md#LG_LayerType) (enum)
+### Layer - [LG_LayerType](../enum-types.md#lg_layertype) (enum)
 
 No description provided.
 
-### DimensionIndex - [eDimensionIndex](../enum-types.md#eDimensionIndex) (enum)
+### DimensionIndex - [eDimensionIndex](../enum-types.md#edimensionindex) (enum)
 
 No description provided.
 
-### LocalIndex - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### LocalIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 
@@ -50,15 +50,15 @@ No description provided.
 
 No description provided.
 
-### WardenIntel - [LocalizedText](./LocalizedText.md) (nested type)
+### WardenIntel - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
-### CustomSubObjectiveHeader - [LocalizedText](./LocalizedText.md) (nested type)
+### CustomSubObjectiveHeader - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
-### CustomSubObjective - [LocalizedText](./LocalizedText.md) (nested type)
+### CustomSubObjective - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
@@ -78,6 +78,6 @@ No description provided.
 
 No description provided.
 
-### EnemyWaveData - [GenericEnemyWaveData](./GenericEnemyWaveData.md) (nested type)
+### EnemyWaveData - [GenericEnemyWaveData](./genericenemywavedata.md) (nested type)
 
 No description provided.

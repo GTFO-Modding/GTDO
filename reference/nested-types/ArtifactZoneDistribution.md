@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Zone - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### Zone - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 

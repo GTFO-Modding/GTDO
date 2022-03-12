@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### ArtifactZoneDistributions - [List ArtifactZoneDistribution](./ArtifactZoneDistribution.md) (nested type)
+### ArtifactZoneDistributions - [List ArtifactZoneDistribution](./artifactzonedistribution.md) (nested type)
 
 No description provided.

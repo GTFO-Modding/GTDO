@@ -1,8 +1,8 @@
 ---
-description: WardenObjective
+description: GameData_WardenObjectiveDataBlock_bin.json
 ---
 
-# WardenObjective
+# WardenObjectiveDataBlock
 
 No description provided.
 
@@ -10,19 +10,19 @@ No description provided.
 
 ## Fields
 
-### Type - [eWardenObjectiveType](../enum-types.md#eWardenObjectiveType) (enum)
+### Type - [eWardenObjectiveType](../enum-types.md#ewardenobjectivetype) (enum)
 
 No description provided.
 
-### Header - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Header - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### MainObjective - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### MainObjective - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### WardenObjectiveSpecialUpdateType - [eWardenObjectiveSpecialUpdateType](../enum-types.md#eWardenObjectiveSpecialUpdateType) (enum)
+### WardenObjectiveSpecialUpdateType - [eWardenObjectiveSpecialUpdateType](../enum-types.md#ewardenobjectivespecialupdatetype) (enum)
 
 No description provided.
 
@@ -30,59 +30,59 @@ No description provided.
 
 No description provided.
 
-### FindLocationInfo - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### FindLocationInfo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### FindLocationInfoHelp - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### FindLocationInfoHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToZone - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToZone - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToZoneHelp - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToZoneHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### InZoneFindItem - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### InZoneFindItem - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### InZoneFindItemHelp - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### InZoneFindItemHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### SolveItem - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### SolveItem - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### SolveItemHelp - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### SolveItemHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinCondition_Elevator - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinCondition_Elevator - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinConditionHelp_Elevator - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinConditionHelp_Elevator - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinCondition_CustomGeo - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinCondition_CustomGeo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinConditionHelp_CustomGeo - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinConditionHelp_CustomGeo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinCondition_ToMainLayer - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinCondition_ToMainLayer - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GoToWinConditionHelp_ToMainLayer - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### GoToWinConditionHelp_ToMainLayer - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -90,15 +90,15 @@ No description provided.
 
 No description provided.
 
-### WavesOnElevatorLand - [List GenericEnemyWaveData](../nested-types/GenericEnemyWaveData.md) (nested type)
+### WavesOnElevatorLand - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
 
 No description provided.
 
-### EventsOnElevatorLand - [List WardenObjectiveEventData](../nested-types/WardenObjectiveEventData.md) (nested type)
+### EventsOnElevatorLand - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
-### WaveOnElevatorWardenIntel - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### WaveOnElevatorWardenIntel - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -114,11 +114,11 @@ No description provided.
 
 No description provided.
 
-### WavesOnActivate - [List GenericEnemyWaveData](../nested-types/GenericEnemyWaveData.md) (nested type)
+### WavesOnActivate - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
 
 No description provided.
 
-### EventsOnActivate - [List WardenObjectiveEventData](../nested-types/WardenObjectiveEventData.md) (nested type)
+### EventsOnActivate - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
@@ -126,19 +126,19 @@ No description provided.
 
 No description provided.
 
-### WavesOnGotoWin - [List GenericEnemyWaveData](../nested-types/GenericEnemyWaveData.md) (nested type)
+### WavesOnGotoWin - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
 
 No description provided.
 
-### WaveOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eRetrieveExitWaveTrigger) (enum)
+### WaveOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eretrieveexitwavetrigger) (enum)
 
 No description provided.
 
-### EventsOnGotoWin - [List WardenObjectiveEventData](../nested-types/WardenObjectiveEventData.md) (nested type)
+### EventsOnGotoWin - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
-### EventsOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eRetrieveExitWaveTrigger) (enum)
+### EventsOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eretrieveexitwavetrigger) (enum)
 
 No description provided.
 
@@ -186,7 +186,7 @@ No description provided.
 
 No description provided.
 
-### ReactorWaves - [List ReactorWaveData](../nested-types/ReactorWaveData.md) (nested type)
+### ReactorWaves - [List ReactorWaveData](../nested-types/reactorwavedata.md) (nested type)
 
 No description provided.
 
@@ -218,7 +218,7 @@ No description provided.
 
 No description provided.
 
-### SpecialCommandRule - [TERM_CommandRule](../enum-types.md#TERM_CommandRule) (enum)
+### SpecialCommandRule - [TERM_CommandRule](../enum-types.md#term_commandrule) (enum)
 
 No description provided.
 
@@ -234,7 +234,7 @@ No description provided.
 
 No description provided.
 
-### Uplink_WaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#SurvivalWaveSpawnType) (enum)
+### Uplink_WaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#survivalwavespawntype) (enum)
 
 No description provided.
 
@@ -246,7 +246,7 @@ No description provided.
 
 No description provided.
 
-### CentralPowerGenClustser_FogDataSteps - [List GeneralFogDataStep](../nested-types/GeneralFogDataStep.md) (nested type)
+### CentralPowerGenClustser_FogDataSteps - [List GeneralFogDataStep](../nested-types/generalfogdatastep.md) (nested type)
 
 No description provided.
 
@@ -270,7 +270,7 @@ No description provided.
 
 No description provided.
 
-### ActivateHSU_Events - [List WardenObjectiveEventData](../nested-types/WardenObjectiveEventData.md) (nested type)
+### ActivateHSU_Events - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 
@@ -282,11 +282,11 @@ No description provided.
 
 No description provided.
 
-### Survival_TimerTitle - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Survival_TimerTitle - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### Survival_TimerToActivateTitle - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Survival_TimerToActivateTitle - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: GameplayTrailer
+description: GameData_GameplayTrailerDataBlock_bin.json
 ---
 
-# GameplayTrailer
+# GameplayTrailerDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### Actions - [List GameplayTrailerDirectorAction](../nested-types/GameplayTrailerDirectorAction.md) (nested type)
+### Actions - [List GameplayTrailerDirectorAction](../nested-types/gameplaytrailerdirectoraction.md) (nested type)
 
 No description provided.

@@ -1,8 +1,8 @@
 ---
-description: GearPartAttachment
+description: GameData_GearPartAttachmentDataBlock_bin.json
 ---
 
-# GearPartAttachment
+# GearPartAttachmentDataBlock
 
 No description provided.
 
@@ -10,14 +10,14 @@ No description provided.
 
 ## Fields
 
-### AttachToAlign - [eGearPartAlign](../enum-types.md#eGearPartAlign) (enum)
+### AttachToAlign - [eGearPartAlign](../enum-types.md#egearpartalign) (enum)
 
 No description provided.
 
-### General - [GearPartGeneralData](../nested-types/GearPartGeneralData.md) (nested type)
+### General - [GearPartGeneralData](../nested-types/gearpartgeneraldata.md) (nested type)
 
 No description provided.
 
-### Aligns - [List GearPartAlignData](../nested-types/GearPartAlignData.md) (nested type)
+### Aligns - [List GearPartAlignData](../nested-types/gearpartaligndata.md) (nested type)
 
 No description provided.

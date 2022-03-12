@@ -58,11 +58,11 @@ No description provided.
 
 No description provided.
 
-### Side - [eMeleeAttackSide](../enum-types.md#eMeleeAttackSide) (enum)
+### Side - [eMeleeAttackSide](../enum-types.md#emeleeattackside) (enum)
 
 No description provided.
 
-### Anim - [AnimHash](./AnimHash.md) (nested type)
+### Anim - [AnimHash](./animhash.md) (nested type)
 
 No description provided.
 

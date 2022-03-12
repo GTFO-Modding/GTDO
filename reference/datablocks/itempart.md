@@ -1,8 +1,8 @@
 ---
-description: ItemPart
+description: GameData_ItemPartDataBlock_bin.json
 ---
 
-# ItemPart
+# ItemPartDataBlock
 
 No description provided.
 

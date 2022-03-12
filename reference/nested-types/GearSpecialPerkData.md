@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Type - [eGearPerkSpecialType](../enum-types.md#eGearPerkSpecialType) (enum)
+### Type - [eGearPerkSpecialType](../enum-types.md#egearperkspecialtype) (enum)
 
 No description provided.
 

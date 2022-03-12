@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### DimensionIndex - [eDimensionIndex](../enum-types.md#eDimensionIndex) (enum)
+### DimensionIndex - [eDimensionIndex](../enum-types.md#edimensionindex) (enum)
 
 No description provided.
 

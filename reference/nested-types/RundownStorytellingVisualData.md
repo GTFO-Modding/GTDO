@@ -14,22 +14,22 @@ No description provided.
 
 No description provided.
 
-### TierAVisuals - [TierVisualData](./TierVisualData.md) (nested type)
+### TierAVisuals - [TierVisualData](./tiervisualdata.md) (nested type)
 
 No description provided.
 
-### TierBVisuals - [TierVisualData](./TierVisualData.md) (nested type)
+### TierBVisuals - [TierVisualData](./tiervisualdata.md) (nested type)
 
 No description provided.
 
-### TierCVisuals - [TierVisualData](./TierVisualData.md) (nested type)
+### TierCVisuals - [TierVisualData](./tiervisualdata.md) (nested type)
 
 No description provided.
 
-### TierDVisuals - [TierVisualData](./TierVisualData.md) (nested type)
+### TierDVisuals - [TierVisualData](./tiervisualdata.md) (nested type)
 
 No description provided.
 
-### TierEVisuals - [TierVisualData](./TierVisualData.md) (nested type)
+### TierEVisuals - [TierVisualData](./tiervisualdata.md) (nested type)
 
 No description provided.

@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### PlacementWeights - [ZonePlacementWeights](./ZonePlacementWeights.md) (nested type)
+### PlacementWeights - [ZonePlacementWeights](./zoneplacementweights.md) (nested type)
 
 No description provided.
 
@@ -22,14 +22,14 @@ No description provided.
 
 No description provided.
 
-### LocalLogFiles - [List TerminalLogFileData](./TerminalLogFileData.md) (nested type)
+### LocalLogFiles - [List TerminalLogFileData](./terminallogfiledata.md) (nested type)
 
 No description provided.
 
-### UniqueCommands - [List CustomTerminalCommand](./CustomTerminalCommand.md) (nested type)
+### UniqueCommands - [List CustomTerminalCommand](./customterminalcommand.md) (nested type)
 
 No description provided.
 
-### StartingStateData - [TerminalStartStateData](./TerminalStartStateData.md) (nested type)
+### StartingStateData - [TerminalStartStateData](./terminalstartstatedata.md) (nested type)
 
 No description provided.

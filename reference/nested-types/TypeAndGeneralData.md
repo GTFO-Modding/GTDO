@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### Type - [eGearToolPartDeliveryType](../enum-types.md#eGearToolPartDeliveryType) (enum)
+### Type - [eGearToolPartDeliveryType](../enum-types.md#egeartoolpartdeliverytype) (enum)
 
 No description provided.
 
-### Data - [GearPartGeneralData](./GearPartGeneralData.md) (nested type)
+### Data - [GearPartGeneralData](./gearpartgeneraldata.md) (nested type)
 
 No description provided.

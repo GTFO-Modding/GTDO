@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### Type - [eWeaponAnimSequenceItemType](../enum-types.md#eWeaponAnimSequenceItemType) (enum)
+### Type - [eWeaponAnimSequenceItemType](../enum-types.md#eweaponanimsequenceitemtype) (enum)
 
 No description provided.
 

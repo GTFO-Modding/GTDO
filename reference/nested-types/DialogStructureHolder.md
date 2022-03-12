@@ -10,22 +10,22 @@ No description provided.
 
 ## Fields
 
-### structure - [DialogStructure](./DialogStructure.md) (nested type)
+### structure - [DialogStructure](./dialogstructure.md) (nested type)
 
 No description provided.
 
-### ActorA - [DialogActorSettings](./DialogActorSettings.md) (nested type)
+### ActorA - [DialogActorSettings](./dialogactorsettings.md) (nested type)
 
 No description provided.
 
-### ActorB - [DialogActorSettings](./DialogActorSettings.md) (nested type)
+### ActorB - [DialogActorSettings](./dialogactorsettings.md) (nested type)
 
 No description provided.
 
-### ActorC - [DialogActorSettings](./DialogActorSettings.md) (nested type)
+### ActorC - [DialogActorSettings](./dialogactorsettings.md) (nested type)
 
 No description provided.
 
-### ActorD - [DialogActorSettings](./DialogActorSettings.md) (nested type)
+### ActorD - [DialogActorSettings](./dialogactorsettings.md) (nested type)
 
 No description provided.

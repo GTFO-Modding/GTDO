@@ -1,8 +1,8 @@
 ---
-description: GearDecal
+description: GameData_GearDecalDataBlock_bin.json
 ---
 
-# GearDecal
+# GearDecalDataBlock
 
 No description provided.
 
@@ -14,10 +14,10 @@ No description provided.
 
 No description provided.
 
-### AssetBundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### AssetBundleName - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### AssetBundleShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### AssetBundleShard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

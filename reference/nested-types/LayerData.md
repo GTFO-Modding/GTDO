@@ -10,22 +10,22 @@ No description provided.
 
 ## Fields
 
-### ZonesWithBulkheadEntrance - [List eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### ZonesWithBulkheadEntrance - [List eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 
-### BulkheadDoorControllerPlacements - [List BulkheadDoorPlacementData](./BulkheadDoorPlacementData.md) (nested type)
+### BulkheadDoorControllerPlacements - [List BulkheadDoorPlacementData](./bulkheaddoorplacementdata.md) (nested type)
 
 No description provided.
 
-### BulkheadKeyPlacements - [List List ZonePlacementData](./ZonePlacementData.md) (nested type)
+### BulkheadKeyPlacements - [List List ZonePlacementData](./zoneplacementdata.md) (nested type)
 
 No description provided.
 
-### ObjectiveData - [WardenObjectiveLayerData](./WardenObjectiveLayerData.md) (nested type)
+### ObjectiveData - [WardenObjectiveLayerData](./wardenobjectivelayerdata.md) (nested type)
 
 No description provided.
 
-### ArtifactData - [ArtifactLayerData](./ArtifactLayerData.md) (nested type)
+### ArtifactData - [ArtifactLayerData](./artifactlayerdata.md) (nested type)
 
 No description provided.

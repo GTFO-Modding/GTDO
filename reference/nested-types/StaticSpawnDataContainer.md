@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### DistributionWeightType - [LG_StaticDistributionWeightType](../enum-types.md#LG_StaticDistributionWeightType) (enum)
+### DistributionWeightType - [LG_StaticDistributionWeightType](../enum-types.md#lg_staticdistributionweighttype) (enum)
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: Artifact
+description: GameData_ArtifactDataBlock_bin.json
 ---
 
-# Artifact
+# ArtifactDataBlock
 
 No description provided.
 
@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### ArtifactCategory - [ArtifactCategory](../enum-types.md#ArtifactCategory) (enum)
+### ArtifactCategory - [ArtifactCategory](../enum-types.md#artifactcategory) (enum)
 
 No description provided.
 

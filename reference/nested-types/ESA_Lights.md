@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### Scope - [eESALightsEffectScope](../enum-types.md#eESALightsEffectScope) (enum)
+### Scope - [eESALightsEffectScope](../enum-types.md#eesalightseffectscope) (enum)
 
 No description provided.

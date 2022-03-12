@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### lines - [List DialogLine](./DialogLine.md) (nested type)
+### lines - [List DialogLine](./dialogline.md) (nested type)
 
 No description provided.

@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### ZoneIndex - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### ZoneIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.
 
-### PlacementWeights - [ZonePlacementWeights](./ZonePlacementWeights.md) (nested type)
+### PlacementWeights - [ZonePlacementWeights](./zoneplacementweights.md) (nested type)
 
 No description provided.
 

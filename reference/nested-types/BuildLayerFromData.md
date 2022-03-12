@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### LayerType - [LG_LayerType](../enum-types.md#LG_LayerType) (enum)
+### LayerType - [LG_LayerType](../enum-types.md#lg_layertype) (enum)
 
 No description provided.
 
-### Zone - [eLocalZoneIndex](../enum-types.md#eLocalZoneIndex) (enum)
+### Zone - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.

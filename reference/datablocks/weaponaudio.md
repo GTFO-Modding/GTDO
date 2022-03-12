@@ -1,8 +1,8 @@
 ---
-description: WeaponAudio
+description: GameData_WeaponAudioDataBlock_bin.json
 ---
 
-# WeaponAudio
+# WeaponAudioDataBlock
 
 No description provided.
 

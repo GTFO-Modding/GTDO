@@ -1,8 +1,8 @@
 ---
-description: Atmosphere
+description: GameData_AtmosphereDataBlock_bin.json
 ---
 
-# Atmosphere
+# AtmosphereDataBlock
 
 No description provided.
 

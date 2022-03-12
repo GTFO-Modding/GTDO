@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### Category - [LightCategory](../enum-types.md#LightCategory) (enum)
+### Category - [LightCategory](../enum-types.md#lightcategory) (enum)
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: GearToolTargetingPart
+description: GameData_GearToolTargetingPartDataBlock_bin.json
 ---
 
-# GearToolTargetingPart
+# GearToolTargetingPartDataBlock
 
 No description provided.
 
@@ -14,10 +14,10 @@ No description provided.
 
 No description provided.
 
-### GeneralDatas - [List TypeAndGeneralData](../nested-types/TypeAndGeneralData.md) (nested type)
+### GeneralDatas - [List TypeAndGeneralData](../nested-types/typeandgeneraldata.md) (nested type)
 
 No description provided.
 
-### Aligns - [List GearPartAlignData](../nested-types/GearPartAlignData.md) (nested type)
+### Aligns - [List GearPartAlignData](../nested-types/gearpartaligndata.md) (nested type)
 
 No description provided.

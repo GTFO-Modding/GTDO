@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### AlignType - [eGearPartAlign](../enum-types.md#eGearPartAlign) (enum)
+### AlignType - [eGearPartAlign](../enum-types.md#egearpartalign) (enum)
 
 No description provided.
 

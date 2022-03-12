@@ -34,10 +34,10 @@ No description provided.
 
 No description provided.
 
-### AssetBundle - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### AssetBundle - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### BundleShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### BundleShard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

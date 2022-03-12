@@ -26,6 +26,6 @@ No description provided.
 
 No description provided.
 
-### IntelMessage - [LocalizedText](./LocalizedText.md) (nested type)
+### IntelMessage - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.

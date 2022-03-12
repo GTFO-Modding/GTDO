@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### PuzzleType - [eProgressionPuzzleType](../enum-types.md#eProgressionPuzzleType) (enum)
+### PuzzleType - [eProgressionPuzzleType](../enum-types.md#eprogressionpuzzletype) (enum)
 
 No description provided.
 
-### CustomText - [LocalizedText](./LocalizedText.md) (nested type)
+### CustomText - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
@@ -22,6 +22,6 @@ No description provided.
 
 No description provided.
 
-### ZonePlacementData - [List ZonePlacementData](./ZonePlacementData.md) (nested type)
+### ZonePlacementData - [List ZonePlacementData](./zoneplacementdata.md) (nested type)
 
 No description provided.

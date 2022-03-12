@@ -18,7 +18,7 @@ No description provided.
 
 No description provided.
 
-### events - [List MusicEventData](./MusicEventData.md) (nested type)
+### events - [List MusicEventData](./musiceventdata.md) (nested type)
 
 No description provided.
 

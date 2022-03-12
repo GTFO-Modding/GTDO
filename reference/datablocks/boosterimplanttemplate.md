@@ -1,8 +1,8 @@
 ---
-description: BoosterImplantTemplate
+description: GameData_BoosterImplantTemplateDataBlock_bin.json
 ---
 
-# BoosterImplantTemplate
+# BoosterImplantTemplateDataBlock
 
 No description provided.
 
@@ -14,11 +14,11 @@ No description provided.
 
 No description provided.
 
-### PublicName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### PublicName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### Description - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Description - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -38,18 +38,18 @@ No description provided.
 
 No description provided.
 
-### Effects - [List BoosterImplantEffectInstance](../nested-types/BoosterImplantEffectInstance.md) (nested type)
+### Effects - [List BoosterImplantEffectInstance](../nested-types/boosterimplanteffectinstance.md) (nested type)
 
 No description provided.
 
-### RandomEffects - [List List BoosterImplantEffectInstance](../nested-types/BoosterImplantEffectInstance.md) (nested type)
+### RandomEffects - [List List BoosterImplantEffectInstance](../nested-types/boosterimplanteffectinstance.md) (nested type)
 
 No description provided.
 
-### ImplantCategory - [BoosterImplantCategory](../enum-types.md#BoosterImplantCategory) (enum)
+### ImplantCategory - [BoosterImplantCategory](../enum-types.md#boosterimplantcategory) (enum)
 
 No description provided.
 
-### MainEffectType - [BoosterEffectCategory](../enum-types.md#BoosterEffectCategory) (enum)
+### MainEffectType - [BoosterEffectCategory](../enum-types.md#boostereffectcategory) (enum)
 
 No description provided.

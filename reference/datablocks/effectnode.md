@@ -1,8 +1,8 @@
 ---
-description: EffectNode
+description: GameData_EffectNodeDataBlock_bin.json
 ---
 
-# EffectNode
+# EffectNodeDataBlock
 
 No description provided.
 
@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### PlayAll - [List EffectNodeListData](../nested-types/EffectNodeListData.md) (nested type)
+### PlayAll - [List EffectNodeListData](../nested-types/effectnodelistdata.md) (nested type)
 
 No description provided.
 
@@ -18,6 +18,6 @@ No description provided.
 
 No description provided.
 
-### EffectToSpawn - [EffectNodePrefabData](../nested-types/EffectNodePrefabData.md) (nested type)
+### EffectToSpawn - [EffectNodePrefabData](../nested-types/effectnodeprefabdata.md) (nested type)
 
 No description provided.

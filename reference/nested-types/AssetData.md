@@ -14,6 +14,6 @@ No description provided.
 
 No description provided.
 
-### Shard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### Shard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

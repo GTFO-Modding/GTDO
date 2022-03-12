@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### StartingState - [TERM_State](../enum-types.md#TERM_State) (enum)
+### StartingState - [TERM_State](../enum-types.md#term_state) (enum)
 
 No description provided.
 
@@ -50,6 +50,6 @@ No description provided.
 
 No description provided.
 
-### TerminalZoneSelectionDatas - [List List TerminalZoneSelectionData](./TerminalZoneSelectionData.md) (nested type)
+### TerminalZoneSelectionDatas - [List List TerminalZoneSelectionData](./terminalzoneselectiondata.md) (nested type)
 
 No description provided.

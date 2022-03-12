@@ -14,11 +14,11 @@ No description provided.
 
 No description provided.
 
-### NetMode - [NetworkMode](../enum-types.md#NetworkMode) (enum)
+### NetMode - [NetworkMode](../enum-types.md#networkmode) (enum)
 
 No description provided.
 
-### Material - [MaterialType](../enum-types.md#MaterialType) (enum)
+### Material - [MaterialType](../enum-types.md#materialtype) (enum)
 
 No description provided.
 

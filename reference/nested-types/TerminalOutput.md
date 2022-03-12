@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### LineType - [TerminalLineType](../enum-types.md#TerminalLineType) (enum)
+### LineType - [TerminalLineType](../enum-types.md#terminallinetype) (enum)
 
 No description provided.
 
-### Output - [LocalizedText](./LocalizedText.md) (nested type)
+### Output - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
 
