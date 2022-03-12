@@ -1,8 +1,8 @@
 ---
-description: EventSequence
+description: GameData_EventSequenceDataBlock_bin.json
 ---
 
-# EventSequence
+# EventSequenceDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### Actions - [List EventSequenceActionListComponent](../nested-types/EventSequenceActionListComponent.md) (nested type)
+### Actions - [List EventSequenceActionListComponent](../nested-types/eventsequenceactionlistcomponent.md) (nested type)
 
 No description provided.

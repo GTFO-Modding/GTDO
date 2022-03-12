@@ -1,8 +1,8 @@
 ---
-description: EnemyMovement
+description: GameData_EnemyMovementDataBlock_bin.json
 ---
 
-# EnemyMovement
+# EnemyMovementDataBlock
 
 No description provided.
 
@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### AnimationControllers - [AnimatorControllerHandleName](../enum-types.md#AnimatorControllerHandleName) (enum)
+### AnimationControllers - [AnimatorControllerHandleName](../enum-types.md#animatorcontrollerhandlename) (enum)
 
 No description provided.
 
@@ -62,18 +62,18 @@ No description provided.
 
 No description provided.
 
-### LocomotionPathMove - [ES_StateEnum](../enum-types.md#ES_StateEnum) (enum)
+### LocomotionPathMove - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
 
 No description provided.
 
-### LocomotionHitReact - [ES_StateEnum](../enum-types.md#ES_StateEnum) (enum)
+### LocomotionHitReact - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
 
 No description provided.
 
-### LocomotionDead - [ES_StateEnum](../enum-types.md#ES_StateEnum) (enum)
+### LocomotionDead - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
 
 No description provided.
 
-### LocomotionShooterAttack - [ES_StateEnum](../enum-types.md#ES_StateEnum) (enum)
+### LocomotionShooterAttack - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
 
 No description provided.

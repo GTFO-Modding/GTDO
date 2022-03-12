@@ -1,8 +1,8 @@
 ---
-description: FlashlightSettings
+description: GameData_FlashlightSettingsDataBlock_bin.json
 ---
 
-# FlashlightSettings
+# FlashlightSettingsDataBlock
 
 No description provided.
 
@@ -30,6 +30,6 @@ No description provided.
 
 No description provided.
 
-### startupShard - [AssetBundleShard](../enum-types.md#AssetBundleShard) (enum)
+### startupShard - [AssetBundleShard](../enum-types.md#assetbundleshard) (enum)
 
 No description provided.

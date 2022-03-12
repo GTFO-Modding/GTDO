@@ -1,8 +1,8 @@
 ---
-description: EnemyDetection
+description: GameData_EnemyDetectionDataBlock_bin.json
 ---
 
-# EnemyDetection
+# EnemyDetectionDataBlock
 
 No description provided.
 

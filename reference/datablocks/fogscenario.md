@@ -1,8 +1,8 @@
 ---
-description: FogScenario
+description: GameData_FogScenarioDataBlock_bin.json
 ---
 
-# FogScenario
+# FogScenarioDataBlock
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: EnemyPopulation
+description: GameData_EnemyPopulationDataBlock_bin.json
 ---
 
-# EnemyPopulation
+# EnemyPopulationDataBlock
 
 No description provided.
 
@@ -22,6 +22,6 @@ No description provided.
 
 No description provided.
 
-### RoleDatas - [List EnemyRoleData](../nested-types/EnemyRoleData.md) (nested type)
+### RoleDatas - [List EnemyRoleData](../nested-types/enemyroledata.md) (nested type)
 
 No description provided.

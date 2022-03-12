@@ -1,8 +1,8 @@
 ---
-description: BigPickupDistribution
+description: GameData_BigPickupDistributionDataBlock_bin.json
 ---
 
-# BigPickupDistribution
+# BigPickupDistributionDataBlock
 
 No description provided.
 
@@ -14,6 +14,6 @@ No description provided.
 
 No description provided.
 
-### SpawnData - [List BigPickupSpawnData](../nested-types/BigPickupSpawnData.md) (nested type)
+### SpawnData - [List BigPickupSpawnData](../nested-types/bigpickupspawndata.md) (nested type)
 
 No description provided.

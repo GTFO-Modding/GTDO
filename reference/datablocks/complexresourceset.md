@@ -1,8 +1,8 @@
 ---
-description: ComplexResourceSet
+description: GameData_ComplexResourceSetDataBlock_bin.json
 ---
 
-# ComplexResourceSet
+# ComplexResourceSetDataBlock
 
 No description provided.
 
@@ -202,31 +202,31 @@ No description provided.
 
 No description provided.
 
-### ComplexType - [Complex](../enum-types.md#Complex) (enum)
+### ComplexType - [Complex](../enum-types.md#complex) (enum)
 
 No description provided.
 
-### PrimareSubComplexUsed - [SubComplex](../enum-types.md#SubComplex) (enum)
+### PrimareSubComplexUsed - [SubComplex](../enum-types.md#subcomplex) (enum)
 
 No description provided.
 
-### BundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### BundleName - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### LevelGenConfig - [LevelGenConfig](../nested-types/LevelGenConfig.md) (nested type)
+### LevelGenConfig - [LevelGenConfig](../nested-types/levelgenconfig.md) (nested type)
 
 No description provided.
 
-### GeomorphTiles_1x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### GeomorphTiles_1x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### GeomorphTiles_2x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### GeomorphTiles_2x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### GeomorphTiles_2x2 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### GeomorphTiles_2x2 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
@@ -234,166 +234,166 @@ No description provided.
 
 No description provided.
 
-### SmallWeakGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallWeakGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallSecurityGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallSecurityGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallApexGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallApexGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallMainPathBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallMainPathBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallWallCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallWallCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SmallWallAndDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SmallWallAndDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumWeakGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumWeakGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumSecurityGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumSecurityGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumApexGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumApexGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumMainPathBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumMainPathBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumWallCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumWallCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### MediumWallAndDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### MediumWallAndDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeWeakGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeWeakGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeSecurityGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeSecurityGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeApexGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeApexGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeMainPathBulkheadGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeMainPathBulkheadGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeWallCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeWallCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### LargeWallAndDestroyedCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### LargeWallAndDestroyedCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### StraightPlugsNoGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### StraightPlugsNoGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### StraightPlugsWithGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### StraightPlugsWithGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SingleDropPlugsNoGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SingleDropPlugsNoGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### SingleDropPlugsWithGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### SingleDropPlugsWithGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### DoubleDropPlugsNoGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### DoubleDropPlugsNoGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### DoubleDropPlugsWithGates - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### DoubleDropPlugsWithGates - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### PlugCaps - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### PlugCaps - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### ElevatorShafts_1x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### ElevatorShafts_1x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### CustomGeomorphs_Exit_1x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### CustomGeomorphs_Exit_1x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### CustomGeomorphs_Objective_1x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### CustomGeomorphs_Objective_1x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### CustomGeomorphs_Challenge_1x1 - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### CustomGeomorphs_Challenge_1x1 - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_4m - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_4m - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_2m - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_2m - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_1m - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_1m - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_05m - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_05m - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_Bottom - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_Bottom - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.
 
-### Ladders_Top - [List ResourceData](../nested-types/ResourceData.md) (nested type)
+### Ladders_Top - [List ResourceData](../nested-types/resourcedata.md) (nested type)
 
 No description provided.

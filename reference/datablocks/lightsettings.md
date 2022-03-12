@@ -1,8 +1,8 @@
 ---
-description: LightSettings
+description: GameData_LightSettingsDataBlock_bin.json
 ---
 
-# LightSettings
+# LightSettingsDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### LightCategorySettings - [List LightCategorySetting](../nested-types/LightCategorySetting.md) (nested type)
+### LightCategorySettings - [List LightCategorySetting](../nested-types/lightcategorysetting.md) (nested type)
 
 No description provided.

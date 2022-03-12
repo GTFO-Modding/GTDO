@@ -1,8 +1,8 @@
 ---
-description: FogSettings
+description: GameData_FogSettingsDataBlock_bin.json
 ---
 
-# FogSettings
+# FogSettingsDataBlock
 
 No description provided.
 

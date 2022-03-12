@@ -1,8 +1,8 @@
 ---
-description: CustomAssetShard
+description: GameData_CustomAssetShardDataBlock_bin.json
 ---
 
-# CustomAssetShard
+# CustomAssetShardDataBlock
 
 No description provided.
 
@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### BundleName - [AssetBundleName](../enum-types.md#AssetBundleName) (enum)
+### BundleName - [AssetBundleName](../enum-types.md#assetbundlename) (enum)
 
 No description provided.
 
-### Assets - [List AssetData](../nested-types/AssetData.md) (nested type)
+### Assets - [List AssetData](../nested-types/assetdata.md) (nested type)
 
 No description provided.

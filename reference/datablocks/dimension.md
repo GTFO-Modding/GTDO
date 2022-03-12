@@ -1,8 +1,8 @@
 ---
-description: Dimension
+description: GameData_DimensionDataBlock_bin.json
 ---
 
-# Dimension
+# DimensionDataBlock
 
 No description provided.
 
@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### DimensionData - [DimensionData](../nested-types/DimensionData.md) (nested type)
+### DimensionData - [DimensionData](../nested-types/dimensiondata.md) (nested type)
 
 No description provided.

@@ -1,8 +1,8 @@
 ---
-description: Recoil
+description: GameData_RecoilDataBlock_bin.json
 ---
 
-# Recoil
+# RecoilDataBlock
 
 No description provided.
 
@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### power - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### power - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
@@ -34,11 +34,11 @@ No description provided.
 
 No description provided.
 
-### horizontalScale - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### horizontalScale - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 
-### verticalScale - [MinMaxValue](../nested-types/MinMaxValue.md) (nested type)
+### verticalScale - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 

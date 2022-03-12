@@ -1,8 +1,8 @@
 ---
-description: SurvivalWaveSettings
+description: GameData_SurvivalWaveSettingsDataBlock_bin.json
 ---
 
-# SurvivalWaveSettings
+# SurvivalWaveSettingsDataBlock
 
 No description provided.
 
@@ -34,11 +34,11 @@ No description provided.
 
 No description provided.
 
-### m_populationFilter - [List eEnemyType](../enum-types.md#eEnemyType) (enum)
+### m_populationFilter - [List eEnemyType](../enum-types.md#eenemytype) (enum)
 
 No description provided.
 
-### m_filterType - [eEnemyFilterType](../enum-types.md#eEnemyFilterType) (enum)
+### m_filterType - [eEnemyFilterType](../enum-types.md#eenemyfiltertype) (enum)
 
 No description provided.
 
@@ -54,7 +54,7 @@ No description provided.
 
 No description provided.
 
-### m_survivalWaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#SurvivalWaveSpawnType) (enum)
+### m_survivalWaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#survivalwavespawntype) (enum)
 
 No description provided.
 

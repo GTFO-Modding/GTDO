@@ -1,8 +1,8 @@
 ---
-description: EnvironmentFeedback
+description: GameData_EnvironmentFeedbackDataBlock_bin.json
 ---
 
-# EnvironmentFeedback
+# EnvironmentFeedbackDataBlock
 
 No description provided.
 
@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### audioData - [List FeedbackAudioCompData](../nested-types/FeedbackAudioCompData.md) (nested type)
+### audioData - [List FeedbackAudioCompData](../nested-types/feedbackaudiocompdata.md) (nested type)
 
 No description provided.
 
-### effectData - [List FeedbackEffectCompData](../nested-types/FeedbackEffectCompData.md) (nested type)
+### effectData - [List FeedbackEffectCompData](../nested-types/feedbackeffectcompdata.md) (nested type)
 
 No description provided.

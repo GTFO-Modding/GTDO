@@ -1,8 +1,8 @@
 ---
-description: Localization
+description: GameData_LocalizationDataBlock_bin.json
 ---
 
-# Localization
+# LocalizationDataBlock
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: LevelGenSettings
+description: GameData_LevelGenSettingsDataBlock_bin.json
 ---
 
-# LevelGenSettings
+# LevelGenSettingsDataBlock
 
 No description provided.
 

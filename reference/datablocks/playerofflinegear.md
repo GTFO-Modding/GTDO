@@ -1,8 +1,8 @@
 ---
-description: PlayerOfflineGear
+description: GameData_PlayerOfflineGearDataBlock_bin.json
 ---
 
-# PlayerOfflineGear
+# PlayerOfflineGearDataBlock
 
 No description provided.
 
@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### Type - [eOfflineGearType](../enum-types.md#eOfflineGearType) (enum)
+### Type - [eOfflineGearType](../enum-types.md#eofflinegeartype) (enum)
 
 No description provided.
 

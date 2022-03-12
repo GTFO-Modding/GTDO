@@ -1,8 +1,8 @@
 ---
-description: ExpeditionBalance
+description: GameData_ExpeditionBalanceDataBlock_bin.json
 ---
 
-# ExpeditionBalance
+# ExpeditionBalanceDataBlock
 
 No description provided.
 
@@ -78,11 +78,11 @@ No description provided.
 
 No description provided.
 
-### TentacleTraps - [StaticEnemyData](../nested-types/StaticEnemyData.md) (nested type)
+### TentacleTraps - [StaticEnemyData](../nested-types/staticenemydata.md) (nested type)
 
 No description provided.
 
-### ParasiteNests - [StaticEnemyData](../nested-types/StaticEnemyData.md) (nested type)
+### ParasiteNests - [StaticEnemyData](../nested-types/staticenemydata.md) (nested type)
 
 No description provided.
 

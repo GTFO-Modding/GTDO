@@ -1,8 +1,8 @@
 ---
-description: VanityItemsTemplate
+description: GameData_VanityItemsTemplateDataBlock_bin.json
 ---
 
-# VanityItemsTemplate
+# VanityItemsTemplateDataBlock
 
 No description provided.
 
@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### type - [ClothesType](../enum-types.md#ClothesType) (enum)
+### type - [ClothesType](../enum-types.md#clothestype) (enum)
 
 No description provided.
 

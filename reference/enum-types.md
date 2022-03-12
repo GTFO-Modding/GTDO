@@ -1,5 +1,5 @@
 ---
-description: A list of every enum type related to the game's s
+description: A list of every enum type related to the game's Datablocks
 ---
 
 # Enum Types

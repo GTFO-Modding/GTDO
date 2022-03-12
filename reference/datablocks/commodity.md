@@ -1,8 +1,8 @@
 ---
-description: Commodity
+description: GameData_CommodityDataBlock_bin.json
 ---
 
-# Commodity
+# CommodityDataBlock
 
 No description provided.
 
@@ -14,11 +14,11 @@ No description provided.
 
 No description provided.
 
-### Type - [eCommodityType](../enum-types.md#eCommodityType) (enum)
+### Type - [eCommodityType](../enum-types.md#ecommoditytype) (enum)
 
 No description provided.
 
-### PackSize - [eCommodityPackSize](../enum-types.md#eCommodityPackSize) (enum)
+### PackSize - [eCommodityPackSize](../enum-types.md#ecommoditypacksize) (enum)
 
 No description provided.
 
@@ -26,7 +26,7 @@ No description provided.
 
 No description provided.
 
-### PlayfabCurrency - [ePlayfabCurrency](../enum-types.md#ePlayfabCurrency) (enum)
+### PlayfabCurrency - [ePlayfabCurrency](../enum-types.md#eplayfabcurrency) (enum)
 
 No description provided.
 

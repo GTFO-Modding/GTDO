@@ -1,8 +1,8 @@
 ---
-description: GearMeleeNeckPart
+description: GameData_GearMeleeNeckPartDataBlock_bin.json
 ---
 
-# GearMeleeNeckPart
+# GearMeleeNeckPartDataBlock
 
 No description provided.
 
@@ -10,10 +10,10 @@ No description provided.
 
 ## Fields
 
-### General - [GearPartGeneralData](../nested-types/GearPartGeneralData.md) (nested type)
+### General - [GearPartGeneralData](../nested-types/gearpartgeneraldata.md) (nested type)
 
 No description provided.
 
-### Aligns - [List GearPartAlignData](../nested-types/GearPartAlignData.md) (nested type)
+### Aligns - [List GearPartAlignData](../nested-types/gearpartaligndata.md) (nested type)
 
 No description provided.

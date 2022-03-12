@@ -1,8 +1,8 @@
 ---
-description: BoosterImplantCondition
+description: GameData_BoosterImplantConditionDataBlock_bin.json
 ---
 
-# BoosterImplantCondition
+# BoosterImplantConditionDataBlock
 
 No description provided.
 
@@ -10,19 +10,19 @@ No description provided.
 
 ## Fields
 
-### Condition - [BoosterCondition](../enum-types.md#BoosterCondition) (enum)
+### Condition - [BoosterCondition](../enum-types.md#boostercondition) (enum)
 
 No description provided.
 
-### PublicShortName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### PublicShortName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### PublicName - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### PublicName - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### Description - [LocalizedText](../nested-types/LocalizedText.md) (nested type)
+### Description - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 

@@ -1,8 +1,8 @@
 ---
-description: EnemyGroup
+description: GameData_EnemyGroupDataBlock_bin.json
 ---
 
-# EnemyGroup
+# EnemyGroupDataBlock
 
 No description provided.
 
@@ -10,15 +10,15 @@ No description provided.
 
 ## Fields
 
-### Type - [eEnemyGroupType](../enum-types.md#eEnemyGroupType) (enum)
+### Type - [eEnemyGroupType](../enum-types.md#eenemygrouptype) (enum)
 
 No description provided.
 
-### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eEnemyRoleDifficulty) (enum)
+### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
 No description provided.
 
-### SpawnPlacementType - [eSpawnPlacementType](../enum-types.md#eSpawnPlacementType) (enum)
+### SpawnPlacementType - [eSpawnPlacementType](../enum-types.md#espawnplacementtype) (enum)
 
 No description provided.
 
@@ -34,6 +34,6 @@ No description provided.
 
 No description provided.
 
-### Roles - [List EnemyGroupCompositionData](../nested-types/EnemyGroupCompositionData.md) (nested type)
+### Roles - [List EnemyGroupCompositionData](../nested-types/enemygroupcompositiondata.md) (nested type)
 
 No description provided.

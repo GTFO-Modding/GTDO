@@ -1,8 +1,8 @@
 ---
-description: LevelLayout
+description: GameData_LevelLayoutDataBlock_bin.json
 ---
 
-# LevelLayout
+# LevelLayoutDataBlock
 
 No description provided.
 
@@ -14,6 +14,6 @@ No description provided.
 
 No description provided.
 
-### Zones - [List ExpeditionZoneData](../nested-types/ExpeditionZoneData.md) (nested type)
+### Zones - [List ExpeditionZoneData](../nested-types/expeditionzonedata.md) (nested type)
 
 No description provided.

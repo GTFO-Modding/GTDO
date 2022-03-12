@@ -1,8 +1,8 @@
 ---
-description: EnemySFX
+description: GameData_EnemySFXDataBlock_bin.json
 ---
 
-# EnemySFX
+# EnemySFXDataBlock
 
 No description provided.
 

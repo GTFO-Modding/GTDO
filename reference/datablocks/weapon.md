@@ -1,8 +1,8 @@
 ---
-description: Weapon
+description: GameData_WeaponDataBlock_bin.json
 ---
 
-# Weapon
+# WeaponDataBlock
 
 No description provided.
 
@@ -30,7 +30,7 @@ No description provided.
 
 No description provided.
 
-### shellType - [ShellTypes](../enum-types.md#ShellTypes) (enum)
+### shellType - [ShellTypes](../enum-types.md#shelltypes) (enum)
 
 No description provided.
 

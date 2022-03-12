@@ -1,8 +1,8 @@
 ---
-description: Gear
+description: GameData_GearDataBlock_bin.json
 ---
 
-# Gear
+# GearDataBlock
 
 No description provided.
 
@@ -58,7 +58,7 @@ No description provided.
 
 No description provided.
 
-### archetypesAllowed - [List GearArchetypeData](../nested-types/GearArchetypeData.md) (nested type)
+### archetypesAllowed - [List GearArchetypeData](../nested-types/geararchetypedata.md) (nested type)
 
 No description provided.
 
@@ -70,47 +70,47 @@ No description provided.
 
 No description provided.
 
-### dropPeriodRange - [List GearDropPeriodData](../nested-types/GearDropPeriodData.md) (nested type)
+### dropPeriodRange - [List GearDropPeriodData](../nested-types/geardropperioddata.md) (nested type)
 
 No description provided.
 
-### structualModsAllowedGrip - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### structualModsAllowedGrip - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### structualModsAllowedStock - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### structualModsAllowedStock - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### structualModsAllowedBarrel - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### structualModsAllowedBarrel - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### structualModsAllowedReceiver - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### structualModsAllowedReceiver - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### visualModsAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### visualModsAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### toolsAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### toolsAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### sightsAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### sightsAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### gripsAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### gripsAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### muzzlesAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### muzzlesAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 
-### magazinesAllowed - [List ItemPartData](../nested-types/ItemPartData.md) (nested type)
+### magazinesAllowed - [List ItemPartData](../nested-types/itempartdata.md) (nested type)
 
 No description provided.
 

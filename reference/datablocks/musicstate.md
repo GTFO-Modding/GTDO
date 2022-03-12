@@ -1,8 +1,8 @@
 ---
-description: MusicState
+description: GameData_MusicStateDataBlock_bin.json
 ---
 
-# MusicState
+# MusicStateDataBlock
 
 No description provided.
 
@@ -10,39 +10,39 @@ No description provided.
 
 ## Fields
 
-### m_timing - [TimingData](../nested-types/TimingData.md) (nested type)
+### m_timing - [TimingData](../nested-types/timingdata.md) (nested type)
 
 No description provided.
 
-### m_gameEventSounds - [List GameEventSound](../nested-types/GameEventSound.md) (nested type)
+### m_gameEventSounds - [List GameEventSound](../nested-types/gameeventsound.md) (nested type)
 
 No description provided.
 
-### m_EventsOnEnter - [List MusicEventData](../nested-types/MusicEventData.md) (nested type)
+### m_EventsOnEnter - [List MusicEventData](../nested-types/musiceventdata.md) (nested type)
 
 No description provided.
 
-### m_SwitchesOnEnter - [List MusicSwitchData](../nested-types/MusicSwitchData.md) (nested type)
+### m_SwitchesOnEnter - [List MusicSwitchData](../nested-types/musicswitchdata.md) (nested type)
 
 No description provided.
 
-### m_SwitchesOnCustomCue - [List MusicSwitchDataOnCustomCue](../nested-types/MusicSwitchDataOnCustomCue.md) (nested type)
+### m_SwitchesOnCustomCue - [List MusicSwitchDataOnCustomCue](../nested-types/musicswitchdataoncustomcue.md) (nested type)
 
 No description provided.
 
-### m_EventsOnTime - [List MusicEventDataTimed](../nested-types/MusicEventDataTimed.md) (nested type)
+### m_EventsOnTime - [List MusicEventDataTimed](../nested-types/musiceventdatatimed.md) (nested type)
 
 No description provided.
 
-### m_SwitchesOnTime - [List MusicSwitchDataTimed](../nested-types/MusicSwitchDataTimed.md) (nested type)
+### m_SwitchesOnTime - [List MusicSwitchDataTimed](../nested-types/musicswitchdatatimed.md) (nested type)
 
 No description provided.
 
-### m_EventsOnTimeInactive - [List MusicEventDataTimed](../nested-types/MusicEventDataTimed.md) (nested type)
+### m_EventsOnTimeInactive - [List MusicEventDataTimed](../nested-types/musiceventdatatimed.md) (nested type)
 
 No description provided.
 
-### m_SwitchesOnTimeInactive - [List MusicSwitchDataTimed](../nested-types/MusicSwitchDataTimed.md) (nested type)
+### m_SwitchesOnTimeInactive - [List MusicSwitchDataTimed](../nested-types/musicswitchdatatimed.md) (nested type)
 
 No description provided.
 
@@ -66,6 +66,6 @@ No description provided.
 
 No description provided.
 
-### m_EventsOnExit - [List MusicEventDataConditional](../nested-types/MusicEventDataConditional.md) (nested type)
+### m_EventsOnExit - [List MusicEventDataConditional](../nested-types/musiceventdataconditional.md) (nested type)
 
 No description provided.

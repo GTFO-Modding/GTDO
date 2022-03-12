@@ -1,8 +1,8 @@
 ---
-description: GearReceiverPart
+description: GameData_GearReceiverPartDataBlock_bin.json
 ---
 
-# GearReceiverPart
+# GearReceiverPartDataBlock
 
 No description provided.
 
@@ -10,14 +10,14 @@ No description provided.
 
 ## Fields
 
-### General - [GearPartGeneralData](../nested-types/GearPartGeneralData.md) (nested type)
+### General - [GearPartGeneralData](../nested-types/gearpartgeneraldata.md) (nested type)
 
 No description provided.
 
-### Aligns - [List GearPartAlignData](../nested-types/GearPartAlignData.md) (nested type)
+### Aligns - [List GearPartAlignData](../nested-types/gearpartaligndata.md) (nested type)
 
 No description provided.
 
-### FireSequence - [List WeaponAnimSequenceItem](../nested-types/WeaponAnimSequenceItem.md) (nested type)
+### FireSequence - [List WeaponAnimSequenceItem](../nested-types/weaponanimsequenceitem.md) (nested type)
 
 No description provided.

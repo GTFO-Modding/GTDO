@@ -1,8 +1,8 @@
 ---
-description: GameSetup
+description: GameData_GameSetupDataBlock_bin.json
 ---
 
-# GameSetup
+# GameSetupDataBlock
 
 No description provided.
 
@@ -14,6 +14,6 @@ No description provided.
 
 No description provided.
 
-### StartupScreenToLoad - [eStartupScreenKey](../enum-types.md#eStartupScreenKey) (enum)
+### StartupScreenToLoad - [eStartupScreenKey](../enum-types.md#estartupscreenkey) (enum)
 
 No description provided.

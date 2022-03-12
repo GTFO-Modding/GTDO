@@ -1,8 +1,8 @@
 ---
-description: ItemMovementAnimation
+description: GameData_ItemMovementAnimationDataBlock_bin.json
 ---
 
-# ItemMovementAnimation
+# ItemMovementAnimationDataBlock
 
 No description provided.
 
@@ -14,18 +14,18 @@ No description provided.
 
 No description provided.
 
-### ItemPosition - [Vector3AnimationCurve](../nested-types/Vector3AnimationCurve.md) (nested type)
+### ItemPosition - [Vector3AnimationCurve](../nested-types/vector3animationcurve.md) (nested type)
 
 No description provided.
 
-### ItemRotation - [Vector3AnimationCurve](../nested-types/Vector3AnimationCurve.md) (nested type)
+### ItemRotation - [Vector3AnimationCurve](../nested-types/vector3animationcurve.md) (nested type)
 
 No description provided.
 
-### CameraPosition - [Vector3AnimationCurve](../nested-types/Vector3AnimationCurve.md) (nested type)
+### CameraPosition - [Vector3AnimationCurve](../nested-types/vector3animationcurve.md) (nested type)
 
 No description provided.
 
-### CameraRotation - [Vector3AnimationCurve](../nested-types/Vector3AnimationCurve.md) (nested type)
+### CameraRotation - [Vector3AnimationCurve](../nested-types/vector3animationcurve.md) (nested type)
 
 No description provided.
