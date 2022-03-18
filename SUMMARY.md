@@ -110,4 +110,5 @@
   * [WeaponShellCasing](reference/datablocks/weaponshellcasing.md)
 * [Nested Types](reference/nested-types/README.md)
   * [ZonePlacementWeights](reference/nested-types/zoneplacementweights.md)
+  * [WeaponAnimSequenceItem](reference/nested-types/weaponanimsequenceitem.md)
 * [Enum Types](reference/enum-types.md)
