@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### ModelDataPerType - Dictionary`2
+### ModelDataPerType - [Dictionary eGearToolPartDeliveryType, GearPartGeneralData](../enum-types.md#egeartoolpartdeliverytype) (enum)
 
 No description provided.
 
