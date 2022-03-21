@@ -10,14 +10,6 @@ No description provided.
 
 ## Fields
 
-### m_internalMaterialId - Int32
-
-No description provided.
-
-### m_internalMaterial - [MaterialType](../enum-types.md#materialtype) (enum)
-
-No description provided.
-
 ### EnemyType - [eEnemyType](../enum-types.md#eenemytype) (enum)
 
 No description provided.

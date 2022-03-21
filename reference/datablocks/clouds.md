@@ -10,22 +10,6 @@ No description provided.
 
 ## Fields
 
-### m_cachedCoverageTexturePath - String
-
-No description provided.
-
-### m_cachedCoverageTexture - Texture2D
-
-No description provided.
-
-### m_cachedNoiseTexturePath - String
-
-No description provided.
-
-### m_cachedNoiseTexture - Texture3D
-
-No description provided.
-
 ### CoverageTexture - String
 
 No description provided.
