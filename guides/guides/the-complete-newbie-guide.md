@@ -3,7 +3,7 @@
 ## Overview
 
 This page is for people who want to get started with modding GTFO but don't know anything about it.\
-If you're a programmer and you want to write actual mods, check out the introduction to [plugins](broken-reference).
+If you're a programmer and you want to write actual mods, check out the introduction to [plugins](broken-reference/).
 
 Always remember that the official discord server is not the place to discuss anything modding related. Talk about it in the [modding discord](https://discord.gg/rRMPtv4FAh) instead.
 
@@ -21,7 +21,7 @@ RegEx is very helpful for quickly finding and replacing data.
 ## Introduction
 
 Datablocks (also referred to as blocks or db) are GTFO's way of storing various information about the game. While I'm positive they don't directly edit the files ever, them choosing JSON is a convenient way for modders to read and change that information.\
-What is stored in datablocks is completely in devs' control. Sometimes it may seem arbitrary what is stored there and what isn't, so some modders make plugins that allow even more control over the game.&#x20;
+What is stored in datablocks is completely in devs' control. Sometimes it may seem arbitrary what is stored there and what isn't, so some modders make plugins that allow even more control over the game.
 
 Some examples of what we can find in datablocks:
 
@@ -37,26 +37,26 @@ As previously stated, the developers control what is stored in datablocks, makin
 
 ## Installation/Setup
 
-For a quick, hassle free setup it's recommened that you use [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/), a mod manager built to work with the Thunderstore.
+For a quick, hassle-free setup it's recommended that you use [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/), a mod manager built to work with the Thunderstore.
 
-### Instalation with R2Modman
+### Installation with R2Modman
 
 1. Install the latest version of [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/)
 2. Launch the mod manager and select GTFO
-3. Create a new profile and name it&#x20;
+3. Create a new profile and name it
 4. Select "Online" and install any mods you would like to play
 5. Open `Settings -> Locations -> Change GTFO directory`. Locate and select the install location of GTFO. By default this is `C:\Program Files (x86)\Steam\steamapps\common\GTFO`
 6. Hit the "Play Modded" button.
 7. You're done!
 
-Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chance of the game breaking.
+Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chances of the game breaking.
 
 You can find the profile folder by going `Settings -> All -> Browse Profile Folder`
 
-### Manual Instalation
+### Manual Installation
 
 1. Make sure you have the latest version of GTFO installed. You can verify your game files through Steam just to be sure.
-2. Download [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/) and [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/), then follow their instalation instructions
+2. Download [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/) and [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/), then follow their installation instructions
 3. Once everything is installed, run the game, the datablock files should generate in the following folder:\
    `GTFO\BepInEx\plugins\GameData_XXXXX`\
    `XXXXX` being the latest game version
@@ -159,6 +159,7 @@ Also note that some errors can cause even more errors. When debugging, check the
 * You can use git to track changes. This allows you to easily see everything you changed at any time, which is useful for many purposes and especially debugging.
 * If something doesn't work correctly, check if your mods are up to date. Rundown updates often break them.
 * Game logs are useful for more than just finding exceptions, they provide information about what's going on in the game. You can make a desktop shortcut to the logs folder to access them faster.
+* Game updates can break existing datablocks. Be careful when using old blocks as reference (and especially careful when enabling disabled blocks). Also remember that blocks you create now may be broken by the game later. This is most common with level layout.
 
 ## Recommended content (TODO)
 
