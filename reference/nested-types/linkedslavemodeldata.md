@@ -14,10 +14,6 @@ No description provided.
 
 No description provided.
 
-### m_internalMaterialId - Int32
-
-No description provided.
-
 ### ModelFile - String
 
 No description provided.

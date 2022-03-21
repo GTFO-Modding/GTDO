@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### m_varianceDelta - Single
-
-No description provided.
-
 ### X - AnimationCurve
 
 No description provided.

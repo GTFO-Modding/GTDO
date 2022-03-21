@@ -34,30 +34,6 @@ No description provided.
 
 No description provided.
 
-### m_attackLengthFrameTime - Single
-
-No description provided.
-
-### m_attackHitFrameTime - Single
-
-No description provided.
-
-### m_damageStartFrameTime - Single
-
-No description provided.
-
-### m_damageEndFrameTime - Single
-
-No description provided.
-
-### m_attackCamFwdHitFrameTime - Single
-
-No description provided.
-
-### m_comboEarlyFrameTime - Single
-
-No description provided.
-
 ### Side - [eMeleeAttackSide](../enum-types.md#emeleeattackside) (enum)
 
 No description provided.

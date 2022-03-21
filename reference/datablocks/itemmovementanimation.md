@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### m_cachedDuration - Single
-
-No description provided.
-
 ### ItemPosition - [Vector3AnimationCurve](../nested-types/vector3animationcurve.md) (nested type)
 
 No description provided.

@@ -14,10 +14,6 @@ No description provided.
 
 No description provided.
 
-### m_compositions - [List MarkerComposition](./markercomposition.md) (nested type)
-
-No description provided.
-
 ### Compositions - [List MarkerComposition](./markercomposition.md) (nested type)
 
 No description provided.
