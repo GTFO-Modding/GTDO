@@ -4,7 +4,7 @@ description: GameplayTrailerDirectorAction
 
 # GameplayTrailerDirectorAction
 
-No description provided.
+This type seems to be currently unused.
 
 ***
 

@@ -4,7 +4,7 @@ description: GameData_EffectNodeDataBlock_bin.json
 
 # EffectNodeDataBlock
 
-No description provided.
+This datablock seems to be currently unused.
 
 ***
 

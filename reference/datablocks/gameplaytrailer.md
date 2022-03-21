@@ -4,7 +4,7 @@ description: GameData_GameplayTrailerDataBlock_bin.json
 
 # GameplayTrailerDataBlock
 
-No description provided.
+This datablock seems to be currently unused.
 
 ***
 

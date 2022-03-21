@@ -4,7 +4,7 @@ description: EffectNodeListData
 
 # EffectNodeListData
 
-No description provided.
+This type seems to be currently unused.
 
 ***
 

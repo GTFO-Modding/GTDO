@@ -4,7 +4,7 @@ description: GameData_RecepieDataBlock_bin.json
 
 # RecepieDataBlock
 
-No description provided.
+This datablock seems to be currently unused.
 
 ***
 

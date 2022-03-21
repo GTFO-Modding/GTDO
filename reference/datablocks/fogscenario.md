@@ -4,7 +4,7 @@ description: GameData_FogScenarioDataBlock_bin.json
 
 # FogScenarioDataBlock
 
-No description provided.
+This datablock seems to be currently unused.
 
 ***
 
