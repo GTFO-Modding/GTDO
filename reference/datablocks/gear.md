@@ -10,39 +10,11 @@ No description provided.
 
 ## Fields
 
-### m_publicName - String
-
-No description provided.
-
-### m_baseItemSet - Boolean
-
-No description provided.
-
-### m_baseItemID - UInt32
-
-No description provided.
-
-### m_updateBaseItem - Boolean
-
-No description provided.
-
-### m_toolsAvailable - Il2CppStringArray
-
-No description provided.
-
 ### officialForRelease - Boolean
 
 No description provided.
 
 ### publicName - String
-
-No description provided.
-
-### example - String
-
-No description provided.
-
-### updateBaseItem - Boolean
 
 No description provided.
 

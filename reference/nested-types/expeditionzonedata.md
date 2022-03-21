@@ -10,18 +10,6 @@ No description provided.
 
 ## Fields
 
-### Alias - Int32
-
-No description provided.
-
-### BuildFromZoneAlias - Int32
-
-No description provided.
-
-### BulkyListElementName - String
-
-No description provided.
-
 ### LocalIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 No description provided.

@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### tempTouched - Boolean
-
-No description provided.
-
 ### allowed - Boolean
 
 No description provided.

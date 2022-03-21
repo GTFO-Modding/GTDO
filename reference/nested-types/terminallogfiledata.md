@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### ParsedLog - List String
-
-No description provided.
-
 ### FileName - String
 
 No description provided.

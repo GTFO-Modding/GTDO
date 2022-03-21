@@ -10,18 +10,6 @@ No description provided.
 
 ## Fields
 
-### listIndex - Int32
-
-No description provided.
-
-### syncID - UInt32
-
-No description provided.
-
-### ItemToolsPerSlot - Il2CppReferenceArray`1
-
-No description provided.
-
 ### publicName - String
 
 No description provided.

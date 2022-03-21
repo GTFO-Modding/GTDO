@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### ItemToolsPerSlot - Il2CppReferenceArray`1
-
-No description provided.
-
 ### localPosHip - Vector3
 
 No description provided.
@@ -127,17 +123,5 @@ No description provided.
 No description provided.
 
 ### DofAim - [DOFSettingsData](../nested-types/dofsettingsdata.md) (nested type)
-
-No description provided.
-
-### debugForceHip - Boolean
-
-No description provided.
-
-### debugForceRelaxed - Boolean
-
-No description provided.
-
-### debugForceZoom - Boolean
 
 No description provided.

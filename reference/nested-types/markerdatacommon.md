@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### FunctionComponentLinks - Il2CppReferenceArray`1
+### FunctionComponentLinks - Array List int
 
 No description provided.
 

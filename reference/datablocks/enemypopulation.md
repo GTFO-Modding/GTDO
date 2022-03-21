@@ -18,10 +18,6 @@ No description provided.
 
 No description provided.
 
-### EnemyDataIsSetup - Boolean
-
-No description provided.
-
 ### RoleDatas - [List EnemyRoleData](../nested-types/enemyroledata.md) (nested type)
 
 No description provided.

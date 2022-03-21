@@ -10,18 +10,6 @@ No description provided.
 
 ## Fields
 
-### HasVerificationTerminal - Boolean
-
-No description provided.
-
-### VerificationTerminalSerial - String
-
-No description provided.
-
-### VerificationTerminalFileName - String
-
-No description provided.
-
 ### Warmup - Single
 
 No description provided.
