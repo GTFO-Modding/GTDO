@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### FunctionComponentLinks - Array List int
+### FunctionComponentLinks - Array List Int32
 
 No description provided.
 
