@@ -2,58 +2,163 @@
 description: GameData_RundownDataBlock_bin.json
 ---
 
-# RundownDataBlock
-
-No description provided.
-
-***
+# Rundown
 
 ## Fields
 
-### UseTierUnlockRequirements - Boolean
+#### "**UseTierUnlockRequirements**": **** _Boolean_
+
+Whether or not to use unlock requirements for this rundown.
+
+<details>
+
+<summary>"ReqToReachTierB": <em>{</em><a href="../nested-types/rundowntierprogressiondata.md"><em>RundownTierProgressionData</em></a><em>}</em></summary>
+
+#### _"_**MainSectors": **_**Int32**_
+
+The amount of completed main sectors required to reach this tier.
+
+#### "SecondarySectors": _Int32_
+
+The amount of completed secondary sectors required to reach this tier.
+
+#### "ThirdSectors": _Int32_
+
+The amount of completed third sectors required to reach this tier.
+
+#### "AllClearedSectors": _Int32_
+
+The amount of "all clear" sectors required to reach this tier.
+
+</details>
+
+Progression data to reach tier B of the rundown.
+
+<details>
+
+<summary>"ReqToReachTierC": <em>{</em><a href="../nested-types/rundowntierprogressiondata.md"><em>RundownTierProgressionData</em></a><em>}</em></summary>
+
+#### _"_**MainSectors": **_**Int32**_
+
+The amount of completed main sectors required to reach this tier.
+
+#### "SecondarySectors": _Int32_
+
+The amount of completed secondary sectors required to reach this tier.
+
+#### "ThirdSectors": _Int32_
+
+The amount of completed third sectors required to reach this tier.
+
+#### "AllClearedSectors": _Int32_
+
+The amount of "all clear" sectors required to reach this tier.
+
+</details>
+
+Progression data to reach tier C of the rundown.
+
+<details>
+
+<summary>"ReqToReachTierD": <em>{</em><a href="../nested-types/rundowntierprogressiondata.md"><em>RundownTierProgressionData</em></a><em>}</em></summary>
+
+#### _"_**MainSectors": **_**Int32**_
+
+The amount of completed main sectors required to reach this tier.
+
+#### "SecondarySectors": _Int32_
+
+The amount of completed secondary sectors required to reach this tier.
+
+#### "ThirdSectors": _Int32_
+
+The amount of completed third sectors required to reach this tier.
+
+#### "AllClearedSectors": _Int32_
+
+The amount of "all clear" sectors required to reach this tier.
+
+</details>
+
+Progression data to reach tier D of the rundown.
+
+<details>
+
+<summary>"ReqToReachTierE": <em>{</em><a href="../nested-types/rundowntierprogressiondata.md"><em>RundownTierProgressionData</em></a><em>}</em></summary>
+
+#### _"_**MainSectors": **_**Int32**_
+
+The amount of completed main sectors required to reach this tier.
+
+#### "SecondarySectors": _Int32_
+
+The amount of completed secondary sectors required to reach this tier.
+
+#### "ThirdSectors": _Int32_
+
+The amount of completed third sectors required to reach this tier.
+
+#### "AllClearedSectors": _Int32_
+
+The amount of "all clear" sectors required to reach this tier.
+
+</details>
+
+Progression data to reach tier E of the rundown.
+
+<details>
+
+<summary>"StorytellingData": <em>{</em><a href="../nested-types/rundownstorytellingdata.md"><em>RundownStorytellingData</em></a><em>}</em></summary>
+
+#### "Title": _{_[_LocalizedText_](../nested-types/localizedtext.md)_}_
 
 No description provided.
 
-### ReqToReachTierB - [RundownTierProgressionData](../nested-types/rundowntierprogressiondata.md) (nested type)
+#### "TextLog": _{_[_LocalizedText_](../nested-types/localizedtext.md)_}_
 
 No description provided.
 
-### ReqToReachTierC - [RundownTierProgressionData](../nested-types/rundowntierprogressiondata.md) (nested type)
+#### "TextLogPos":  _Vector2_
 
 No description provided.
 
-### ReqToReachTierD - [RundownTierProgressionData](../nested-types/rundowntierprogressiondata.md) (nested type)
+#### "Visuals": _{_[_RundownStorytellingVisualData_](../nested-types/rundownstorytellingvisualdata.md)_}_
 
 No description provided.
 
-### ReqToReachTierE - [RundownTierProgressionData](../nested-types/rundowntierprogressiondata.md) (nested type)
+#### "SurfaceIconPosition":  _Vector2_
 
 No description provided.
 
-### StorytellingData - [RundownStorytellingData](../nested-types/rundownstorytellingdata.md) (nested type)
+#### "SurfaceDescription": _{_[_LocalizedText_](../nested-types/localizedtext.md)_}_
 
 No description provided.
 
-### VanityItemLayerDropDataBlock - UInt32
+</details>
 
-No description provided.
+Data for title, visual, description, etc. of the rundown.
 
-### TierA - [List ExpeditionInTierData](../nested-types/expeditionintierdata.md) (nested type)
+#### "**VanityItemLayerDropDataBlock**": _UInt32_
 
-No description provided.
+The id for the vanity item datablock for this rundown.
 
-### TierB - [List ExpeditionInTierData](../nested-types/expeditionintierdata.md) (nested type)
+#### "**TierA**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
 
-No description provided.
+Expedition data for all levels in tier A of this rundown.
 
-### TierC - [List ExpeditionInTierData](../nested-types/expeditionintierdata.md) (nested type)
+#### "**TierB**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
 
-No description provided.
+Expedition data for all levels in tier B of this rundown.
 
-### TierD - [List ExpeditionInTierData](../nested-types/expeditionintierdata.md) (nested type)
+#### "**TierC**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
 
-No description provided.
+Expedition data for all levels in tier C of this rundown.
 
-### TierE - [List ExpeditionInTierData](../nested-types/expeditionintierdata.md) (nested type)
+#### "**TierD**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
 
-No description provided.
+Expedition data for all levels in tier D of this rundown.
+
+#### "**TierE**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+
+Expedition data for all levels in tier E of this rundown.
+
