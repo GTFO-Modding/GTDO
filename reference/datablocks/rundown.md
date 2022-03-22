@@ -142,23 +142,503 @@ Data for title, visual, description, etc. of the rundown.
 
 The id for the vanity item datablock for this rundown.
 
-#### "**TierA**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+<details>
+
+<summary>"TierA": [<a href="../nested-types/expeditionintierdata.md">ExpeditionInTierData</a>]</summary>
+
+#### "HostIDSeed": _Int32_
+
+No description provided.
+
+#### "SessionSeed": _Int32_
+
+No description provided.
+
+#### "Enabled": _Boolean_
+
+No description provided.
+
+#### "Accessibility": [_eExpeditionAccessibility_](../enum-types.md#eexpeditionaccessibility)
+
+No description provided.
+
+#### "UnlockedByExpedition": {[_ExpeditionIndex_](../nested-types/expeditionindex.md)_}_
+
+No description provided.
+
+#### "CustomProgressionLock": {[_RundownTierProgressionData_](../nested-types/rundowntierprogressiondata.md)_}_
+
+No description provided.
+
+#### "Descriptive": {[DescriptiveData](../nested-types/descriptivedata.md)}
+
+No description provided.
+
+#### "Seeds": {[_BuildSeedData_](../nested-types/buildseeddata.md)_}_
+
+No description provided.
+
+#### "Expedition": {[_ExpeditionData_](../nested-types/expeditiondata.md)_}_
+
+No description provided.
+
+#### "VanityItemsDropData": {[_VanityItemsDropData_](../nested-types/vanityitemsdropdata.md)_}_
+
+No description provided.
+
+#### "LevelLayoutData": _UInt32_
+
+No description provided.
+
+#### "MainLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "SecondaryLayout": _UInt32_
+
+No description provided.
+
+#### "BuildSecondaryFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "ThirdLayout": _UInt32_
+
+No description provided.
+
+#### "BuildThirdFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "DimensionDatas": \[{[_DimensionInExpeditionData_](../nested-types/dimensioninexpeditiondata.md)_}]_
+
+No description provided.
+
+#### "SoundEventOnWarpToReality": _UInt32_
+
+No description provided.
+
+#### "SpecialOverrideData": {[_SpecialExpeditionOverridesData_](../nested-types/specialexpeditionoverridesdata.md)_}_
+
+No description provided.
+
+</details>
 
 Expedition data for all levels in tier A of this rundown.
 
-#### "**TierB**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+<details>
+
+<summary>"TierB": [<a href="../nested-types/expeditionintierdata.md">ExpeditionInTierData</a>]</summary>
+
+#### "HostIDSeed": _Int32_
+
+No description provided.
+
+#### "SessionSeed": _Int32_
+
+No description provided.
+
+#### "Enabled": _Boolean_
+
+No description provided.
+
+#### "Accessibility": [_eExpeditionAccessibility_](../enum-types.md#eexpeditionaccessibility)
+
+No description provided.
+
+#### "UnlockedByExpedition": {[_ExpeditionIndex_](../nested-types/expeditionindex.md)_}_
+
+No description provided.
+
+#### "CustomProgressionLock": {[_RundownTierProgressionData_](../nested-types/rundowntierprogressiondata.md)_}_
+
+No description provided.
+
+#### "Descriptive": {[DescriptiveData](../nested-types/descriptivedata.md)}
+
+No description provided.
+
+#### "Seeds": {[_BuildSeedData_](../nested-types/buildseeddata.md)_}_
+
+No description provided.
+
+#### "Expedition": {[_ExpeditionData_](../nested-types/expeditiondata.md)_}_
+
+No description provided.
+
+#### "VanityItemsDropData": {[_VanityItemsDropData_](../nested-types/vanityitemsdropdata.md)_}_
+
+No description provided.
+
+#### "LevelLayoutData": _UInt32_
+
+No description provided.
+
+#### "MainLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "SecondaryLayout": _UInt32_
+
+No description provided.
+
+#### "BuildSecondaryFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "ThirdLayout": _UInt32_
+
+No description provided.
+
+#### "BuildThirdFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "DimensionDatas": \[{[_DimensionInExpeditionData_](../nested-types/dimensioninexpeditiondata.md)_}]_
+
+No description provided.
+
+#### "SoundEventOnWarpToReality": _UInt32_
+
+No description provided.
+
+#### "SpecialOverrideData": {[_SpecialExpeditionOverridesData_](../nested-types/specialexpeditionoverridesdata.md)_}_
+
+No description provided.
+
+</details>
 
 Expedition data for all levels in tier B of this rundown.
 
-#### "**TierC**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+<details>
+
+<summary>"TierC": [<a href="../nested-types/expeditionintierdata.md">ExpeditionInTierData</a>]</summary>
+
+#### "HostIDSeed": _Int32_
+
+No description provided.
+
+#### "SessionSeed": _Int32_
+
+No description provided.
+
+#### "Enabled": _Boolean_
+
+No description provided.
+
+#### "Accessibility": [_eExpeditionAccessibility_](../enum-types.md#eexpeditionaccessibility)
+
+No description provided.
+
+#### "UnlockedByExpedition": {[_ExpeditionIndex_](../nested-types/expeditionindex.md)_}_
+
+No description provided.
+
+#### "CustomProgressionLock": {[_RundownTierProgressionData_](../nested-types/rundowntierprogressiondata.md)_}_
+
+No description provided.
+
+#### "Descriptive": {[DescriptiveData](../nested-types/descriptivedata.md)}
+
+No description provided.
+
+#### "Seeds": {[_BuildSeedData_](../nested-types/buildseeddata.md)_}_
+
+No description provided.
+
+#### "Expedition": {[_ExpeditionData_](../nested-types/expeditiondata.md)_}_
+
+No description provided.
+
+#### "VanityItemsDropData": {[_VanityItemsDropData_](../nested-types/vanityitemsdropdata.md)_}_
+
+No description provided.
+
+#### "LevelLayoutData": _UInt32_
+
+No description provided.
+
+#### "MainLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "SecondaryLayout": _UInt32_
+
+No description provided.
+
+#### "BuildSecondaryFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "ThirdLayout": _UInt32_
+
+No description provided.
+
+#### "BuildThirdFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "DimensionDatas": \[{[_DimensionInExpeditionData_](../nested-types/dimensioninexpeditiondata.md)_}]_
+
+No description provided.
+
+#### "SoundEventOnWarpToReality": _UInt32_
+
+No description provided.
+
+#### "SpecialOverrideData": {[_SpecialExpeditionOverridesData_](../nested-types/specialexpeditionoverridesdata.md)_}_
+
+No description provided.
+
+</details>
 
 Expedition data for all levels in tier C of this rundown.
 
-#### "**TierD**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+<details>
+
+<summary>"TierD": [<a href="../nested-types/expeditionintierdata.md">ExpeditionInTierData</a>]</summary>
+
+#### "HostIDSeed": _Int32_
+
+No description provided.
+
+#### "SessionSeed": _Int32_
+
+No description provided.
+
+#### "Enabled": _Boolean_
+
+No description provided.
+
+#### "Accessibility": [_eExpeditionAccessibility_](../enum-types.md#eexpeditionaccessibility)
+
+No description provided.
+
+#### "UnlockedByExpedition": {[_ExpeditionIndex_](../nested-types/expeditionindex.md)_}_
+
+No description provided.
+
+#### "CustomProgressionLock": {[_RundownTierProgressionData_](../nested-types/rundowntierprogressiondata.md)_}_
+
+No description provided.
+
+#### "Descriptive": {[DescriptiveData](../nested-types/descriptivedata.md)}
+
+No description provided.
+
+#### "Seeds": {[_BuildSeedData_](../nested-types/buildseeddata.md)_}_
+
+No description provided.
+
+#### "Expedition": {[_ExpeditionData_](../nested-types/expeditiondata.md)_}_
+
+No description provided.
+
+#### "VanityItemsDropData": {[_VanityItemsDropData_](../nested-types/vanityitemsdropdata.md)_}_
+
+No description provided.
+
+#### "LevelLayoutData": _UInt32_
+
+No description provided.
+
+#### "MainLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "SecondaryLayout": _UInt32_
+
+No description provided.
+
+#### "BuildSecondaryFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "ThirdLayout": _UInt32_
+
+No description provided.
+
+#### "BuildThirdFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "DimensionDatas": \[{[_DimensionInExpeditionData_](../nested-types/dimensioninexpeditiondata.md)_}]_
+
+No description provided.
+
+#### "SoundEventOnWarpToReality": _UInt32_
+
+No description provided.
+
+#### "SpecialOverrideData": {[_SpecialExpeditionOverridesData_](../nested-types/specialexpeditionoverridesdata.md)_}_
+
+No description provided.
+
+</details>
 
 Expedition data for all levels in tier D of this rundown.
 
-#### "**TierE**": _\[_[_ExpeditionInTierData_](../nested-types/expeditionintierdata.md)_]_
+<details>
+
+<summary>"TierE": [<a href="../nested-types/expeditionintierdata.md">ExpeditionInTierData</a>]</summary>
+
+#### "HostIDSeed": _Int32_
+
+No description provided.
+
+#### "SessionSeed": _Int32_
+
+No description provided.
+
+#### "Enabled": _Boolean_
+
+No description provided.
+
+#### "Accessibility": [_eExpeditionAccessibility_](../enum-types.md#eexpeditionaccessibility)
+
+No description provided.
+
+#### "UnlockedByExpedition": {[_ExpeditionIndex_](../nested-types/expeditionindex.md)_}_
+
+No description provided.
+
+#### "CustomProgressionLock": {[_RundownTierProgressionData_](../nested-types/rundowntierprogressiondata.md)_}_
+
+No description provided.
+
+#### "Descriptive": {[DescriptiveData](../nested-types/descriptivedata.md)}
+
+No description provided.
+
+#### "Seeds": {[_BuildSeedData_](../nested-types/buildseeddata.md)_}_
+
+No description provided.
+
+#### "Expedition": {[_ExpeditionData_](../nested-types/expeditiondata.md)_}_
+
+No description provided.
+
+#### "VanityItemsDropData": {[_VanityItemsDropData_](../nested-types/vanityitemsdropdata.md)_}_
+
+No description provided.
+
+#### "LevelLayoutData": _UInt32_
+
+No description provided.
+
+#### "MainLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "SecondaryLayout": _UInt32_
+
+No description provided.
+
+#### "BuildSecondaryFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "SecondaryLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerEnabled": _Boolean_
+
+No description provided.
+
+#### "ThirdLayout": _UInt32_
+
+No description provided.
+
+#### "BuildThirdFrom": {[_BuildLayerFromData_](../nested-types/buildlayerfromdata.md)_}_
+
+No description provided.
+
+#### "ThirdLayerData": {[_LayerData_](../nested-types/layerdata.md)_}_
+
+No description provided.
+
+#### "DimensionDatas": \[{[_DimensionInExpeditionData_](../nested-types/dimensioninexpeditiondata.md)_}]_
+
+No description provided.
+
+#### "SoundEventOnWarpToReality": _UInt32_
+
+No description provided.
+
+#### "SpecialOverrideData": {[_SpecialExpeditionOverridesData_](../nested-types/specialexpeditionoverridesdata.md)_}_
+
+No description provided.
+
+</details>
 
 Expedition data for all levels in tier E of this rundown.
 
