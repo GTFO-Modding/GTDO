@@ -138,11 +138,11 @@
   * [EnemyGroupCompositionData](reference/nested-types/enemygroupcompositiondata.md)
   * [EnemyRoleData](reference/nested-types/enemyroledata.md)
   * [EnemySpawningData](reference/nested-types/enemyspawningdata.md)
-  * [ESA_EnemyWave](reference/nested-types/esa_enemywave.md)
-  * [ESA_FogSettings](reference/nested-types/esa_fogsettings.md)
-  * [ESA_Lights](reference/nested-types/esa_lights.md)
-  * [ESA_PostEffect](reference/nested-types/esa_posteffect.md)
-  * [ESA_Sound](reference/nested-types/esa_sound.md)
+  * [ESA\_EnemyWave](reference/nested-types/esa\_enemywave.md)
+  * [ESA\_FogSettings](reference/nested-types/esa\_fogsettings.md)
+  * [ESA\_Lights](reference/nested-types/esa\_lights.md)
+  * [ESA\_PostEffect](reference/nested-types/esa\_posteffect.md)
+  * [ESA\_Sound](reference/nested-types/esa\_sound.md)
   * [EventSequenceActionListComponent](reference/nested-types/eventsequenceactionlistcomponent.md)
   * [ExpeditionData](reference/nested-types/expeditiondata.md)
   * [ExpeditionIndex](reference/nested-types/expeditionindex.md)
@@ -216,3 +216,15 @@
   * [ZonePlacementData](reference/nested-types/zoneplacementdata.md)
   * [ZonePlacementWeights](reference/nested-types/zoneplacementweights.md)
 * [Enum Types](reference/enum-types.md)
+
+## Plugins & You
+
+* [Your first plugin](plugins-and-you/your-first-plugin.md)
+
+## Noteworthy Mods
+
+* [EEC](noteworthy-mods/eec.md)
+
+## Unused Content
+
+* [Unused Datablocks](unused-content/unused-datablocks.md)
