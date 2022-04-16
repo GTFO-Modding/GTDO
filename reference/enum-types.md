@@ -760,6 +760,8 @@ No description provided.
 
 * Normal - 0
 * Story - 1
+* External - 2
+* ExternalStory - 3
 
 ### eReactorWaveSpawnType
 
@@ -856,6 +858,7 @@ No description provided.
 * ShooterAttackFlyer - 30
 * DeadFlyer - 31
 * DeadSquidBoss - 32
+* ScreamFlyer - 33
 
 ### eWantedZoneHeighs
 
@@ -892,6 +895,8 @@ No description provided.
 * StopEnemyWaves - 10
 * UpdateCustomSubObjective - 11
 * ForceCompleteObjective - 12
+* LightsInZone - 13
+* LightsInZoneToggle - 14
 * EventBreak - 999
 
 ### eWardenObjectiveSpecialUpdateType
