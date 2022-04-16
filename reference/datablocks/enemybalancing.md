@@ -12,64 +12,64 @@ No description provided.
 
 ### Health - [HealthData](../nested-types/healthdata.md) (nested type)
 
-No description provided.
+The amount of health an enemy has before it dies.
 
 ### GlueTolerance - Single
 
-No description provided.
+Determines how much C-foam is required to freeze the enemy.
 
 ### GlueFadeOutTime - Single
 
-No description provided.
+The number of seconds it takes for an enemy to unfreeze after being C-foamed.
 
 ### CanBePushed - Boolean
 
-No description provided.
+Determines if the shove action will have any effect on the enemy.
 
 ### ForbidTwitchHit - Boolean
 
-No description provided.
+Attempts to prevent "soft-stagger" from occurring, where an enemy's projectiles and tentacles are unable to be used.
 
 ### AllowDamgeBonusFromBehind - Boolean
 
-No description provided.
+Determines if an enemy can receive additional back damage.
 
 ### UseTentacleTunnelCheck - Boolean
 
-No description provided.
+The default attack type of tentacles. Checks if the player collided with the tentacle to deal damage, and can attack around sharp corners.
 
 ### UseVisibilityRaycastDuringTentacleAttack - Boolean
 
-No description provided.
+Determines if an enemy has hit-scan tentacle attacks, where the player being in line of sight guarantees a hit.
 
 ### TentacleAttackDamageRadiusIfNoTunnelCheck - Single
 
-No description provided.
+Adds an area-of-effect to a hit-scan tentacle. This is used so that an enemy can hit clients who may have latency, or allow the enemy to hit multiple players.
 
 ### TentacleAttackDamage - Single
 
-No description provided.
+The damage value of tentacle attacks.
 
 ### MeleeAttackDamage - Single
 
-No description provided.
+The damage value of punching attacks.
 
 ### MeleeAttackDamageCheckRadius - Single
 
-No description provided.
+The size of damage checking spheres around both of the enemy's hands to determine if a player was hit or not.
 
 ### TagTime - Single
 
-No description provided.
+How long a bio-tracker tag remains before it completely fades out.
 
 ### EnemyCollisionRadius - Single
 
-No description provided.
+Determines if a player is in range to collide with the enemy.
 
 ### EnemyCollisionPlayerMovementReduction - Single
 
-No description provided.
+When a player is colliding with an enemy, this will reduce the player's movement speed.
 
 ### EnemyCollisionMinimumMoveSpeedModifier - Single
 
-No description provided.
+The slowest the player can be as a result of colliding with multiple of this enemy.
