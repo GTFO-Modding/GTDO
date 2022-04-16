@@ -24,11 +24,11 @@ The number of seconds it takes for an enemy to unfreeze after being C-foamed.
 
 ### CanBePushed - Boolean
 
-Determines if the shove action will have any affect on the enemy.
+Determines if the shove action will have any effect on the enemy.
 
 ### ForbidTwitchHit - Boolean
 
-Attempts to prevent "soft-stagger" from occuring, where an enemy's projectiles and tentacles are unable to be used.
+Attempts to prevent "soft-stagger" from occurring, where an enemy's projectiles and tentacles are unable to be used.
 
 ### AllowDamgeBonusFromBehind - Boolean
 
@@ -40,7 +40,7 @@ The default attack type of tentacles. Checks if the player collided with the ten
 
 ### UseVisibilityRaycastDuringTentacleAttack - Boolean
 
-Determines if an enemy has hit-scan tentacle attacks, where the player being line of sight guarantees a hit.
+Determines if an enemy has hit-scan tentacle attacks, where the player being in line of sight guarantees a hit.
 
 ### TentacleAttackDamageRadiusIfNoTunnelCheck - Single
 
@@ -68,7 +68,7 @@ Determines if a player is in range to collide with the enemy.
 
 ### EnemyCollisionPlayerMovementReduction - Single
 
-When an player is colliding with an enemy, this will reduce the player's movement speed.
+When a player is colliding with an enemy, this will reduce the player's movement speed.
 
 ### EnemyCollisionMinimumMoveSpeedModifier - Single
 
