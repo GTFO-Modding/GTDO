@@ -118,6 +118,10 @@ No description provided.
 
 No description provided.
 
+### EventsOnTrigger - [List WorldEventFromSourceData](./worldeventfromsourcedata.md) (nested type)
+
+No description provided.
+
 ### ProgressionPuzzleToEnter - [ProgressionPuzzleData](./progressionpuzzledata.md) (nested type)
 
 No description provided.

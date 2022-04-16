@@ -22,6 +22,18 @@ No description provided.
 
 No description provided.
 
+### SkipExpNumberInName - Boolean
+
+No description provided.
+
+### UseCustomMatchmakingTier - Boolean
+
+No description provided.
+
+### CustomMatchmakingTier - [eRundownTier](../enum-types.md#erundowntier) (enum)
+
+No description provided.
+
 ### ProgressionVisualStyle - [eProgressionVisualStyle](../enum-types.md#eprogressionvisualstyle) (enum)
 
 No description provided.

@@ -81,3 +81,19 @@ No description provided.
 ### EnemyWaveData - [GenericEnemyWaveData](./genericenemywavedata.md) (nested type)
 
 No description provided.
+
+### Position - Vector3
+
+No description provided.
+
+### Count - Int32
+
+No description provided.
+
+### Enabled - Boolean
+
+No description provided.
+
+### WorldEventObjectFilter - String
+
+No description provided.

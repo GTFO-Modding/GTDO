@@ -101,3 +101,11 @@ No description provided.
 ### SpecialOverrideData - [SpecialExpeditionOverridesData](./specialexpeditionoverridesdata.md) (nested type)
 
 No description provided.
+
+### HasExternalStyle - Boolean
+
+No description provided.
+
+### HasStoryStyle - Boolean
+
+No description provided.
