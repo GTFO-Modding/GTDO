@@ -1,14 +1,22 @@
 ---
-description: WardenObjectiveEventData
+description: WorldEventFromSourceData
 ---
 
-# WardenObjectiveEventData
+# WorldEventFromSourceData
 
 No description provided.
 
 ***
 
 ## Fields
+
+### WorldEventTriggerObjectFilter - String
+
+No description provided.
+
+### Type - [eWardenObjectiveEventType](../enum-types.md#ewardenobjectiveeventtype) (enum)
+
+No description provided.
 
 ### Trigger - [eWardenObjectiveEventTrigger](../enum-types.md#ewardenobjectiveeventtrigger) (enum)
 
@@ -19,10 +27,6 @@ No description provided.
 No description provided.
 
 ### UseStaticBioscanPoints - Boolean
-
-No description provided.
-
-### Type - [eWardenObjectiveEventType](../enum-types.md#ewardenobjectiveeventtype) (enum)
 
 No description provided.
 

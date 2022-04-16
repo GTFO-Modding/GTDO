@@ -94,6 +94,10 @@ No description provided.
 
 No description provided.
 
+### Flyer_PathingNodeMargin - Int32
+
+No description provided.
+
 ### PathingTargetOffsetY - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
@@ -119,6 +123,10 @@ No description provided.
 No description provided.
 
 ### Flyer_AttackChargeDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
+
+No description provided.
+
+### Flyer_AttackDuration - [MinMaxValue](../nested-types/minmaxvalue.md) (nested type)
 
 No description provided.
 

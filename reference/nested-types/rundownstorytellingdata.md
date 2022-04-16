@@ -33,3 +33,7 @@ No description provided.
 ### SurfaceDescription - [LocalizedText](./localizedtext.md) (nested type)
 
 No description provided.
+
+### ExternalExpTitle - [LocalizedText](./localizedtext.md) (nested type)
+
+No description provided.

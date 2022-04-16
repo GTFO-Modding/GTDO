@@ -77,3 +77,7 @@ No description provided.
 ### LocomotionShooterAttack - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
 
 No description provided.
+
+### LocomotionScream - [ES_StateEnum](../enum-types.md#es_stateenum) (enum)
+
+No description provided.
