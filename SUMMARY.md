@@ -224,7 +224,7 @@
 
 ## Mods Documentation
 
-* [Noteworthy mods](mods-documentation/noteworthymods.md)
+* [Noteworthy Mods](mods-documentation/noteworthymods.md)
 
 ## Unused Content
 
