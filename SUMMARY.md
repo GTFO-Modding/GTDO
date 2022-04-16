@@ -222,9 +222,9 @@
 
 * [Your first plugin](plugins-and-you/your-first-plugin.md)
 
-## Mod Documentation
+## Mods Documentation
 
-* [EEC](mod-documentation/eec.md)
+* [Noteworthy Mods](mods-documentation/noteworthymods.md)
 
 ## Unused Content
 
