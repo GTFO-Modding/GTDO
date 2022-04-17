@@ -3,7 +3,7 @@
 ## Overview
 
 This page is for people who want to get started with modding GTFO but don't know anything about it.\
-If you're a programmer and you want to write actual mods, check out the introduction to [plugins](broken-reference/).
+If you're a programmer and you want to write actual mods, check out the introduction to [plugins](guides/broken-reference/).
 
 Always remember that the official discord server is not the place to discuss anything modding related. Talk about it in the [modding discord](https://discord.gg/rRMPtv4FAh) instead.
 
@@ -74,7 +74,7 @@ To get some familiarity with editing datablocks, we're going to do 3 things in t
 You can test either after every step or all at once.\
 A few tips before we get started:
 
-* [Datablock reference](../../reference/datablocks/) can be used to get a lot of information about blocks.
+* [Datablock reference](../reference/datablocks/) can be used to get a lot of information about blocks.
 * `LocalizedText` is a special type that can both point to a text block and be read as a plain string.
 * All enums can be passed as numbers or strings. I personally recommend using strings since they often give more information than plain numbers, but both work equally fine.
 
@@ -85,24 +85,24 @@ Remember, after initial generation, all datablocks should be located in GTFO\Bep
 Let's keep this one simple. We're going to find the pistol's stats and change its damage to 100 and firemode to automatic.\
 Weapon stats are kept in Archetype datablock. There are multiple ways to determine which block belongs to the pistol, but for now let's "assume" that the correct block is the one with the name "GEAR\_Pistol\_Semi\_v2".
 
-![Pistol archetype block](../../.gitbook/assets/newbie\_guide\_archetype.png)
+![Pistol archetype block](../.gitbook/assets/newbie\_guide\_archetype.png)
 
 * Note: lines under 3155 and 3184 are collapsed in vscode editor to reduce clutter. You'll see this used a lot.
 
 Among the fields we can see the ones named "Damage" and "FireMode" (the latter is an enum and will appear as a number if you're not using enums as strings). Change the damage to `100` and firemode to `auto`. Additionally, let's change the public name to "Balanced pistol" so we can see the custom blocks were loaded without having to drop into a level.
 
-![Edited pistol archetype block](../../.gitbook/assets/newbie\_guide\_archetype\_edited.png)
+![Edited pistol archetype block](../.gitbook/assets/newbie\_guide\_archetype\_edited.png)
 
 After saving, you can launch the game and test, or you can test after all the changes.
 
-![Balanced pistol in weapon selection](../../.gitbook/assets/newbie\_guide\_balanced\_pistol.png)
+![Balanced pistol in weapon selection](../.gitbook/assets/newbie\_guide\_balanced\_pistol.png)
 
 ### Enabling a weapon from a previous rundown
 
 All datablocks share some fields. One of these fields is called "internalEnabled" and basically determines whether that block exists for the game or not. To enable a previous weapon, the only thing we need to do (assuming the old blocks have not been broken by game updates) is set this field to `true` in the correct places.\
 For now we are going to enable the combat shotgun. Open PlayerOfflineGear datablock and find the block named "ShotgunAuto". Set "internalEnabled" to `true` on that block.
 
-![Combat shotgun block](../../.gitbook/assets/newbie\_guide\_offline\_gear.png)
+![Combat shotgun block](../.gitbook/assets/newbie\_guide\_offline\_gear.png)
 
 When you save this and launch the game, the combat shotgun should be available under special weapons.
 
@@ -114,16 +114,16 @@ Note that "persistentID" and "name" cannot repeat in the same file.
 Let's change a striker's stats to those of a big striker's using these references.\
 The main block of an enemy is Enemy datablock and the stats we're looking for are stored in EnemyBalancing datablock. The reference field is named "BalancingDataId".
 
-![Enemy to EnemyBalancing reference](../../.gitbook/assets/newbie\_guide\_balancing\_reference.png)
+![Enemy to EnemyBalancing reference](../.gitbook/assets/newbie\_guide\_balancing\_reference.png)
 
 To change the stats we just need to find the big striker's balancing data, get its persistentID (in this case it's 16), and set it on the striker data.
 
-![Edited striker data](../../.gitbook/assets/newbie\_guide\_balancing\_edited.png)
+![Edited striker data](../.gitbook/assets/newbie\_guide\_balancing\_edited.png)
 
 And that's it, **wave** strikers now have the balancing stats of a big striker. If you want, you can also change the balancing data of "Striker\_Hibernate" as well for easier testing and more suffering.
 
 * If you want to undo all your changes, you can delete the edited files and let them regenerate.
-* If you're wondering what fields do what, you can either interpret the name or check out the [datablock reference](../../reference/datablocks/).
+* If you're wondering what fields do what, you can either interpret the name or check out the [datablock reference](../reference/datablocks/).
 * Most fields that hold references to other blocks are of the type "uint" aka "UInt32".
 
 ## Introduction to errors
