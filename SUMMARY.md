@@ -221,6 +221,8 @@
 ## Mods Documentation
 
 * [Noteworthy Mods](mods-documentation/noteworthymods.md)
+* [Documentation](mods-documentation/documentation/README.md)
+  * [ConfigurableGlobalWaveSettings](mods-documentation/documentation/configurableglobalwavesettings.md)
 
 ## Unused Content
 
