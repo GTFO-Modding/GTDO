@@ -7,6 +7,7 @@
 
 * [The Complete Newbie Guide](guides/the-complete-newbie-guide.md)
 * [Your First Plugin](guides/your-first-plugin.md)
+* [Datamining](guides/datamining.md)
 
 ## Reference
 
