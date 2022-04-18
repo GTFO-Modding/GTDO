@@ -1,8 +1,4 @@
----
-description: GameData_ArchetypeDataBlock_bin.json
----
-
-# ArchetypeDataBlock
+# Archetype
 
 No description provided.
 
@@ -126,66 +122,66 @@ No description provided.
 
 No description provided.
 
-### Sentry_StartFireDelay - Single
+### Sentry\_StartFireDelay - Single
 
 No description provided.
 
-### Sentry_RotationSpeed - Single
+### Sentry\_RotationSpeed - Single
 
 No description provided.
 
-### Sentry_DetectionMaxRange - Single
+### Sentry\_DetectionMaxRange - Single
 
 No description provided.
 
-### Sentry_DetectionMaxAngle - Single
+### Sentry\_DetectionMaxAngle - Single
 
 No description provided.
 
-### Sentry_FireTowardsTargetInsteadOfForward - Boolean
+### Sentry\_FireTowardsTargetInsteadOfForward - Boolean
 
 No description provided.
 
-### Sentry_LongRangeThreshold - Single
+### Sentry\_LongRangeThreshold - Single
 
 No description provided.
 
-### Sentry_ShortRangeThreshold - Single
+### Sentry\_ShortRangeThreshold - Single
 
 No description provided.
 
-### Sentry_LegacyEnemyDetection - Boolean
+### Sentry\_LegacyEnemyDetection - Boolean
 
 No description provided.
 
-### Sentry_FireTagOnly - Boolean
+### Sentry\_FireTagOnly - Boolean
 
 No description provided.
 
-### Sentry_PrioTag - Boolean
+### Sentry\_PrioTag - Boolean
 
 No description provided.
 
-### Sentry_StartFireDelayTagMulti - Single
+### Sentry\_StartFireDelayTagMulti - Single
 
 No description provided.
 
-### Sentry_RotationSpeedTagMulti - Single
+### Sentry\_RotationSpeedTagMulti - Single
 
 No description provided.
 
-### Sentry_DamageTagMulti - Single
+### Sentry\_DamageTagMulti - Single
 
 No description provided.
 
-### Sentry_StaggerDamageTagMulti - Single
+### Sentry\_StaggerDamageTagMulti - Single
 
 No description provided.
 
-### Sentry_CostOfBulletTagMulti - Single
+### Sentry\_CostOfBulletTagMulti - Single
 
 No description provided.
 
-### Sentry_ShotDelayTagMulti - Single
+### Sentry\_ShotDelayTagMulti - Single
 
 No description provided.
