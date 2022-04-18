@@ -1,13 +1,13 @@
 # Table of contents
 
-* [Home](README.md)
-  * [Contributing](home/contributing.md)
+* [🏠 Home](README.md)
+  * [🫂 Contributing](home/contributing.md)
 
 ## Guides
 
-* [The Complete Newbie Guide](guides/the-complete-newbie-guide.md)
-* [Your First Plugin](guides/your-first-plugin.md)
-* [Datamining](guides/datamining.md)
+* [📖 The Complete Newbie Guide](guides/the-complete-newbie-guide.md)
+* [👶 Your First Plugin](guides/your-first-plugin.md)
+* [⛏ Datamining](guides/datamining.md)
 
 ## Reference
 
