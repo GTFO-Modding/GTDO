@@ -2,30 +2,30 @@
 description: GameData_SurvivalWavePopulationDataBlock_bin.json
 ---
 
-# SurvivalWavePopulationDataBlock
+# SurvivalWavePopulation
 
-No description provided.
-
-***
+This block is used for assigning [eEnemyType ](../enum-types.md#eenemytype)types from [SurvivalWaveSettingsDataBlock](survivalwavesettings.md) to actual enemies using PersistentID from [EnemyDataBlock](enemy.md).
 
 ## Fields
 
 ### WaveRoleWeakling - UInt32
 
-No description provided.
+[EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)Weakling for this population.
 
 ### WaveRoleStandard - UInt32
 
-No description provided.
+[EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)Standard for this population.
 
 ### WaveRoleSpecial - UInt32
 
-No description provided.
+[EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)Special for this population.
 
 ### WaveRoleMiniBoss - UInt32
 
-No description provided.
+[EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)MiniBoss for this population.
 
 ### WaveRoleBoss - UInt32
 
-No description provided.
+[EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)Boss for this population.
+
+Note that Boss is currently broken in base game.

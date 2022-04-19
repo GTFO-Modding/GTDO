@@ -2,86 +2,102 @@
 description: GameData_SurvivalWaveSettingsDataBlock_bin.json
 ---
 
-# SurvivalWaveSettingsDataBlock
+# SurvivalWaveSettings
 
-No description provided.
-
-***
+Provides the settings for alarms, scout waves and similar types of waves (all referred to as "alarm" in sections below).
 
 ## Fields
 
-### m_pauseBeforeStart - Single
+All time-related settings are specified in seconds.
 
-No description provided.
+### m\_pauseBeforeStart - Single
 
-### m_pauseBetweenGroups - Single
+Delay before waves start spawning after alarm start.
 
-No description provided.
+### m\_pauseBetweenGroups - Single
 
-### m_wavePauseMin_atCost - Single
+Delay between enemy groups.
 
-No description provided.
+### m\_wavePauseMin\_atCost - Single
 
-### m_wavePauseMax_atCost - Single
+Minimum score boundary for pauses between waves.
 
-No description provided.
+### m\_wavePauseMax\_atCost - Single
 
-### m_wavePauseMin - Single
+Maximum score boundary for pauses between waves.
 
-No description provided.
+Above this threshold, the timer for a new wave doesn't move.
 
-### m_wavePauseMax - Single
+Anywhere in-between min and max, the timer speed is lerped.
 
-No description provided.
+### m\_wavePauseMin - Single
 
-### m_populationFilter - [List eEnemyType](../enum-types.md#eenemytype) (enum)
+Delay between waves at or below minimum score boundary.
 
-No description provided.
+### m\_wavePauseMax - Single
 
-### m_filterType - [eEnemyFilterType](../enum-types.md#eenemyfiltertype) (enum)
+Delay between waves at maximum score boundary.
 
-No description provided.
+### m\_populationFilter - [List eEnemyType](../enum-types.md#eenemytype) (enum)
 
-### m_chanceToRandomizeSpawnDirectionPerWave - Single
+List of enemy types in filter.
 
-No description provided.
+### m\_filterType - [eEnemyFilterType](../enum-types.md#eenemyfiltertype) (enum)
 
-### m_chanceToRandomizeSpawnDirectionPerGroup - Single
+Whether to spawn only, or spawn all but the types included in population filter.
 
-No description provided.
+### m\_chanceToRandomizeSpawnDirectionPerWave - Single
 
-### m_overrideWaveSpawnType - Boolean
+Chance for spawn direction to change between waves.
 
-No description provided.
+### m\_chanceToRandomizeSpawnDirectionPerGroup - Single
 
-### m_survivalWaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#survivalwavespawntype) (enum)
+Change for spawn direction to change between groups.
 
-No description provided.
+### m\_overrideWaveSpawnType - Boolean
 
-### m_populationPointsTotal - Single
+Whether to override spawn type set in code.
 
-No description provided.
+### m\_survivalWaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#survivalwavespawntype) (enum)
 
-### m_populationPointsPerWaveStart - Single
+The spawn type when override is set to true.
 
-No description provided.
+### m\_populationPointsTotal - Single
 
-### m_populationPointsPerWaveEnd - Single
+The total population points for waves. The alarm automatically stops if this runs out. -1 is infinite.
 
-No description provided.
+### m\_populationPointsPerWaveStart - Single
 
-### m_populationPointsMinPerGroup - Single
+Population points for a wave at start ramp.
 
-No description provided.
+### m\_populationPointsPerWaveEnd - Single
 
-### m_populationPointsPerGroupStart - Single
+Population points for a wave at end ramp.
 
-No description provided.
+### m\_populationPointsMinPerGroup - Single
 
-### m_populationPointsPerGroupEnd - Single
+Minimum required cost for a group to spawn. This setting is related to the soft cap of enemies.
 
-No description provided.
+### m\_populationPointsPerGroupStart - Single
 
-### m_populationRampOverTime - Single
+Population points for a group at start ramp.
 
-No description provided.
+### m\_populationPointsPerGroupEnd - Single
+
+Population points for a group at end ramp.
+
+### m\_populationRampOverTime - Single
+
+Lerp over time for start-end population point settings.
+
+## Regarding population points and soft cap
+
+By default the game has some hardcoded values set that are used for score settings - cost of an enemy and soft cap.
+
+Enemy costs per type are the following: 0.75 1 1 2 2.
+
+Soft cap (MaxAllowedCost) is 25.
+
+All aggressive enemies count towards cap. If the remaining allowed cost is lower than the minimum required cost of a group, the group cannot spawn and the wave pauses until enough points are available. The enemy type here is determined in [EnemyDataBlock](enemy.md#enemytype-eenemytype-enum).
+
+The enemy type for wave population point cost is determined by wave settings.
