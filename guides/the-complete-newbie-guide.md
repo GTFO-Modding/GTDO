@@ -1,15 +1,15 @@
-# The Complete Newbie Guide
+# 📖 The Complete Newbie Guide
 
 ## Overview
 
 This page is for people who want to get started with modding GTFO but don't know anything about it.\
-If you're a programmer and you want to write actual mods, check out the introduction to [plugins](guides/broken-reference/).
+If you're a programmer and you want to write actual mods, check out the introduction to [plugins](your-first-plugin.md).
 
 Always remember that the official discord server is not the place to discuss anything modding related. Talk about it in the [modding discord](https://discord.gg/rRMPtv4FAh) instead.
 
 ## Prerequisites/Recommendations
 
-Datablocks are all stored in JSON, you need to get familiar with this text format. Basically it's a way to have data as text stored in a way that can be read by both humans and computers. There's an infinite number of guides and ways to learn JSON, but you can start with [w3schools](https://www.w3schools.com/js/js\_json\_intro.asp).
+Datablocks are all stored in JSON, you need to get familiar with this text format. Basically it's a way to have data as text stored in a way that can be read by both humans and computers. There's an infinite number of guides and ways to learn JSON. One place to start is [w3schools](https://www.w3schools.com/js/js\_json\_intro.asp).
 
 The text files can be edited even with notepad, but for your sanity I recommend using something more advanced. The most common option here is [vscode](https://code.visualstudio.com). It allows you to easily manage entire folders of files at once, provides syntax checking, highlighting, easy searching, replacing, and lots of other good stuff.\
 You can also add some vscode extensions for yourself such as [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) to further make your life easier. Either way you'll be looking at massive amounts of JSON so best be prepared.
@@ -79,6 +79,10 @@ A few tips before we get started:
 * All enums can be passed as numbers or strings. I personally recommend using strings since they often give more information than plain numbers, but both work equally fine.
 
 Remember, after initial generation, all datablocks should be located in GTFO\BepInEx\plugins\GameData\_XXXXX\\
+
+{% hint style="info" %}
+When looking for the blocks you see in the guide, you should try to match either name or persistentID. Other fields can point you to the right blocks, but they don't have to be unique. For example, there are several versions of the pistol.
+{% endhint %}
 
 ### Changing a weapon's stats
 
