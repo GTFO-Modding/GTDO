@@ -8,13 +8,17 @@ The level layout data of a single zone.
 
 ## Fields
 
+{% hint style="warning" %}
+The value range of all Subseeds is 0-1022.
+{% endhint %}
+
+{% hint style="warning" %}
+When changing the seeds of a zone (SubSeed, MarkerSubSeed, etc) keep in mind that there is a high chance subsequent zones will also have their layout affected. It's a good idea to change zone seeds in the order they appear in to avoid unwanted changes.
+{% endhint %}
+
 ### LocalIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
 Local index is an identifier, used to refer to this zone from elsewhere. While the enum values are limited, going over the max using underlying int type works fine for most features.
-
-{% hint style="warning" %}
-The value range of all Subseeds is 0-1022
-{% endhint %}
 
 ### AliasOverride - Int32
 
@@ -31,10 +35,6 @@ The prefix text when OverrideAliasPrefix is set to true.
 ### AliasPrefixShortOverride - String
 
 The short prefix ("Z") text when OverrideAliasPrefix is set to true.
-
-{% hint style="warning" %}
-When changing the seeds of a zone (SubSeed, MarkerSubSeed, etc) it is important to keep in mind that there is a high chance subsequent zones will also have their layout affected. It's a good idea to change zone seeds in the order they appear in to avoid unwanted changes.
-{% endhint %}
 
 ### SubSeed - Int32
 
@@ -156,7 +156,7 @@ Called when an enemy considered a "boss" dies in this zone. Unfortunately it see
 
 ### EventsOnTrigger - [List WorldEventFromSourceData](worldeventfromsourcedata.md) (nested type)
 
-New in R6.5, used in R6.5DX. Can be used to trigger events when a player approces an object in a level. Unfortunatly what objects act as triggers is defined in the prefabs, making them un-editable from datablocks.
+New in R6.5, used in R6.5DX. Can be used to trigger events when a player approaches an object in a level. Unfortunately what objects act as triggers is defined in the prefabs, making them uneditable from datablocks.
 
 ### ProgressionPuzzleToEnter - [ProgressionPuzzleData](progressionpuzzledata.md) (nested type)
 
