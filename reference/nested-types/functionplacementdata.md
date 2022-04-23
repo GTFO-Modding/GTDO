@@ -4,20 +4,18 @@ description: FunctionPlacementData
 
 # FunctionPlacementData
 
-No description provided.
-
-***
+Defines placement locations for "functions" (generators, disinfection stations).
 
 ## Fields
 
-### PlacementWeights - [ZonePlacementWeights](./zoneplacementweights.md) (nested type)
+### PlacementWeights - [ZonePlacementWeights](zoneplacementweights.md) (nested type)
 
-No description provided.
+Function placement weights.
 
 ### AreaSeedOffset - Int32
 
-No description provided.
+Seed offset for area selection.
 
 ### MarkerSeedOffset - Int32
 
-No description provided.
+Seed offset for marker selection.

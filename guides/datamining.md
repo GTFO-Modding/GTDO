@@ -2,7 +2,7 @@
 description: How to retrieve sounds, assets, models, etc. from the game files
 ---
 
-# Datamining
+# ⛏ Datamining
 
 ## Sounds
 

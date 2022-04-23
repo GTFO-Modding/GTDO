@@ -4,28 +4,26 @@ description: TerminalLogFileData
 
 # TerminalLogFileData
 
-No description provided.
-
-***
+Defines terminal logs.
 
 ## Fields
 
 ### FileName - String
 
-No description provided.
+Name of the log.
 
 ### FileContent - String
 
-No description provided.
+Text content of the log.
 
 ### AttachedAudioFile - UInt32
 
-No description provided.
+Audio ID attached to the log.
 
 ### AttachedAudioByteSize - Int32
 
-No description provided.
+Terminals display log file size. This is the "size" of the audio file attached.
 
 ### PlayerDialogToTriggerAfterAudio - UInt32
 
-No description provided.
+PlayerDialog to trigger after audio log finishes.

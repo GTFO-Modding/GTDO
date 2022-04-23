@@ -4,7 +4,7 @@ description: ProgressionPuzzleData
 
 # ProgressionPuzzleData
 
-No description provided.
+Defines puzzles required to open security doors.
 
 ***
 
@@ -12,16 +12,22 @@ No description provided.
 
 ### PuzzleType - [eProgressionPuzzleType](../enum-types.md#eprogressionpuzzletype) (enum)
 
-No description provided.
+The type of the puzzle.
 
-### CustomText - [LocalizedText](./localizedtext.md) (nested type)
+### CustomText - [LocalizedText](localizedtext.md) (nested type)
 
-No description provided.
+Custom text for the door.
+
+Only used for Locked\_No\_Key type.
 
 ### PlacementCount - Int32
 
-No description provided.
+Number of cells to place.
 
-### ZonePlacementData - [List ZonePlacementData](./zoneplacementdata.md) (nested type)
+Only used for PowerGenerator\_And\_PowerCell type.
 
-No description provided.
+Note that cells can also be spawned by big pickup distribution, arguably with better random placement results.
+
+### ZonePlacementData - [List ZonePlacementData](zoneplacementdata.md) (nested type)
+
+Alternative placement locations. Picked randomly from the list.

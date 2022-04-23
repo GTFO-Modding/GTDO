@@ -4,28 +4,26 @@ description: CustomTerminalCommand
 
 # CustomTerminalCommand
 
-No description provided.
-
-***
+Defines custom terminal commands.
 
 ## Fields
 
 ### Command - String
 
-No description provided.
+Name of the command.
 
 ### CommandDesc - String
 
-No description provided.
+Description of the command.
 
-### PostCommandOutputs - [List TerminalOutput](./terminaloutput.md) (nested type)
+### PostCommandOutputs - [List TerminalOutput](terminaloutput.md) (nested type)
 
-No description provided.
+List of output returned after terminal command is posted.
 
-### CommandEvents - [List WardenObjectiveEventData](./wardenobjectiveeventdata.md) (nested type)
+### CommandEvents - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
-No description provided.
+List of events to execute when command is executed.
 
-### SpecialCommandRule - [TERM_CommandRule](../enum-types.md#term_commandrule) (enum)
+### SpecialCommandRule - [TERM\_CommandRule](../enum-types.md#term\_commandrule) (enum)
 
-No description provided.
+Specifies what happens to the terminal command after executing it.

@@ -4,32 +4,30 @@ description: TerminalPlacementData
 
 # TerminalPlacementData
 
-No description provided.
-
-***
+Used for specifying terminal placements.
 
 ## Fields
 
-### PlacementWeights - [ZonePlacementWeights](./zoneplacementweights.md) (nested type)
+### PlacementWeights - [ZonePlacementWeights](zoneplacementweights.md) (nested type)
 
-No description provided.
+Terminal placement weights.
 
 ### AreaSeedOffset - Int32
 
-No description provided.
+Seed offset for area selection.
 
 ### MarkerSeedOffset - Int32
 
-No description provided.
+Seed offset for marker selection.
 
-### LocalLogFiles - [List TerminalLogFileData](./terminallogfiledata.md) (nested type)
+### LocalLogFiles - [List TerminalLogFileData](terminallogfiledata.md) (nested type)
 
-No description provided.
+List of logs in this terminal.
 
-### UniqueCommands - [List CustomTerminalCommand](./customterminalcommand.md) (nested type)
+### UniqueCommands - [List CustomTerminalCommand](customterminalcommand.md) (nested type)
 
-No description provided.
+List of unique commands in this terminal.
 
-### StartingStateData - [TerminalStartStateData](./terminalstartstatedata.md) (nested type)
+### StartingStateData - [TerminalStartStateData](terminalstartstatedata.md) (nested type)
 
-No description provided.
+Specified the starting state of the terminal (audio playing, password-protected).

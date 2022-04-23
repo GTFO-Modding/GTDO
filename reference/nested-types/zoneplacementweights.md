@@ -4,20 +4,18 @@ description: ZonePlacementWeights
 
 # ZonePlacementWeights
 
-No description provided.
-
-***
+Used to specify get a more specific preferred location in a zone for placement.
 
 ## Fields
 
 ### Start - Single
 
-No description provided.
+Multiplies weight of areas close to the start of the zone.
 
 ### Middle - Single
 
-No description provided.
+Multiplies weight of areas close to the middle of the zone.
 
 ### End - Single
 
-No description provided.
+Multiplies weight of areas close to the end of the zone.
