@@ -4,7 +4,7 @@ description: >-
   While, this is the page for you!
 ---
 
-# 🫂 Contributing
+# Contributing
 
 So you want to contribute to our wiki! Great! Lets get that forbidden knowledge on here with this simple X step program.
 
