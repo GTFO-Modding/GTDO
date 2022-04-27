@@ -4,7 +4,7 @@ description: ZonePlacementWeights
 
 # ZonePlacementWeights
 
-Used to specify get a more specific preferred location in a zone for placement.
+Used to specify a more specific preferred location in a zone for placement.
 
 ## Fields
 
