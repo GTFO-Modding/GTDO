@@ -10,11 +10,17 @@ Defines sleeper spawns.
 
 ### GroupType - [eEnemyGroupType](../enum-types.md#eenemygrouptype) (enum)
 
-Type of enemy group to match in EnemyGroupDataBlock.
+Type of enemy group to match in [EnemyGroupDataBlock](../datablocks/enemygroup.md).
+
+Hunter is made for blood doors.
+
+Patrol is broken.
+
+Rest of valid values result in hibernate, and invalid values result in no spawns.
 
 ### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
-Difficulty of enemy group (and further along - role) to match in EnemyGroupDataBlock and EnemyPopulationDataBlock.
+Difficulty of enemy group (and further along - role) to match in EnemyGroupDataBlock and [EnemyPopulationDataBlock](../datablocks/enemypopulation.md).
 
 ### Distribution - [eEnemyZoneDistribution](../enum-types.md#eenemyzonedistribution) (enum)
 
@@ -26,9 +32,11 @@ Rel\_Value will use score system.
 
 ### DistributionValue - Single
 
-When Distribution is set to Rel\_Value, the score multiplier for the value set in ExpeditionBalancing.
+When Distribution is set to Rel\_Value, the score multiplier for the value set in [ExpeditionBalancing](../datablocks/expeditionbalance.md).
 
 ## How to pick enemy spawns
+
+### Enemy spawning system
 
 Enemy spawns in this system are quite roundabout. The system for picking what enemy to spawn can be visualized like this:
 
@@ -51,3 +59,15 @@ EnemyPopulation Role "Scout" is special - it spawns enemies in scout mode. Use i
 
 EnemyPopulation Role "Patroller" is special but broken - don't use it.
 {% endhint %}
+
+### Simplifying the process
+
+The enemy selections are randomized by both enemy group and enemy population. This can be considered overkill, and some modders simplify selection by sticking to specific rules they set for themselves.
+
+For example, you can set rules for EnemyGroup Type:
+
+1. Use "Hunter" type for blood doors (naturally, since this is required for blood doors);
+2. Always use type 0 when randomizing spawns, only relying on difficulty to filter;
+3. Use type 1 and difficulty matching enemy persistentID when forcing specific enemies to spawn.
+
+The reason we don't just use type and difficulty both matching enemy persistentID is because the game is hardcoded to check for specific types and not spawn anything if it doesn't match. Difficulty has no checks to it.

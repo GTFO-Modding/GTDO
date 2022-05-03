@@ -4,28 +4,28 @@ description: EnemyRoleData
 
 # EnemyRoleData
 
-No description provided.
-
-***
+Maps Role/Difficulty matches to enemies using persistentIDs from [EnemyDataBlock](../datablocks/enemy.md).
 
 ## Fields
 
 ### Role - [eEnemyRole](../enum-types.md#eenemyrole) (enum)
 
-No description provided.
+Role match of this entry.
+
+Note that roles have special values, see more information in [EnemySpawningData](enemyspawningdata.md#how-to-pick-enemy-spawns).
 
 ### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
-No description provided.
+Difficulty match of this entry.
 
 ### Enemy - UInt32
 
-No description provided.
+Enemy persistentID of this entry.
 
 ### Cost - Single
 
-No description provided.
+Cost of this entry. Affects how many enemies spawn when this entry is selected.
 
 ### Weight - Single
 
-No description provided.
+Relative weight of this entry. Affects how likely it is to be selected when several are matched.
