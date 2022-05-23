@@ -78,7 +78,7 @@ This json is a pseudo-datablock containing the settings blocks, referenced from 
 
 To select settings for a level, add the text "globalwavesettings\_\[ID]" (case-insensitive) to DevInfo of your level in RundownDataBlock. The mod searches for the pattern, not exact match, so it doesn't matter how much or what text is specified as long as this pattern exists in it.
 
-![GlobalWaveSettings ID 2 added to the level "Hexahedrons"](<../../.gitbook/assets/image (1) (1).png>)
+![GlobalWaveSettings ID 2 added to the level "Hexahedrons"](<../../.gitbook/assets/image (1).png>)
 
 If a level does not have anything specified, the block with ID 1 will be used unless it doesn't exist. These settings are close to real game settings but with some bug fixes.
 
@@ -86,7 +86,7 @@ If a level does not have anything specified, the block with ID 1 will be used un
 
 Rundown developers should add this mod as a dependency and add the json file with this folder structure: `plugins\PersistentData`\\`ConfigurableGlobalWaveSettings\GlobalWaveSettingsDataBlock.json`
 
-![Example folder structure for the mod](<../../.gitbook/assets/image (3).png>)
+![Example folder structure for the mod](../../.gitbook/assets/image.png)
 
 ### How heat works
 

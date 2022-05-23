@@ -76,7 +76,7 @@ Min-max size of the zone. For predictable zone size these values should be the s
 
 The coverage of the zone is added up from its areas. Coverage of each area only has specific values assigned:
 
-![Area coverage size values](<../../.gitbook/assets/image (3) (1) (1).png>)
+![Area coverage size values](<../../.gitbook/assets/image (3) (1).png>)
 
 The size of an area is set in prefabs, meaning every area has its size predefined and never changes.
 

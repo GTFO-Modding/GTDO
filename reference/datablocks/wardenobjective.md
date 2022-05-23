@@ -6,15 +6,11 @@ To begin with, you can find any of the DBs in `GameData_WardenObjectiveDatablock
 
 At first glance it looks quite intimidating, right? Don’t worry. Let’s do some categorizations and split those fields up. To make it more succinct, I will use one of the datablock copy-pasted from `GameData_WardenObjectiveDatablock.json`, but remove some redundant parts and add some comments where necessary.&#x20;
 
-## Fields
-
 ## All Objective Type
 
 ### Type - [eWardenObjectiveType](../enum-types.md#ewardenobjectivetype) (enum)
 
 Here's a list of all available objective type.
-
-No description provided.
 
 * 0 - HSU\_FindTakeSample
 * 1 - Reactor\_Startup
@@ -31,11 +27,7 @@ No description provided.
 * 12 - GatherTerminal
 * 13 - CorruptedTerminalUplink
 
-### Header - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ## General fields&#x20;
-
-No description provided.
 
 ```json
 // The following are common fields used by all objective types.
@@ -83,23 +75,13 @@ No description provided.
 "ShowHelpDelay": 180.0,
 ```
 
-### MainObjective - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ## Waves / Events / Fog / Chained Puzzle fields
-
-No description provided.
 
 These fields tells the objective manager to spawn enemy waves and execute events at given point.
 
-### WardenObjectiveSpecialUpdateType - [eWardenObjectiveSpecialUpdateType](../enum-types.md#ewardenobjectivespecialupdatetype) (enum)
-
 ### On Elevator Land
 
-No description provided.
-
 Literally on elevator land (upon cage drop). The fields are all self-clarifying.&#x20;
-
-### GenericItemFromStart - UInt32
 
 ```json
 "WavesOnElevatorLand": [],
@@ -113,19 +95,11 @@ Literally on elevator land (upon cage drop). The fields are all self-clarifying.
 "FogTransitionDurationOnElevatorLand": 0.0, 
 ```
 
-No description provided.
-
 ### On Activate&#x20;
-
-### FindLocationInfo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 At first glance it's rather perplexing that what is "On Activate". Sadly, I have no idea how to describe it clearly ; )
 
-No description provided.
-
 For now, you may refer to its usage in different objective type get some hints. "WavesOnActivate" and "EventsOnActivate" are not used as frequently as "WavesOnGotoWin" and "EventsOnGotoWin"; in addition, the first part, which is the explanation for field "OnActivateOnSolveItem", is quite long.  So if you feel hard to understand this part, I suggest you skip this part and read "On Goto Win" first&#x20;
-
-### FindLocationInfoHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 ```json
 // The following explanation is copy-pasted from @FlowAria's message in 
@@ -180,15 +154,9 @@ For now, you may refer to its usage in different objective type get some hints. 
 // use of "WavesOnActivate" and "EventsOnActivate"
 ```
 
-No description provided.
-
 ### On Goto Win
 
-### GoToZone - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 By "Goto Win", it means objective completion.&#x20;
-
-No description provided.
 
 ```json
 // Stop all waves upon objective completion.
@@ -213,11 +181,7 @@ No description provided.
 "FogTransitionDurationOnGotoWin": 0.0,
 ```
 
-### GoToZoneHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ## Objective Chained Puzzle
-
-No description provided.
 
 ```json
 // Used by: 
@@ -245,35 +209,17 @@ No description provided.
 "ChainedPuzzleAtExitScanSpeedMultiplier": 1.0,
 ```
 
-### InZoneFindItem - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ## Objective-specific fields
-
-No description provided.
 
 The following fields are all Objective Specific. You can remove those irrelevant fields given your objective type.
 
-### InZoneFindItemHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 Some objective types don't have their own objective-specific fields.&#x20;
-
-No description provided.
 
 Some may require you to spawn certain item(s) in certain zone(s) in `LevelLayoutDatablock` to make the objective work properly.&#x20;
 
-### SolveItem - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
-
-
-No description provided.
-
 ### **3 - Gather Small Item**
 
-### SolveItemHelp - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 Objective Type for R6C1 and R6D4.
-
-No description provided.
 
 ```json
 // Gather Small Item
@@ -284,19 +230,11 @@ No description provided.
 "Gather_MaxPerZone": 0,
 ```
 
-### GoToWinCondition\_Elevator - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ### **6 - Retrieve Big Item**
-
-No description provided.
 
 Objective Type for R6A1 and R6C2 Secondary.
 
-### GoToWinConditionHelp\_Elevator - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 Note: for zones that spawn those Big Pickup Items (no matter if they are objective item or not), don't forget to set `"BigPickupDistribution"` in `LevelLayoutDatablock` to "true"
-
-No description provided.
 
 ```json
 // Retrieve Big Item 
@@ -307,19 +245,11 @@ No description provided.
 ],
 ```
 
-### GoToWinCondition\_CustomGeo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 ### **1/2 - Reactor Startup/Shutdown**
-
-No description provided.
 
 Geomorph-tied objective type. To make a Reactor Startup / Shutdown work properly, you must set certain geomorph in the level.&#x20;
 
-### GoToWinConditionHelp\_CustomGeo - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 Here's a list of the name of Reactor geomorph (use Ctrl + F in the doc '_**All Geomorph**_' to see what they look like):
-
-No description provided.
 
 * **Mining Reactor Open HA 1**\
   ****"Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo\_64x64\_mining\_reactor\_open\_HA\_01.prefab"
@@ -330,15 +260,9 @@ No description provided.
 * **Lab Reactor HA 2**\
   ****"Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo\_64x64\_lab\_reactor\_HA\_02.prefab"
 
-### GoToWinCondition\_ToMainLayer - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
 Note: For Reactor Shutdown, you can only use the **Mining Reactor HA 2** as your Reactor Geomorph. Without aid of a plugin, Reactor Shutdown would be broken if using the other 3 geomorphs.&#x20;
 
-No description provided.
-
 Finally, there's no Floodway Reactor so far.
-
-### GoToWinConditionHelp\_ToMainLayer - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 ```json
 // -------------------------------------
@@ -480,19 +404,11 @@ Finally, there's no Floodway Reactor so far.
 "DoNotSolveObjectiveOnReactorComplete": true, 
 ```
 
-No description provided.
-
 ### **5 - Special Terminal Command**
-
-### ShowHelpDelay - Single
 
 The most phenomenal use of this objective type is probably R5C2 Overload, in which "WavesOnActivate", "EventsOnActivate", "ChainedPuzzleMidObjective" are all well used.
 
-No description provided.
-
 Also R5B3 Secondary (or Extreme) is an example for how to use this objective type.&#x20;
-
-### WavesOnElevatorLand - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
 
 ```json
 // Special Terminal Command
@@ -504,19 +420,11 @@ Also R5B3 Secondary (or Extreme) is an example for how to use this objective typ
 "SpecialCommandRule": 0,
 ```
 
-No description provided.
-
 ### **7 - Distribute Powercell**
-
-### EventsOnElevatorLand - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 R6C2 Main Objective.&#x20;
 
-No description provided.
-
 Note:&#x20;
-
-### WaveOnElevatorWardenIntel - [LocalizedText](../nested-types/localizedtext.md) (nested type)
 
 1. If you are using this objective type as your Main Layer objective, \
    the required number of powercells will be given in the elevator cargo container.
@@ -525,34 +433,20 @@ Note:&#x20;
    Don't forget to set those zones' `"ForceBigpickupDistribution"` to `"true"`
 3. If you don't want the powercell to be given in the elevator cargo, you will need the help of `Tweaker`,  a plugin that enables you to manipulate your elevator cargo.
 
-No description provided.
-
 In addition, you need to spawn the required number of `PowerGenerator`(s) in  `LevelLayoutDatablock` in the desired zone(s). The objective manager would choose one of the unselected `PowerGenerator`(s) spawned in the zone as the objective generator.
-
-### FogTransitionDataOnElevatorLand - UInt32
 
 ```json
 // The number of powercell to distribute..
 "PowerCellsToDistribute": 0,
 ```
 
-No description provided.
-
 ### **8/13 - Terminal Uplink / Corrupted Uplink**
-
-### FogTransitionDurationOnElevatorLand - Single
 
 R6B2 Secondary / R6D2 Secondary&#x20;
 
-No description provided.
-
 To use this objective types, you need to spawn required number of terminals for each uplink in `LevelLayoutDatablock`.
 
-### OnActivateOnSolveItem - Boolean
-
 Also, for Corrupted Uplink, sadly, for each Uplink, you CAN'T spawn the 2 terminals for the uplink in 2 different zone.
-
-No description provided.
 
 ```json
 "Uplink_NumberOfVerificationRounds": 0,
@@ -572,19 +466,11 @@ No description provided.
 "Uplink_WaveSpawnType": 1,
 ```
 
-### WavesOnActivate - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
-
 ### **9 - Central Generator Cluster**
-
-No description provided.
 
 Geomorph-tied objective type (same as Reactor Startup/Shutdown).
 
-### EventsOnActivate - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
-
 Here's a list of the name of valid generator geomorph (in which you can spawn a generator cluster) . Use Ctrl + F in the doc '_**All Geomorph**_' to see what they look like:
-
-No description provided.
 
 * **Digsite hub HA 1**\
   ****"Assets/AssetPrefabs/Complex/Mining/Geomorphs/Digsite/geo\_64x64\_mining\_dig\_site\_hub\_HA\_01.prefab"
@@ -597,15 +483,9 @@ No description provided.
 * **Lab HA 3** \[Standard Geomorph]\
   "Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo\_64x64\_tech\_lab\_HA\_03.prefab"
 
-### StopAllWavesBeforeGotoWin - Boolean
-
 Note that I've marked the last 2 geomorph with \[Standard Geomorph]. If you directly copy-paste them into `"CustomGeomorph"` in `LevelLayoutDatablock`, your console will flood with Errors. Without editing `ComplexResourceSetDatablock`, if you want to use the 2 standard geomorphs, you will need to roll `subseed` to change the Zone's layout and `MarkerSubseed` to finally get a Generator Cluster. I suggest you read the '_**All Geomorph**_' doc to find out why.&#x20;
 
-No description provided.
-
 Oh, finally, in `LevelLayoutDatablock`, don't forget to set `"GeneratorClustersInZone"` to `1` in the desired zone.&#x20;
-
-### WavesOnGotoWin - [List GenericEnemyWaveData](../nested-types/genericenemywavedata.md) (nested type)
 
 ```json
 // Central Generator Cluster 
@@ -642,19 +522,11 @@ Oh, finally, in `LevelLayoutDatablock`, don't forget to set `"GeneratorClustersI
 ],
 ```
 
-No description provided.
-
 ### **10 - Activate Neonate\_HSU / Datasphere.  Unseal Hi-Sec Cargo Crate.**
-
-### WaveOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eretrieveexitwavetrigger) (enum)
 
 Geomorph-tied objective type (same as Reactor Startup/Shutdown).
 
-No description provided.
-
 Here's a list of the name of available geomorph. Use Ctrl + F in the doc '_**All Geomorph**_' to see what they look like:
-
-### EventsOnGotoWin - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 * **Lab Dead End Room 1**\
   ****"Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo\_64x64\_Lab\_dead\_end\_room\_02.prefab"
@@ -662,8 +534,6 @@ Here's a list of the name of available geomorph. Use Ctrl + F in the doc '_**All
   ****"Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo\_64x64\_Lab\_dead\_end\_room\_01.prefab"
 * **Refinery Dead End HA 1**\
   ****"Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo\_64x64\_mining\_refinery\_dead\_end\_HA\_01.prefab"
-
-No description provided.
 
 ```json
 // -------------------------------------
@@ -687,31 +557,17 @@ No description provided.
 "ActivateHSU_Events": [],
 ```
 
-### EventsOnGotoWinTrigger - [eRetrieveExitWaveTrigger](../enum-types.md#eretrieveexitwavetrigger) (enum)
-
 ### **11 - Survival**&#x20;
-
-No description provided.
 
 This type of objective begins upon entering the layer.&#x20;
 
-### FogTransitionDataOnGotoWin - UInt32
-
 For example, if you set the Secondary objective as Survival, the timer won't starts until any of your teammates pace into the Secondary Bulkhead Door.
-
-No description provided.
 
 The objective completes upon the timer ends.
 
-### FogTransitionDurationOnGotoWin - Single
-
 You can end the timer in advance by using a `"ForceWin"` event.
 
-No description provided.
-
 After the "prepare time" ends, the objective manager will start executing events in `"EventsOnActivate"`, and spawn waves in `"WavesOnActivate"`.
-
-### ChainedPuzzleToActive - UInt32
 
 ```json
 // The time for the players to "get prepared"
@@ -725,11 +581,7 @@ After the "prepare time" ends, the objective manager will start executing events
 "Survival_TimerToActivateTitle": "",
 ```
 
-No description provided.
-
 ### **12 - Gather Terminal**&#x20;
-
-### ChainedPuzzleMidObjective - UInt32
 
 ```json
 // Gather Terminal (R6D2 Main), works analogously as Gather Small Item. 
@@ -742,15 +594,9 @@ No description provided.
 "GatherTerminal_DownloadTime": -1.0, 
 ```
 
-No description provided.
-
 ## How to write an Event?
 
-### ChainedPuzzleAtExit - UInt32
-
 First, let's take a look at an event copy-pasted from the vanilla datablock:&#x20;
-
-No description provided.
 
 ```json
 {
@@ -785,15 +631,9 @@ No description provided.
 }
 ```
 
-### ChainedPuzzleAtExitScanSpeedMultiplier - Single
-
 A bit intimidating, right? Luckily, for a certain event type only few fields are used, which means we can remove unused fields to make our file look cleaner.
 
-No description provided.
-
 Here's a list of EventType:
-
-### Gather\_RequiredCount - Int32
 
 * 0 - None
 * 1 - OpenSecurityDoor
@@ -810,19 +650,11 @@ Here's a list of EventType:
 * 12 - ForceCompleteObjective
 * 999 - EventBreak
 
-No description provided.
-
 In the following I will try to explain what each event type does, and which fields are used. Also an example is provided for you to refer to and copy-paste.
-
-### Gather\_ItemId - UInt32
 
 ### 0 - None
 
-No description provided.
-
 Does nothing. You can use it to display Warden Intel.
-
-### Gather\_SpawnCount - Int32
 
 ```json
 {
@@ -834,19 +666,11 @@ Does nothing. You can use it to display Warden Intel.
 }
 ```
 
-No description provided.
-
 ### 1 - OpenSecurityDoor
-
-### Gather\_MaxPerZone - Int32
 
 Open a given Sec-Door, even the door is locked with a security alarm.&#x20;
 
-No description provided.
-
 Note: Without aid of a plugin, you can't open a sec-door that has already been "approached".
-
-### Retrieve\_Items - List UInt32
 
 ```json
 {
@@ -860,15 +684,9 @@ Note: Without aid of a plugin, you can't open a sec-door that has already been "
 }
 ```
 
-No description provided.
-
 ### 2 - UnlockSecurityDoor
 
-### ReactorWaves - [List ReactorWaveData](../nested-types/reactorwavedata.md) (nested type)
-
 Works similarly as OpenSecurityDoor.
-
-No description provided.
 
 ```json
 {
@@ -882,15 +700,9 @@ No description provided.
 }
 ```
 
-### LightsOnFromBeginning - Boolean
-
 ### 3 - AllLightsOff
 
-No description provided.
-
 Shutdown all lights in the current level.
-
-### LightsOnDuringIntro - Boolean
 
 ```json
 {
@@ -901,15 +713,9 @@ Shutdown all lights in the current level.
 }
 ```
 
-No description provided.
-
 ### 4 - AllLightsOn
 
-### LightsOnWhenStartupComplete - Boolean
-
 Turn on all lights in the current level.
-
-No description provided.
 
 ```json
 {
@@ -920,15 +726,9 @@ No description provided.
 }
 ```
 
-### DoNotSolveObjectiveOnReactorComplete - Boolean
-
 ### 5 - PlaySound
 
-No description provided.
-
 Play certain sound in/from specific zone. You will need to collect the sound ID from vanilla data.&#x20;
-
-### SpecialTerminalCommand - String
 
 ```json
 {
@@ -944,15 +744,9 @@ Play certain sound in/from specific zone. You will need to collect the sound ID 
 }
 ```
 
-No description provided.
-
 ### 6 - SetFogSettings
 
-### SpecialTerminalCommandDesc - String
-
 Changed the fog for the entire level.
-
-No description provided.
 
 ```json
 {
@@ -965,23 +759,13 @@ No description provided.
 }
 ```
 
-### PostCommandOutput - List String
-
 ### 7 - DimensionFlashTeam&#x20;
-
-No description provided.
 
 \[Not 100% sure if my explanation is correct. Rectify if anywhere wrong]
 
-### SpecialCommandRule - [TERM\_CommandRule](../enum-types.md#term\_commandrule) (enum)
-
 Teleport your team to a given dimension, and teleport back after a certain duration.
 
-No description provided.
-
 This event is used in R6A1 and R6C1.
-
-### PowerCellsToDistribute - Int32
 
 ```json
 {
@@ -996,23 +780,13 @@ This event is used in R6A1 and R6C1.
 }
 ```
 
-No description provided.
-
 ### 8 - DimensionWarpTeam&#x20;
-
-### Uplink\_NumberOfVerificationRounds - Int32
 
 \[Not 100% sure if my explanation is correct. Rectify if anywhere wrong]
 
-No description provided.
-
 Teleport your team to a given dimension. You need to execute another `"DimensionWarpTeam"` event in the dimension to teleport either to another dimension or back to reality.
 
-### Uplink\_NumberOfTerminals - Int32
-
 This event is used in R6D1 and R6D4.
-
-No description provided.
 
 ```json
 {
@@ -1026,31 +800,17 @@ No description provided.
 }
 ```
 
-### Uplink\_WaveSpawnType - [SurvivalWaveSpawnType](../enum-types.md#survivalwavespawntype) (enum)
-
 ### 9 - SpawnEnemyWave
-
-No description provided.
 
 Like the name said.&#x20;
 
-### CentralPowerGenClustser\_NumberOfGenerators - Int32
-
 Note: What's the difference between `"WardenIntel"` and `"IntelMessage"`?
-
-No description provided.
 
 I'm not pretty sure...&#x20;
 
-### CentralPowerGenClustser\_NumberOfPowerCells - Int32
-
 `"WardenIntel"` display intel message after `"Delay"` timer ends. &#x20;
 
-No description provided.
-
 `"IntelMessage"` won't change \[ZONE\_4] into actual zone name, and is displayed after `"SpawnDelay"` timer ends.
-
-### CentralPowerGenClustser\_FogDataSteps - [List GeneralFogDataStep](../nested-types/generalfogdatastep.md) (nested type)
 
 ```json
 {
@@ -1068,15 +828,9 @@ No description provided.
 }
 ```
 
-No description provided.
-
 ### 10 - StopEnemyWave
 
-### ActivateHSU\_ItemFromStart - UInt32
-
 Stop all waves. For example, scout wave, reactor wave, uplink wave... everything.
-
-No description provided.
 
 ```json
 {
@@ -1087,23 +841,13 @@ No description provided.
 }
 ```
 
-### ActivateHSU\_ItemAfterActivation - UInt32
-
 ### 11 - UpdateCustomSubObjective&#x20;
-
-No description provided.
 
 What's "Custom SubObjective"? It's the "\[PROGRESSION]" shown in the upper left of your hud, right below the objective description text.
 
-### ActivateHSU\_StopEnemyWavesOnActivation - Boolean
-
 What's the difference between `"CustomSubObjectiveHeader"` and `"CustomSubObjective"`? I don't know how to explain this. It is used in R6D3 Overload, which tells you to shutdown the Error alarm in Zone 292.
 
-No description provided.
-
 Note: unlike `"WardenIntel"`,   `"CustomSubObjectiveHeader"` and `"CustomSubObjective"` only accept reference to datablock. Do not use string.
-
-### ActivateHSU\_ObjectiveCompleteAfterInsertion - Boolean
 
 ```json
 {    
@@ -1117,19 +861,11 @@ Note: unlike `"WardenIntel"`,   `"CustomSubObjectiveHeader"` and `"CustomSubObje
 }
 ```
 
-No description provided.
-
 ### 12 - ForceCompleteObjective
-
-### ActivateHSU\_RequireItemAfterActivationInExitScan - Boolean
 
 Used in R6D1 to make the Main objective complete after the boss death.
 
-No description provided.
-
 Use `"Layer"` to specify which layer to force win.
-
-### ActivateHSU\_Events - [List WardenObjectiveEventData](../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 ```json
 {    
@@ -1141,19 +877,11 @@ Use `"Layer"` to specify which layer to force win.
 }
 ```
 
-No description provided.
-
 ### 999 - EventBreak
-
-### Survival\_TimeToActivate - Single
 
 Used in `"EventsOnActivate"`with `"OnActivateOnSolveItem"` set to `true`.  Split up the event sequence to several parts and execute each on solving objective item.
 
-No description provided.
-
 Take R6C1, R6C2 Main, R6D4 as example.
-
-### Survival\_TimeToSurvive - Single
 
 ```json
 {    
@@ -1161,41 +889,3 @@ Take R6C1, R6C2 Main, R6D4 as example.
     "Type": 999
 }
 ```
-
-No description provided.
-
-### Survival\_TimerTitle - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
-No description provided.
-
-### Survival\_TimerToActivateTitle - [LocalizedText](../nested-types/localizedtext.md) (nested type)
-
-No description provided.
-
-### GatherTerminal\_SpawnCount - Int32
-
-No description provided.
-
-### GatherTerminal\_RequiredCount - Int32
-
-No description provided.
-
-### GatherTerminal\_Command - String
-
-No description provided.
-
-### GatherTerminal\_CommandHelp - String
-
-No description provided.
-
-### GatherTerminal\_DownloadingText - String
-
-No description provided.
-
-### GatherTerminal\_DownloadCompleteText - String
-
-No description provided.
-
-### GatherTerminal\_DownloadTime - Single
-
-No description provided.
