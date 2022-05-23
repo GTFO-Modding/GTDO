@@ -8,6 +8,10 @@ This block is used for assigning [eEnemyType ](../enum-types.md#eenemytype)types
 
 ## Fields
 
+{% hint style="warning" %}
+PersistentID value range is changed from default to 0-65535
+{% endhint %}
+
 ### WaveRoleWeakling - UInt32
 
 [EnemyDataBlock](enemy.md) PersistentID of [eEnemyType ](../enum-types.md#eenemytype)Weakling for this population.

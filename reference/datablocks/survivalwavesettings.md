@@ -9,7 +9,7 @@ Provides the settings for alarms, scout waves and similar types of waves (all re
 ## Fields
 
 {% hint style="warning" %}
-SurvivalWaveSettings is the only known type where persistentID value range is changed from default to 0-255
+PersistentID value range is changed from default to 0-255
 {% endhint %}
 
 &#x20;All time-related settings are specified in seconds.

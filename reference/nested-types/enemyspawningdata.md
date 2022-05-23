@@ -40,7 +40,7 @@ When Distribution is set to Rel\_Value, the score multiplier for the value set i
 
 Enemy spawns in this system are quite roundabout. The system for picking what enemy to spawn can be visualized like this:
 
-![The process for picking what sleepers to spawn.](<../../.gitbook/assets/image (2).png>)
+![The process for picking what sleepers to spawn.](<../../.gitbook/assets/image (2) (1).png>)
 
 There are several layers of randomization present here. The process for each EnemySpawningData entry is as follows:
 

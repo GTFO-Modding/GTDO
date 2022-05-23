@@ -6,8 +6,15 @@
 ## Guides
 
 * [📖 The Complete Newbie Guide](guides/the-complete-newbie-guide.md)
+* [The Newbie Level Guide](guides/the-newbie-level-guide/README.md)
+  * [Isolating a level](guides/the-newbie-level-guide/isolating-a-level.md)
+  * [Editing rundown and level metadata](guides/the-newbie-level-guide/editing-rundown-and-level-metadata.md)
+  * [Adding and editing zones](guides/the-newbie-level-guide/adding-and-editing-zones.md)
+  * [Editing warden objective](guides/the-newbie-level-guide/editing-warden-objective.md)
+  * [Adding a secondary sector](guides/the-newbie-level-guide/adding-a-secondary-sector.md)
 * [👶 Your First Plugin](guides/your-first-plugin.md)
 * [⛏ Datamining](guides/datamining.md)
+* [VS Code Tips](guides/vs-code-tips.md)
 
 ## Reference
 
