@@ -18,7 +18,7 @@ Seed offset for area selection.
 
 ### MarkerSeedOffset - Int32
 
-Seed offset for marker selection.
+Seed offset for marker selection within selected area.
 
 ### LocalLogFiles - [List TerminalLogFileData](terminallogfiledata.md) (nested type)
 
