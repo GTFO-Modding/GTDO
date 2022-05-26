@@ -4,17 +4,15 @@ description: RundownStorytellingData
 
 # RundownStorytellingData
 
-No description provided.
-
-***
+Data for title, visuals, and description of the rundown.
 
 ## Fields
 
-### Title - [LocalizedText](./localizedtext.md) (nested type)
+### Title - [LocalizedText](localizedtext.md) (nested type)
 
-No description provided.
+The title of the rundown.
 
-### TextLog - [LocalizedText](./localizedtext.md) (nested type)
+### TextLog - [LocalizedText](localizedtext.md) (nested type)
 
 No description provided.
 
@@ -22,7 +20,7 @@ No description provided.
 
 No description provided.
 
-### Visuals - [RundownStorytellingVisualData](./rundownstorytellingvisualdata.md) (nested type)
+### Visuals - [RundownStorytellingVisualData](rundownstorytellingvisualdata.md) (nested type)
 
 No description provided.
 
@@ -30,10 +28,10 @@ No description provided.
 
 No description provided.
 
-### SurfaceDescription - [LocalizedText](./localizedtext.md) (nested type)
+### SurfaceDescription - [LocalizedText](localizedtext.md) (nested type)
 
 No description provided.
 
-### ExternalExpTitle - [LocalizedText](./localizedtext.md) (nested type)
+### ExternalExpTitle - [LocalizedText](localizedtext.md) (nested type)
 
 No description provided.

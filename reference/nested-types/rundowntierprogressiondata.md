@@ -4,24 +4,22 @@ description: RundownTierProgressionData
 
 # RundownTierProgressionData
 
-No description provided.
-
-***
+A nested type used to set the sector completion requirements to unlock a tier in a [rundown](../datablocks/rundown.md).
 
 ## Fields
 
-### MainSectors - Int32
+### **MainSectors - Int32**
 
-No description provided.
+The amount of completed main sectors required to reach this tier.
 
 ### SecondarySectors - Int32
 
-No description provided.
+The amount of completed secondary sectors required to reach this tier.
 
 ### ThirdSectors - Int32
 
-No description provided.
+The amount of completed third sectors required to reach this tier.
 
 ### AllClearedSectors - Int32
 
-No description provided.
+The amount of "all clear" sectors required to reach this tier.
