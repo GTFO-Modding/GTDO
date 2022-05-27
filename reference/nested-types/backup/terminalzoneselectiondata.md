@@ -16,7 +16,7 @@ Zone of the terminal selection.
 
 ### SeedType - [eSeedType](../enum-types.md#eseedtype) (enum)
 
-Which seed to use when picking.&#x20;
+Which seed to use when picking.
 
 Session should randomize between level attempts, Build should produce the same result always. Static is same as Build except the seed is set separately.
 

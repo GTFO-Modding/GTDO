@@ -12,6 +12,6 @@ Level layout is the main block defining what the level looks like and what you c
 
 The number of the first zone as seen in-game. The rest are derived from this and LocalIndex.
 
-### Zones - [List ExpeditionZoneData](../nested-types/expeditionzonedata.md) (nested type)
+### Zones - [List ExpeditionZoneData](../../nested-types/expeditionzonedata.md) (nested type)
 
 List containing the data of each zone. Each entry is one zone in the map. The first zone in the list is the entrance/elevator (NOT localindex 0).

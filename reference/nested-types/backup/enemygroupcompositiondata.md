@@ -4,7 +4,7 @@ description: EnemyGroupCompositionData (filled)
 
 # EnemyGroupCompositionData
 
-Defines entries in [EnemyGroup](../datablocks/enemygroup.md), each matching one [EnemyPopulation](../datablocks/enemypopulation.md) entry when selected.
+Defines entries in [EnemyGroup](../datablocks/main/enemygroup.md), each matching one [EnemyPopulation](../datablocks/main/enemypopulation.md) entry when selected.
 
 ## Fields
 

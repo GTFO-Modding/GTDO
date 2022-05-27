@@ -38,7 +38,7 @@ The short prefix ("Z") text when OverrideAliasPrefix is set to true.
 
 ### SubSeed - Int32
 
-Rerolls the layout of this zone specifically.&#x20;
+Rerolls the layout of this zone specifically.
 
 ### MarkerSubSeed - Int32
 
@@ -100,7 +100,7 @@ Only used when StartPosition is set to "From\_IndexWeight".
 
 ### StartExpansion - [eZoneBuildFromExpansionType](../enum-types.md#ezonebuildfromexpansiontype) (enum)
 
-Towards which direction should the source gate to this zone be.&#x20;
+Towards which direction should the source gate to this zone be.
 
 This direction is not dependent on the source zone, it's global. Forward is forward looking from elevator etc.
 
@@ -112,7 +112,7 @@ Directions are not dependent on the source zone. Forward is forward looking from
 
 Collapsed tries to take as little space as possible, expansional does the opposite.
 
-### LightSettings - UInt32
+### LightSettings - UInt32 ([LightSettingsDataBlock](../datablocks/main/lightsettings.md))
 
 Light settings for this zone. If set, overrides the value set in rundown datablock.
 
@@ -125,9 +125,9 @@ Does not make a difference for starting areas of the level/dimension.
 ### EventsOnEnter - [List LevelEventData](leveleventdata.md) (nested type)
 
 Events to trigger when the door to this zone is opened. \
-It's worth noting that the "Event" here is different from `WardenObjectiveEvent`. The 'Event' here are typically used to wake up the hibernating enemies in the zone (which cannot be achieved by using `WardenObjectiveEvent`).&#x20;
+It's worth noting that the "Event" here is different from `WardenObjectiveEvent`. The 'Event' here are typically used to wake up the hibernating enemies in the zone (which cannot be achieved by using `WardenObjectiveEvent`).
 
-This feature had been used in R6C3 Overload, the second zone (in which there's only a tank), to wake up the tank right behind the sec-door upon the door being opened. &#x20;
+This feature had been used in R6C3 Overload, the second zone (in which there's only a tank), to wake up the tank right behind the sec-door upon the door being opened. 
 
 ### EventsOnPortalWarp - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
@@ -135,7 +135,7 @@ Events to trigger when the portal scan is complete (this is for the source zone,
 
 ### EventsOnApproachDoor - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
-Events to trigger when a player gets close to the door. This is typically used to give players Warden Intel.&#x20;
+Events to trigger when a player gets close to the door. This is typically used to give players Warden Intel.
 
 ### EventsOnUnlockDoor - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
@@ -143,13 +143,13 @@ Events to trigger when door is unlocked. By 'unlock', it means:
 
 The keycard for the sec-door is inserted.\
 The power generator for the sec-door is powered up.\
-The door is locked with no key but is unlocked via an WardenObjectiveEvent (Not pretty sure about this one).&#x20;
+The door is locked with no key but is unlocked via an WardenObjectiveEvent (Not pretty sure about this one).
 
 ### EventsOnOpenDoor - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
 Events to trigger when the door to this zone is opened.
 
-If you're wondering what the difference is between this and EventsOnEnter, it's the type. As aforementioned, EventsOnEnter doesn't use the same type of events as most other events.&#x20;
+If you're wondering what the difference is between this and EventsOnEnter, it's the type. As aforementioned, EventsOnEnter doesn't use the same type of events as most other events.
 
 ### EventsOnDoorScanStart - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
@@ -172,9 +172,9 @@ New in R6.5, used in R6.5DX. Can be used to trigger events when a player approac
 
 Sets the puzzle to enter this zone, e.g. keycard, powercell, or requires a WardenObjectiveEvent.
 
-### ChainedPuzzleToEnter - UInt32
+### ChainedPuzzleToEnter - UInt32 ([ChainedPuzzleDataBlock](../datablocks/main/chainedpuzzle.md))
 
-Sets the chained puzzle (scan) to enter this zone. References [ChainedPuzzleDataBlock](../datablocks/chainedpuzzle.md).
+Sets the chained puzzle (scan) to enter this zone.
 
 ### IsCheckpointDoor - Boolean
 
@@ -214,7 +214,7 @@ Sleepers in this zone.
 
 ### EnemyRespawning - Boolean
 
-Whether enemy respawning is enabled in this zone.&#x20;
+Whether enemy respawning is enabled in this zone.
 
 ### EnemyRespawnRequireOtherZone - Boolean
 
@@ -230,11 +230,11 @@ How often the respawn check is run. Does not depend on enemies getting killed or
 
 ### EnemyRespawnCountMultiplier - Single
 
-Multiplier for how many enemies respawn.&#x20;
+Multiplier for how many enemies respawn.
 
 Does not change progressively. E.g. 0.5 and 20 initially should respawn enemies up to 10 whenever it falls below that number. Above 1 will just most likely cause more enemies to spawn before you even enter the zone for the first time.
 
-### EnemyRespawnExcludeList - List UInt32
+### EnemyRespawnExcludeList - List UInt32 ([EnemyDataBlock](../datablocks/main/enemy.md))
 
 List enemy IDs that should not be respawned. In base game typically used to prevent scouts from respawning.
 
@@ -248,7 +248,7 @@ Number of corpse clusters in zone.
 
 ### ResourceContainerClustersInZone - Int32
 
-Number of resource container clusters in zone.&#x20;
+Number of resource container clusters in zone.
 
 Not required for resources to spawn.
 
@@ -256,7 +256,7 @@ Might be unused.
 
 ### GeneratorClustersInZone - Int32
 
-Number of generator clusters in zone. Usually set to 1 for the zone in which you'd like to place your Central Power Generator Cluster (don't forget to use the right geomorph to make it spawn, and it may still require marker seed rerolls).&#x20;
+Number of generator clusters in zone. Usually set to 1 for the zone in which you'd like to place your Central Power Generator Cluster (don't forget to use the right geomorph to make it spawn, and it may still require marker seed rerolls).
 
 ### CorpsesInZone - [eZoneDistributionAmount](../enum-types.md#ezonedistributionamount) (enum)
 
@@ -280,19 +280,19 @@ Does not prevent anything from spawning, only affects LG. Should be set to `true
 
 ### AllowResourceContainerAllocation - Boolean
 
-Does not prevent anything from spawning, only affects LG. However, if you are going to distribute resource packs in a zone, set this field to `true`  to prevent marker offsetting between drops.&#x20;
+Does not prevent anything from spawning, only affects LG. However, if you are going to distribute resource packs in a zone, set this field to `true`  to prevent marker offsetting between drops.
 
 ### ForceBigPickupsAllocation - Boolean
 
 Affects LG. If you are going to place any Big Pickup items (e.g. powercell for the objective/sec-door, Datasphere, Fog Turbine), set this field to `true`  to prevent marker offsetting between drops.
 
-### ConsumableDistributionInZone - UInt32
+### ConsumableDistributionInZone - UInt32 ([ConsumableDistributionDataBlock](../datablocks/main/consumabledistribution.md))
 
-Consumable distribution in zone. References [ConsumableDistributionDataBlock](../datablocks/consumabledistribution.md#fields).
+Consumable distribution in zone.
 
-### BigPickupDistributionInZone - UInt32
+### BigPickupDistributionInZone - UInt32 ([BigPickupDistributionDataBlock](../datablocks/main/bigpickupdistribution.md))
 
-BigPickup distribution in zone. References [BigPickupDistributionDataBlock](../datablocks/bigpickupdistribution.md).
+BigPickup distribution in zone.
 
 ### TerminalPlacements - [List TerminalPlacementData](terminalplacementdata.md) (nested type)
 

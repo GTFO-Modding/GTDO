@@ -4,7 +4,7 @@ description: StaticSpawnDataContainer (filled)
 
 # StaticSpawnDataContainer
 
-Defines [static spawn](../datablocks/staticspawn.md#fields) placements.
+Defines [static spawn](../datablocks/rarely-edited/staticspawn.md) placements.
 
 ## Fields
 
@@ -32,7 +32,7 @@ How much (0-1) session seed is allowed to affect weight.
 
 Raises distribution result to this power.
 
-### StaticSpawnDataId - UInt32
+### StaticSpawnDataId - UInt32 ([StaticSpawnDataBlock](../datablocks/rarely-edited/staticspawn.md))
 
 Static spawn ID.
 
