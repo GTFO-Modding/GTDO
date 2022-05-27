@@ -1,5 +1,5 @@
 ---
-description: EnemyRoleData
+description: EnemyRoleData (filled)
 ---
 
 # EnemyRoleData

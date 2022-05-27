@@ -1,5 +1,5 @@
 ---
-description: GameData_SurvivalWavePopulationDataBlock_bin.json
+description: GameData_SurvivalWavePopulationDataBlock_bin.json (filled)
 ---
 
 # SurvivalWavePopulation

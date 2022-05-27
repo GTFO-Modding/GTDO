@@ -1,5 +1,5 @@
 ---
-description: RundownTierProgressionData
+description: RundownTierProgressionData (filled)
 ---
 
 # RundownTierProgressionData

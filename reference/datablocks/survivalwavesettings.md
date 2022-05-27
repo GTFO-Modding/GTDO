@@ -1,5 +1,5 @@
 ---
-description: GameData_SurvivalWaveSettingsDataBlock_bin.json
+description: GameData_SurvivalWaveSettingsDataBlock_bin.json (filled)
 ---
 
 # SurvivalWaveSettings

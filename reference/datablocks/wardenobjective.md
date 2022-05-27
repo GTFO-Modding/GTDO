@@ -1,3 +1,7 @@
+---
+description: GameData_WardenObjectiveDataBlock_bin.json (filled)
+---
+
 # WardenObjective
 
 All expeditions require at least 1 Warden Objective (for Main specifically), which determines if the objective for the level (or one of the layers within the level) is Reactor Startup, Central Generator Cluster and all that.

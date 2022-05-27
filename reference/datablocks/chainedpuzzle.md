@@ -1,5 +1,5 @@
 ---
-description: GameData_ChainedPuzzleDataBlock_bin.json
+description: GameData_ChainedPuzzleDataBlock_bin.json (filled)
 ---
 
 # ChainedPuzzle

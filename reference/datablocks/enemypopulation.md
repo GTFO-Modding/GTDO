@@ -1,5 +1,5 @@
 ---
-description: GameData_EnemyPopulationDataBlock_bin.json
+description: GameData_EnemyPopulationDataBlock_bin.json (filled)
 ---
 
 # EnemyPopulation

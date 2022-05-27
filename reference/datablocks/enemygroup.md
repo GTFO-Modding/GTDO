@@ -1,5 +1,5 @@
 ---
-description: GameData_EnemyGroupDataBlock_bin.json
+description: GameData_EnemyGroupDataBlock_bin.json (filled)
 ---
 
 # EnemyGroup

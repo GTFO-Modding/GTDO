@@ -1,5 +1,5 @@
 ---
-description: StaticSpawnDataContainer
+description: StaticSpawnDataContainer (filled)
 ---
 
 # StaticSpawnDataContainer

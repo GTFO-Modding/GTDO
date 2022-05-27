@@ -1,5 +1,5 @@
 ---
-description: EnemyGroupCompositionData
+description: EnemyGroupCompositionData (filled)
 ---
 
 # EnemyGroupCompositionData

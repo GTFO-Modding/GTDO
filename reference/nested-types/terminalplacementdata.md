@@ -1,5 +1,5 @@
 ---
-description: TerminalPlacementData
+description: TerminalPlacementData (filled)
 ---
 
 # TerminalPlacementData

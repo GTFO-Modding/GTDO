@@ -1,5 +1,5 @@
 ---
-description: EnemySpawningData
+description: EnemySpawningData (filled)
 ---
 
 # EnemySpawningData

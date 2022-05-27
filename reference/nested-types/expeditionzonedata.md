@@ -1,5 +1,5 @@
 ---
-description: ExpeditionZoneData
+description: ExpeditionZoneData (filled)
 ---
 
 # ExpeditionZoneData

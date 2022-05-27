@@ -1,5 +1,5 @@
 ---
-description: ActiveEnemyWaveData
+description: ActiveEnemyWaveData (filled)
 ---
 
 # ActiveEnemyWaveData

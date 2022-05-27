@@ -1,5 +1,5 @@
 ---
-description: CustomTerminalCommand
+description: CustomTerminalCommand (filled)
 ---
 
 # CustomTerminalCommand

@@ -1,5 +1,5 @@
 ---
-description: TerminalZoneSelectionData
+description: TerminalZoneSelectionData (filled)
 ---
 
 # TerminalZoneSelectionData
