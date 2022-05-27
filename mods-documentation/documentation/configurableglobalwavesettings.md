@@ -10,7 +10,7 @@ Discord: Stormpooper#3436
 
 ### Prerequisites
 
-This documentation assumes the user is familiar with base game [wave settings](../../reference/datablocks/survivalwavesettings.md) and [population](../../reference/datablocks/survivalwavepopulation.md).
+This documentation assumes the user is familiar with base game [wave settings](../../reference/datablocks/main/survivalwavesettings.md) and [population](../../reference/datablocks/main/survivalwavepopulation.md).
 
 ### Fields
 

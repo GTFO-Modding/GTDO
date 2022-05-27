@@ -480,11 +480,11 @@ Alarms' enemies are defined by 2 different datablocks, one of them is just linki
 
 From level layout, there's only one field to change here, ChainedPuzzleToEnter. That is both for alarm and normal scans, without one set, we can just open the door without even team scanning.&#x20;
 
-[Chained puzzles](../../reference/datablocks/chainedpuzzle.md) use 3 other blocks:
+[Chained puzzles](../../reference/datablocks/main/chainedpuzzle.md) use 3 other blocks:
 
-* [SurvivalWaveSettings](../../reference/datablocks/survivalwavesettings.md) - the wave settings. Defines what, when, how many, and where;
-* [SurvivalWavePopulation](../../reference/datablocks/survivalwavepopulation.md) - wave settings specify what roles can spawn, this block maps roles to enemies, making settings more reusable;
-* [ChainedPuzzleTypeDataBlock](../../reference/datablocks/chainedpuzzletype.md) - the types of scans, like full team, big, small, cluster etc. Mostly you just see the names and decide what scan to pick. I don't know any reason to edit this datablock.
+* [SurvivalWaveSettings](../../reference/datablocks/main/survivalwavesettings.md) - the wave settings. Defines what, when, how many, and where;
+* [SurvivalWavePopulation](../../reference/datablocks/main/survivalwavepopulation.md) - wave settings specify what roles can spawn, this block maps roles to enemies, making settings more reusable;
+* [ChainedPuzzleTypeDataBlock](../../reference/datablocks/rarely-edited/chainedpuzzletype.md) - the types of scans, like full team, big, small, cluster etc. Mostly you just see the names and decide what scan to pick. I don't know any reason to edit this datablock.
 
 Population ID 1 will give us striker in standard, shooter in special, and big striker in miniboss. As basic an alarm setup as it gets.
 
@@ -594,7 +594,7 @@ Spitters, respawns, a generator puzzle, a pitch black zone, fog - we've got 5 th
 
 #### Spitters
 
-Spitters are static spawn enemies, controlled by "StaticSpawnDataContainers". This references [StaticSpawnDataBlock](../../reference/datablocks/staticspawn.md), but it's rare to edit that directly in my experience. We can tackle just the level layout datablock after seeing that spitters are ID 1 in static spawns. Here's our block, placed in the first zone:
+Spitters are static spawn enemies, controlled by "StaticSpawnDataContainers". This references [StaticSpawnDataBlock](../../reference/datablocks/rarely-edited/staticspawn.md), but it's rare to edit that directly in my experience. We can tackle just the level layout datablock after seeing that spitters are ID 1 in static spawns. Here's our block, placed in the first zone:
 
 ```
       "StaticSpawnDataContainers": [
