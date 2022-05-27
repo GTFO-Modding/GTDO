@@ -1,15 +1,19 @@
 ---
-description: GameData_EnemyPopulationDataBlock_bin.json
+description: GameData_EnemyPopulationDataBlock_bin.json (filled)
 ---
 
 # EnemyPopulation
 
-No description provided.
+This datablock is used to select enemies by [EnemyGroupDataBlock](../main/enemygroup.md) through filters.
 
-***
+While technically you can have several population blocks, usually only the first block is used both in-game and by modders.
+
+{% hint style="info" %}
+Spawning enemies is explained in [EnemySpawningData](../../nested-types/enemyspawningdata.md#how-to-pick-enemy-spawns).
+{% endhint %}
 
 ## Fields
 
 ### RoleDatas - [List EnemyRoleData](../../nested-types/enemyroledata.md) (nested type)
 
-No description provided.
+List of enemy role entries.

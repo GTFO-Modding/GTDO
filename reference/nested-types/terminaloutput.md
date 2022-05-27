@@ -1,23 +1,21 @@
 ---
-description: TerminalOutput
+description: TerminalOutput (filled)
 ---
 
 # TerminalOutput
 
-No description provided.
-
-***
+Custom terminal command output.
 
 ## Fields
 
 ### LineType - [TerminalLineType](../enum-types.md#terminallinetype) (enum)
 
-No description provided.
+Visual type of output to display.
 
-### Output - [LocalizedText](./localizedtext.md) (nested type)
+### Output - [LocalizedText](localizedtext.md) (nested type)
 
-No description provided.
+Output text.
 
 ### Time - Single
 
-No description provided.
+Time when to display this output.

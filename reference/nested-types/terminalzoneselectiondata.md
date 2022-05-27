@@ -1,10 +1,10 @@
 ---
-description: TerminalZoneSelectionData
+description: TerminalZoneSelectionData (filled)
 ---
 
 # TerminalZoneSelectionData
 
-No description provided.
+Used to select existing terminals.
 
 ***
 
@@ -12,16 +12,20 @@ No description provided.
 
 ### LocalIndex - [eLocalZoneIndex](../enum-types.md#elocalzoneindex) (enum)
 
-No description provided.
+Zone of the terminal selection.
 
 ### SeedType - [eSeedType](../enum-types.md#eseedtype) (enum)
 
-No description provided.
+Which seed to use when picking.
+
+Session should randomize between level attempts, Build should produce the same result always. Static is same as Build except the seed is set separately.
+
+None might be broken.
 
 ### TerminalIndex - Int32
 
-No description provided.
+Might be unused.
 
 ### StaticSeed - Int32
 
-No description provided.
+Seed to use when SeedType is set to static.

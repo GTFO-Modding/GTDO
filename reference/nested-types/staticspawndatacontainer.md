@@ -1,39 +1,41 @@
 ---
-description: StaticSpawnDataContainer
+description: StaticSpawnDataContainer (filled)
 ---
 
 # StaticSpawnDataContainer
 
-No description provided.
-
-***
+Defines [static spawn](../datablocks/rarely-edited/staticspawn.md) placements.
 
 ## Fields
 
 ### Count - Int32
 
-No description provided.
+Count to spawn.
 
-### DistributionWeightType - [LG_StaticDistributionWeightType](../enum-types.md#lg_staticdistributionweighttype) (enum)
+### DistributionWeightType - [LG\_StaticDistributionWeightType](../enum-types.md#lg\_staticdistributionweighttype) (enum)
 
-No description provided.
+Defines random distribution type.
+
+Weight\_is\_zeroToOne\_startToEnd - scales DistributionWeight from zero to one by area.
+
+Weight\_is\_exact\_node\_index - clamps DistributionWeight to area index.
 
 ### DistributionWeight - Single
 
-No description provided.
+Weight value for distribution.
 
 ### DistributionRandomBlend - Single
 
-No description provided.
+How much (0-1) session seed is allowed to affect weight.
 
 ### DistributionResultPow - Single
 
-No description provided.
+Raises distribution result to this power.
 
 ### StaticSpawnDataId - UInt32 ([StaticSpawnDataBlock](../datablocks/rarely-edited/staticspawn.md))
 
-No description provided.
+Static spawn ID.
 
 ### FixedSeed - Int32
 
-No description provided.
+Defines fixed seed. Used when static spawn RandomType is set to fixed seed.

@@ -1,27 +1,31 @@
 ---
-description: ActiveEnemyWaveData
+description: ActiveEnemyWaveData (filled)
 ---
 
 # ActiveEnemyWaveData
 
-No description provided.
-
-***
+Blood door settings.
 
 ## Fields
 
+{% hint style="warning" %}
+You should always make sure the group type you're spawning is set to "Hunter", otherwise the enemies will not spawn aggressive.
+{% endhint %}
+
 ### HasActiveEnemyWave - Boolean
 
-No description provided.
+Whether the gate to the zone is a blood door.
 
 ### EnemyGroupInfrontOfDoor - UInt32 ([EnemyGroupDataBlock](../datablocks/main/enemygroup.md))
 
-No description provided.
+Enemy group to spawn right in front of the door.
 
 ### EnemyGroupInArea - UInt32 ([EnemyGroupDataBlock](../datablocks/main/enemygroup.md))
 
-No description provided.
+Enemy group to spawn anywhere in the area.
+
+By the time the door opens, most enemies will have reached the door.
 
 ### EnemyGroupsInArea - Int32
 
-No description provided.
+Count of EnemyGroupInArea instances to spawn.
