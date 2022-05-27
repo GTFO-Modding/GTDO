@@ -12,11 +12,11 @@ This is the meat of the guide. We're going to add a zone, add sleepers, alarms, 
 
 _However_, as always, we can't explore everything or we'll be here all week (and this part is already really long). I'll try not to go into too much detail on the meaning of fields this time either, since you can check the relevant blocks' reference to see what all the fields do.
 
-In practice I would just use the more readable blocks from the [typelist](https://github.com/UntiIted/OriginalDataBlocks) (or some people opt to make levels using the [datablockeditor](https://gtfo-modding.github.io/DatablockEditor/)), but we started with MTFO generated blocks so let's continue with them.&#x20;
+In practice I would just use the more readable blocks from the [typelist](https://github.com/UntiIted/OriginalDataBlocks) (or some people opt to make levels using the [datablockeditor](https://gtfo-modding.github.io/DatablockEditor/)), but we started with MTFO generated blocks so let's continue with them.
 
 ## Before we start
 
-There's a block we can change once for the whole rundown to make level editing life a bit easier in the long run.&#x20;
+There's a block we can change once for the whole rundown to make level editing life a bit easier in the long run.
 
 The block in question is ExpeditionBalanceDataBlock. We won't cover all of it, only the relevant parts.
 
@@ -99,14 +99,14 @@ Anyway, the last zone had localindex 10, so this one should have 11. You can ver
 ![Search for localindex 11 shows no results](<../../.gitbook/assets/image (24).png>)
 
 {% hint style="info" %}
-Remember, if you don't know what a field does, check the datablocks reference to see if it's documented.&#x20;
+Remember, if you don't know what a field does, check the datablocks reference to see if it's documented.
 {% endhint %}
 
 #### Step 3
 
 SubComplex is 2, so this would be a Storage zone. Let's change it to DigSite (0) instead.
 
-BuildFromLocalIndex is 0, so the source zone here will be the elevator zone. This is fine.&#x20;
+BuildFromLocalIndex is 0, so the source zone here will be the elevator zone. This is fine.
 
 StartPosition is 1 (From\_Start). The elevator zone is pretty small so this might not have impact, but let's change it to 2 (From\_AverageCenter).
 
@@ -330,7 +330,7 @@ Also normally you would take a look at the generated layout and settle on it bef
 
 #### Step 7
 
-All that's left before we finally drop in is resources and consumables.&#x20;
+All that's left before we finally drop in is resources and consumables.
 
 Before setting any spawns, always make sure these 2 are set to true:
 
@@ -376,7 +376,7 @@ While dropping in, look at the console to check if you don't see tons of errors 
 
 This is if we can't see game logs in bepinex console.
 
-Open the game logs folder `%userprofile%\AppData\LocalLow\10 Chambers Collective\GTFO` and locate the current log. Monitor it while dropping in. If the level generation fails, the latest log can start rapidly rising in size, meaning we entered an infinite error loop and will never finish cage drop.&#x20;
+Open the game logs folder `%userprofile%\AppData\LocalLow\10 Chambers Collective\GTFO` and locate the current log. Monitor it while dropping in. If the level generation fails, the latest log can start rapidly rising in size, meaning we entered an infinite error loop and will never finish cage drop.
 
 #### Either way
 
@@ -396,7 +396,7 @@ We can see the map is the same apart from something new generated at the top rig
 
 ![](<../../.gitbook/assets/image (26).png>)
 
-&#x20;Why did this happen?
+Why did this happen?
 
 There's no errors in the bepinex console and no particular errors in the game logs, but let's look closer.
 
@@ -478,7 +478,7 @@ Ah yes, the best difficulty filler in the game, abused on every single level. Ev
 
 Alarms' enemies are defined by 2 different datablocks, one of them is just linking 5 roles to enemies (out of those 5, one is broken in base game and never spawns).
 
-From level layout, there's only one field to change here, ChainedPuzzleToEnter. That is both for alarm and normal scans, without one set, we can just open the door without even team scanning.&#x20;
+From level layout, there's only one field to change here, ChainedPuzzleToEnter. That is both for alarm and normal scans, without one set, we can just open the door without even team scanning.
 
 [Chained puzzles](../../reference/datablocks/main/chainedpuzzle.md) use 3 other blocks:
 

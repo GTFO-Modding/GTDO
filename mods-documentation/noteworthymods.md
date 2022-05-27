@@ -16,9 +16,9 @@ LGTuner is a plugin that adds support to modify results of LevelGeneration by sw
 
 ## [MTFO.Ext.PartialData](https://gtfo.thunderstore.io/package/Flowaria/MTFO\_Extension\_PartialData/)
 
-PartialData is a plugin that helps Rundown Developers manage datablocks. It includes the following features:&#x20;
+PartialData is a plugin that helps Rundown Developers manage datablocks. It includes the following features:
 
-1. &#x20;_**Splitting up datablocks**_. It allows you to, for example, store `LevelLayoutData` for different layers/levels in separate files. Also allows separated files to be stored in different folders, enabling datablock categorization.
-2. _**Proxy for**_ `PersistentID` _**management**_. It allows you to use strings, which is more readable and make the datablocks more manageable, as the uint `persistentID`. PartialData will help you map persistentID strings to actual uint IDs and detect duplicate IDs. &#x20;
+1. _**Splitting up datablocks**_. It allows you to, for example, store `LevelLayoutData` for different layers/levels in separate files. Also allows separated files to be stored in different folders, enabling datablock categorization.
+2. _**Proxy for**_ `PersistentID` _**management**_. It allows you to use strings, which is more readable and make the datablocks more manageable, as the uint `persistentID`. PartialData will help you map persistentID strings to actual uint IDs and detect duplicate IDs. 
 3. _**Live Editing**_. Something similar to "Hot Reload" in MTFO. The difference is that you don't have to press the "Reload Gamedata" button - PartialData checks and applies those changes immediately after you have edited the datablock file, though for most datablocks you still have to regenerate the level to check the changes.\
-   Particularly,  changes of `LightSettings` of a zone will be applied immediately without regenerating the level.&#x20;
+   Particularly,  changes of `LightSettings` of a zone will be applied immediately without regenerating the level.
