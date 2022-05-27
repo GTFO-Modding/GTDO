@@ -2,7 +2,7 @@
 description: GameData_GameSetupDataBlock_bin.json
 ---
 
-# GameSetupDataBlock
+# GameSetup
 
 No description provided.
 

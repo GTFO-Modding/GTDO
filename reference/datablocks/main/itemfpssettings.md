@@ -2,7 +2,7 @@
 description: GameData_ItemFPSSettingsDataBlock_bin.json
 ---
 
-# ItemFPSSettingsDataBlock
+# ItemFPSSettings
 
 No description provided.
 

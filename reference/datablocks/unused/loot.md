@@ -2,7 +2,7 @@
 description: GameData_LootDataBlock_bin.json
 ---
 
-# LootDataBlock
+# Loot
 
 No description provided.
 

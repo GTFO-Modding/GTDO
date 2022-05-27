@@ -2,7 +2,7 @@
 description: GameData_GearPerkDataBlock_bin.json
 ---
 
-# GearPerkDataBlock
+# GearPerk
 
 No description provided.
 

@@ -2,7 +2,7 @@
 description: GameData_StaticSpawnDataBlock_bin.json
 ---
 
-# StaticSpawnDataBlock
+# StaticSpawn
 
 No description provided.
 

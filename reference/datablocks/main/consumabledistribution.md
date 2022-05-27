@@ -2,7 +2,7 @@
 description: GameData_ConsumableDistributionDataBlock_bin.json
 ---
 
-# ConsumableDistributionDataBlock
+# ConsumableDistribution
 
 No description provided.
 

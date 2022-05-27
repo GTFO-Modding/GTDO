@@ -2,7 +2,7 @@
 description: GameData_ItemDataBlock_bin.json
 ---
 
-# ItemDataBlock
+# Item
 
 No description provided.
 

@@ -2,7 +2,7 @@
 description: GameData_PlayerDialogDataBlock_bin.json
 ---
 
-# PlayerDialogDataBlock
+# PlayerDialog
 
 No description provided.
 

@@ -2,7 +2,7 @@
 description: GameData_BigPickupDistributionDataBlock_bin.json
 ---
 
-# BigPickupDistributionDataBlock
+# BigPickupDistribution
 
 No description provided.
 

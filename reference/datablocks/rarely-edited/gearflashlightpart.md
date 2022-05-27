@@ -2,7 +2,7 @@
 description: GameData_GearFlashlightPartDataBlock_bin.json
 ---
 
-# GearFlashlightPartDataBlock
+# GearFlashlightPart
 
 No description provided.
 

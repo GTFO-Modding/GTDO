@@ -2,7 +2,7 @@
 description: GameData_AtmosphereDataBlock_bin.json
 ---
 
-# AtmosphereDataBlock
+# Atmosphere
 
 No description provided.
 

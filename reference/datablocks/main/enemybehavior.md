@@ -2,7 +2,7 @@
 description: GameData_EnemyBehaviorDataBlock_bin.json
 ---
 
-# EnemyBehaviorDataBlock
+# EnemyBehavior
 
 No description provided.
 

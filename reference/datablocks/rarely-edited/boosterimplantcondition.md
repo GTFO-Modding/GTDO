@@ -2,7 +2,7 @@
 description: GameData_BoosterImplantConditionDataBlock_bin.json
 ---
 
-# BoosterImplantConditionDataBlock
+# BoosterImplantCondition
 
 No description provided.
 

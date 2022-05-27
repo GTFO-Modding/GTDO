@@ -2,7 +2,7 @@
 description: GameData_RecepieDataBlock_bin.json
 ---
 
-# RecepieDataBlock
+# Recepie
 
 No description provided.
 

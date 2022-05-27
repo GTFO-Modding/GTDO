@@ -2,7 +2,7 @@
 description: GameData_TextCharacterMetaDataBlock_bin.json
 ---
 
-# TextCharacterMetaDataBlock
+# TextCharacterMeta
 
 No description provided.
 

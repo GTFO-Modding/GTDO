@@ -2,7 +2,7 @@
 description: GameData_GearToolMainPartDataBlock_bin.json
 ---
 
-# GearToolMainPartDataBlock
+# GearToolMainPart
 
 No description provided.
 

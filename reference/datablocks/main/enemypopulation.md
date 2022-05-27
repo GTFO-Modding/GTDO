@@ -2,7 +2,7 @@
 description: GameData_EnemyPopulationDataBlock_bin.json
 ---
 
-# EnemyPopulationDataBlock
+# EnemyPopulation
 
 No description provided.
 

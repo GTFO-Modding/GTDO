@@ -2,7 +2,7 @@
 description: GameData_ChainedPuzzleTypeDataBlock_bin.json
 ---
 
-# ChainedPuzzleTypeDataBlock
+# ChainedPuzzleType
 
 No description provided.
 

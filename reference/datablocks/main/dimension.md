@@ -2,7 +2,7 @@
 description: GameData_DimensionDataBlock_bin.json
 ---
 
-# DimensionDataBlock
+# Dimension
 
 No description provided.
 

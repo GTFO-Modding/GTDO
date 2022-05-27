@@ -2,7 +2,7 @@
 description: GameData_GearReceiverPartDataBlock_bin.json
 ---
 
-# GearReceiverPartDataBlock
+# GearReceiverPart
 
 No description provided.
 

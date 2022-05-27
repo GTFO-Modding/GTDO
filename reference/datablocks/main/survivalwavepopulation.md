@@ -2,7 +2,7 @@
 description: GameData_SurvivalWavePopulationDataBlock_bin.json
 ---
 
-# SurvivalWavePopulationDataBlock
+# SurvivalWavePopulation
 
 No description provided.
 

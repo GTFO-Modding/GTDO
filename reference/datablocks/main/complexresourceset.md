@@ -2,7 +2,7 @@
 description: GameData_ComplexResourceSetDataBlock_bin.json
 ---
 
-# ComplexResourceSetDataBlock
+# ComplexResourceSet
 
 No description provided.
 

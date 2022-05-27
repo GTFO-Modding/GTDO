@@ -2,7 +2,7 @@
 description: GameData_EventSequenceActionDataBlock_bin.json
 ---
 
-# EventSequenceActionDataBlock
+# EventSequenceAction
 
 No description provided.
 

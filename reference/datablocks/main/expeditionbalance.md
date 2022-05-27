@@ -2,7 +2,7 @@
 description: GameData_ExpeditionBalanceDataBlock_bin.json
 ---
 
-# ExpeditionBalanceDataBlock
+# ExpeditionBalance
 
 No description provided.
 

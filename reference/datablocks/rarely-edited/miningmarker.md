@@ -2,7 +2,7 @@
 description: GameData_MiningMarkerDataBlock_bin.json
 ---
 
-# MiningMarkerDataBlock
+# MiningMarker
 
 No description provided.
 

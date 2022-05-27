@@ -2,7 +2,7 @@
 description: GameData_LightSettingsDataBlock_bin.json
 ---
 
-# LightSettingsDataBlock
+# LightSettings
 
 No description provided.
 

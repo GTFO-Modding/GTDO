@@ -2,7 +2,7 @@
 description: GameData_MeleeAnimationSetDataBlock_bin.json
 ---
 
-# MeleeAnimationSetDataBlock
+# MeleeAnimationSet
 
 No description provided.
 

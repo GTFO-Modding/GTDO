@@ -2,7 +2,7 @@
 description: GameData_CommodityDataBlock_bin.json
 ---
 
-# CommodityDataBlock
+# Commodity
 
 No description provided.
 

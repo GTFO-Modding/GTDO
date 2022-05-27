@@ -2,7 +2,7 @@
 description: GameData_WardenObjectiveDataBlock_bin.json
 ---
 
-# WardenObjectiveDataBlock
+# WardenObjective
 
 No description provided.
 

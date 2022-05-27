@@ -2,7 +2,7 @@
 description: GameData_GearToolGripPartDataBlock_bin.json
 ---
 
-# GearToolGripPartDataBlock
+# GearToolGripPart
 
 No description provided.
 

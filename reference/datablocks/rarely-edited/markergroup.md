@@ -2,7 +2,7 @@
 description: GameData_MarkerGroupDataBlock_bin.json
 ---
 
-# MarkerGroupDataBlock
+# MarkerGroup
 
 No description provided.
 

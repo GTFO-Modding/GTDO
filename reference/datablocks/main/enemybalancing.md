@@ -2,7 +2,7 @@
 description: GameData_EnemyBalancingDataBlock_bin.json
 ---
 
-# EnemyBalancingDataBlock
+# EnemyBalancing
 
 No description provided.
 

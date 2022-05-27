@@ -2,7 +2,7 @@
 description: GameData_ItemMovementAnimationDataBlock_bin.json
 ---
 
-# ItemMovementAnimationDataBlock
+# ItemMovementAnimation
 
 No description provided.
 

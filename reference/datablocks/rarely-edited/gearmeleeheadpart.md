@@ -2,7 +2,7 @@
 description: GameData_GearMeleeHeadPartDataBlock_bin.json
 ---
 
-# GearMeleeHeadPartDataBlock
+# GearMeleeHeadPart
 
 No description provided.
 

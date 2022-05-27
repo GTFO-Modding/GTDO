@@ -2,7 +2,7 @@
 description: GameData_WeaponDataBlock_bin.json
 ---
 
-# WeaponDataBlock
+# Weapon
 
 No description provided.
 

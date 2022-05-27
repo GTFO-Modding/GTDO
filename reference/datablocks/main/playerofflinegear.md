@@ -2,7 +2,7 @@
 description: GameData_PlayerOfflineGearDataBlock_bin.json
 ---
 
-# PlayerOfflineGearDataBlock
+# PlayerOfflineGear
 
 No description provided.
 

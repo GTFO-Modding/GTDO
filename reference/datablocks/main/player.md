@@ -2,7 +2,7 @@
 description: GameData_PlayerDataBlock_bin.json
 ---
 
-# PlayerDataBlock
+# Player
 
 No description provided.
 

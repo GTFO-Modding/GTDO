@@ -2,7 +2,7 @@
 description: GameData_TechMarkerDataBlock_bin.json
 ---
 
-# TechMarkerDataBlock
+# TechMarker
 
 No description provided.
 

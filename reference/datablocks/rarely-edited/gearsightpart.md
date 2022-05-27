@@ -2,7 +2,7 @@
 description: GameData_GearSightPartDataBlock_bin.json
 ---
 
-# GearSightPartDataBlock
+# GearSightPart
 
 No description provided.
 

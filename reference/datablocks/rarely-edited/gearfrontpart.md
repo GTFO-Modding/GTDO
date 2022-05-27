@@ -2,7 +2,7 @@
 description: GameData_GearFrontPartDataBlock_bin.json
 ---
 
-# GearFrontPartDataBlock
+# GearFrontPart
 
 No description provided.
 

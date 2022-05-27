@@ -2,7 +2,7 @@
 description: GameData_LevelGenSettingsDataBlock_bin.json
 ---
 
-# LevelGenSettingsDataBlock
+# LevelGenSettings
 
 No description provided.
 

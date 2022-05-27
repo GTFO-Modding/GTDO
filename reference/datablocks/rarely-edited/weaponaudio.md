@@ -2,7 +2,7 @@
 description: GameData_WeaponAudioDataBlock_bin.json
 ---
 
-# WeaponAudioDataBlock
+# WeaponAudio
 
 No description provided.
 

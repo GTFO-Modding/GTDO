@@ -2,7 +2,7 @@
 description: GameData_ArchetypeDataBlock_bin.json
 ---
 
-# ArchetypeDataBlock
+# Archetype
 
 No description provided.
 

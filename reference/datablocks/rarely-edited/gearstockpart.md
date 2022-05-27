@@ -2,7 +2,7 @@
 description: GameData_GearStockPartDataBlock_bin.json
 ---
 
-# GearStockPartDataBlock
+# GearStockPart
 
 No description provided.
 

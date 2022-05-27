@@ -2,7 +2,7 @@
 description: GameData_VanityItemsTemplateDataBlock_bin.json
 ---
 
-# VanityItemsTemplateDataBlock
+# VanityItemsTemplate
 
 No description provided.
 

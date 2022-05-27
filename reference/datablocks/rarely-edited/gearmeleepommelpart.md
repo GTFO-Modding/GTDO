@@ -2,7 +2,7 @@
 description: GameData_GearMeleePommelPartDataBlock_bin.json
 ---
 
-# GearMeleePommelPartDataBlock
+# GearMeleePommelPart
 
 No description provided.
 

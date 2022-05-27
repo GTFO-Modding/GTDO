@@ -2,7 +2,7 @@
 description: GameData_EffectNodeDataBlock_bin.json
 ---
 
-# EffectNodeDataBlock
+# EffectNode
 
 No description provided.
 

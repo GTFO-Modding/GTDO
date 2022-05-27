@@ -2,7 +2,7 @@
 description: GameData_MeleeArchetypeDataBlock_bin.json
 ---
 
-# MeleeArchetypeDataBlock
+# MeleeArchetype
 
 No description provided.
 

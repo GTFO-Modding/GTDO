@@ -2,7 +2,7 @@
 description: GameData_GearToolPayloadPartDataBlock_bin.json
 ---
 
-# GearToolPayloadPartDataBlock
+# GearToolPayloadPart
 
 No description provided.
 

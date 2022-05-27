@@ -2,7 +2,7 @@
 description: GameData_CustomAssetShardDataBlock_bin.json
 ---
 
-# CustomAssetShardDataBlock
+# CustomAssetShard
 
 No description provided.
 

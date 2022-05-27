@@ -2,7 +2,7 @@
 description: GameData_GearMagPartDataBlock_bin.json
 ---
 
-# GearMagPartDataBlock
+# GearMagPart
 
 No description provided.
 

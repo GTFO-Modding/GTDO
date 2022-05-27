@@ -2,7 +2,7 @@
 description: GameData_BoosterImplantTemplateDataBlock_bin.json
 ---
 
-# BoosterImplantTemplateDataBlock
+# BoosterImplantTemplate
 
 No description provided.
 

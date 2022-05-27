@@ -2,7 +2,7 @@
 description: GameData_VanityItemsLayerDropsDataBlock_bin.json
 ---
 
-# VanityItemsLayerDropsDataBlock
+# VanityItemsLayerDrops
 
 No description provided.
 

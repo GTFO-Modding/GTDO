@@ -2,7 +2,7 @@
 description: GameData_GearPartAttachmentDataBlock_bin.json
 ---
 
-# GearPartAttachmentDataBlock
+# GearPartAttachment
 
 No description provided.
 

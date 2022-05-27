@@ -2,7 +2,7 @@
 description: GameData_MusicStateDataBlock_bin.json
 ---
 
-# MusicStateDataBlock
+# MusicState
 
 No description provided.
 

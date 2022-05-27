@@ -2,7 +2,7 @@
 description: GameData_EnemyGroupDataBlock_bin.json
 ---
 
-# EnemyGroupDataBlock
+# EnemyGroup
 
 No description provided.
 

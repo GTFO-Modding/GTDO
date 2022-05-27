@@ -2,7 +2,7 @@
 description: GameData_ArtifactTagDataBlock_bin.json
 ---
 
-# ArtifactTagDataBlock
+# ArtifactTag
 
 No description provided.
 

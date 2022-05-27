@@ -2,7 +2,7 @@
 description: GameData_GearToolTargetingPartDataBlock_bin.json
 ---
 
-# GearToolTargetingPartDataBlock
+# GearToolTargetingPart
 
 No description provided.
 

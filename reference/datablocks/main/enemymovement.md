@@ -2,7 +2,7 @@
 description: GameData_EnemyMovementDataBlock_bin.json
 ---
 
-# EnemyMovementDataBlock
+# EnemyMovement
 
 No description provided.
 

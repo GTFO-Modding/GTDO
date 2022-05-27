@@ -2,7 +2,7 @@
 description: GameData_TextDataBlock_bin.json
 ---
 
-# TextDataBlock
+# Text
 
 No description provided.
 

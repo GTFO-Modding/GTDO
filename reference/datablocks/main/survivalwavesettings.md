@@ -2,7 +2,7 @@
 description: GameData_SurvivalWaveSettingsDataBlock_bin.json
 ---
 
-# SurvivalWaveSettingsDataBlock
+# SurvivalWaveSettings
 
 No description provided.
 

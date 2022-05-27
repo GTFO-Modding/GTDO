@@ -2,7 +2,7 @@
 description: GameData_RecoilDataBlock_bin.json
 ---
 
-# RecoilDataBlock
+# Recoil
 
 No description provided.
 

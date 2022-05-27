@@ -2,7 +2,7 @@
 description: GameData_WeaponMuzzleFlashDataBlock_bin.json
 ---
 
-# WeaponMuzzleFlashDataBlock
+# WeaponMuzzleFlash
 
 No description provided.
 

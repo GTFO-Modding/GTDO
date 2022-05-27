@@ -2,7 +2,7 @@
 description: GameData_ArtifactDistributionDataBlock_bin.json
 ---
 
-# ArtifactDistributionDataBlock
+# ArtifactDistribution
 
 No description provided.
 

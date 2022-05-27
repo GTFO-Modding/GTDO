@@ -2,7 +2,7 @@
 description: GameData_ServiceMarkerDataBlock_bin.json
 ---
 
-# ServiceMarkerDataBlock
+# ServiceMarker
 
 No description provided.
 

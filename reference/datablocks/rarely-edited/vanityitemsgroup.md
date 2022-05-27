@@ -2,7 +2,7 @@
 description: GameData_VanityItemsGroupDataBlock_bin.json
 ---
 
-# VanityItemsGroupDataBlock
+# VanityItemsGroup
 
 No description provided.
 

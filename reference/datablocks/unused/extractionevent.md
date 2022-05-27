@@ -2,7 +2,7 @@
 description: GameData_ExtractionEventDataBlock_bin.json
 ---
 
-# ExtractionEventDataBlock
+# ExtractionEvent
 
 No description provided.
 

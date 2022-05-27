@@ -2,7 +2,7 @@
 description: GameData_WeaponShellCasingDataBlock_bin.json
 ---
 
-# WeaponShellCasingDataBlock
+# WeaponShellCasing
 
 No description provided.
 

@@ -2,7 +2,7 @@
 description: GameData_BoosterImplantEffectDataBlock_bin.json
 ---
 
-# BoosterImplantEffectDataBlock
+# BoosterImplantEffect
 
 No description provided.
 

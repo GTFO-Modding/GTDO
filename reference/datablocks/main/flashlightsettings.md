@@ -2,7 +2,7 @@
 description: GameData_FlashlightSettingsDataBlock_bin.json
 ---
 
-# FlashlightSettingsDataBlock
+# FlashlightSettings
 
 No description provided.
 

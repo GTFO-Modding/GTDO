@@ -2,7 +2,7 @@
 description: GameData_GameplayTrailerDataBlock_bin.json
 ---
 
-# GameplayTrailerDataBlock
+# GameplayTrailer
 
 No description provided.
 
