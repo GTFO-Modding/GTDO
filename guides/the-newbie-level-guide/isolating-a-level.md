@@ -102,7 +102,7 @@ Repeat the same process as for rundown block: collapse it, copy it, collapse all
 
 Remember VS Code has to process \~160k lines here so don't be too harsh if it lags a bit. Deleting at least a part of the blocks does have practical use here as VS Code and its plugins won't take time to load when editing huge files like this one.
 
-You should now have around 1632 lines in this file (more if you didn't delete headers).&#x20;
+You should now have around 1632 lines in this file (more if you didn't delete headers).
 
 ### Regarding changing rundown ID to 1
 
@@ -124,9 +124,9 @@ Launch the game. You should now see only B1 in the rundown menu.
 
 ![R6.5 with only B2 Contaminant, now shown as B1.](<../../.gitbook/assets/image (44).png>)
 
-Drop in the level. It should load just fine. If you have freecam or some other mods, you can use them to check what the level looks like more easily. See if anything has changed.&#x20;
+Drop in the level. It should load just fine. If you have freecam or some other mods, you can use them to check what the level looks like more easily. See if anything has changed.
 
-You should see some marker (all sorts of objects placed in the level, a whole different topic) placement differences, also the lack of the secondary layer.&#x20;
+You should see some marker (all sorts of objects placed in the level, a whole different topic) placement differences, also the lack of the secondary layer.
 
 Oh and we deleted the bulkhead key, controller, and the bulkhead door (which is now just a security door) from main layer. If you want to restore that, you can do so by copying over these 3 from the original gamedata\_ folder we kept as a backup:
 

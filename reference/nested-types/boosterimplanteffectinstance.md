@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### BoosterImplantEffect - UInt32
+### BoosterImplantEffect - UInt32 ([BoosterImplantEffectDataBlock](../datablocks/rarely-edited/boosterimplanteffect.md))
 
 No description provided.
 

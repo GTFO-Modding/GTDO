@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### LevelLayoutData - UInt32
+### LevelLayoutData - UInt32 ([LevelLayoutDataBlock](../datablocks/main/levellayout.md))
 
 No description provided.
 
@@ -26,11 +26,11 @@ No description provided.
 
 No description provided.
 
-### DimensionResourceSetID - UInt32
+### DimensionResourceSetID - UInt32 ([ComplexResourceSetDataBlock](../datablocks/main/complexresourceset.md))
 
 No description provided.
 
-### DimensionFogData - UInt32
+### DimensionFogData - UInt32 ([FogSettingsDataBlock](../datablocks/main/fogsettings.md))
 
 No description provided.
 
@@ -74,7 +74,7 @@ No description provided.
 
 No description provided.
 
-### StaticLightSettings - UInt32
+### StaticLightSettings - UInt32 ([LightSettingsDataBlock](../datablocks/main/lightsettings.md))
 
 No description provided.
 
@@ -106,11 +106,11 @@ No description provided.
 
 No description provided.
 
-### StaticConsumableDistributionInZone - UInt32
+### StaticConsumableDistributionInZone - UInt32 ([ConsumableDistributionDataBlock](../datablocks/main/consumabledistribution.md))
 
 No description provided.
 
-### StaticBigPickupDistributionInZone - UInt32
+### StaticBigPickupDistributionInZone - UInt32 ([BigPickupDistributionDataBlock](../datablocks/main/bigpickupdistribution.md))
 
 No description provided.
 
@@ -178,7 +178,7 @@ No description provided.
 
 No description provided.
 
-### AtmosphereData - UInt32
+### AtmosphereData - UInt32 ([AtmosphereDataBlock](../datablocks/rarely-edited/atmosphere.md))
 
 No description provided.
 
@@ -206,7 +206,7 @@ No description provided.
 
 No description provided.
 
-### CloudsData - UInt32
+### CloudsData - UInt32 ([CloudsDataBlock](../datablocks/rarely-edited/clouds.md))
 
 No description provided.
 

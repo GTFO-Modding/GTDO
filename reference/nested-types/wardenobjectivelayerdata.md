@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### DataBlockId - UInt32
+### DataBlockId - UInt32 ([WardenObjectiveDataBlock](../datablocks/main/wardenobjective.md))
 
 No description provided.
 

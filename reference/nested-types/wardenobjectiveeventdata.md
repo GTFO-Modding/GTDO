@@ -10,19 +10,19 @@ No description provided.
 
 ## Fields
 
+### Type - [eWardenObjectiveEventType](../enum-types.md#ewardenobjectiveeventtype) (enum)
+
+No description provided.
+
 ### Trigger - [eWardenObjectiveEventTrigger](../enum-types.md#ewardenobjectiveeventtrigger) (enum)
 
 No description provided.
 
-### ChainPuzzle - UInt32
+### ChainPuzzle - UInt32 ([ChainedPuzzleDataBlock](../datablocks/main/chainedpuzzle.md))
 
 No description provided.
 
 ### UseStaticBioscanPoints - Boolean
-
-No description provided.
-
-### Type - [eWardenObjectiveEventType](../enum-types.md#ewardenobjectiveeventtype) (enum)
 
 No description provided.
 
@@ -70,7 +70,7 @@ No description provided.
 
 No description provided.
 
-### FogSetting - UInt32
+### FogSetting - UInt32 ([FogSettingsDataBlock](../datablocks/main/fogsettings.md))
 
 No description provided.
 

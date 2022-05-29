@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### m_fogDataId - UInt32
+### m_fogDataId - UInt32 ([FogSettingsDataBlock](../datablocks/main/fogsettings.md))
 
 No description provided.
 

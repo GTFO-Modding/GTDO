@@ -10,7 +10,7 @@ Discord: Stormpooper#3436
 
 ### Prerequisites
 
-This documentation assumes the user is familiar with base game [wave settings](../../reference/datablocks/survivalwavesettings.md) and [population](../../reference/datablocks/survivalwavepopulation.md).
+This documentation assumes the user is familiar with base game [wave settings](../../reference/datablocks/main/survivalwavesettings.md) and [population](../../reference/datablocks/main/survivalwavepopulation.md).
 
 ### Fields
 
@@ -100,7 +100,7 @@ The game picks enemies to spawn one-by-one following this process:
 4. Set weight of types exceeding max heat to 0;
 5. For other types, calculate weight like so: `(1 - heat / maxHeat) * baseWeight`
 6. Using weights, semi-randomly select a type;
-7. &#x20;If not all types are filtered out, but all weights are 0, the first type remaining after filtering is picked.
+7. If not all types are filtered out, but all weights are 0, the first type remaining after filtering is picked.
 8. If selection failed, return type `Standard`.
 
 * Note: thanks to the selection algorithm, heats can be driven way over max heat (e.g. if wave settings only allow MiniBoss spawns). The settings are global, so they persist to other waves, possibly distorting spawns until normal heat values are restored via cooldown.

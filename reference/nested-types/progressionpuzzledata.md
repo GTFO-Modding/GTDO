@@ -1,5 +1,5 @@
 ---
-description: ProgressionPuzzleData
+description: ProgressionPuzzleData (filled)
 ---
 
 # ProgressionPuzzleData

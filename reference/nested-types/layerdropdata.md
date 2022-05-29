@@ -22,6 +22,6 @@ No description provided.
 
 No description provided.
 
-### Groups - List UInt32
+### Groups - List UInt32 ([VanityItemsGroupDataBlock](../datablocks/rarely-edited/vanityitemsgroup.md))
 
 No description provided.

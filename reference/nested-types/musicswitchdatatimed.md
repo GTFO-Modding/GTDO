@@ -21,15 +21,3 @@ No description provided.
 ### switches - [List MusicSwitchData](./musicswitchdata.md) (nested type)
 
 No description provided.
-
-### timeIsClockRelative - Boolean
-
-No description provided.
-
-### active - Boolean
-
-No description provided.
-
-### nextTrigger - Single
-
-No description provided.

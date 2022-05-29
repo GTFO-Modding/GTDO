@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### preppedInstance - GameObject
-
-No description provided.
-
 ### weight - Single
 
 No description provided.

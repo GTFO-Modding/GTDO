@@ -22,7 +22,7 @@ No description provided.
 
 No description provided.
 
-### ChainPuzzle - UInt32
+### ChainPuzzle - UInt32 ([ChainedPuzzleDataBlock](../datablocks/main/chainedpuzzle.md))
 
 No description provided.
 
@@ -74,7 +74,7 @@ No description provided.
 
 No description provided.
 
-### FogSetting - UInt32
+### FogSetting - UInt32 ([FogSettingsDataBlock](../datablocks/main/fogsettings.md))
 
 No description provided.
 

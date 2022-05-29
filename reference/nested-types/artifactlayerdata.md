@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### ArtifactLayerDistributionDataID - UInt32
+### ArtifactLayerDistributionDataID - UInt32 ([ArtifactDistributionDataBlock](../datablocks/rarely-edited/artifactdistribution.md))
 
 No description provided.
 

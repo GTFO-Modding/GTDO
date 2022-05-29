@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### DimensionData - UInt32
+### DimensionData - UInt32 ([DimensionDataBlock](../datablocks/main/dimension.md))
 
 No description provided.
 

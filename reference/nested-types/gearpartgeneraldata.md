@@ -22,7 +22,7 @@ No description provided.
 
 No description provided.
 
-### GearCategoryFilter - UInt32
+### GearCategoryFilter - UInt32 ([GearCategoryFilterDataBlock](../datablocks/rarely-edited/gearcategoryfilter.md))
 
 No description provided.
 

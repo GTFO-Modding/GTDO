@@ -1,5 +1,5 @@
 ---
-description: AltitudeData
+description: AltitudeData (filled)
 ---
 
 # AltitudeData

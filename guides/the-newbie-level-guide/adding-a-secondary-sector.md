@@ -203,7 +203,7 @@ First thing to do here is find the custom geos. Remember you can only spawn some
 
 ![Breadcrumbs showing custom geos](<../../.gitbook/assets/image (16).png>)
 
-For the most part we care about the Objective block. I'll copy that to a new file to make search easier.&#x20;
+For the most part we care about the Objective block. I'll copy that to a new file to make search easier.
 
 I can see reactor gives 3 results and bridge 0, and I'm not sure the 3 reactor results are actual reactors anyway. Time to consult the [Geomorph sheet](https://docs.google.com/document/d/1iSYUASlQSaP6l7PD3HszsXSAxJ-wb8MAVwYxb9xW92c/edit) (although the search in google docs doesn't seem to be the best search ever).
 
@@ -644,7 +644,7 @@ Future me says it works fine. Excellent. The secondary layer is complete.
 
 ## Final test
 
-With the nightmare fully assembled, it's time for the last test. Go beat the whole level.&#x20;
+With the nightmare fully assembled, it's time for the last test. Go beat the whole level.
 
 I'd love to insert a full video of me clearing it with Calle QA recording in the background, game muted (except for the combat music mod playing looming dread), ~~cheats enabled~~, but I'm not gonna do that.
 

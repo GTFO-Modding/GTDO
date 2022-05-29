@@ -59,7 +59,7 @@ These are the most basic types:
 
 * [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32?view=net-6.0) - whole number from 0 to 4,294,967,295
 * [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32?view=net-6.0) - integer from -2,147,483,648 to 2,147,483,647
-* [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=net-6.0) (aka float) - approximate real number of varying precision with values ranging from negative 3.402823e38 to positive 3.402823e38.&#x20;
+* [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=net-6.0) (aka float) - approximate real number of varying precision with values ranging from negative 3.402823e38 to positive 3.402823e38.
 * [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean?view=net-6.0) - data type with 2 values - "true" and "false".
 * [String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0) - plain text.
 
@@ -73,7 +73,7 @@ These are the most basic types:
 
 The underlying enum type here is Int32, and it has 3 named values. Enums usually have this underlying type, start from 0, and move up in sequence, but there are exceptions. You can check out the [enum types](../enum-types.md) page to see all enums.
 
-In JSON, enums can be specified both as underlying type and as plain text.&#x20;
+In JSON, enums can be specified both as underlying type and as plain text.
 
 There are special cases where the enum values are combined, e.g. [EnemyMovementDataBlock](enemymovement.md) AnimationControllers, type [AnimatorControllerHandleName](../enum-types.md#animatorcontrollerhandlename).
 

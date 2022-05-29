@@ -10,30 +10,6 @@ No description provided.
 
 ## Fields
 
-### AttackLengthTime - Single
-
-No description provided.
-
-### AttackHitTime - Single
-
-No description provided.
-
-### DamageStartTime - Single
-
-No description provided.
-
-### DamageEndTime - Single
-
-No description provided.
-
-### AttackCamFwdHitTime - Single
-
-No description provided.
-
-### ComboEarlyTime - Single
-
-No description provided.
-
 ### Side - [eMeleeAttackSide](../enum-types.md#emeleeattackside) (enum)
 
 No description provided.

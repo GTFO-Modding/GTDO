@@ -123,7 +123,7 @@ Copying objective 117 and Header-GoToWinCondition\_ToMainLayer fields from 79 (a
 
 Let's go through a bit of analysis before we change it. Know that not all fields are relevant and not all fields behave the same on different objectives.
 
-* Type is [eWardenObjectiveType](../../reference/enum-types.md#ewardenobjectivetype). Here it's 8, terminal uplink.&#x20;
+* Type is [eWardenObjectiveType](../../reference/enum-types.md#ewardenobjectivetype). Here it's 8, terminal uplink.
 * The info fields are straight-forward and can be easily checked in-game. Pay attention to strings in capitals in \[] clauses, these are special values that get converted in code.
 * Waves during uplinks are set to settings 44, population 1. Population is standard, settings are set to standard and special only, single wave (10000 points), 5 enemies per group and 8 seconds between groups.
 * WaveOnGotoWinTrigger trigger is 0 (when objective is completed) but WavesOnGotoWin is empty, so there's no extraction alarm.
@@ -784,7 +784,7 @@ Alright, reactor waves it is. Here's the first block:
     },
 ```
 
-The first settings are all about time. Time for warmup, wave, and verify phases, as well as for repeat phases marked as "fail".&#x20;
+The first settings are all about time. Time for warmup, wave, and verify phases, as well as for repeat phases marked as "fail".
 
 VerifyInOtherZone determines if you get the code on HUD or if you have to find it on a terminal. ZoneForVerification is the local index of the zone to place the code in. No placement data here, which means we don't get to choose weights.
 

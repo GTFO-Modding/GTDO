@@ -4,7 +4,7 @@ description: EffectNodePrefabData
 
 # EffectNodePrefabData
 
-This type seems to be currently unused.
+No description provided.
 
 ***
 

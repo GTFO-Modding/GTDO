@@ -10,11 +10,11 @@ No description provided.
 
 ## Fields
 
-### WaveSettings - UInt32
+### WaveSettings - UInt32 ([SurvivalWaveSettingsDataBlock](../datablocks/main/survivalwavesettings.md))
 
 No description provided.
 
-### WavePopulation - UInt32
+### WavePopulation - UInt32 ([SurvivalWavePopulationDataBlock](../datablocks/main/survivalwavepopulation.md))
 
 No description provided.
 

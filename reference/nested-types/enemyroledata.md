@@ -1,10 +1,10 @@
 ---
-description: EnemyRoleData
+description: EnemyRoleData (filled)
 ---
 
 # EnemyRoleData
 
-Maps Role/Difficulty matches to enemies using persistentIDs from [EnemyDataBlock](../datablocks/enemy.md).
+Maps Role/Difficulty matches to enemies using persistentIDs from [EnemyDataBlock](../datablocks/main/enemy.md).
 
 ## Fields
 
@@ -18,7 +18,7 @@ Note that roles have special values, see more information in [EnemySpawningData]
 
 Difficulty match of this entry.
 
-### Enemy - UInt32
+### Enemy - UInt32 ([EnemyDataBlock](../datablocks/main/enemy.md))
 
 Enemy persistentID of this entry.
 

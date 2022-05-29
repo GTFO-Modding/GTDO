@@ -10,6 +10,6 @@ No description provided.
 
 ## Fields
 
-### PuzzleType - UInt32
+### PuzzleType - UInt32 ([ChainedPuzzleTypeDataBlock](../datablocks/rarely-edited/chainedpuzzletype.md))
 
 No description provided.

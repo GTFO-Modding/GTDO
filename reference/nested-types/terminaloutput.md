@@ -1,5 +1,5 @@
 ---
-description: TerminalOutput
+description: TerminalOutput (filled)
 ---
 
 # TerminalOutput

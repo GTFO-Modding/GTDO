@@ -1,5 +1,5 @@
 ---
-description: TerminalLogFileData
+description: TerminalLogFileData (filled)
 ---
 
 # TerminalLogFileData

@@ -10,10 +10,6 @@ No description provided.
 
 ## Fields
 
-### FunctionComponentLinks - Array List Int32
-
-No description provided.
-
 ### Compositions - [List MarkerComposition](./markercomposition.md) (nested type)
 
 No description provided.
@@ -22,7 +18,7 @@ No description provided.
 
 No description provided.
 
-### Group - UInt32
+### Group - UInt32 ([MarkerGroupDataBlock](../datablocks/rarely-edited/markergroup.md))
 
 No description provided.
 

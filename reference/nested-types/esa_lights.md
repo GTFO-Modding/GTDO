@@ -14,7 +14,7 @@ No description provided.
 
 No description provided.
 
-### LightSettingsID - UInt32
+### LightSettingsID - UInt32 ([LightSettingsDataBlock](../datablocks/main/lightsettings.md))
 
 No description provided.
 

@@ -1,5 +1,5 @@
 ---
-description: ActiveEnemyWaveData
+description: ActiveEnemyWaveData (filled)
 ---
 
 # ActiveEnemyWaveData
@@ -16,11 +16,11 @@ You should always make sure the group type you're spawning is set to "Hunter", o
 
 Whether the gate to the zone is a blood door.
 
-### EnemyGroupInfrontOfDoor - UInt32
+### EnemyGroupInfrontOfDoor - UInt32 ([EnemyGroupDataBlock](../datablocks/main/enemygroup.md))
 
 Enemy group to spawn right in front of the door.
 
-### EnemyGroupInArea - UInt32
+### EnemyGroupInArea - UInt32 ([EnemyGroupDataBlock](../datablocks/main/enemygroup.md))
 
 Enemy group to spawn anywhere in the area.
 

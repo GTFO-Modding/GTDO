@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### ItemID - UInt32
+### ItemID - UInt32 ([ItemDataBlock](../datablocks/main/item.md))
 
 No description provided.
 

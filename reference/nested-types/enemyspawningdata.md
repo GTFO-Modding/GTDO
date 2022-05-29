@@ -1,5 +1,5 @@
 ---
-description: EnemySpawningData
+description: EnemySpawningData (filled)
 ---
 
 # EnemySpawningData
@@ -10,7 +10,7 @@ Defines sleeper spawns.
 
 ### GroupType - [eEnemyGroupType](../enum-types.md#eenemygrouptype) (enum)
 
-Type of enemy group to match in [EnemyGroupDataBlock](../datablocks/enemygroup.md).
+Type of enemy group to match in [EnemyGroupDataBlock](../datablocks/main/enemygroup.md).
 
 Hunter is made for blood doors.
 
@@ -20,7 +20,7 @@ Rest of valid values result in hibernate, and invalid values result in no spawns
 
 ### Difficulty - [eEnemyRoleDifficulty](../enum-types.md#eenemyroledifficulty) (enum)
 
-Difficulty of enemy group (and further along - role) to match in EnemyGroupDataBlock and [EnemyPopulationDataBlock](../datablocks/enemypopulation.md).
+Difficulty of enemy group (and further along - role) to match in EnemyGroupDataBlock and [EnemyPopulationDataBlock](../datablocks/main/enemypopulation.md).
 
 ### Distribution - [eEnemyZoneDistribution](../enum-types.md#eenemyzonedistribution) (enum)
 
@@ -32,7 +32,7 @@ Rel\_Value will use score system.
 
 ### DistributionValue - Single
 
-When Distribution is set to Rel\_Value, the score multiplier for the value set in [ExpeditionBalancing](../datablocks/expeditionbalance.md).
+When Distribution is set to Rel\_Value, the score multiplier for the value set in [ExpeditionBalance](../datablocks/main/expeditionbalance.md).
 
 ## How to pick enemy spawns
 
