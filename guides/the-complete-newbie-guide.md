@@ -1,6 +1,14 @@
+---
+description: Welcome to hell
+---
+
 # 📖 The Complete Newbie Guide
 
 ## Overview
+
+{% hint style="warning" %}
+Be aware that game updates often break datablocks, especially levels and rundowns, to the point where most rundowns get abandoned.
+{% endhint %}
 
 This page is for people who want to get started with modding GTFO but don't know anything about it.\
 If you're a programmer and you want to write actual mods, check out the introduction to [plugins](your-first-plugin.md).
@@ -163,14 +171,10 @@ Also note that some errors can cause even more errors. When debugging, check the
 * You can use git to track changes. This allows you to easily see everything you changed at any time, which is useful for many purposes and especially debugging.
 * If something doesn't work correctly, check if your mods are up to date. Rundown updates often break them.
 * Game logs are useful for more than just finding exceptions, they provide information about what's going on in the game. You can make a desktop shortcut to the logs folder to access them faster.
-* Game updates can break existing datablocks. Be careful when using old blocks as reference (and especially careful when enabling disabled blocks). Also remember that blocks you create now may be broken by the game later. This is most common with level layout.
+* Remember, game updates can break existing datablocks, so be careful when using old blocks as reference (and especially careful when enabling disabled blocks).
 
-## Recommended content (TODO)
+## Recommended content
 
-link to datablock reference\
-link to regex guide\
-link to git guide\
-link to another datablocks guide\
-link to how to get rundown dev role\
-link to how to get dev tools\
-link to how to publish to thunderstore
+Check out the [Datablocks reference](../reference/datablocks/) main page for general information about datablocks. Learn to use datablocks reference to get information about specific datablocks.
+
+Once you have some experience, you can check out the [Newbie Level Guide](the-newbie-level-guide/) if you're interested in making levels/rundowns.

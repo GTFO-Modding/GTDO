@@ -24,9 +24,14 @@ All datablocks share 3 main fields, each of them has special meaning.
 
 #### persistentID - UInt32
 
-The ID of the block, used to reference by all other blocks. If you see any other field with type UInt32, chances are it's a reference to some other block.
+The ID of the block, used to reference by all other blocks. If you see any other field with type UInt32, chances are it's a reference to some other block (but that type is also used to reference wwise audio IDs).
 
 Must be unique.
+
+{% hint style="warning" %}
+Although persistentID type is UInt32, the actual value range is often much smaller because it is changed to other types in networking for example.\
+Sticking to a safe range of 1-65535 is recommended, but datablocks with even smaller ranges do exist ([SurvivalWaveSettings](main/survivalwavesettings.md) for example). If we notice any blocks with a range smaller than that, we will make a note about it in the relevant reference page.
+{% endhint %}
 
 #### internalEnabled - Boolean
 
@@ -34,7 +39,7 @@ Whether this block is enabled. Disabled blocks are ignored by the game.
 
 #### name - String
 
-The name of the block. This seems to be only for readability and is not used by the game.
+The name of the block. This seems to be only for readability and is not used by the game, but it may be used by mods.
 
 Must be unique.
 

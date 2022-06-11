@@ -9,7 +9,7 @@ Provides the settings for alarms, scout waves and similar types of waves (all re
 ## Fields
 
 {% hint style="warning" %}
-PersistentID value range is changed from default to 0-255
+PersistentID value range is changed from default to 1-255
 {% endhint %}
 
 All time-related settings are specified in seconds.
@@ -102,6 +102,6 @@ Enemy costs per type are the following: 0.75 1 1 2 2.
 
 Soft cap (MaxAllowedCost) is 25.
 
-All aggressive enemies count towards cap. If the remaining allowed cost is lower than the minimum required cost of a group, the group cannot spawn and the wave pauses until enough points are available. The enemy type here is determined in [EnemyDataBlock](../main/enemy.md#enemytype-eenemytype-enum).
+All aggressive enemies count towards cap. If the remaining allowed cost is lower than the minimum required cost of a group, the group cannot spawn and the wave pauses until enough points are available. The enemy type here is determined in [EnemyDataBlock](enemy.md#enemytype-eenemytype-enum).
 
 The enemy type for wave population point cost is determined by wave settings.

@@ -15,6 +15,7 @@
 * [👶 Your First Plugin](guides/your-first-plugin.md)
 * [⛏ Datamining](guides/datamining.md)
 * [VS Code Tips](guides/vs-code-tips.md)
+* [External Guides](guides/external-guides.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
 
 ## Reference
