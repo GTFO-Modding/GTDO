@@ -15,6 +15,7 @@
 * [👶 Your First Plugin](guides/your-first-plugin.md)
 * [⛏ Datamining](guides/datamining.md)
 * [VS Code Tips](guides/vs-code-tips.md)
+* [Introduction to Errors](guides/introduction-to-errors.md)
 
 ## Reference
 
@@ -149,11 +150,11 @@
   * [EnemyGroupCompositionData](reference/nested-types/enemygroupcompositiondata.md)
   * [EnemyRoleData](reference/nested-types/enemyroledata.md)
   * [EnemySpawningData](reference/nested-types/enemyspawningdata.md)
-  * [ESA_EnemyWave](reference/nested-types/esa_enemywave.md)
-  * [ESA_FogSettings](reference/nested-types/esa_fogsettings.md)
-  * [ESA_Lights](reference/nested-types/esa_lights.md)
-  * [ESA_PostEffect](reference/nested-types/esa_posteffect.md)
-  * [ESA_Sound](reference/nested-types/esa_sound.md)
+  * [ESA\_EnemyWave](reference/nested-types/esa\_enemywave.md)
+  * [ESA\_FogSettings](reference/nested-types/esa\_fogsettings.md)
+  * [ESA\_Lights](reference/nested-types/esa\_lights.md)
+  * [ESA\_PostEffect](reference/nested-types/esa\_posteffect.md)
+  * [ESA\_Sound](reference/nested-types/esa\_sound.md)
   * [EventSequenceActionListComponent](reference/nested-types/eventsequenceactionlistcomponent.md)
   * [ExpeditionData](reference/nested-types/expeditiondata.md)
   * [ExpeditionIndex](reference/nested-types/expeditionindex.md)
