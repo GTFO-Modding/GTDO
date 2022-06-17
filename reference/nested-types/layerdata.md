@@ -26,6 +26,10 @@ No description provided.
 
 No description provided.
 
+### ChainedObjectiveData - [List WardenObjectiveLayerData](./wardenobjectivelayerdata.md) (nested type)
+
+No description provided.
+
 ### ArtifactData - [ArtifactLayerData](./artifactlayerdata.md) (nested type)
 
 No description provided.

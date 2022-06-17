@@ -50,6 +50,10 @@ No description provided.
 
 No description provided.
 
+### ArenaDimensions - List UInt32 ([DimensionDataBlock](../main/dimension.md))
+
+No description provided.
+
 ### LinkedSlaveModels - [List LinkedSlaveModelData](../../nested-types/linkedslavemodeldata.md) (nested type)
 
 No description provided.

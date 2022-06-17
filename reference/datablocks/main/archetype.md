@@ -62,6 +62,14 @@ No description provided.
 
 No description provided.
 
+### ShellCasingSize - Single
+
+No description provided.
+
+### ShellCasingSpeedRange - Vector2
+
+No description provided.
+
 ### PiercingBullets - Boolean
 
 No description provided.

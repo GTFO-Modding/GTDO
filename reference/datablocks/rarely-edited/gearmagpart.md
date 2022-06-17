@@ -22,6 +22,10 @@ No description provided.
 
 No description provided.
 
+### DropSoundType - [MagazineDropSoundType](../../enum-types.md#magazinedropsoundtype) (enum)
+
+No description provided.
+
 ### General - [GearPartGeneralData](../../nested-types/gearpartgeneraldata.md) (nested type)
 
 No description provided.

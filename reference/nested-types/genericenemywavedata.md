@@ -18,6 +18,10 @@ No description provided.
 
 No description provided.
 
+### AreaDistance - Int32
+
+No description provided.
+
 ### SpawnDelay - Single
 
 No description provided.

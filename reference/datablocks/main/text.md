@@ -18,19 +18,11 @@ No description provided.
 
 No description provided.
 
-### MaxCharacterLength - Int32
-
-No description provided.
-
 ### Description - String
 
 No description provided.
 
 ### CharacterMetaData - UInt32 ([TextCharacterMetaDataBlock](../rarely-edited/textcharactermeta.md))
-
-No description provided.
-
-### Mood - [Mood](../../enum-types.md#mood) (enum)
 
 No description provided.
 

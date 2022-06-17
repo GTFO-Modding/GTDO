@@ -14,6 +14,10 @@ No description provided.
 
 No description provided.
 
+### Condition - [WorldEventConditionPair](./worldeventconditionpair.md) (nested type)
+
+No description provided.
+
 ### Trigger - [eWardenObjectiveEventTrigger](../enum-types.md#ewardenobjectiveeventtrigger) (enum)
 
 No description provided.
@@ -66,7 +70,11 @@ No description provided.
 
 No description provided.
 
-### DialogueID - UInt32
+### SoundSubtitle - [LocalizedText](./localizedtext.md) (nested type)
+
+No description provided.
+
+### DialogueID - UInt32 ([PlayerDialogDataBlock](../datablocks/rarely-edited/playerdialog.md))
 
 No description provided.
 
@@ -82,6 +90,10 @@ No description provided.
 
 No description provided.
 
+### EnemyID - UInt32
+
+No description provided.
+
 ### Position - Vector3
 
 No description provided.
@@ -91,6 +103,14 @@ No description provided.
 No description provided.
 
 ### Enabled - Boolean
+
+No description provided.
+
+### TerminalCommand - [TERM_Command](../enum-types.md#term_command) (enum)
+
+No description provided.
+
+### TerminalCommandRule - [TERM_CommandRule](../enum-types.md#term_commandrule) (enum)
 
 No description provided.
 

@@ -14,6 +14,18 @@ No description provided.
 
 No description provided.
 
+### UseCustomInfoText - Boolean
+
+No description provided.
+
+### CustomInfoText - [LocalizedText](./localizedtext.md) (nested type)
+
+No description provided.
+
+### KeepShowingLocalLogCount - Boolean
+
+No description provided.
+
 ### AudioEventEnter - UInt32
 
 No description provided.

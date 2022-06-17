@@ -17,3 +17,7 @@ No description provided.
 ### WorldFovZoom - Int32
 
 No description provided.
+
+### ZoomSensitivityModifier - Single
+
+No description provided.
