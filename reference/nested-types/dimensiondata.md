@@ -54,7 +54,19 @@ No description provided.
 
 No description provided.
 
+### DisableVFXEventOnWarp - Boolean
+
+No description provided.
+
 ### UseLocalDimensionSeeds - Boolean
+
+No description provided.
+
+### ForbidWaveSpawning - Boolean
+
+No description provided.
+
+### ForbidCarryItemWarps - Boolean
 
 No description provided.
 

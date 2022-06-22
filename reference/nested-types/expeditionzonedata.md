@@ -72,6 +72,10 @@ Sometimes you have to change seeds or zone sizes for this to generate correctly.
 
 Only values set as custom geomorphs in complex resource set can be specified here.
 
+### IgnoreRandomGeomorphRotation - Boolean
+
+No description provided.
+
 ### CoverageMinMax - Vector2
 
 Min-max size of the zone. For predictable zone size these values should be the same.
@@ -127,7 +131,7 @@ Does not make a difference for starting areas of the level/dimension.
 Events to trigger when the door to this zone is opened. \
 It's worth noting that the "Event" here is different from `WardenObjectiveEvent`. The 'Event' here are typically used to wake up the hibernating enemies in the zone (which cannot be achieved by using `WardenObjectiveEvent`).
 
-This feature had been used in R6C3 Overload, the second zone (in which there's only a tank), to wake up the tank right behind the sec-door upon the door being opened. 
+This feature had been used in R6C3 Overload, the second zone (in which there's only a tank), to wake up the tank right behind the sec-door upon the door being opened.
 
 ### EventsOnPortalWarp - [List WardenObjectiveEventData](wardenobjectiveeventdata.md) (nested type)
 
@@ -184,6 +188,10 @@ Whether to put a checkpoint scan here.
 
 Whether to play the generic "please enter the bioscan" voicelines.
 
+### SkipAutomaticProgressionObjective - Boolean
+
+No description provided.
+
 ### SecurityGateToEnter - [eSecurityGateType](../enum-types.md#esecuritygatetype) (enum)
 
 What type of gate should generate to this zone.
@@ -207,6 +215,10 @@ Events to trigger when disable alarm terminal command is called.
 ### ActiveEnemyWave - [ActiveEnemyWaveData](activeenemywavedata.md) (nested type)
 
 Blood door settings.
+
+### WorldEventChainedPuzzleDatas - [List SpecificChainPuzzleSpawnData](./specificchainpuzzlespawndata.md) (nested type)
+
+No description provided.
 
 ### EnemySpawningInZone - [List EnemySpawningData](enemyspawningdata.md) (nested type)
 
@@ -293,6 +305,10 @@ Consumable distribution in zone.
 ### BigPickupDistributionInZone - UInt32 ([BigPickupDistributionDataBlock](../datablocks/main/bigpickupdistribution.md))
 
 BigPickup distribution in zone.
+
+### SpecificPickupSpawningDatas - [List SpecificPickupSpawnData](./specificpickupspawndata.md) (nested type)
+
+No description provided.
 
 ### TerminalPlacements - [List TerminalPlacementData](terminalplacementdata.md) (nested type)
 

@@ -26,6 +26,10 @@ No description provided.
 
 No description provided.
 
+### DoNotMarkPickupItemsAsWardenObjectives - Boolean
+
+No description provided.
+
 ### FindLocationInfo - [LocalizedText](../../nested-types/localizedtext.md) (nested type)
 
 No description provided.
@@ -206,7 +210,7 @@ No description provided.
 
 No description provided.
 
-### SpecialTerminalCommandDesc - String
+### SpecialTerminalCommandDesc - [LocalizedText](../../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
@@ -254,6 +258,14 @@ No description provided.
 
 No description provided.
 
+### ActivateHSU_BringItemInElevator - Boolean
+
+No description provided.
+
+### ActivateHSU_MarkItemInElevatorAsWardenObjective - Boolean
+
+No description provided.
+
 ### ActivateHSU_StopEnemyWavesOnActivation - Boolean
 
 No description provided.
@@ -298,19 +310,55 @@ No description provided.
 
 No description provided.
 
-### GatherTerminal_CommandHelp - String
+### GatherTerminal_CommandHelp - [LocalizedText](../../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GatherTerminal_DownloadingText - String
+### GatherTerminal_DownloadingText - [LocalizedText](../../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
-### GatherTerminal_DownloadCompleteText - String
+### GatherTerminal_DownloadCompleteText - [LocalizedText](../../nested-types/localizedtext.md) (nested type)
 
 No description provided.
 
 ### GatherTerminal_DownloadTime - Single
+
+No description provided.
+
+### TimedTerminalSequence_NumberOfRounds - Int32
+
+No description provided.
+
+### TimedTerminalSequence_NumberOfTerminals - Int32
+
+No description provided.
+
+### TimedTerminalSequence_TimePerRound - Single
+
+No description provided.
+
+### TimedTerminalSequence_TimeForConfirmation - Single
+
+No description provided.
+
+### TimedTerminalSequence_UseFilterForSourceTerminalPicking - Boolean
+
+No description provided.
+
+### TimedTerminalSequence_SourceTerminalWorldEventObjectFilter - String
+
+No description provided.
+
+### TimedTerminalSequence_EventsOnSequenceStart - [List List WardenObjectiveEventData](../../nested-types/wardenobjectiveeventdata.md) (nested type)
+
+No description provided.
+
+### TimedTerminalSequence_EventsOnSequenceDone - [List List WardenObjectiveEventData](../../nested-types/wardenobjectiveeventdata.md) (nested type)
+
+No description provided.
+
+### TimedTerminalSequence_EventsOnSequenceFail - [List List WardenObjectiveEventData](../../nested-types/wardenobjectiveeventdata.md) (nested type)
 
 No description provided.
 

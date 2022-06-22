@@ -12,9 +12,13 @@ Defines terminal logs.
 
 Name of the log.
 
-### FileContent - String
+### FileContent - [LocalizedText](./localizedtext.md) (nested type)
 
 Text content of the log.
+
+### FileContentOriginalLanguage - [Language](../enum-types.md#language) (enum)
+
+No description provided.
 
 ### AttachedAudioFile - UInt32
 

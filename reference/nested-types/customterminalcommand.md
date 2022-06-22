@@ -12,7 +12,7 @@ Defines custom terminal commands.
 
 Name of the command.
 
-### CommandDesc - String
+### CommandDesc - [LocalizedText](./localizedtext.md) (nested type)
 
 Description of the command.
 

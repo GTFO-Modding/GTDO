@@ -56,6 +56,10 @@ No description provided.
 * MeleeResistance - 6
 * ProjectileResistance - 7
 * InfectionResistance - 8
+* DamageOverTime - 9
+* Nanoswarm_Shield - 10
+* Nanoswarm_Weakness - 11
+* ExplosionResistance - 12
 * PistolDamage - 50
 * SMGDamage - 51
 * DMRDamage - 52
@@ -95,6 +99,8 @@ No description provided.
 * GlowstickEffect - 156
 * BioscanSpeed - 157
 * MeleeDamage - 200
+* MovementSpeed - 250
+* MovementAcceleration - 251
 
 ### AnimatorControllerHandleName
 
@@ -109,6 +115,7 @@ No description provided.
 * EnemyBig - 256
 * EnemyExploder - 512
 * EnemyBirtherCrawlFlip - 1024
+* EnemyPouncer - 2048
 
 ### ArtifactCategory
 
@@ -897,6 +904,14 @@ No description provided.
 * ForceCompleteObjective - 12
 * LightsInZone - 13
 * LightsInZoneToggle - 14
+* AnimationTrigger - 15
+* SpawnEnemyOnPoint - 16
+* SetNavMarker - 17
+* StepProgressionObjective - 18
+* SetWorldEventCondition - 19
+* LockSecurityDoor - 20
+* SetTerminalCommand - 21
+* ActivateChainedPuzzle - 22
 * EventBreak - 999
 
 ### eWardenObjectiveSpecialUpdateType
@@ -921,6 +936,8 @@ No description provided.
 * Survival - 11
 * GatherTerminal - 12
 * CorruptedTerminalUplink - 13
+* Empty - 14
+* TimedTerminalSequence - 15
 
 ### eWardenObjectiveWinCondition
 
@@ -939,6 +956,8 @@ No description provided.
 * Empty - 7
 * StockAnim - 8
 * RightHandAnim - 9
+* MagazineAction - 10
+* EjectCasing - 11
 
 ### eWeaponFireMode
 
@@ -1057,6 +1076,21 @@ No description provided.
 * OnlyWarpToSpawnDimension - 2
 * OnlyWarpToOtherDimension - 3
 
+### Language
+
+* English - 1
+* French - 2
+* Italian - 3
+* German - 4
+* Spanish - 5
+* Russian - 6
+* Portuguese_Brazil - 7
+* Polish - 8
+* Japanese - 9
+* Korean - 10
+* Chinese_Traditional - 11
+* Chinese_Simplified - 12
+
 ### LG_FloorTransitionDirection
 
 * FloorUp - 0
@@ -1131,6 +1165,12 @@ No description provided.
 * ArtifactExotic - 7
 * ObjectiveScavangeItem - 8
 
+### MagazineDropSoundType
+
+* None - 0
+* Small - 1
+* Large - 2
+
 ### MaterialType
 
 * Concrete - 1
@@ -1148,12 +1188,6 @@ No description provided.
 * WeakLockMelee - 4096
 * Sand - 8192
 
-### Mood
-
-* None - 0
-* Happy - 1
-* Sad - 2
-
 ### MUS_State
 
 * None - 0
@@ -1163,7 +1197,7 @@ No description provided.
 * ElevatorGoingDown - 4
 * Exploration - 5
 * Tension - 6
-* CombatEncounter - 7
+* EncounterRegular - 7
 * CombatRegular - 8
 * CombatHidden - 9
 * SurvivalRegular - 10
@@ -1174,6 +1208,9 @@ No description provided.
 * TensionMax - 15
 * Theme - 16
 * Testing - 17
+* IntentionalCombatHidden - 18
+* IntentionalCombatRegular - 19
+* EncounterHidden - 20
 
 ### NetworkMode
 
@@ -1202,6 +1239,8 @@ No description provided.
 * Plug_SubComplex_Transition - 8
 * Tech_Reactor - 9
 * Tech_Portal - 10
+* Gardens - 11
+* Mining_Portal - 12
 
 ### SurvivalWaveSpawnType
 
@@ -1221,6 +1260,54 @@ No description provided.
 * SpinningWaitNoDone - 3
 * ProgressWait - 4
 * Warning - 5
+
+### TERM_Command
+
+* None - 0
+* Help - 1
+* Commands - 2
+* Cls - 3
+* Exit - 4
+* Open - 5
+* Close - 6
+* Activate - 7
+* Deactivate - 8
+* EmptyLine - 9
+* InvalidCommand - 10
+* DownloadData - 11
+* ViewSecurityLog - 12
+* Override - 13
+* DisableAlarm - 14
+* Locate - 15
+* ActivateBeacon - 16
+* Find - 17
+* ShowList - 18
+* Query - 19
+* Ping - 20
+* ReactorStartup - 21
+* ReactorVerify - 22
+* ReactorShutdown - 23
+* WardenObjectiveSpecialCommand - 24
+* TerminalUplinkConnect - 25
+* TerminalUplinkVerify - 26
+* TerminalUplinkConfirm - 27
+* ListLogs - 28
+* ReadLog - 29
+* Start - 30
+* TryUnlockingTerminal - 31
+* WardenObjectiveGatherCommand - 32
+* TerminalCorruptedUplinkConnect - 33
+* TerminalCorruptedUplinkVerify - 34
+* TimedConnectionSend - 35
+* TimedConnectionVerify - 36
+* UsedCommand - 37
+* UniqueCommand1 - 38
+* UniqueCommand2 - 39
+* UniqueCommand3 - 40
+* UniqueCommand4 - 41
+* UniqueCommand5 - 42
+* Info - 43
+* MAX_COUNT - 44
 
 ### TERM_CommandRule
 

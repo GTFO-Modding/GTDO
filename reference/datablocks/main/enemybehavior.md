@@ -86,6 +86,10 @@ No description provided.
 
 No description provided.
 
+### IgnoreBotsTargeting - Boolean
+
+No description provided.
+
 ### IsFlyer - Boolean
 
 No description provided.

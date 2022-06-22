@@ -28,6 +28,10 @@ You may take those wave settings already available in the vanilla datablocks int
 
 Determine what type(s) of enemy would spawn.
 
+### SurvivalWaveAreaDistance - Int32
+
+No description provided.
+
 ### DisableSurvivalWaveOnComplete - Boolean
 
 Specify whether to stop the wave after Chained Puzzle Completion. Typically set to `false` for ://ERROR! alarm.

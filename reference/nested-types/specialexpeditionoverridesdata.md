@@ -21,3 +21,15 @@ No description provided.
 ### HealthLevelAtExpeditionStart - Single
 
 No description provided.
+
+### StandardAmmoAtExpeditionStart - Single
+
+No description provided.
+
+### SpecialAmmoAtExpeditionStart - Single
+
+No description provided.
+
+### ToolAmmoAtExpeditionStart - Single
+
+No description provided.

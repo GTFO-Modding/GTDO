@@ -14,6 +14,26 @@ No description provided.
 
 No description provided.
 
+### IsSinglePlayer - Boolean
+
+No description provided.
+
+### SkipLobby - Boolean
+
+No description provided.
+
+### PutIconAboveTier - Boolean
+
+No description provided.
+
+### DisablePlayerVoicelines - Boolean
+
+No description provided.
+
+### ExcludeFromProgression - Boolean
+
+No description provided.
+
 ### Accessibility - [eExpeditionAccessibility](../enum-types.md#eexpeditionaccessibility) (enum)
 
 No description provided.
@@ -39,6 +59,14 @@ No description provided.
 No description provided.
 
 ### VanityItemsDropData - [VanityItemsDropData](./vanityitemsdropdata.md) (nested type)
+
+No description provided.
+
+### UseGearPicker - Boolean
+
+No description provided.
+
+### GearPicker - [GearPicker](./gearpicker.md) (nested type)
 
 No description provided.
 

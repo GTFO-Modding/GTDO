@@ -50,6 +50,18 @@ No description provided.
 
 No description provided.
 
+### nanoswarmShieldDamageMultiplierCurve - AnimationCurve
+
+No description provided.
+
+### nanoswarmShieldResistanceCurve - AnimationCurve
+
+No description provided.
+
+### nanoswarmNegativeResistanceCurve - AnimationCurve
+
+No description provided.
+
 ### battery - Int32
 
 No description provided.
