@@ -18,19 +18,21 @@ Whether to trigger alarm when the puzzle starts. Typically set to `false` for sc
 
 However, you can set this field to `true` even if you don't specify the enemy wave for the puzzle via the following fields. In that case, there will still be alarm sound but no enemy waves.
 
-### SurvivalWaveSettings - UInt32 ([SurvivalWaveSettingsDataBlock](../main/survivalwavesettings.md))
+### SurvivalWaveSettings - UInt32 ([SurvivalWaveSettingsDataBlock](survivalwavesettings.md))
 
 Determine how the wave spawns. You set this field to make the wave either a relatively regular, surge, diminished, or ://ERROR! alarm wave.
 
 You may take those wave settings already available in the vanilla datablocks into good use.
 
-### SurvivalWavePopulation - UInt32 ([SurvivalWavePopulationDataBlock](../main/survivalwavepopulation.md))
+### SurvivalWavePopulation - UInt32 ([SurvivalWavePopulationDataBlock](survivalwavepopulation.md))
 
 Determine what type(s) of enemy would spawn.
 
 ### SurvivalWaveAreaDistance - Int32
 
-No description provided.
+How many areas away from players should enemies spawn, with `2` being the default value if left unset.&#x20;
+
+Used in R7 to prevent enemy waves spawning too far away from the scan zone.
 
 ### DisableSurvivalWaveOnComplete - Boolean
 
