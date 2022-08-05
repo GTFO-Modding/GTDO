@@ -12,6 +12,10 @@ Discord: Stormpooper#3436
 
 This documentation assumes the user is familiar with base game [wave settings](../../reference/datablocks/main/survivalwavesettings.md) and [population](../../reference/datablocks/main/survivalwavepopulation.md).
 
+### Additional notes
+
+The [Warmup](https://gtfo.thunderstore.io/package/Untilted/Warmup/) rundown is used as a demonstration of this plugin.
+
 ### Fields
 
 {% hint style="warning" %}
