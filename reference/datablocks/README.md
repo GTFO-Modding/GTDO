@@ -110,8 +110,14 @@ Sometimes you see fields set to seemingly invalid values such as an empty string
 
 ### Additional notes
 
+#### Vector
+
 In datablocks, Vectors are messed up right now and generate with some fields that don't actually do anything:
 
 ![Vectors fields that aren't supposed to be there](<../../.gitbook/assets/image (2).png>)
 
 You can ignore or delete these.
+
+#### Time fields
+
+Fields related to time/length/duration are specified in seconds unless stated otherwise.
