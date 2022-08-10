@@ -1,10 +1,10 @@
 ---
-description: GameData_PlayerOfflineGearDataBlock_bin.json
+description: GameData_PlayerOfflineGearDataBlock_bin.json (filled)
 ---
 
 # PlayerOfflineGear
 
-No description provided.
+***
 
 ***
 
@@ -12,8 +12,10 @@ No description provided.
 
 ### Type - [eOfflineGearType](../../enum-types.md#eofflinegeartype) (enum)
 
-No description provided.
+The only known use and difference here is "RundownSpecificInventory" which simply changes the text displayed in lobby.
 
 ### GearJSON - String
 
-No description provided.
+This innocent little string here contains an absurd amount of information in an even more absurd format. It's most likely this way because it's sent over networking and devs didn't care enough to make it more readable in datablocks.
+
+This JSON and its meaning (including various related datablocks) is covered in the weapons guide in [External Guides](../../../guides/external-guides.md#weapon-guide).

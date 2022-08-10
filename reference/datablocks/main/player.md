@@ -1,10 +1,10 @@
 ---
-description: GameData_PlayerDataBlock_bin.json
+description: GameData_PlayerDataBlock_bin.json (filled)
 ---
 
 # Player
 
-No description provided.
+***
 
 ***
 
@@ -12,267 +12,287 @@ No description provided.
 
 ### health - Single
 
-No description provided.
+The max health of a player.
 
 ### healthRegenStartDelayAfterDamage - Single
 
-No description provided.
+How long it takes for health to start regenerating after taking damage.
 
 ### healthRegenRelMax - Single
 
-No description provided.
+Relative max hp to regenerate.
+
+E.g. 0.5 from 100 base would be 50.
 
 ### healthRegenDelay - Single
 
-No description provided.
+Delay between health regeneration updates.
 
 ### healthRegenPerSecond - Single
 
-No description provided.
+How much health is regenerated per second.
 
 ### friendlyFireMulti - Single
 
-No description provided.
+Friendly fire damage multiplier.
+
+Currently broken for tools.
 
 ### fallDamageMinHeight - Single
 
-No description provided.
+Minimum height a player has to fall to take fall damage.
 
 ### fallDamageMaxHeight - Single
 
-No description provided.
+Falling height where a player takes maximum fall damage.
 
 ### fallDamageMin - Single
 
-No description provided.
+Minimum fall damage a player can take.
 
 ### fallDamageMax - Single
 
-No description provided.
+Maximum fall damage a player can take.
+
+Anywhere between min and max, fall damage scales linearly.
 
 ### nanoswarmShieldDamageMultiplierCurve - AnimationCurve
 
-No description provided.
+Unknown, most likely related to the unreleased nanoswarm tool and likely to change.
 
 ### nanoswarmShieldResistanceCurve - AnimationCurve
 
-No description provided.
+Unknown, most likely related to the unreleased nanoswarm tool and likely to change.
 
 ### nanoswarmNegativeResistanceCurve - AnimationCurve
 
-No description provided.
+Unknown, most likely related to the unreleased nanoswarm tool and likely to change.
 
 ### battery - Int32
 
-No description provided.
+Seems unused.
 
 ### smallBatteryConsumtionPerSec - Single
 
-No description provided.
+Seems unused.
 
 ### mediumBatteryConsumtionPerSec - Single
 
-No description provided.
+Seems unused.
 
 ### largeBatteryConsumtionPerSec - Single
 
-No description provided.
+Seems unused.
 
 ### walkMoveSpeed - Single
 
-No description provided.
+Player move speed while walking.
 
 ### runMoveSpeed - Single
 
-No description provided.
+Player move speed when running/sprinting.
 
 ### airMoveSpeed - Single
 
-No description provided.
+Affects move speed in the air. Seems to have little effect on slowing down and turning, mostly impacts speeding up. However, unless set to high values, makes no notable impact.
 
 ### crouchMoveSpeed - Single
 
-No description provided.
+Player move speed while crouching.
 
 ### ladderMoveSpeed - Single
 
-No description provided.
+Player move speed when going up and down ladders.
 
 ### walkFootstepLength - Single
 
-No description provided.
+Only seems to have an impact on when player footstep audio is played.
 
 ### runFootstepLength - Single
 
-No description provided.
+Only seems to have an impact on when player footstep audio is played.
 
 ### crouchFootstepLength - Single
 
-No description provided.
+Only seems to have an impact on when player footstep audio is played.
 
 ### throttleSmoothAcc - Single
 
-No description provided.
+Multiplier for smooth acceleration. At low values players will have trouble speeding up.
 
 ### throttleSmoothStop - Single
 
-No description provided.
+Multiplier for smooth stopping. At low values players will have trouble stopping in place (can still reverse direction normally depending on acc value).
 
 ### throttleSmoothVertical - Single
 
-No description provided.
+Seems to have no effect.
 
 ### jumpVelInitial - Single
 
-No description provided.
+Initial vertical velocity gained from a jump.
 
 ### jumpGravityMulDefault - Single
 
-No description provided.
+Gravity mults affect how fast falling accelerates (rising decelerates).
+
+Gravity mult when rising and holding the jump button.
 
 ### jumpGravityMulButtonReleased - Single
 
-No description provided.
+Gravity mult when rising and not holding the jump button.
 
 ### jumpGravityMulAfterPeak - Single
 
-No description provided.
+Gravity mult after jump peak.
 
 ### jumpGravityMulFalling - Single
 
-No description provided.
+Gravity mult when falling without jumping.
 
 ### jumpVerticalVelocityMax - Single
 
-No description provided.
+Maximum vertical movement speed.
 
 ### camPosDefault - Vector3
 
-No description provided.
+Default player camera position offset from player's feet.
 
 ### camPosCrouch - Vector3
 
-No description provided.
+Player camera position offset while crouched.
 
 ### camFovRunDif - Single
 
-No description provided.
+Added fov while player is running.
 
 ### DofDefault - [DOFSettingsData](../../nested-types/dofsettingsdata.md) (nested type)
 
-No description provided.
+Default depth of field settings.
 
 ### DofInElevator - [DOFSettingsData](../../nested-types/dofsettingsdata.md) (nested type)
 
-No description provided.
+Depth of field settings in elevator.
 
 ### DofInTerminal - [DOFSettingsData](../../nested-types/dofsettingsdata.md) (nested type)
 
-No description provided.
+Depth of field settings in terminal.
 
 ### ChromaticAbberationIntensityMax - Single
 
-No description provided.
+Seems unused.
 
 ### mouselookAimScaleMinMax - Vector2
 
-No description provided.
+Mouselook settings are probably something you shouldn't mess with.
+
+Seems to affect aim sensitivity when in sights.
 
 ### mouselookAimScaleFovRef - Vector2
 
-No description provided.
+Seems to affect aim sensitivity when in sights.
 
 ### FPSArmsOffset - Vector3
 
-No description provided.
+FPS settings are probably something you shouldn't mess with.
+
+FPS model setting.
 
 ### FPSBodyOffset - Vector3
 
-No description provided.
+FPS model setting.
 
 ### AdditionalFPSBodyOffsetWhenRunning - Vector3
 
-No description provided.
+FPS model setting.
 
 ### FPSBodyOffsetWhenNotFollowingCamera - Vector3
 
-No description provided.
+FPS model setting.
 
 ### FPSBodyScale - Vector3
 
-No description provided.
+FPS model setting.
 
 ### FPSBodyMoveNeckToFollowCamera - Boolean
 
-No description provided.
+FPS model setting.
 
 ### FPSBodyWantedDisToNeck - Single
 
-No description provided.
+FPS model setting.
 
 ### GearMaxSightHeightDiff - Single
 
-No description provided.
+Affects maximum possible height above default of sights.
 
 ### AmmoStandardInitial - Int32
 
-No description provided.
+Ammo settings are closely tied with [Archetype](archetype.md#costofbullet-single) cost of bullet settings and explained there.
+
+These settings are not literal bullet counts but rather a base value for calculations.
+
+Initial standard weapon ammo when starting the level.
 
 ### AmmoStandardInitialOnDropin - Int32
 
-No description provided.
+Seems unused.
 
 ### AmmoStandardMaxCap - Int32
 
-No description provided.
+Max reserve ammo for standard weapons.
 
 ### AmmoStandardResourcePackMaxCap - Int32
 
-No description provided.
+Affects how much ammo you get from a refill pack.
 
 ### AmmoSpecialInitial - Int32
 
-No description provided.
+Initial special weapon ammo when starting the level.
 
 ### AmmoSpecialInitialOnDropin - Int32
 
-No description provided.
+Seems unused.
 
 ### AmmoSpecialMaxCap - Int32
 
-No description provided.
+Max reserve ammo for special weapons.
 
 ### AmmoSpecialResourcePackMaxCap - Int32
 
-No description provided.
+Affects how much ammo you get from a refill pack.
 
 ### AmmoClassInitial - Int32
 
-No description provided.
+Initial tool ammo.
 
 ### AmmoClassInitialOnDropin - Int32
 
-No description provided.
+Seems unused.
 
 ### AmmoClassMaxCap - Int32
 
-No description provided.
+Max tool ammo.
 
 ### AmmoClassResourcePackMaxCap - Int32
 
-No description provided.
+Affects how much ammo you get from a refill pack.
+
+There is an additional multiplier for sentries.
 
 ### implantSmallTriggerDelay - Single
 
-No description provided.
+Seems unused.
 
 ### implantBigTriggerDelay - Single
 
-No description provided.
+Seems unused.
 
 ### itemAnimWeight - Single
 
-No description provided.
+{% hint style="warning" %}
+The following item settings seem to be either unused or have no impact worth editing for modders, therefore they have no descriptions.
+{% endhint %}
 
 ### itemAnimAxisWeight - Vector3
 
@@ -360,143 +380,153 @@ No description provided.
 
 ### breathingEnabled - Boolean
 
-No description provided.
+Determines whether audible breathing from stamina and infection is enabled.
 
 ### breathingStaminaEnabled - Boolean
 
-No description provided.
+Determines whether audible breathing from stamina is enabled.
 
 ### breathingScaredEnabled - Boolean
 
-No description provided.
+Seems unused or unknown.
 
 ### breathingDebugEnabled - Boolean
 
-No description provided.
+When enabled, prints some additional debug logs regarding breathing.
 
 ### breathingVolume - Single
 
-No description provided.
+Base audible breathing sound volume.
 
 ### breathingHealthLowLimit - Single
 
-No description provided.
+Health limit for switching to low health breathing sound.
 
 ### StaminaTimeBeforeResting - Single
 
-No description provided.
+Time without spending stamina before player starts resting.
 
 ### StaminaRegenRestingInCombat - Single
 
-No description provided.
+Stamina regeneration rate when resting in combat.
 
 ### StaminaRegenNotRestingInCombat - Single
 
-No description provided.
+Stamina regeneration rate when not resting in combat.
 
 ### StaminaRegenRestingOutOfCombat - Single
 
-No description provided.
+Stamina regeneration rate when resting out of combat.
 
 ### StaminaRegenNotRestingOutOfCombat - Single
 
-No description provided.
+Stamina regeneration rate when not resting out of combat.
 
 ### StaminaEnableAffectMoveSpeed - Boolean
 
-No description provided.
+Whether stamina can affect movement speed.
 
 ### StaminaHighMovespeedModifier - Single
 
-No description provided.
+Movement speed multiplier when stamina is high.
 
 ### StaminaLowMovespeedModifier - Single
 
-No description provided.
+Movement speed multiplier when stamina is low.
 
 ### StaminaMoveSpeedCurveExponent - Single
 
-No description provided.
+Stamina speed modifier is a lerp between high and low with tiredness (0 - full stamina, 1 - empty stamina) as the value used to interpolate.
+
+This value is the exponent for tiredness. Higher value means stamina will slow down players less.
 
 ### StaminaEnableAffectMeleeSpeed - Boolean
 
-No description provided.
+Whether stamina should affect melee charge speed.
 
 ### StaminaHighMeleeSpeedModifier - Single
 
-No description provided.
+Melee charge speed multiplier when stamina is high.
 
 ### StaminaLowMeleeSpeedModifier - Single
 
-No description provided.
+Melee charge speed multiplier when stamina is low.
 
 ### StaminaMeleeSpeedCurveExponent - Single
 
-No description provided.
+[StaminaMoveSpeedCurveExponent](player.md#staminamovespeedcurveexponent-single) equivalent for melee charge speed.
 
 ### StaminaExhaustedAudioThreshold - Single
 
-No description provided.
+Sfx Audio threshold for stamina exhausted loop.
 
 ### StaminaWasTiredAudioThreshold - Single
 
-No description provided.
+Threshold for setting an audio switch for playing was tired breathing audio later.
 
 ### StaminaRestedAudioThreshold - Single
 
-No description provided.
+Stamina threshold for playing rested audio after player was tired.
 
 ### StaminaUsageAffectedByDrama - Boolean
 
-No description provided.
+Effectively decides whether InCombat values will be used during combat.
 
 ### StaminaMinimumCapWhenNotInCombat - Single
 
-No description provided.
+Minimum allowed stamina when not in combat.
 
 ### StaminaMaximumCapWhenInCombat - Single
 
-No description provided.
+Maximum allowed stamina when in combat.
 
 ### StaminaMaximumCapWhenInCombatFallRate - Single
 
-No description provided.
+How fast should stamina fall to combat maximum cap during combat.
 
-### StaminaJumpCost - ActionCost
+Default 0 in base game, which means stamina will not fall unless players use it.
 
-No description provided.
+### StaminaJumpCost - [ActionCost](player.md#regarding-actioncost)
 
-### StaminaSneakCost - ActionCost
+Jump stamina action cost.
 
-No description provided.
+### StaminaSneakCost - [ActionCost](player.md#regarding-actioncost)
 
-### StaminaWalkCost - ActionCost
+Crouching movement stamina action cost.
 
-No description provided.
+### StaminaWalkCost - [ActionCost](player.md#regarding-actioncost)
 
-### StaminaRunCost - ActionCost
+Walking stamina action cost.
 
-No description provided.
+### StaminaRunCost - [ActionCost](player.md#regarding-actioncost)
 
-### StaminaCrouchEnterCost - ActionCost
+Running/sprinting stamina action cost.
 
-No description provided.
+### StaminaCrouchEnterCost - [ActionCost](player.md#regarding-actioncost)
+
+Crouch enter stamina action cost.
 
 ### defaultDialogLineDelay - Single
 
-No description provided.
+Delay between separate dialog lines.
+
+Dialog line fields seem mostly related to [PlayerDialogDataBlock](../rarely-edited/playerdialog.md).
+
+{% hint style="warning" %}
+To our knowledge the rest of these fields are either unused or not useful for modders so most of them probably will not have useful descriptions.
+{% endhint %}
 
 ### shortDialogCooldown - Single
 
-No description provided.
+How long a short dialog is blocked after playing.
 
 ### mediumDialogCooldown - Single
 
-No description provided.
+How long a medium dialog is blocked after playing.
 
 ### longDialogCooldown - Single
 
-No description provided.
+How long a long dialog is blocked after playing.
 
 ### radioEnabledDefaultDistance - Single
 
@@ -537,3 +567,25 @@ No description provided.
 ### noAirDamageDelay - Single
 
 No description provided.
+
+## Regarding ActionCost
+
+A separate page for this **struct** was not generated because whoever made it is an idiot (but actually probably just a new person who doesn't know how datablocks are supposed to work).
+
+For rundown developers, ActionCost is essentially the same thing as any other nested type.
+
+### baseStaminaCostInCombat - Single
+
+Stamina cost of this action in combat.
+
+### baseStaminaCostOutOfCombat - Single
+
+Stamina cost of this action out of combat.
+
+### resetRestingTimerInCombat - Boolean
+
+Whether this action should reset resting timer in combat.
+
+### resetRestingTimerOutOfCombat - Boolean
+
+Whether this action should reset resting timer out of combat.
