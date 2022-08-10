@@ -14,6 +14,12 @@ The rundown currently out is R6.5, revision 29742. If you're reading afterwards,
 Be aware that game updates can break datablocks, and levels/rundowns usually suffer the most from this. Rundown developers often don't even port their rundowns after some updates.
 {% endhint %}
 
+{% hint style="success" %}
+There's now a page with finished blocks stored and updates noted located [here](final-datablocks-version.md).
+
+Note that it's only the starting and ending blocks, nothing in-between.
+{% endhint %}
+
 As you probably already know, levels in GTFO are generated, and their data is stored in datablocks. In terms of difficulty, editing levels is between intermediate and one of the most advanced things in datablocks. This guide is not meant to teach all thing related to level editing, but it will hopefully give you enough to get you going in creating your own levels.
 
 This goes without saying, but if you're looking to learn, I highly recommend editing and testing the blocks yourself as you read along.
@@ -57,12 +63,14 @@ The datablocks we work with in this guide:
   3. EnemyPopulationDataBlock
   4. FogSettingsDataBlock
   5. SurvivalWaveSettingsDataBlock
+  6. ChainedPuzzleDataBlock
 * Touched:
   1. LightSettingsDataBlock
   2. ConsumableDistributionDataBlock
   3. StaticSpawnDataBlock
   4. BigPickupDistributionDataBlock
   5. ComplexResourceSetDataBlock
+  6. ChainedPuzzleTypeDataBlock
 
 ## Useful links
 
