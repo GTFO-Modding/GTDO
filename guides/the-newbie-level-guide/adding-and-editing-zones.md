@@ -128,7 +128,7 @@ Find TerminalPlacements. Delete the log file entry, and set weights to 0, leavin
 
 The results:
 
-![2 terminal placements in the added zone](<../../.gitbook/assets/image (8).png>)
+![2 terminal placements in the added zone](<../../.gitbook/assets/image (8) (1).png>)
 
 #### Step 5
 
@@ -410,7 +410,6 @@ Next Batch: GenerateZones - Count: 12
 14:39:40.491 - BlockAndCleanFailedAreasFromZone >  ZoneAlias: 111 dim:Reality  AreaCount: 5  ZoneCoverageOnFail:39  ZoneMinCoverage:65  CoverageStatus:NotEnough
 14:39:40.491 - BlockAndCleanFailedAreasFromZone >  ZoneAlias: 111 dim:Reality  AreaCount: 1  ZoneCoverageOnFail:3  ZoneMinCoverage:65  CoverageStatus:NotEnough
 14:39:40.552 - Last Batch: GenerateZones
-
 ```
 
 The "BlockAndCleanFailedAreasFromZone" part is ok, it happens. I'm not an LG expert, but if I had to guess I'd say it either collided with other zones or ran out of plugs to connect areas.

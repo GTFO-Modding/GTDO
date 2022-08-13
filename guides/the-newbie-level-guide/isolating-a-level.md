@@ -20,7 +20,7 @@ To start, make sure you have the current unedited blocks generated. If you've al
 
 Afterwards copy & paste the folder and rename it. You'll have something like this.
 
-![Generated GameData and copied folder](<../../.gitbook/assets/image (34).png>)
+![Generated GameData and copied folder](<../../.gitbook/assets/image (19) (1).png>)
 
 {% hint style="warning" %}
 MTFO will not load the gamedata\_ folder matching the current game version, but everything else is fair game. Make sure you only have the current version folder and one folder with the blocks to edit. MTFO can even choose to load from root plugins/ folder if there are json files in it.
@@ -70,7 +70,7 @@ Delete everything but B tier.
 
 Confirm that the 2nd object in B tier is B2 "Contaminant" and collapse the tier blocks
 
-![B Tier collapsed](<../../.gitbook/assets/image (17).png>)
+![B Tier collapsed](<../../.gitbook/assets/image (23).png>)
 
 Delete all but the 2nd block.
 
@@ -140,7 +140,7 @@ Later sections of the guide will assume you restored these (or didn't delete the
 
 If you did actually restore and verify again, the terminal near the bulkhead might be near the zone door in front of the door controller now.
 
-![Bulkhead zone new terminal location](<../../.gitbook/assets/image (38).png>)
+![Bulkhead zone new terminal location](<../../.gitbook/assets/image (32).png>)
 
 ~~You could also just ctrl+z enough to restore bulkhead changes in VS Code~~
 

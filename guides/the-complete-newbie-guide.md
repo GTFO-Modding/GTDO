@@ -43,33 +43,48 @@ Some examples of what we can find in datablocks:
 Everything that is stored in datablocks can be edited.\
 As previously stated, the developers control what is stored in datablocks, making them limited in some aspects. Some things have set rules that you cannot see in datablocks. Some things may be very hard to get to work as expected. Some things cannot be done using only datablocks. Learning to use them can take a lot of effort, and you will have questions, so don't hesitate to ask in the [datablock development channel](https://discord.com/channels/782438773690597389/782448951839555594).
 
-## Installation/Setup
+## MTFO Installation/Setup
 
-For a quick, hassle-free setup it's recommended that you use [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/), a mod manager built to work with the Thunderstore.
+For a quick, hassle-free setup it's recommended that you use [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/), a mod manager built to work with Thunderstore.
 
-### Installation with R2Modman
+### Installation with R2Modman/Thunderstore mod manager
 
-1. Install the latest version of [R2Modman](https://gtfo.thunderstore.io/package/ebkr/r2modman/)
+1. Install the latest version of the mod manager
 2. Launch the mod manager and select GTFO
 3. Create a new profile and name it
-4. Select "Online" and install any mods you would like to play
+4. Select "Online" and install MTFO
 5. Open `Settings -> Locations -> Change GTFO directory`. Locate and select the install location of GTFO. By default this is `C:\Program Files (x86)\Steam\steamapps\common\GTFO`
-6. Hit the "Play Modded" button.
-7. You're done!
+6. Hit the "Play Modded" button
 
-Best practice is to create one profile per Rundown, as this SIGNIFICANTLY lowers the chances of the game breaking.
+Best practice is to create one profile per rundown so you can switch between them easily.
 
-You can find the profile folder by going `Settings -> All -> Browse Profile Folder`
+You can find the profile folder by going through the mod manager to `Settings -> All -> Browse Profile Folder`&#x20;
 
 ### Manual Installation
 
-1. Make sure you have the latest version of GTFO installed. You can verify your game files through Steam just to be sure.
-2. Download [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/) and [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/), then follow their installation instructions
-3. Once everything is installed, run the game, the datablock files should generate in the following folder:\
-   `GTFO\BepInEx\plugins\GameData_XXXXX`\
-   `XXXXX` being the latest game version
+1. Download [Bepinex](https://gtfo.thunderstore.io/package/BepInEx/BepInExPack\_GTFO/) and [MTFO](https://gtfo.thunderstore.io/package/dakkhuza/MTFO/), then follow their installation instructions (they should just require you to extract the packages in certain folders)
+2. Run the game normally. To play vanilla again, you'd have to manually delete the mods (or remove/rename some specific files)
 
-You can always regenerate the JSON files by deleting the ones you want to refresh.
+### Getting the datablocks
+
+Now that MTFO is ready, there are still a few things left to do to get datablocks
+
+1. After installing the mods, launch the game once for MTFO config to generate
+2. Move to BepInEx\config and open MTFO.cfg
+3. Set "Dump GameData" to true, save the file
+4. Launch and close the game
+5. You should now see a folder like `BepInEx\GameData-Dump\31829` (version might be changed), this is your datablocks folder
+6. Copy the folder to `BepInEx\plugins` so you'll for example have `BepInEx\plugins\31829` (folder name doesn't matter)
+7. You can now edit the blocks in plugins and they'll be loaded by MTFO
+
+![Dump gamedata set to true](<../.gitbook/assets/dump gamedata.png>)
+
+A few things to note:
+
+* You can always regenerate the datablocks by just deleting them from gamedata-dump and launching the game again
+* Disabling the dump setting is optional
+* Only keep one folder of datablocks to load, otherwise you have no control over what's loaded
+* You don't need to keep all datablocks to have them load. In fact, it's recommended to only keep the ones you're going to edit
 
 ## Get started
 
