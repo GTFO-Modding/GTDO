@@ -388,7 +388,7 @@ Even if we drop in successfully we'll check for exceptions to see if anything fa
 
 Immediately upon dropping in and revealing the map I can something new at the right side of the map generated. Let's compare before/after.
 
-![The level before adding the new zone](<../../.gitbook/assets/image (7).png>)
+![The level before adding the new zone](<../../.gitbook/assets/image (7) (1).png>)
 
 ![The level after adding the new zone](<../../.gitbook/assets/image (9).png>)
 
@@ -698,4 +698,4 @@ I mentioned typelist blocks before so I thought I'd throw in a few examples of h
 
 ![Added enemy groups](<../../.gitbook/assets/image (4).png>)
 
-![Added survival settings](<../../.gitbook/assets/image (1).png>)
+![Added survival settings](<../../.gitbook/assets/image (1) (1).png>)

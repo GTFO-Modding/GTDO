@@ -42,7 +42,7 @@ Headers have no impact on modded datablocks, deleting them is purely optional. T
 
 Find the current rundown.
 
-![Rundown 6.0 block](<../../.gitbook/assets/image (18).png>)
+![Rundown 6.0 block](<../../.gitbook/assets/image (18) (1).png>)
 
 Go to the start of the block, collapse it, and copy it.
 
