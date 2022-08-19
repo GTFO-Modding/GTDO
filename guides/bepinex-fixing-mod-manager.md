@@ -13,7 +13,7 @@ The fix consists of 2 main steps:
 
 Note that before you do these, you should create a new profile and install bepinex pack on it. Old profiles can have mixed files from old and new installations.
 
-### Copying the dll
+### Fix instructions
 
 First, navigate to your profile folder - open your profile in the mod manager, open Settings, and find "Browse profile folder".
 
