@@ -67,6 +67,6 @@ The results:
 
 ![Edited expedition details](<../../.gitbook/assets/image (30).png>)
 
-![Changed zone aliases](<../../.gitbook/assets/paveikslas (3).png>)
+![Changed zone aliases](<../../.gitbook/assets/paveikslas (3) (1).png>)
 
 There are more fields related to visual data in rundown and level layout but with this we have enough to make unique vanilla-style rundown & level information. We can move on to the 3rd step in the guide.
