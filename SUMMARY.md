@@ -18,7 +18,6 @@
 * [VS Code Tips](guides/vs-code-tips.md)
 * [External Guides](guides/external-guides.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
-* [BepInEx - Fixing mod manager](guides/bepinex-fixing-mod-manager.md)
 
 ## Reference
 
