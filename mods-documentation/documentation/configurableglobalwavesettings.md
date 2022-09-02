@@ -68,6 +68,12 @@ The 5 floats here are actually the same field as EnemyTypeCostsForWave in base g
 
 Array of 5 ints. Currently broken, only matters if the value is above 0. This type can't spawn otherwise (as is the case for Boss role in base game).
 
+#### AdjustHeatGrabCount - Bool
+
+When set to true, prevents heat of enemy types not present in the wave settings of current wave from cooling down.
+
+Behind the scenes, there's a global grab count number for how many times total any enemy was picked. Each enemy heat type holds its own grab count, and when cooling down, multiplies the cooldown by the grab count difference. When set to true, the grab count for all types is always adjusted so the cooldown isn't multiplied.
+
 #### PersistentID
 
 Effectively the same as ID of normal blocks. Duplicates are ignored.
