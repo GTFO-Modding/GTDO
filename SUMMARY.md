@@ -240,4 +240,5 @@
 
 * [Noteworthy Mods](mods-documentation/noteworthymods.md)
 * [Documentation](mods-documentation/documentation/README.md)
+  * [DynamicCustomCombatMusic](mods-documentation/documentation/dynamiccustomcombatmusic.md)
   * [ConfigurableGlobalWaveSettings](mods-documentation/documentation/configurableglobalwavesettings.md)
