@@ -35,7 +35,7 @@ The music is divided into 3 sections hierarchically: music entry, stage, and loo
 
 To specify what settings a level should read, modify the "DevInfo" field in RundownDataBlock for the level you need. Write "threatdata\_x" for threat settings, where x is the ID, and the same way "dynamicmusicdata" for music settings. Only one threat value will be read for any level, but any amount of music settings is accepted.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>DevInfo with threat and dynamic musid settings specified</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p>DevInfo with threat and dynamic musid settings specified</p></figcaption></figure>
 
 To export this data with your rundown, refer to [ConfigurableGlobalWaveSettings](configurableglobalwavesettings.md#exporting). The process is the same, simply adapt it to this mod's files and dependencies.
 

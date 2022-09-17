@@ -18,6 +18,7 @@
 * [VS Code Tips](guides/vs-code-tips.md)
 * [External Guides](guides/external-guides.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
+* [Modded GTFO on Linux](guides/modded-gtfo-on-linux.md)
 
 ## Reference
 
