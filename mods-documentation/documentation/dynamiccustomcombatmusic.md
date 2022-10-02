@@ -4,10 +4,6 @@ description: Overcomplicated and unmaintainable
 
 # DynamicCustomCombatMusic
 
-{% hint style="warning" %}
-WIP documentation
-{% endhint %}
-
 ### Developer
 
 Discord: Stormpooper#3436
@@ -40,7 +36,3 @@ To specify what settings a level should read, modify the "DevInfo" field in Rund
 To export this data with your rundown, refer to [ConfigurableGlobalWaveSettings](configurableglobalwavesettings.md#exporting). The process is the same, simply adapt it to this mod's files and dependencies.
 
 Remember to include the music asset bundle with your rundown.
-
-### Fields
-
-WIP
