@@ -13,6 +13,7 @@
   * [Editing warden objective](guides/the-newbie-level-guide/editing-warden-objective.md)
   * [Adding a secondary sector](guides/the-newbie-level-guide/adding-a-secondary-sector.md)
   * [Final datablocks version](guides/the-newbie-level-guide/final-datablocks-version.md)
+* [The Plugin Development Guide](guides/the-plugin-development-guide.md)
 * [👶 Your First Plugin](guides/your-first-plugin.md)
 * [⛏ Datamining](guides/datamining.md)
 * [VS Code Tips](guides/vs-code-tips.md)
