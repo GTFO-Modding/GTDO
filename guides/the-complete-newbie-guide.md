@@ -11,7 +11,7 @@ Be aware that game updates often break datablocks, especially levels and rundown
 {% endhint %}
 
 This page is for people who want to get started with modding GTFO but don't know anything about it.\
-If you're a programmer and you want to write actual mods, check out the introduction to [plugins](your-first-plugin.md).
+If you're a programmer and you want to write actual mods, check out the introduction to [plugins](the-plugin-development-guide/your-first-plugin.md).
 
 Always remember that the official discord server is not the place to discuss anything modding related. Talk about it in the [modding discord](https://discord.gg/rRMPtv4FAh) instead.
 
