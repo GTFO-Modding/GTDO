@@ -20,7 +20,7 @@ To start, make sure you have the current unedited blocks generated. If you've al
 
 Afterwards copy & paste the folder and rename it. You'll have something like this.
 
-![Generated GameData and copied folder](<../../.gitbook/assets/image (19) (1).png>)
+![Generated GameData and copied folder](<../../.gitbook/assets/image (19) (1) (2).png>)
 
 {% hint style="warning" %}
 MTFO will not load the gamedata\_ folder matching the current game version, but everything else is fair game. Make sure you only have the current version folder and one folder with the blocks to edit. MTFO can even choose to load from root plugins/ folder if there are json files in it.
@@ -42,7 +42,7 @@ Headers have no impact on modded datablocks, deleting them is purely optional. T
 
 Find the current rundown.
 
-![Rundown 6.0 block](<../../.gitbook/assets/image (18) (1).png>)
+![Rundown 6.0 block](<../../.gitbook/assets/image (18) (1) (1).png>)
 
 Go to the start of the block, collapse it, and copy it.
 

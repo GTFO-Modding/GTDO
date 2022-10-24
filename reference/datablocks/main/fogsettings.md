@@ -22,7 +22,7 @@ It seems that starting in Rundown 7, the way fog occludes sight and interacts wi
 
 For example, here's extremely dense red fog:
 
-![Extremely dense red fog, looking from above fog](<../../../.gitbook/assets/image (18).png>)
+![Extremely dense red fog, looking from above fog](<../../../.gitbook/assets/image (18) (1).png>)
 
 ![Extremely dense red fog, looking from below fog](<../../../.gitbook/assets/image (3).png>)
 
