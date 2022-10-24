@@ -46,7 +46,9 @@ When Visual Studio first opens you are shown a Get started window. From here you
 We will be creating a Library project written in C# targetting all platforms
 {% endhint %}
 First create a new project and choose "Class Library" - "A project for creating a class library that targets .NET or .NET Standard"
+
 Then write a name into the Project name field, such as "MyFirstPlugin" and then click "Next"
+
 Next ensure you have ".NET 6.0 (Long-term support)" selected as your Framework and click "Create"
 {% hint style="info" %}
 When the project is finished creating you should see "Class1.cs" open
@@ -132,7 +134,9 @@ You should now be ready to compile your first plugin
 We will be compiling our plugin for release, meaning that there will be no debugging options set up
 {% endhint %}
 First Click Build > Configuration Manager in Visual Studio
+
 Then In the Configuration Manager window, change Active solution configuration from "Debug" to "Release", then click close
+
 Next Click Build > Build Solution
 {% hint style="info" %}
 If you used the earlier project settings your plugin should now be created inside your default r2modman profile
