@@ -1,10 +1,10 @@
 ---
-description: 'Or: "How I learned to hate IL2cpp"'
+description: 'Setting up a project and compiling your first plugin'
 ---
 
 # 👶 Your First Plugin
 
-## Preface
+## Overview
 {% hint style="info" %}
 A Plugin is a compiled C# assembly file that is loaded by BepInEx to allow for custom code to be executed, such as patches or custom behaviour
 {% endhint %}
