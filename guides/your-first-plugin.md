@@ -31,7 +31,7 @@ Visual Studio Community allows you to navigate, edit and compile code.
 7. Wait for the heat death of the universe until your IDE is installed
 8. Continue through the rest of the set up until a "Get started" window appears
 {% hint style="info" %}
-Signing in is optional
+Signing in to Visual Studio is optional
 {% endhint %}
 {% hint style="success" %}
 You should now be ready to create your C# class library project
@@ -42,15 +42,16 @@ You should now be ready to create your C# class library project
 {% hint style="info" %}
 When Visual Studio first opens you are shown a Get started window. From here you can open your recent projects, clone github repositories, or create a new project.
 {% endhint %}
-1. Create a new project
-2. Choose "Class Library" - "A project for creating a class library that targets .NET or .NET Standard"
 {% hint style="info" %}
 We will be creating a Library project written in C# targetting all platforms
 {% endhint %}
-3. Write a name into the Project name field, such as "MyFirstPlugin" and then click "Next"
-4. ensure you have ".NET 6.0 (Long-term support)" selected as your Framework and click "Create"
-5. When created you should see "Class1.cs" open
-6. Click Project > Edit Project File and replace it with the following
+First create a new project and choose "Class Library" - "A project for creating a class library that targets .NET or .NET Standard"
+Then write a name into the Project name field, such as "MyFirstPlugin" and then click "Next"
+Next ensure you have ".NET 6.0 (Long-term support)" selected as your Framework and click "Create"
+{% hint style="info" %}
+When the project is finished creating you should see "Class1.cs" open
+{% endhint %}
+Click Project > Edit Project File and replace it with the following
 {% hint style="danger" %}
 The following project settings assume you have r2modman installed in the default location with BepInEx installed and run at least once
 {% endhint %}
@@ -86,7 +87,7 @@ You can change the BepInEx path to your preferred location by editing the BepInE
 	</ItemGroup>
 </Project>
 ```
-7. Save the changes to the csproj file
+Finally save the changes to the csproj file
 {% hint style="success" %}
 You should now be ready to create your EntryPoint class
 {% endhint %}
@@ -96,11 +97,11 @@ You should now be ready to create your EntryPoint class
 {% hint style="info"%}
 The following EntryPoint class will allow BepInEx to load and handle your compiled assembly like a plugin
 {% endhint %}
-1. Right click "Class1.cs" in the solution explorer and rename it to "EntryPoint". Choose "Yes" to rename all references
+Right click "Class1.cs" in the solution explorer and rename it to "EntryPoint". Choose "Yes" to rename all references
 {% hint style="info" %}
 If you do not have a Class1.cs you can create EntryPoint.cs instead by choosing Project > Add Class...
 {% endhint %}
-2. Copy and paste the following code into "EntryPoint.cs" replacing the entire contents of the file
+Copy and paste the following code into "EntryPoint.cs" replacing the entire contents of the file
 {% hint style="info" %}
 If you do not see where to paste the code into, double click the EntryPoint.cs file in the solution explorer
 {% endhint %}
@@ -120,7 +121,7 @@ namespace MyFirstPlugin
     }
 }
 ```
-3. Save your changes by doing File > Save EntryPoint.cs
+Save your changes by doing File > Save EntryPoint.cs
 {% hint style="success" %}
 You should now be ready to compile your first plugin
 {% endhint %}
@@ -130,9 +131,9 @@ You should now be ready to compile your first plugin
 {% hint style="info" %}
 We will be compiling our plugin for release, meaning that there will be no debugging options set up
 {% endhint %}
-1. Click Build > Configuration Manager in Visual Studio
-2. In the Configuration Manager window, change Active solution configuration from "Debug" to "Release", then click close
-3. Click Build > Build Solution
+First Click Build > Configuration Manager in Visual Studio
+Then In the Configuration Manager window, change Active solution configuration from "Debug" to "Release", then click close
+Next Click Build > Build Solution
 {% hint style="info" %}
 If you used the earlier project settings your plugin should now be created inside your default r2modman profile
 {% endhint %}
