@@ -8,8 +8,6 @@ description: Export unity asset files from GTFO
 2. Extract the AssetRipper files and run AssetRipper.exe
 3. Change the following settings
    * Check Skip StreamingAssets Folder
-   * Set Shader Export Format to Yaml Asset
-   * Set Script Content Level to Level 1
 4. Choose File > Open Folder
 5. Navigate to and select the following folder\
    `~\Steam\steamapps\common\GTFO`
