@@ -14,7 +14,7 @@ description: >-
 4. Find and add the following folder:\
    \~\\`Steam\steamapps\common\GTFO\GTFO_Data\StreamingAssets\GeneratedSoundBanks\Windows`
 5. Open the `SoundbanksInfo.xml` in a text editor to see what audio files the game uses
-6. In foobar200 search for the file id with Ctrl + F
+6. In foobar2000 search for the file id with Ctrl + F
 7. Double click the audio to listen to it
 
 ## Converting files

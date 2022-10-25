@@ -22,6 +22,7 @@
   * [Audio files](guides/datamining/audio-files.md)
   * [Export asset files from GTFO](guides/datamining/export-asset-files-from-gtfo.md)
   * [Import asset files to Unity](guides/datamining/import-asset-files-to-unity.md)
+  * [Fixing Unity errors after importing](guides/datamining/fixing-unity-errors-after-importing.md)
 * [VS Code Tips](guides/vs-code-tips.md)
 * [External Guides](guides/external-guides.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
