@@ -25,7 +25,7 @@ using BepInEx.Unity.IL2CPP;
 namespace MyFirstPlugin
 {
     [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
-    public class Plugin : BasePlugin
+    public class EntryPoint : BasePlugin
     {
         public override void Load()
         {
