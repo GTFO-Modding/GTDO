@@ -24,13 +24,12 @@ using BepInEx.Unity.IL2CPP;
 
 namespace MyFirstPlugin
 {
-    [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("MyFirstPlugin", "My First Plugin", "1.0.0")]
     public class EntryPoint : BasePlugin
     {
         public override void Load()
         {
-            // Plugin startup logic
-            Log.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
+            Log.LogInfo("Hello world");
         }
     }
 }

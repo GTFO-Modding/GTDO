@@ -13,9 +13,9 @@ Then in the Configuration Manager window, change Active solution configuration f
 Next Click Build > Build Solution
 
 {% hint style="info" %}
-If you used the earlier project settings your plugin should now be created inside your default r2modman profile
+If you used the earlier project settings your plugin should now be created inside your r2modman profile
 {% endhint %}
 
 {% hint style="success" %}
-You should now be able to launch your Default modded profile and see in the BepInEx log our "Hello world" message!
+You should now be able to launch your modded game and see in the BepInEx log our logged message
 {% endhint %}
