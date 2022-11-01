@@ -314,6 +314,10 @@ No description provided.
 
 Teminals in zone.
 
+### SpecificTerminalSpawnDatas - [List SpecificTerminalSpawnData](./specificterminalspawndata.md) (nested type)
+
+No description provided.
+
 ### ForbidTerminalsInZone - Boolean
 
 If set to true, terminals can't spawn here.
@@ -325,6 +329,10 @@ Generators in zone. If your WardenObjective is "DistributePowercell", you'll nee
 ### DisinfectionStationPlacements - [List FunctionPlacementData](functionplacementdata.md) (nested type)
 
 Disinfection stations in zone.
+
+### DumbwaiterPlacements - [List DumbwaiterPlacementData](./dumbwaiterplacementdata.md) (nested type)
+
+Newly added but currently unused.
 
 ### HealthMulti - Single
 
