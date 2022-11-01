@@ -22,6 +22,10 @@ No description provided.
 
 No description provided.
 
+### WorldEventObjectFilterSpawnPoint - String
+
+No description provided.
+
 ### SpawnDelay - Single
 
 No description provided.

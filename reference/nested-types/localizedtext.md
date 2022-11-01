@@ -13,3 +13,11 @@ No description provided.
 ### HasTranslation - Boolean
 
 No description provided.
+
+### HasValue - Boolean
+
+No description provided.
+
+### ShouldLocalize - Boolean
+
+No description provided.
