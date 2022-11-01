@@ -10,7 +10,7 @@ No description provided.
 
 ## Fields
 
-### RundownIdToLoad - UInt32 ([RundownDataBlock](../main/rundown.md))
+### RundownIdsToLoad - List UInt32 ([RundownDataBlock](../main/rundown.md))
 
 No description provided.
 

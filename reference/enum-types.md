@@ -601,6 +601,7 @@ No description provided.
 * time_InLevel_210 - 123
 * time_InLevel_240 - 124
 * checkpoint_reload - 125
+* new_user_registered - 126
 
 ### eGearComponent
 
@@ -912,6 +913,7 @@ No description provided.
 * LockSecurityDoor - 20
 * SetTerminalCommand - 21
 * ActivateChainedPuzzle - 22
+* LightOnWorldEventObject - 23
 * EventBreak - 999
 
 ### eWardenObjectiveSpecialUpdateType
@@ -993,6 +995,7 @@ No description provided.
 * SecurityTurret - 18
 * GeneratorCluster - 19
 * GroundSpawn - 20
+* Dumbwaiter - 21
 
 ### ExpeditionLayers
 
