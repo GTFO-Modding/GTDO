@@ -191,7 +191,7 @@ Enable the secondary layer, set layout, set to build from zone 4 in main layer, 
 
 If you want to lock it with a bulkhead key, all you have to do is add an entry to main layer bulkhead door controller placements and set it to spawn in the same zone as the bulkhead. Remember to also take care of keys in that case. I'll go with secondary always unlocked.
 
-![Bulkhead dc for secondary layer](<../../.gitbook/assets/image (1) (2).png>)
+![Bulkhead dc for secondary layer](<../../.gitbook/assets/image (1) (2) (1).png>)
 
 Quick test to see if secondary did spawn and it did. Time to generate the proper layout.
 

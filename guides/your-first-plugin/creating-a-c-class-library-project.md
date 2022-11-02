@@ -5,7 +5,7 @@ description: How to set up your project for editing and compiling
 # Creating a C# class library project
 
 {% hint style="info" %}
-We will be creating a Library project written in C# targetting all platforms
+We will be creating a Library project written in C# targeting all platforms
 {% endhint %}
 
 First create a new project and choose "Class Library" - "A project for creating a classlibrary that targets .NET or .NET Standard"
@@ -21,20 +21,33 @@ When the project is finished creating you should see "Class1.cs" open
 Click Project > Edit Project File and replace it with the following
 
 {% hint style="warning" %}
-The following project settings assume you have r2modman installed in the default location with BepInEx installed and run at least once
+The following project settings assume you have r2modman installed in the Default location with BepInEx installed and run at least once
 {% endhint %}
 
 {% hint style="info" %}
-You can change the BepInEx path to your preferred location by editing the BepInEx property within PropertyGroup
+You can change which r2modman profile is used by editing the Profile property\
+\
+Additionally, you can also change the BepInEx path to your preferred location by editing the BepInEx property
 {% endhint %}
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		
+		<Profile>Default</Profile>
 		<Version>1.0.0</Version>
-		<AssemblyName>$(SolutionName).Il2Cpp.CoreCLR</AssemblyName>
-		<BepInEx>$(AppData)\r2modmanPlus-local\GTFO\profiles\Default\BepInEx</BepInEx>
+		<Description>My first plugin</Description>
+		
+		<TargetFramework>net6.0</TargetFramework>
+		<AssemblyName>$(SolutionName)</AssemblyName>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>latest</LangVersion>
+		<RestoreAdditionalProjectSources>
+			https://api.nuget.org/v3/index.json;
+			https://nuget.bepinex.dev/v3/index.json
+		</RestoreAdditionalProjectSources>
+		<RootNamespace>$(SolutionName)</RootNamespace>
+		<BepInEx>$(AppData)\r2modmanPlus-local\GTFO\profiles\$(Profile)\BepInEx</BepInEx>
 		<BuildDirectory>$(BepInEx)\plugins\$(SolutionName)\</BuildDirectory>
 		<OutputPath>$(BuildDirectory)</OutputPath>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -44,16 +57,11 @@ You can change the BepInEx path to your preferred location by editing the BepInE
 		<Exec Command="del $(OutputPath)$(AssemblyName).deps.json" />
 	</Target>
 	<ItemGroup>
-		<!-- NuGet packages -->
-		<PackageReference Include="HarmonyX" Version="2.10.0" IncludeAssets="compile" />
-		<PackageReference Include="Il2CppInterop.Common" Version="1.3.0" />
-		<PackageReference Include="Il2CppInterop.Runtime" Version="1.3.0" />
-		<!-- Interop assemblies -->
+		<PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
+		<PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
 		<Reference Include="$(BepInEx)\interop\*.dll" Private="false" />
 		<Reference Remove="$(BepInEx)\interop\netstandard.dll" />
 		<Reference Remove="$(BepInEx)\interop\Newtonsoft.Json.dll" />
-		<!-- BepInEx assemblies -->
-		<Reference Include="$(BepInEx)\core\BepInEx.*.dll" Private="false" />
 	</ItemGroup>
 </Project>
 ```

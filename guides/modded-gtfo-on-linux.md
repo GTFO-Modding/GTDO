@@ -17,7 +17,7 @@ description: describes the steps to get a modded gtfo up and running
 * create profile, install the mods you want
 * r2modman will most probably either launch vanilla gtfo or complain about path , so the bat-file below is a circumvention to launching.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
 ## GTFO modded.bat
 
