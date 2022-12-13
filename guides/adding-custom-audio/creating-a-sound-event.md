@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/Capture6.PNG" alt=""><figcaption></figcaption></figure>
 
-**Step 2:** Click back onto the "Audio" tab, and drag your sound from the hierarchy into the "Target" box into the "Play" event in the Event Editor. (Note: This event editor will only display given you clicked on the "Play" event in the Events tab)
+**Step 2:** Click back onto the "Audio" tab, and drag your sound from the hierarchy into the "Target" box in the Event Editor. (Note: This Event Editor will only display given you clicked on the "Play" event in the Events tab)
 
 <figure><img src="../../.gitbook/assets/Capture7.PNG" alt=""><figcaption></figcaption></figure>
 
