@@ -32,3 +32,9 @@ With this update, there's only 2 things to do to get old levels to work:
 2. Add the tutorial rundown (its reference is hardcoded so we can't get rid of it)
 
 That's it. The layout doesn't even reroll. Unless you were using some mods that are now broken (this guide only uses MTFO), the level should be fully functional.
+
+### R2 ALT update
+
+It seems no changes are required.
+
+Since this is likely to continue, the notes will only be updated if there are relevant changes.

@@ -17,7 +17,7 @@ Be aware that game updates can break datablocks, and levels/rundowns usually suf
 {% hint style="success" %}
 There's now a page with finished blocks stored and updates noted located [here](final-datablocks-version.md).
 
-Note that it's only the starting and ending blocks, nothing in-between.
+If you get stuck or are unsure if some changes were made as rundowns passed, check it out. The other pages of this guide will not be updated to reflect rundown changes.
 {% endhint %}
 
 As you probably already know, levels in GTFO are generated, and their data is stored in datablocks. In terms of difficulty, editing levels is between intermediate and one of the most advanced things in datablocks. This guide is not meant to teach all thing related to level editing, but it will hopefully give you enough to get you going in creating your own levels.
