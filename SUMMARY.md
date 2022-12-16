@@ -16,7 +16,7 @@
 * [👶 Your First Plugin](guides/your-first-plugin/README.md)
   * [Setting up Visual Studio Community](guides/your-first-plugin/setting-up-visual-studio-community.md)
   * [Creating a C# class library project](guides/your-first-plugin/creating-a-c-class-library-project.md)
-  * [Writing a EntryPoint class](guides/your-first-plugin/writing-a-entrypoint-class.md)
+  * [Writing a Plugin class](guides/your-first-plugin/writing-a-entrypoint-class.md)
   * [Compiling for release](guides/your-first-plugin/compiling-for-release.md)
 * [🎹 Adding Custom Audio](guides/adding-custom-audio/README.md)
   * [Project Setup](guides/adding-custom-audio/project-setup.md)

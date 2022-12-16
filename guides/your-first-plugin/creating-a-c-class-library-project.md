@@ -33,35 +33,34 @@ Additionally, you can also change the BepInEx path to your preferred location by
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		
+
+		<!--
+		Use the following property to set your preferred r2modman profile
+		-->
 		<Profile>Default</Profile>
-		<Version>1.0.0</Version>
-		<Description>My first plugin</Description>
-		
+
 		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<DebugType>None</DebugType>
 		<AssemblyName>$(SolutionName)</AssemblyName>
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<LangVersion>latest</LangVersion>
-		<RestoreAdditionalProjectSources>
-			https://api.nuget.org/v3/index.json;
-			https://nuget.bepinex.dev/v3/index.json
-		</RestoreAdditionalProjectSources>
 		<RootNamespace>$(SolutionName)</RootNamespace>
 		<BepInEx>$(AppData)\r2modmanPlus-local\GTFO\profiles\$(Profile)\BepInEx</BepInEx>
 		<BuildDirectory>$(BepInEx)\plugins\$(SolutionName)\</BuildDirectory>
-		<OutputPath>$(BuildDirectory)</OutputPath>
+		<OutputPath>$(BuildDirectory)</OutputPath>	
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<DebugType>None</DebugType>
 	</PropertyGroup>
 	<Target Name="PostBuild" BeforeTargets="PostBuildEvent">
-		<Exec Command="del $(OutputPath)$(AssemblyName).deps.json" />
+		<Delete Files="$(OutputPath)$(AssemblyName).deps.json" />
 	</Target>
 	<ItemGroup>
-		<PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
-		<PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+		<Reference Include="$(BepInEx)\core\0Harmony.dll" Private="false" />
+		<Reference Include="$(BepInEx)\core\BepInEx.Core.dll" Private="false" />
+		<Reference Include="$(BepInEx)\core\BepInEx.Unity.IL2CPP.dll" Private="false" />
+		<Reference Include="$(BepInEx)\core\Il2CppInterop.Common.dll" Private="false" />
+		<Reference Include="$(BepInEx)\core\Il2CppInterop.Runtime.dll" Private="false" />
 		<Reference Include="$(BepInEx)\interop\*.dll" Private="false" />
 		<Reference Remove="$(BepInEx)\interop\netstandard.dll" />
-		<Reference Remove="$(BepInEx)\interop\Newtonsoft.Json.dll" />
 	</ItemGroup>
 </Project>
 ```
@@ -69,5 +68,5 @@ Additionally, you can also change the BepInEx path to your preferred location by
 Finally save the changes to the csproj file
 
 {% hint style="success" %}
-You should now be ready to create your EntryPoint class
+You should now be ready to create your Plugin class
 {% endhint %}
