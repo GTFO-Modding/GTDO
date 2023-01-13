@@ -1,13 +1,10 @@
 ---
-description: >-
-  Mr Bro will teach you how to create soundbanks to add custom sounds to GTFO
-  using his "bro sound dependency" plugin which was written by Dex and mccad00,
-  using stolen code from NekOwO_Wafer
+description: Mr Bro will teach you how to create soundbanks to add custom sounds
 ---
 
 # 🎹 Adding Custom Audio
 
-<figure><img src="../../.gitbook/assets/icon.png" alt=""><figcaption><p><a href="https://gtfo.thunderstore.io/package/bro/BroSoundDependency/">https://gtfo.thunderstore.io/package/bro/BroSoundDependency/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/icon.png" alt=""><figcaption></figcaption></figure>
 
 #### What is Wwise?
 
@@ -16,12 +13,6 @@ Audiokinetic Wwise is a software development kit (SDK) for audio content creatio
 #### What is a SoundBank?
 
 A SoundBank is a container of sound events, and the objects and audio data required to play them.  GTFO uses SoundBanks created by Wwise to play all of its audio in-game, ranging from its dynamic music system to enemy sound effects.
-
-#### What is BroSoundDependency?
-
-BroSoundDependency is my update to NekOwO\_Wafer's outdated plugin "Audio Dependency" which injects SoundBanks into GTFO through BepInEx. This is required to add custom SoundBanks to GTFO. The plugin is available on the GTFO Modded Thunderstore page:
-
-{% embed url="https://gtfo.thunderstore.io/package/bro/BroSoundDependency/" %}
 
 **Who is Mr Bro?**
 

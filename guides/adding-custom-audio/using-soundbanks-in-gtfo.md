@@ -1,20 +1,20 @@
 # Using SoundBanks in GTFO
 
-**Step 1:** Add BepInExPack\_GTFO, MTFO (if you don't have them already), and BroSoundDependency mod as a dependency to your profile/mod.
+**Step 1:** Add BepInExPack\_GTFO, MTFO (if you don't have them already) as a dependency to your profile/mod.
 
-<figure><img src="../../.gitbook/assets/Capture13.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-03 at 9.12.19 am.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** In your profile, add the **.bnk** and **.txt** file to the path:
 
 ```
 (Profile)/
 └──BepInEx/
-    └──assets/
+    └──Assets/
         └──SoundBank/
            └──(your soundbanks)
 ```
 
-(Create the "assets" and "SoundBank" folder if they don't exist)
+(Create the "Assets" and "SoundBank" folder if they don't exist)
 
 **Step 3:** Use the sound event ID inside the **.txt** file to put into MTFO datablocks to use your sound ingame. Make sure to use the **sound event ID** (highlighted below) which is located on the upper half of the file, not the **audio ID** which is located on the lower half of the file.
 
