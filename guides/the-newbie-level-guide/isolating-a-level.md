@@ -66,6 +66,10 @@ Collapse all the tier blocks.
 
 Delete everything but B tier.
 
+{% hint style="warning" %}
+Make sure you don't delete the tiers themselves, just leave them empty. Otherwise the rundown will not load correctly.
+{% endhint %}
+
 ![R6 with only B tier](<../../.gitbook/assets/image (11).png>)
 
 Confirm that the 2nd object in B tier is B2 "Contaminant" and collapse the tier blocks
