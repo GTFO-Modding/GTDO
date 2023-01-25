@@ -138,7 +138,7 @@ Pretty much all of these settings are fair enough, we just need to change the up
 
 Now let's configure the objective in rundown db.
 
-![Warden objective edited](<../../.gitbook/assets/image (14).png>)
+![Warden objective edited](<../../.gitbook/assets/image (14) (1).png>)
 
 Only 2 things to change here - the datablock id and the local index, the rest are already correct.
 

@@ -13,6 +13,7 @@
   * [Editing warden objective](guides/the-newbie-level-guide/editing-warden-objective.md)
   * [Adding a secondary sector](guides/the-newbie-level-guide/adding-a-secondary-sector.md)
   * [Final datablocks version](guides/the-newbie-level-guide/final-datablocks-version.md)
+* [The Newbie Git Guide](guides/the-newbie-git-guide.md)
 * [👶 Your First Plugin](guides/your-first-plugin/README.md)
   * [Setting up Visual Studio Community](guides/your-first-plugin/setting-up-visual-studio-community.md)
   * [Creating a C# class library project](guides/your-first-plugin/creating-a-c-class-library-project.md)
@@ -30,10 +31,10 @@
   * [Export asset files from GTFO](guides/datamining/export-asset-files-from-gtfo.md)
   * [Import asset files to Unity](guides/datamining/import-asset-files-to-unity.md)
   * [Fixing Unity errors after importing](guides/datamining/fixing-unity-errors-after-importing.md)
-* [VS Code Tips](guides/vs-code-tips.md)
-* [External Guides](guides/external-guides.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
 * [Modded GTFO on Linux](guides/modded-gtfo-on-linux.md)
+* [VS Code Tips](guides/vs-code-tips.md)
+* [External Guides](guides/external-guides.md)
 
 ## Reference
 

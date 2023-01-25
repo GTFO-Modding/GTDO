@@ -92,11 +92,11 @@ Go to level layout, copy the first zone, and paste it after the last zone. If yo
 
 An easier way to see is by using [Breadcrumbs](https://code.visualstudio.com/docs/getstarted/userinterface):
 
-![Zones list with 12 elements in Breadcrumbs](<../../.gitbook/assets/image (10).png>)
+![Zones list with 12 elements in Breadcrumbs](<../../.gitbook/assets/image (10) (1).png>)
 
 Anyway, the last zone had localindex 10, so this one should have 11. You can verify by searching for localIndex 11:
 
-![Search for localindex 11 shows no results](<../../.gitbook/assets/image (24).png>)
+![Search for localindex 11 shows no results](<../../.gitbook/assets/image (24) (1).png>)
 
 {% hint style="info" %}
 Remember, if you don't know what a field does, check the datablocks reference to see if it's documented.
@@ -128,7 +128,7 @@ Find TerminalPlacements. Delete the log file entry, and set weights to 0, leavin
 
 The results:
 
-![2 terminal placements in the added zone](<../../.gitbook/assets/image (8) (1).png>)
+![2 terminal placements in the added zone](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 #### Step 5
 
@@ -146,7 +146,7 @@ We're going to create 1 randomized group of either strikers, shooters, or big st
 
 Deleting all existing blocks and remaking from scratch would introduce a few problems with hardcoded ID uses and the current level spawns so let's not do that (but when making full custom rundowns that might be better in the long run). Instead we'll be using numbers that are guaranteed not to mix up with base game blocks. However, if you want to, you can delete all populations but 1, as there's 3 total missions out of 159 in RundownDataBlock that use other populations:
 
-![3 matches for populations that aren't ID 1](<../../.gitbook/assets/image (22).png>)
+![3 matches for populations that aren't ID 1](<../../.gitbook/assets/image (22) (1).png>)
 
 All 3 of them are from R1 by the way.
 
@@ -388,13 +388,13 @@ Even if we drop in successfully we'll check for exceptions to see if anything fa
 
 Immediately upon dropping in and revealing the map I can something new at the right side of the map generated. Let's compare before/after.
 
-![The level before adding the new zone](<../../.gitbook/assets/image (7) (1).png>)
+![The level before adding the new zone](<../../.gitbook/assets/image (7) (1) (1).png>)
 
-![The level after adding the new zone](<../../.gitbook/assets/image (9).png>)
+![The level after adding the new zone](<../../.gitbook/assets/image (9) (1).png>)
 
 We can see the map is the same apart from something new generated at the top right, which would be our zone. However, even without going in to test, it's clearly visible that the zone is not generated from the elevator zone. Verifying this we can see it generated from the zone to the right of elevator, and the source entry is to the north (forward):
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 Why did this happen?
 
@@ -431,7 +431,7 @@ Let's go with option 3. We should also change the entrance to north like LG gene
 
 Here's our map now:
 
-![Map after changing source zone](<../../.gitbook/assets/image (20).png>)
+![Map after changing source zone](<../../.gitbook/assets/image (20) (1).png>)
 
 We can see it still generated in the same spot, as expected, and this time the layout of the zone is different. This is the exact same map as before changing entrance direction to north.
 
@@ -443,7 +443,7 @@ Time to explore.
 
 The zone is heading right indeed, it's above fog everywhere except in parts of the last room, which is the huge one so that's expected. The lighting is also as expected. Here's a view of the last room from its entrance:
 
-![Zone 111 area F (the huge area - last room)](<../../.gitbook/assets/image (27).png>)
+![Zone 111 area F (the huge area - last room)](<../../.gitbook/assets/image (27) (1).png>)
 
 If it seems relatively dark, it's because I'm using the lights adjustment mod.
 
@@ -694,8 +694,8 @@ I mentioned typelist blocks before so I thought I'd throw in a few examples of h
 
 ![Added zone build parameters](<../../.gitbook/assets/image (47).png>)
 
-![Added zone sleeper spawns](<../../.gitbook/assets/image (15).png>)
+![Added zone sleeper spawns](<../../.gitbook/assets/image (15) (1).png>)
 
-![Added enemy groups](<../../.gitbook/assets/image (4).png>)
+![Added enemy groups](<../../.gitbook/assets/image (4) (1).png>)
 
 ![Added survival settings](<../../.gitbook/assets/image (1) (1).png>)

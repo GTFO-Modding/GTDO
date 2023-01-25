@@ -46,7 +46,7 @@ Find the current rundown.
 
 Go to the start of the block, collapse it, and copy it.
 
-![R6 block collapsed and selected to copy](<../../.gitbook/assets/image (12).png>)
+![R6 block collapsed and selected to copy](<../../.gitbook/assets/image (12) (1).png>)
 
 Collapse all the blocks and delete them.
 
@@ -70,15 +70,15 @@ Delete everything but B tier.
 Make sure you don't delete the tiers themselves, just leave them empty. Otherwise the rundown will not load correctly.
 {% endhint %}
 
-![R6 with only B tier](<../../.gitbook/assets/image (11).png>)
+![R6 with only B tier](<../../.gitbook/assets/image (11) (1).png>)
 
 Confirm that the 2nd object in B tier is B2 "Contaminant" and collapse the tier blocks
 
-![B Tier collapsed](<../../.gitbook/assets/image (17).png>)
+![B Tier collapsed](<../../.gitbook/assets/image (17) (1).png>)
 
 Delete all but the 2nd block.
 
-![B Tier with only B2 left](<../../.gitbook/assets/image (21).png>)
+![B Tier with only B2 left](<../../.gitbook/assets/image (21) (1).png>)
 
 B2 has now become B1 and is the only level in the rundown.
 
@@ -100,7 +100,7 @@ In the picture above you can see that `LevelLayoutData` is set to 162. That's ou
 
 Open level layout db and find the correct block.
 
-![R6B2 main layer level layout](<../../.gitbook/assets/image (6).png>)
+![R6B2 main layer level layout](<../../.gitbook/assets/image (6) (1).png>)
 
 Repeat the same process as for rundown block: collapse it, copy it, collapse all blocks, delete them, paste the copied block, delete the comma.
 

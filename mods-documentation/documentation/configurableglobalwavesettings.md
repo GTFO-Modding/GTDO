@@ -96,7 +96,7 @@ If a level does not have anything specified, the block with ID 1 will be used un
 
 Rundown developers should add this mod as a dependency and add the json file with this folder structure: `plugins\PersistentData`\\`ConfigurableGlobalWaveSettings\GlobalWaveSettingsDataBlock.json`
 
-![Example folder structure for the mod](<../../.gitbook/assets/image (3) (1).png>)
+![Example folder structure for the mod](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 ### How heat works
 

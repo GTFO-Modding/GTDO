@@ -22,7 +22,7 @@ Errors and exceptions often mean something went wrong either with the game or a 
 
 When launching the game with mods enabled, you'll see the BepInEx console as a separate window.&#x20;
 
-![BepInEx console window](<../.gitbook/assets/image (13).png>)
+![BepInEx console window](<../.gitbook/assets/image (13) (2).png>)
 
 This console is useful for many things, but most importantly for users, it shows **most** errors in red text. If it's not a red text error, it can be relevant to rundown developers specifically, so it's not covered here.
 

@@ -100,7 +100,7 @@ Lists and Arrays always start and end with `[ ]` symbols. For example, a "List I
 
 Dictionaries are a more complex type and are rarely found in datablocks. A dictionary is an object that maps 2 types, the first as key, the 2nd as value. In JSON, dictionaries look the same as nested objects.
 
-![Example dictionary](<../../.gitbook/assets/image (3) (1) (1).png>)
+![Example dictionary](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Here you can see a dictionary with 2 keys "Glue" and "Explosive" mapped to objects. In JSON, an object with 2 fields "Glue" and "Explosive" could look exactly the same.
 
@@ -114,7 +114,7 @@ Sometimes you see fields set to seemingly invalid values such as an empty string
 
 In datablocks, Vectors are messed up right now and generate with some fields that don't actually do anything:
 
-![Vectors fields that aren't supposed to be there](<../../.gitbook/assets/image (2).png>)
+![Vectors fields that aren't supposed to be there](<../../.gitbook/assets/image (2) (1).png>)
 
 You can ignore or delete these.
 
