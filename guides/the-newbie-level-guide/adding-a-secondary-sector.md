@@ -201,7 +201,7 @@ Let's keep this small, to reactor basics. The first zone is fine. We're adding a
 
 First thing to do here is find the custom geos. Remember you can only spawn something as custom geo if it is in complex resource set custom geos. In rundown db we can see we're using ComplexResourceData 1. Open ComplexResourceSetDataBlock, find ID 1. To make it easier to find what geos we have, I'm going to use breadcrumbs to find the custom geos:
 
-![Breadcrumbs showing custom geos](<../../.gitbook/assets/image (16) (1).png>)
+![Breadcrumbs showing custom geos](<../../.gitbook/assets/image (16) (1) (1).png>)
 
 For the most part we care about the Objective block. I'll copy that to a new file to make search easier.
 
@@ -630,7 +630,7 @@ Anyway here's the level layout I got:
 
 Some results:
 
-![Map with bridge and reactor](<../../.gitbook/assets/image (25) (1).png>)
+![Map with bridge and reactor](<../../.gitbook/assets/image (25) (1) (1).png>)
 
 ![View from bridge zone to initial zone of secondary layer](<../../.gitbook/assets/image (36).png>)
 

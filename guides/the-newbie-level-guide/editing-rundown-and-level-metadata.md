@@ -65,7 +65,7 @@ The results:
 
 ![Edited Intel screen](<../../.gitbook/assets/paveikslas (4).png>)
 
-![Edited expedition details](<../../.gitbook/assets/image (30).png>)
+![Edited expedition details](<../../.gitbook/assets/image (30) (1).png>)
 
 ![Changed zone aliases](<../../.gitbook/assets/paveikslas (3) (1).png>)
 

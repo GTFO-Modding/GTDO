@@ -62,7 +62,7 @@ Now we only have one rundown and we need to keep only one level in it. Let's go 
 
 Collapse all the tier blocks.
 
-![R6 tier blocks collapsed](<../../.gitbook/assets/image (31).png>)
+![R6 tier blocks collapsed](<../../.gitbook/assets/image (31) (1).png>)
 
 Delete everything but B tier.
 
@@ -74,7 +74,7 @@ Make sure you don't delete the tiers themselves, just leave them empty. Otherwis
 
 Confirm that the 2nd object in B tier is B2 "Contaminant" and collapse the tier blocks
 
-![B Tier collapsed](<../../.gitbook/assets/image (17) (1).png>)
+![B Tier collapsed](<../../.gitbook/assets/image (17) (1) (1).png>)
 
 Delete all but the 2nd block.
 
@@ -90,7 +90,7 @@ When rundown id is not 1, GTFO API ensures all levels are unlocked, we don't hav
 
 Contaminant is the only level in our rundown, but the level layout datablocks still have all the levels, and B2 still has a secondary layer. Let's _thoroughly_ remove the secondary layer.
 
-![Contaminant with secondary layer removed. Pay attention to the red triangles next to line numbers.](<../../.gitbook/assets/image (29).png>)
+![Contaminant with secondary layer removed. Pay attention to the red triangles next to line numbers.](<../../.gitbook/assets/image (29) (1).png>)
 
 ### Deleting level layout blocks
 
@@ -100,7 +100,7 @@ In the picture above you can see that `LevelLayoutData` is set to 162. That's ou
 
 Open level layout db and find the correct block.
 
-![R6B2 main layer level layout](<../../.gitbook/assets/image (6) (1).png>)
+![R6B2 main layer level layout](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 Repeat the same process as for rundown block: collapse it, copy it, collapse all blocks, delete them, paste the copied block, delete the comma.
 

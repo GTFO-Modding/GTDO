@@ -24,7 +24,7 @@ For example, here's extremely dense red fog:
 
 ![Extremely dense red fog, looking from above fog](<../../../.gitbook/assets/image (1) (3).png>)
 
-![Extremely dense red fog, looking from below fog](<../../../.gitbook/assets/image (8) (1).png>)
+![Extremely dense red fog, looking from below fog](<../../../.gitbook/assets/image (8) (1) (2).png>)
 
 ### FogDensity - Single
 

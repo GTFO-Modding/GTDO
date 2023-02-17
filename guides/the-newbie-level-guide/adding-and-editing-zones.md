@@ -341,7 +341,7 @@ Before setting any spawns, always make sure these 2 are set to true:
 
 Resources are fairly straight-forward and purely dependent on balance so let's just use them to verify ExpeditionBalance values, setting all to 2 - should be 10 uses of each resource.
 
-![Resources set to 2.0 each](<../../.gitbook/assets/image (28).png>)
+![Resources set to 2.0 each](<../../.gitbook/assets/image (28) (1).png>)
 
 Consumables are set by just one field - "ConsumableDistributionInZone". If we tried to make something specific we'd have to constantly look at ItemDataBlock. Let's do the same as we did with lights and judge by names here instead.
 
@@ -390,11 +390,11 @@ Immediately upon dropping in and revealing the map I can something new at the ri
 
 ![The level before adding the new zone](<../../.gitbook/assets/image (7) (1) (1).png>)
 
-![The level after adding the new zone](<../../.gitbook/assets/image (9) (1).png>)
+![The level after adding the new zone](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 We can see the map is the same apart from something new generated at the top right, which would be our zone. However, even without going in to test, it's clearly visible that the zone is not generated from the elevator zone. Verifying this we can see it generated from the zone to the right of elevator, and the source entry is to the north (forward):
 
-![](<../../.gitbook/assets/image (26) (1).png>)
+![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
 Why did this happen?
 
@@ -431,7 +431,7 @@ Let's go with option 3. We should also change the entrance to north like LG gene
 
 Here's our map now:
 
-![Map after changing source zone](<../../.gitbook/assets/image (20) (1).png>)
+![Map after changing source zone](<../../.gitbook/assets/image (20) (1) (1).png>)
 
 We can see it still generated in the same spot, as expected, and this time the layout of the zone is different. This is the exact same map as before changing entrance direction to north.
 
@@ -696,6 +696,6 @@ I mentioned typelist blocks before so I thought I'd throw in a few examples of h
 
 ![Added zone sleeper spawns](<../../.gitbook/assets/image (15) (1).png>)
 
-![Added enemy groups](<../../.gitbook/assets/image (4) (1).png>)
+![Added enemy groups](<../../.gitbook/assets/image (4) (1) (1).png>)
 
-![Added survival settings](<../../.gitbook/assets/image (1) (1).png>)
+![Added survival settings](<../../.gitbook/assets/image (1) (1) (1).png>)

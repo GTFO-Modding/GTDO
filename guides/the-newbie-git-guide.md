@@ -24,13 +24,13 @@ In VS Code, the main view for Git is the source control view, seen at the top le
 
 The changes are shown on the files themselves:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Git changes in VS Code explorer: U (Untracked - new) file<br>and M (Modified) file</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Git changes in VS Code explorer: U (Untracked - new) file<br>and M (Modified) file</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Git changes in VS Code source control view - <br>also showing a D (deleted) file</p></figcaption></figure>
 
 ...and their contents, marked as red for deletions and green for additions:
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Modified line in ArchetypeDataBlock.json, showing "Bullpup" -> "Bullpups" change<br>(opened through source control view)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt=""><figcaption><p>Modified line in ArchetypeDataBlock.json, showing "Bullpup" -> "Bullpups" change<br>(opened through source control view)</p></figcaption></figure>
 
 How useful this is depends on how you use it, for example:
 
@@ -44,14 +44,14 @@ Using Git is completely optional but (speaking from experience) it can save hour
 
 If you haven't installed git yet, the source control view will show something like this:
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Source control view showing git is not installed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>Source control view showing git is not installed</p></figcaption></figure>
 
 Download and launch git installer from there. Most users should use 64-bit standalone installer.
 
 When going through the installation, most default options should be fine. Just one change you might want to make:\
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Git install - use VS Code as default editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Git install - use VS Code as default editor</p></figcaption></figure>
 
 Either way, for basic git use none of these options should matter much.
 
@@ -59,7 +59,7 @@ Now that git is installed, reload VS Code and open the folder you want to start 
 
 First step when working with a project offline is to initialize the repository. If you open the source control view now, you should see something like this:&#x20;
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Source control view on a folder without git</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Source control view on a folder without git</p></figcaption></figure>
 
 We're almost ready to start using git, but first there's 2 commands to run. We have to set a user name and email for commits author tracking. For offline repositories this shouldn't matter much and can be changed later, but remember that you can't change author information on existing commits. To run the commands, open a new terminal in VS Code:
 
@@ -79,7 +79,7 @@ Now you're ready to start using Git.
 
 VS Code has extensions that bring additional functionality to the editor. GitLens is one such extension for Git:
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>GitLens extension in VS Code</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>GitLens extension in VS Code</p></figcaption></figure>
 
 It will not be covered here, but if you see some functionality in the guide that you don't see in your own VS Code, it likely comes from this extension.
 
@@ -87,11 +87,11 @@ It will not be covered here, but if you see some functionality in the guide that
 
 Now that we're ready, let's initialize the repository. Once it's done, the source control view should list all your files as new since we haven't started tracking them yet:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Source control view after initializing repository</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Source control view after initializing repository</p></figcaption></figure>
 
 Let's stage and commit all of them as the initial commit:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Initial commit</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Initial commit</p></figcaption></figure>
 
 1. Press the + icon to stage all the changes (make sure you press it to the right of the "Changes" text instead of a specific file) - you're selecting the files to include in the commit
 2. Write the commit message - "initial commit"
@@ -121,11 +121,11 @@ Now let's say that we did indeed break something (but didn't commit) and want to
 
 For the first, go to source control view and select a file with changes, then find some specific change:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>ArchetypeDataBlock with changes</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>ArchetypeDataBlock with changes</p></figcaption></figure>
 
 Click the arrow in the middle to revert the change:
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Arrow showing revert</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>Arrow showing revert</p></figcaption></figure>
 
 The change should be reverted, just remember to save the file.
 
@@ -139,13 +139,13 @@ For the second method, go directly to the changed file and line. You should see 
 
 Click it. You should now see the changes inline. At the top right there should be a revert icon:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Inline change with revert icon</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Inline change with revert icon</p></figcaption></figure>
 
 Click it to revert the change.
 
 In 2 other common cases where you want to revert a whole file or all the changes since the last commit, it's easily done through source control view. All you need to do is click the revert icon on a file or next to changes:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Discard changes icon in source control view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Discard changes icon in source control view</p></figcaption></figure>
 
 Reverting that specific change would restore the deleted file.
 
