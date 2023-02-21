@@ -8,8 +8,8 @@ coverY: -22.26086956521739
 
 # 🏠 Home
 
-{% hint style="danger" %}
-**Current Wiki Status: ROUGH**
+{% hint style="info" %}
+**Current Wiki Status: About as good as it'll get**
 
-Please be patient while we get this whole thing setup.
+We certainly don't have everything here, but there is plenty of useful information.
 {% endhint %}
