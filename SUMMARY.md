@@ -259,5 +259,6 @@
 
 * [Noteworthy Mods](mods-documentation/noteworthymods.md)
 * [Documentation](mods-documentation/documentation/README.md)
+  * [StealthAdjustment](mods-documentation/documentation/stealthadjustment.md)
   * [DynamicCustomCombatMusic](mods-documentation/documentation/dynamiccustomcombatmusic.md)
   * [ConfigurableGlobalWaveSettings](mods-documentation/documentation/configurableglobalwavesettings.md)
