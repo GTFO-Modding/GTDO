@@ -56,11 +56,11 @@ The max distance at which a sleeper can propagate to another. This value is squa
 
 #### ClusterDetectionDistance - float
 
-The max distance at which a sleeper is considered in a cluster with another sleeper.
+The max distance at which a sleeper is considered in a cluster with another sleeper. This value is squared.
 
 #### LowNoiseClusterDetectionDistance - float
 
-Same as above but for "low noise" weapons (knife). Defaults to 1 meter instead of the usual 3.
+Same as above but for "low noise" weapons (knife). Defaults to 1 meter instead of the usual 3. This value is squared.
 
 #### ContinueDetectionAfterClusterAlert - bool
 
@@ -129,3 +129,26 @@ I was actually going to expand this and some others to variable values depending
 This is the duration of time after a sleeper is deactivated when a sleeper will not noise-detect players sneaking right next to it (if you didn't know, yes they detect sneaking within 2 meters of the sleeper).
 
 Game and mod default is 0.5-1.5 seconds.
+
+### Quick defaults for lazy people
+
+```
+        LightBuildupSpeedMultiplier = 2;
+        LightCooldownSpeedMultiplier = 4;
+        ChanceToPropagate = 1;
+        DetectionDistance = 169;
+        ClusterDetectionDistance = 9;
+        LowNoiseClusterDetectionDistance = 1;
+        ContinueDetectionAfterClusterAlert = true;
+        MaxAlertCount = 3;
+        IncludeClusterInAlertCount = true;
+        LimitClusterByAlertCount = false;
+        AdditionalHibernationWindow = 0.75f;
+        AdditionalNoiseDuration = -0.4f;
+        AdditionalRunNoiseDuration = 0;
+        TransitionDurationInTransToActive = new Vector2 { x = 1.25f, y = 1.25f };
+        TransitionDurationActive = new Vector2 { x = 1, y = 4 };
+        TransitionDurationInTransToDeactivated = new Vector2 { x = 1, y = 1 };
+        TransitionDurationDeactivated = new Vector2 { x = 5, y = 15 };
+        TransitionSilentCloseSneakWindow = new Vector2 { x = 0.5f, y = 1.5f };
+```
