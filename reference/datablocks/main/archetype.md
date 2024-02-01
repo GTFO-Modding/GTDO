@@ -4,9 +4,9 @@ description: GameData_ArchetypeDataBlock_bin.json (filled)
 
 # Archetype
 
-***
+Defines weapon stats and metadata, including sentries.
 
-***
+This datablock is not referenced directly, but rather selected from [PlayerOfflineGearDataBlock](playerofflinegear.md) component firemode paired with specified component gear category from [GearCategoryDataBlock](gearcategory.md). Sentry archetypes are hardcoded.
 
 ## Fields
 

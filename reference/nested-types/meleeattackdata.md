@@ -4,7 +4,7 @@ description: MeleeAttackData
 
 # MeleeAttackData
 
-No description provided.
+Object that determines timings and animation for some melee attacks.
 
 ***
 
@@ -12,36 +12,43 @@ No description provided.
 
 ### Side - [eMeleeAttackSide](../enum-types.md#emeleeattackside) (enum)
 
-No description provided.
+The side the melee attack uses.
 
-### Anim - [AnimHash](./animhash.md) (nested type)
+### Anim - [AnimHash](animhash.md) (nested type)
 
-No description provided.
+The animation to use for the attack.
 
 ### AnimBlendIn - Single
 
-No description provided.
+The length of time it blends the previous animation with this attack's before fully assuming the animation of this attack.
 
-### AttackLengthFrameTime - Single
+### AttackLengthTime - Single
 
-No description provided.
+The time that the attack is active for. Once finished, the weapon transitions to the idle state.
 
-### AttackHitFrameTime - Single
+### AttackHitTime - Single
 
-No description provided.
+Only affects Hit animations. Determines the time in seconds that the animation starts from.
 
-### DamageStartFrameTime - Single
+### DamageStartTime - Single
 
-No description provided.
+Time in seconds at which the weapon starts checking for collisions with its model hitbox.
 
-### DamageEndFrameTime - Single
+### DamageEndTime - Single
 
-No description provided.
+Time in seconds at which the weapon stops checking for collisions with its model hitbox.
 
-### AttackCamFwdHitFrameTime - Single
+### AttackCamFwdHitTime - Single
 
-No description provided.
+Time in seconds at which the attack hits the target directly in view.\
+While a target is directly in view and this time has not been reached, the model hitbox will be inactive.
 
-### ComboEarlyFrameTime - Single
+### ComboEarlyTime - Single
 
-No description provided.
+Time in seconds at which the next melee attack can be triggered.
+
+### \*FrameTime - Single
+
+All matching fields are ignored in datablocks.
+
+In plugins, if set to a value, sets the corresponding Time field to FrameTime/30.
