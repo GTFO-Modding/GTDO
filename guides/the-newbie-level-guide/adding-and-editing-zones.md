@@ -18,10 +18,10 @@ In practice I would just use the more readable blocks from the [typelist](https:
 
 There's a block we can change once for the whole rundown to make level editing life a bit easier in the long run.
 
-The block in question is ExpeditionBalanceDataBlock. We won't cover all of it, only the relevant parts.
+The datablock in question is ExpeditionBalance. We won't cover all of it, only the relevant parts.
 
 {% hint style="info" %}
-In rundown db, ExpeditionBalance is always usually set to 1. If you want to make changes specific to levels, you can make a new expedition balance block and set the ID just for the level.
+In the Rundown datablock, ExpeditionBalance is always usually set to 1. If you want to make changes specific to levels, you can make a new expedition balance block and set the ID just for the level.
 {% endhint %}
 
 Yes, we're about to screw up the balance of the current level, but when making your own levels you shouldn't start with preset resources and sleeper spawns.
@@ -124,7 +124,7 @@ This is all guesswork. If we wanted precision, we'd have to try mods or keep rer
 
 The generated zone should be decently big now, so let's have 2 terminals.
 
-Find TerminalPlacements. Delete the log file entry, and set weights to 0, leaving the terminal placement up to rng. Then copy-paste that block.
+Find TerminalPlacements, we'll set the placement weights to 0, leaving the terminal placement up to rng. Then copy-paste that block.
 
 The results:
 
@@ -134,23 +134,23 @@ The results:
 
 Lights are decided by "LightSettings" field. If this is set to 0, the light settings in rundown db will be chosen instead.
 
-Right now it's set to 56. If we go to the light settings datablock and find that entry, we'll see it's named "AlmostWhite\_1". Let's try 71 "RustyRedToBrown\_1" instead. If you want, you can pick something different or even make your own light settings.
+Right now it's set to 56. If we have a look at the LightSettings datablock and find that entry, we'll see it's named "AlmostWhite\_1". Let's try 71 "RustyRedToBrown\_1" instead. If you want, you can pick something different or even make your own light settings.
 
 #### Step 6
 
 The sleeper spawning system is convoluted, you can read about it [here](../../reference/nested-types/enemyspawningdata.md). Yes I already said it before in this page.
 
-We'll have to alternate between 4 files here so you might want to use split editor.
+We'll need the EnemyPopulation and EnemyGroup datablocks, and we'll also still need to make use of LevelLayout. Since we'll have to alternate between several files here, you might want to use split editor.
 
-We're going to create 1 randomized group of either strikers, shooters, or big strikers, and 1 group with forced scout. We can reuse existing groups and populations but let's make our own for practice. A bottom-up approach is more appropriate here, so let's start with population.
+We're going to create 1 randomized group of either strikers, shooters, or big strikers, and 1 group with forced scout. We can reuse existing groups and populations but let's make our own for practice. A bottom-up approach is more appropriate here, so let's start with the EnemyPopulation datablock.
 
-Deleting all existing blocks and remaking from scratch would introduce a few problems with hardcoded ID uses and the current level spawns so let's not do that (but when making full custom rundowns that might be better in the long run). Instead we'll be using numbers that are guaranteed not to mix up with base game blocks. However, if you want to, you can delete all populations but 1, as there's 3 total missions out of 159 in RundownDataBlock that use other populations:
+Deleting all existing blocks and remaking from scratch would introduce a few problems with hardcoded ID uses and the current level spawns so let's not do that (but when making full custom rundowns that might be better in the long run). Instead we'll be using numbers that are guaranteed not to mix up with base game blocks.
 
-![3 matches for populations that aren't ID 1](<../../.gitbook/assets/image (22) (1).png>)
+I'll follow the "rules" set in enemy spawning system. Considering the special enum values, limitations, and the total size of the enums in base game (ensuring scout entry doesn't step on one), here are the 4 new "RoleDatas" for our population entry:
 
-All 3 of them are from R1 by the way.
+<details>
 
-I'll follow the "rules" set in enemy spawning system. Considering the special enum values, limitations, and the total size of the enums in base game (ensuring scout entry doesn't step on one), here are the 4 population entries:
+<summary>Our new population entry</summary>
 
 ```
         {
@@ -187,15 +187,23 @@ I'll follow the "rules" set in enemy spawning system. Considering the special en
         }
 ```
 
-{% hint style="info" %}
-Population entries don't have a "Comment" field. You can add any fields to JSON and as long as there are no syntax errors the game will ignore them.
-{% endhint %}
+</details>
 
-I added comment fields for clarity.
+These will go inside the "RoleDatas" of the population block that our expedition is using (you can see which population your expedition is using in the Rundown datablock). In our case, our expedition is using an "EnemyPopulation" of 1 (pretty much every level does). So we'll place these new "RoleDatas" at the end of this population, like so:
+
+<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Population entries don't have a "Comment" field. But you can add any fields to JSON and as long as there are no syntax errors the game will ignore them. Comment fields have been added for clarity.
+{% endhint %}
 
 As we can see the role-difficulty pairs are unique so these entries won't be randomized at population-level, only at group-level.
 
-Now to add enemy groups:
+Now to add enemy groups, these will just go below all the existing enemy groups in the EnemyGroup datablock:
+
+<details>
+
+<summary>Our new enemy groups</summary>
 
 ```
     {
@@ -295,9 +303,11 @@ Now to add enemy groups:
   "LastPersistentID": 9999
 ```
 
+</details>
+
 1 forced scout group, and 4 mixed groups of the 3 enemies. Considering the relative weights, this should be a striker-dominant zone. MaxScores are the same all around so these will be a bit more predictable sizes. If we wanted more randomized sizes we could go with a range of 2-6 for example. It's just best not to give really big sizes to groups since a whole group always spawns in the same room, possibly resulting in high concentration in one area and rest zone empty.
 
-Note I included LastPersistentID updated value. That's just so the logs don't clutter saying blocks with IDs above last were found.
+Note I included an update to the LastPersistentID value. That's just so the logs don't clutter saying blocks with IDs above last were found.
 
 Also remember MaxScore has that obnoxious hardcoded random multiplier on it, screwing with our spawns for no good reason.
 
@@ -332,7 +342,7 @@ Also normally you would take a look at the generated layout and settle on it bef
 
 All that's left before we finally drop in is resources and consumables.
 
-Before setting any spawns, always make sure these 2 are set to true:
+Before setting any spawns, always make sure these 2 are set to true in our LevelLayout block:
 
 ```
           "AllowSmallPickupsAllocation": true,
@@ -343,9 +353,9 @@ Resources are fairly straight-forward and purely dependent on balance so let's j
 
 ![Resources set to 2.0 each](<../../.gitbook/assets/image (28) (1).png>)
 
-Consumables are set by just one field - "ConsumableDistributionInZone". If we tried to make something specific we'd have to constantly look at ItemDataBlock. Let's do the same as we did with lights and judge by names here instead.
+Consumables are set by just one field - "ConsumableDistributionInZone". If we tried to make something specific we'd have to constantly look at ItemDataBlock. Let's do the same as we did with lights and judge by names here instead. We'll have a peek at the names in the ConsumableDistribution datablock.
 
-It's currently set to 20, "OnlyFogReps". Fog repeller balancing is important for an infection level, but our zone specifically is set to medium-high altitude data. While it can still generate something under infection fog, it should mostly stick to above that. Our options are combatting darkness, fog, giving foam/tripmines which are very powerful, or just generic consumable distribution that doesn't focus on anything in particular. Let's go with the generic one, setting it to 1.
+It's currently set to 45, "OnlyFogReps\_Alt". Fog repeller balancing is important for an infection level, but our zone specifically is set to medium-high altitude data. While it can still generate something under infection fog, it should mostly stick to above that. Our options are combatting darkness, fog, giving foam/tripmines which are very powerful, or just generic consumable distribution that doesn't focus on anything in particular. Let's go with the generic one, setting it to 1.
 
 ## Testing the new zone
 
@@ -475,19 +485,19 @@ Or speedrun the rest of these topics.
 
 Ah yes, the best difficulty filler in the game, abused on every single level. Even the error shenanigans in R4 are technically all alarms.
 
-Alarms' enemies are defined by 2 different datablocks, one of them is just linking 5 roles to enemies (out of those 5, one is broken in base game and never spawns).
+We'll eventually add our alarm by changing our "ChainedPuzzleToEnter" for our new zone in the LevelLayout block, but we'll do things from the ground up again.
 
-From level layout, there's only one field to change here, ChainedPuzzleToEnter. That is both for alarm and normal scans, without one set, we can just open the door without even team scanning.
-
-[Chained puzzles](../../reference/datablocks/main/chainedpuzzle.md) use 3 other blocks:
+Chained puzzles use 3 other datablocks (in addition to the [ChainedPuzzle](../../reference/datablocks/main/chainedpuzzle.md) datablock itself):
 
 * [SurvivalWaveSettings](../../reference/datablocks/main/survivalwavesettings.md) - the wave settings. Defines what, when, how many, and where;
 * [SurvivalWavePopulation](../../reference/datablocks/main/survivalwavepopulation.md) - wave settings specify what roles can spawn, this block maps roles to enemies, making settings more reusable;
-* [ChainedPuzzleTypeDataBlock](../../reference/datablocks/rarely-edited/chainedpuzzletype.md) - the types of scans, like full team, big, small, cluster etc. Mostly you just see the names and decide what scan to pick. I don't know any reason to edit this datablock.
+* [ChainedPuzzleType](../../reference/datablocks/rarely-edited/chainedpuzzletype.md) - the types of scans, like full team, big, small, cluster etc. Mostly you just see the names and decide what scan to pick. I don't know any reason to edit this datablock.
 
-Population ID 1 will give us striker in standard, shooter in special, and big striker in miniboss. As basic an alarm setup as it gets.
+In this example we'll only be editing ChainedPuzzle and SurvivalWaveSettings, though we'll reference things in the other blocks.
 
-For settings let's make something new. Something the base game doesn't do for alarms.
+Survival wave population ID 1 will give us striker in standard, shooter in special, and big striker in miniboss. As basic an alarm setup as it gets.
+
+For survival wave settings let's make something new. Something the base game doesn't do for alarms.
 
 ```
     {
@@ -514,28 +524,32 @@ For settings let's make something new. Something the base game doesn't do for al
       "m_populationRampOverTime": 60.0,
       "name": "2 intense waves",
       "internalEnabled": true,
-      "persistentID": 151
+      "persistentID": 400
     }
   ],
-  "LastPersistentID": 255
+  "LastPersistentID": 400
 ```
 
 A little bit of analysis:
 
-* Using LastPersistentID as a reminder wave settings can't go above 255.
+* Updating LastPersistentID to match our new highest PersistentID.
 * Wave pause settings set to basically enforce 30-ish seconds between waves. The little variation is because something bugs if min-max are equal.
 * Population filter (with some help from base game boss bug) will allow only the 3 roles to spawn.
 * The most notable thing here is the limited population. Combined with points per wave, we get exactly 2 waves, with group spawns being more intense on the 2nd wave.
 
 This alarm should keep the players occupied for at least a minute and depending on their clearing power, not much longer than that.
 
-Moving on to Chained puzzle:
+{% hint style="info" %}
+Tip: Whenever adding your own custom blocks, always check that the "persistentID"s that you choose aren't already in use.
+{% endhint %}
+
+Moving on to chained puzzle:
 
 ```
     {
       "PublicAlarmName": "Geo Alarm",
       "TriggerAlarmOnActivate": true,
-      "SurvivalWaveSettings": 151,
+      "SurvivalWaveSettings": 400,
       "SurvivalWavePopulation": 1,
       "DisableSurvivalWaveOnComplete": false,
       "UseRandomPositions": true,
@@ -551,18 +565,18 @@ Moving on to Chained puzzle:
       "AlarmSoundStop": 42633153,
       "name": "Geo alarm 2 waves",
       "internalEnabled": true,
-      "persistentID": 165
+      "persistentID": 300
     }
 ```
 
-We're using the blocks we settled on. For scans, one type 33 - the geo scan (introduced in R6.5) (highly likely not to function well in a random geo, but let's try it) - should be enough and we're not disabling the waves when the scan is completed, so the players will have to kill the 2 full waves.
+We're using the blocks we settled on - 400 for our new survival wave setting, and 1 for the basic survival wave population. For scans, one type 33 - the geo scan (introduced in R6.5) (highly likely not to function well in a random geo, but let's try it) - should be enough and we're not disabling the waves when the scan is completed, so the players will have to kill the 2 full waves.
 
 Now they could just cheese it by running away and mining wherever until the population runs out, but from my experience they don't do that:
 
 1. Barely anybody even notices something out of the ordinary with spawns when they're made well. If they do, they don't realize the specifics.
 2. People hate wasting time. Even with cheese they'd have to sit in a sustain full-team scan for a while doing absolutely nothing.
 
-All that's left is to set `"ChainedPuzzleToEnter": 165` and test.
+All that's left is to set `"ChainedPuzzleToEnter": 300` in our level layout and test.
 
 Unsurprisingly the geo scan is screwed up but it's mostly functional so it's fine. Moving on.
 
@@ -636,11 +650,11 @@ Now the zone to the left of spawn should require a generator to be activated whi
 
 #### Pitch black zone
 
-This one's just a matter of light settings, and there already seem to be 2 settings for darkness. Let's go with 73 in zone 1.
+This one's just a matter of light settings, and there already seem to be 2 settings for darkness. Let's set LightSettings to 73 in zone 1.
 
 #### Editing fog
 
-This can't be set per zone, we can either edit the level's fog settings or setup some warden objective stuff. From rundown db we can see the level uses ID 90. We should copy that to a new persistent ID and set it, then edit the settings. But let's just edit ID 90 directly.
+This can't be set per zone, we can either edit the level's fog settings or setup some warden objective stuff. From rundown db we can see the level uses FogSettings with an ID of 90. We should copy that to a new persistent ID and set it, then edit the settings. But let's just edit ID 90 directly in the FogSettings datablock.
 
 If we don't want to flip the balance of the level, we can only do something boring, which means we're flipping the balance of the level. Here are the new settings:
 

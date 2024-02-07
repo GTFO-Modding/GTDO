@@ -6,9 +6,9 @@ description: How to take a rundown and reduce it to one level
 
 ## Overview
 
-This step isn't necessary (and in some ways it's better not to do this at all), but for learning purposes it's good to understand exactly what you'll be working with.
+This step isn't necessary (and in some ways it's better not to do this at all), but for learning purposes it's good to understand exactly what we'll be working with.
 
-MTFO regenerates everything even in custom folders so you can't have just the datablock files you want to edit, but you can minimize the content in each of them. For this step, we're going to reduce the main blocks to exactly one level, specifically - rundown and level layout.
+For this step we're going to trim the main datablocks that we'll be working with (specifically Rundown and LevelLayout) so that they only contain one level.
 
 This also doubles as an exercise in using VS Code.
 
@@ -16,49 +16,53 @@ This also doubles as an exercise in using VS Code.
 
 ### Setup
 
-To start, make sure you have the current unedited blocks generated. If you've already made some changes, just backup the custom datablocks somewhere else and delete them from plugins folder, then launch and close the game.
+To start, we'll grab a copy of the unedited Rundown, LevelLayout and GameSetup datablocks. You can follow along with how to generate them using MTFO from [The Complete Newbie Guide](../the-complete-newbie-guide.md) or grab them from the archived versions at [OriginalDataBlocks](https://github.com/UntiIted/OriginalDataBlocks) . You can also view the final version of our edited datablocks here: [Final datablocks version page](final-datablocks-version.md). Put these inside a folder in the `GameData` directory of BepInEx. You'll have something like this:
 
-Afterwards copy & paste the folder and rename it. You'll have something like this.
+<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption><p><code>GameData</code> folder of BepInEx.</p></figcaption></figure>
 
-![Generated GameData and copied folder](<../../.gitbook/assets/image (19) (1) (1).png>)
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption><p>The datablocks inside our <code>GameData</code> folder.</p></figcaption></figure>
 
-{% hint style="warning" %}
-MTFO will not load the gamedata\_ folder matching the current game version, but everything else is fair game. Make sure you only have the current version folder and one folder with the blocks to edit. MTFO can even choose to load from root plugins/ folder if there are json files in it.
+{% hint style="info" %}
+MTFO can load datablocks directly from the `GameData` folder, but it is better to keep them organized in a separate folder. MTFO also used to support loading datablocks from the `plugins` folder instead, which is what you'll see in many mods and other guides (and even in other parts of this wiki!). Placing datablocks in the `GameData` folder is now preferred.
 {% endhint %}
 
-Now open the plugins folder with VS Code.
+Open your `GameData` folder with VS Code.
 
-![Context menu option to open with VS Code](<../../.gitbook/assets/image (41).png>)
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption><p>Context menu to open the folder directly in VS Code.</p></figcaption></figure>
 
 ### Deleting rundown blocks
 
-Open rundown db and delete the headers.
+Open the Rundown datablock and delete the headers.
 
 ![Headers selected to delete](<../../.gitbook/assets/image (43).png>)
 
 {% hint style="info" %}
-Headers have no impact on modded datablocks, deleting them is purely optional. They're used only by the devs in their editor tools.
+Headers have no impact on modded datablocks, deleting them is optional. They're used only by the devs in their editor tools.
 {% endhint %}
 
-Find the current rundown.
+Now we'll delete all but one rundown from the `"Blocks"` part of the datablock.
 
-![Rundown 6.0 block](<../../.gitbook/assets/image (18) (1) (1).png>)
+First, find the `"Tutorial Holder"` rundown's block. This contains the game's tutorial, and its presence is hardcoded so we can't delete it.
 
-Go to the start of the block, collapse it, and copy it.
+Go to the start of the block, collapse it, and copy it. (Or, if using VS Code, you can use `Control + Shift + [` to collapse the block your cursor is in).
 
 ![R6 block collapsed and selected to copy](<../../.gitbook/assets/image (12) (1).png>)
 
-Collapse all the blocks and delete them.
+Paste it at the bottom of the blocks.
 
-![Blocks collapsed and selected to delete](<../../.gitbook/assets/image (46).png>)
+Find the rundown that contains whichever level you'd like to use as a foundation. In this case, we'll use Rundown 6.
 
-And finally, paste the copied rundown block and delete the comma at the end of it.
+![Rundown 6.0 block](<../../.gitbook/assets/image (18) (1) (1).png>)
 
-![R6 block pasted](<../../.gitbook/assets/image (42).png>)
+Collapse it, copy it and paste it at the bottom of the blocks.
+
+Delete all the other blocks, aside from our two at the bottom (it's easiest to do this by collapsing them all). Once we're down to just our two blocks you might need to fix some formatting. There should be a comma between our two blocks, but not one at the end.
+
+<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption><p>The Rundown datablock trimmed to just two rundowns.</p></figcaption></figure>
 
 ### Deleting all but one level from the rundown
 
-Now we only have one rundown and we need to keep only one level in it. Let's go with B2.
+We only have one rundown and we want to keep only one level in it. Let's go with B2.
 
 Collapse all the tier blocks.
 
@@ -83,42 +87,40 @@ Delete all but the 2nd block.
 B2 has now become B1 and is the only level in the rundown.
 
 {% hint style="info" %}
-When rundown id is not 1, GTFO API ensures all levels are unlocked, we don't have to take care of that ourselves. Normally "Accessibility", "UnlockedByExpedition", and "CustomProgressionLock" would be involved in locking/unlocking the level.
+At the bottom of the rundown's block there is the `"persistentID"`. When the rundown's ID is not 1, GTFO API ensures all levels are unlocked, so we don't have to take care of that ourselves. If you want to include level progression, you'll have to set the ID to 1 and then use the "Accessibility", "UnlockedByExpedition", and "CustomProgressionLock" fields to control levels being unlocked.
 {% endhint %}
 
 ### Deleting secondary layer
 
-Contaminant is the only level in our rundown, but the level layout datablocks still have all the levels, and B2 still has a secondary layer. Let's _thoroughly_ remove the secondary layer.
+Contaminant is the only level in our rundown, but it still has a secondary layer. Let's _thoroughly_ remove the secondary layer from the Rundown datablock. We'll have to remove quite a few sections, see the image below for what we have to remove. We need to remove the bulkhead information from the main layer, and also a bunch of stuff from the secondary layer. After we're done, the secondary layer should look the same as the third layer.
 
 ![Contaminant with secondary layer removed. Pay attention to the red triangles next to line numbers.](<../../.gitbook/assets/image (29) (1).png>)
 
 ### Deleting level layout blocks
 
-Most of the work is done. We just have to find the correct level layout and delete the rest.
+Now we have to do the same to the LevelLayout datablock. We'll find the correct level layout ID and delete the rest.
 
-In the picture above you can see that `LevelLayoutData` is set to 162. That's our main layer level layout.
+In the picture above from our rundown block, you can see that `LevelLayoutData` is set to 162. That's our main layer level layout.
 
-Open level layout db and find the correct block.
+Open the LevelLayout datablock and find the block with this ID.
 
 ![R6B2 main layer level layout](<../../.gitbook/assets/image (6) (1) (1).png>)
 
-Repeat the same process as for rundown block: collapse it, copy it, collapse all blocks, delete them, paste the copied block, delete the comma.
+Repeat the same process as for our rundown blocks: collapse it, copy it, collapse all blocks, delete them, paste the copied block, delete the comma.
 
-Remember VS Code has to process \~160k lines here so don't be too harsh if it lags a bit. Deleting at least a part of the blocks does have practical use here as VS Code and its plugins won't take time to load when editing huge files like this one.
+Remember VS Code has to process over 200k lines here so don't be too harsh if it lags a bit. Deleting at least a part of the blocks does have practical use here as VS Code and its plugins won't take time to load when editing huge files like this one.
 
-You should now have around 1632 lines in this file (more if you didn't delete headers).
+There should only be a few thousand lines left in this file.
 
-### Regarding changing rundown ID to 1
+### Modifying game setup datablock
 
-While this is not a necessary step anymore thanks to GTFO API, it was originally agreed with devs to change all custom rundowns' ID to 1.
+Most of the work is now done, and we only have to do a minor tweak to the GameSetup datablock. Open it up and change the `"RundownIdsToLoad"` to only contain the rundown ID for your rundown. The rundown's ID is the `"PersistentID"` number at the bottom of the rundown's block.
 
-In case you want to do that:
+### Regarding changing IDs
 
-All you need to do is set `"persistentID": 1` on the rundown block. GameSetupDataBlock RundownIdToLoad should also be changed to 1, but that's again handled by GTFO API.
+We talked briefly about changing the ID of our rundown block earlier. While this is not a necessary step anymore thanks to GTFO API, it was originally agreed with devs to change all custom rundowns' ID to 1. If you did do this, you'll obviously have to change the `"RundownIdsToLoad"` to match.
 
-Note that this disables other GTFO API checks such as unlocking levels.
-
-You can change level layout ID as well. If you do, remember to update the reference in rundown.
+You're also allowed to change the LevelLayout block IDs. If you do so, then you'll have to change the `"LevelLayoutData"` from the rundown's block to match.
 
 ### Verifying
 
@@ -128,13 +130,13 @@ Launch the game. You should now see only B1 in the rundown menu.
 
 ![R6.5 with only B2 Contaminant, now shown as B1.](<../../.gitbook/assets/image (44).png>)
 
-Drop in the level. It should load just fine. If you have freecam or some other mods, you can use them to check what the level looks like more easily. See if anything has changed.
+Drop into the level. You should now have only the one rundown, and the level itself should load just fine. If you have freecam or some other mods, you can use them to check what the level looks like more easily. See if anything has changed.
 
 You should see some marker (all sorts of objects placed in the level, a whole different topic) placement differences, also the lack of the secondary layer.
 
-Oh and we deleted the bulkhead key, controller, and the bulkhead door (which is now just a security door) from main layer. If you want to restore that, you can do so by copying over these 3 from the original gamedata\_ folder we kept as a backup:
+Oh and we deleted the bulkhead key, controller, and the bulkhead door (which is now just a security door) from the main layer. If you want to restore that, you can do so by restoring these 3 fields from the original datablock we kept as a backup (you did keep some as a backup, right?):
 
-* ZonesWithBulkheadEntrance - zones in same layer (main) that have bulkhead entrances
+* ZonesWithBulkheadEntrance - zones in same layer (main) that have bulkhead entrances.
 * BulkheadDoorControllerPlacements - where to place bulkhead door controllers. If a zone with a bulkhead entrance does not have a door controller, the entrance will not require a bulkhead key.
 * BulkheadKeyPlacements - where to place bulkhead keys in the layer.
 
@@ -146,6 +148,4 @@ If you did actually restore and verify again, the terminal near the bulkhead mig
 
 ![Bulkhead zone new terminal location](<../../.gitbook/assets/image (38).png>)
 
-~~You could also just ctrl+z enough to restore bulkhead changes in VS Code~~
-
-The rundown and level layout blocks are cleaned up and we can move onto the 2nd step in the guide.
+The Rundown, LevelLayout and GameSetup blocks are now cleaned up and we can move onto the 2nd step in the guide.

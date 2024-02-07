@@ -4,9 +4,9 @@ description: GameData_PlayerOfflineGearDataBlock_bin.json (filled)
 
 # PlayerOfflineGear
 
-***
+Defines mostly various weapon parts (references to various gear datablocks) and some other data.
 
-***
+Probably the worst datablock in the game.
 
 ## Fields
 

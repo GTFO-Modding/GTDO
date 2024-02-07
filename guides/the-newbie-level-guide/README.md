@@ -9,7 +9,7 @@ description: >-
 ## Overview
 
 {% hint style="danger" %}
-The rundown currently out is R6.5, revision 29742. If you're reading afterwards, you may have to adjust. If we're lucky R7 blocks will be mostly compatible with R6.
+The Rundown currently out is Rundown 8, revision 34800. If you're reading afterwards, you may have to adjust. If we're lucky any future changes to level generation will be backwards compatible.
 
 Be aware that game updates can break datablocks, and levels/rundowns usually suffer the most from this. Rundown developers often don't even port their rundowns after some updates.
 {% endhint %}
@@ -17,7 +17,7 @@ Be aware that game updates can break datablocks, and levels/rundowns usually suf
 {% hint style="success" %}
 There's now a page with finished blocks stored and updates noted located [here](final-datablocks-version.md).
 
-If you get stuck or are unsure if some changes were made as rundowns passed, check it out. The other pages of this guide will not be updated to reflect rundown changes.
+If you get stuck or are unsure if some changes were made as updates passed, check it out.
 {% endhint %}
 
 As you probably already know, levels in GTFO are generated, and their data is stored in datablocks. In terms of difficulty, editing levels is between intermediate and one of the most advanced things in datablocks. This guide is not meant to teach all thing related to level editing, but it will hopefully give you enough to get you going in creating your own levels.

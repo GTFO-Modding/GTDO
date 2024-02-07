@@ -4,9 +4,9 @@ description: GameData_PlayerDataBlock_bin.json (filled)
 
 # Player
 
-***
+Defines player stats.
 
-***
+While this is a datablock, currently its only reference is hardcoded ID 1.
 
 ## Fields
 

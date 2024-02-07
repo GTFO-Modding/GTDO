@@ -38,3 +38,7 @@ That's it. The layout doesn't even reroll. Unless you were using some mods that 
 It seems no changes are required.
 
 Since this is likely to continue, the notes will only be updated if there are relevant changes.
+
+### R8 update
+
+The start of the guide has been reworked to include the R1 ALT update required changes. Additionally some ID numbers have been changed to avoid collisions.

@@ -18,15 +18,19 @@ But seeing how in the next part we're adding a secondary sector, here we're goin
 
 ## Uplink terminal
 
-Alright so as you might guess the zone we'll be adding this to is the zone the created, and we're looking for it to land in the 2nd terminal (further down the zone).
+Alright, so, as you might guess, the zone we'll be adding this to is the zone we created, and we're looking for it to land in the 2nd terminal (further down the zone).
 
-Funny enough we just yeeted the uplink objective with original level secondary layer, so let's steal that and steal the text info from an uplink made before localized text became a thing (because we're not looking to deal with localization right now).
+Funny enough we just yeeted an uplink objective with the original level's secondary layer, so let's steal that and also steal the text info from an uplink made before localized text became a thing (because we're not looking to deal with localization right now).
 
 {% hint style="info" %}
 Remember, using existing blocks is often better than starting from 0, but be careful about which blocks you pick - some might become outdated with game updates. If you can, try to go for the current rundown.
 {% endhint %}
 
-Copying objective 117 and Header-GoToWinCondition\_ToMainLayer fields from 79 (and changing ID and name ofc), we get this:
+We'll open up the WardenObjective datablock, and start by copying objective 274 (the original secondary objective) and the Header - GoToWinCondition\_ToMainLayer fields from 19 (an uplink objective without localized text). After changing also changing the ID and name we get this:
+
+<details>
+
+<summary>Our new warden objective block</summary>
 
 ```
 {
@@ -117,9 +121,13 @@ Copying objective 117 and Header-GoToWinCondition\_ToMainLayer fields from 79 (a
   "GatherTerminal_DownloadTime": -1.0,
   "name": "F1 Pollution main - uplink",
   "internalEnabled": true,
-  "persistentID": 131
+  "persistentID": 400
 }
 ```
+
+
+
+</details>
 
 Let's go through a bit of analysis before we change it. Know that not all fields are relevant and not all fields behave the same on different objectives.
 
@@ -140,9 +148,7 @@ Now let's configure the objective in rundown db.
 
 ![Warden objective edited](<../../.gitbook/assets/image (14) (1) (1).png>)
 
-Only 2 things to change here - the datablock id and the local index, the rest are already correct.
-
-Make sure you edit the ObjectiveData inside MainLayerData.
+Only 2 things to change here - the datablock id and the local index, the rest are already correct (make sure you edit the ObjectiveData inside MainLayerData).
 
 Note that ZonePlacementDatas is a list of lists. If I recall correctly, the outer list is for different uplinks (if we had kept 2 uplinks for example), the inner list is for different locations for the same uplink (rng between runs).
 
@@ -246,7 +252,7 @@ The block in question:
   "GatherTerminal_DownloadTime": -1.0,
   "name": "Unsolvable objective",
   "internalEnabled": true,
-  "persistentID": 132
+  "persistentID": 401
 }
 ```
 
@@ -259,6 +265,10 @@ Reminder that you shouldn't make objectives before you have the level.
 Before we get into any specifics, remember that reactor is an objective heavily relying on waves. If you've read the heat explanation in the mod [ConfigurableGlobalWaveSettings](../../mods-documentation/documentation/configurableglobalwavesettings.md), you'll know there's a heat bug in base game and reactors will definitely mess with that, so you not only have to build your waves around the bug, it'll also affect the rest of the level and all other attempts until the game is restarted.
 
 Let's steal R6D1 objective and text info from elsewhere. Reactor blocks are pretty huge thanks to each reactor wave defined separately, and this one also has a bunch of events. We'll have to analyze it in parts. Here's the whole block before editing:
+
+<details>
+
+<summary>Our empty warden objective</summary>
 
 ```
 {
@@ -729,9 +739,13 @@ Let's steal R6D1 objective and text info from elsewhere. Reactor blocks are pret
   "GatherTerminal_DownloadTime": -1.0,
   "name": "F1 Pollution secondary - reactor",
   "internalEnabled": true,
-  "persistentID": 133
+  "persistentID": 402
 }
 ```
+
+
+
+</details>
 
 Reactor objective type is 1; text fields are self-explanatory so we'll skip them.
 
@@ -795,6 +809,10 @@ I won't dive deep into the settings and population. I can guess that they'll mos
 The other 3 blocks are the exact same thing, just different numbers, so there's no need to analyze them for me. This is all up to level design and balancing, and we don't do that here. I'll delete the 4th wave and leave everything as-is.
 
 Here's the final block:
+
+<details>
+
+<summary>Our secondary's warden objective</summary>
 
 ```
 {
@@ -1006,8 +1024,12 @@ Here's the final block:
   "GatherTerminal_DownloadTime": -1.0,
   "name": "F1 Pollution secondary - reactor",
   "internalEnabled": true,
-  "persistentID": 133
+  "persistentID": 402
 }
 ```
+
+
+
+</details>
 
 Time to finish this.

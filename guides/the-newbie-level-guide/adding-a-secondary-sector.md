@@ -16,6 +16,10 @@ Start with making a new level layout. For a placeholder let's copy the block we 
 
 Here's our placeholder layout:
 
+<details>
+
+<summary>Our secondary's placeholder level layout</summary>
+
 ```
   "ZoneAliasStart": 200,
   "Zones": [
@@ -158,6 +162,10 @@ Here's our placeholder layout:
 }
 ```
 
+
+
+</details>
+
 We already have a placeholder objective, so let's move straight to rundown db.
 
 Enable the secondary layer, set layout, set to build from zone 4 in main layer, set datablock ID to the unsolvable objective.
@@ -176,7 +184,7 @@ Enable the secondary layer, set layout, set to build from zone 4 in main layer, 
         "BulkheadKeyPlacements": [
         ],
         "ObjectiveData": {
-          "DataBlockId": 132,
+          "DataBlockId": 401,
           "WinCondition": 1,
           "ZonePlacementDatas": [
           ]
@@ -199,7 +207,7 @@ Quick test to see if secondary did spawn and it did. Time to generate the proper
 
 Let's keep this small, to reactor basics. The first zone is fine. We're adding a bridge and a reactor geo for a total of 3 zones.
 
-First thing to do here is find the custom geos. Remember you can only spawn something as custom geo if it is in complex resource set custom geos. In rundown db we can see we're using ComplexResourceData 1. Open ComplexResourceSetDataBlock, find ID 1. To make it easier to find what geos we have, I'm going to use breadcrumbs to find the custom geos:
+First thing to do here is find the custom geos. Remember you can only spawn something as custom geo if it is in that complex resource set's custom geos. In rundown db we can see we're using ComplexResourceData 1. Open ComplexResourceSetDataBlock, find ID 1. To make it easier to find what geos we have, I'm going to use breadcrumbs to find the custom geos:
 
 ![Breadcrumbs showing custom geos](<../../.gitbook/assets/image (16) (1) (1).png>)
 
@@ -221,6 +229,10 @@ LG is rocket science that deserves its own guide if any poor fool ever bothered 
 
 Anyway here's the level layout I got:
 
+<details>
+
+<summary>Our secondary's final level layout</summary>
+
 ```
 {
   "ZoneAliasStart": 200,
@@ -235,6 +247,7 @@ Anyway here's the level layout I got:
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "CustomGeomorph": "",
+      "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 10.0,
         "y": 15.0
@@ -330,6 +343,7 @@ Anyway here's the level layout I got:
       "ForbidTerminalsInZone": false,
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
+      "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
       "HealthPlacement": {
         "Start": 0.0,
@@ -367,6 +381,7 @@ Anyway here's the level layout I got:
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/Refinery/geo_64x64_mining_refinery_I_HA_05.prefab",
+      "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 30.0,
         "y": 30.0
@@ -462,6 +477,7 @@ Anyway here's the level layout I got:
       "ForbidTerminalsInZone": false,
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
+      "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
       "HealthPlacement": {
         "Start": 0.0,
@@ -499,6 +515,7 @@ Anyway here's the level layout I got:
       "BulkheadDCScanSeed": 0,
       "SubComplex": 2,
       "CustomGeomorph": "Assets/AssetPrefabs/Complex/Mining/Geomorphs/geo_64x64_mining_reactor_open_HA_01.prefab",
+      "IgnoreRandomGeomorphRotation": true,
       "CoverageMinMax": {
         "x": 40.0,
         "y": 45.0
@@ -594,6 +611,7 @@ Anyway here's the level layout I got:
       "ForbidTerminalsInZone": false,
       "PowerGeneratorPlacements": [],
       "DisinfectionStationPlacements": [],
+      "DumbwaiterPlacements": [],
       "HealthMulti": 0.0,
       "HealthPlacement": {
         "Start": 0.0,
@@ -627,6 +645,10 @@ Anyway here's the level layout I got:
   "persistentID": 163
 }
 ```
+
+
+
+</details>
 
 Some results:
 
