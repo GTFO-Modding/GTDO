@@ -39,7 +39,7 @@ Recommended:
 
 * [VS Code tips](../vs-code-tips.md)
 * Enable MTFO hot reload (TODO)
-* [Dev Toolbelt](https://gtfo.thunderstore.io/package/Endskill/Dev\_Toolbelt/) or some alternative for testing (Don't mind it being deprecated)
+* [CConsole](https://gtfo.thunderstore.io/package/GTFOModding/CConsole/) or some other modding toolkit
 
 ## Guide content
 
