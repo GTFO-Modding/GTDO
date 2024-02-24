@@ -33,6 +33,7 @@
   * [Fixing Unity errors after importing](guides/datamining/fixing-unity-errors-after-importing.md)
 * [Introduction to Errors](guides/introduction-to-errors.md)
 * [Modded GTFO on Linux](guides/modded-gtfo-on-linux.md)
+* [Enabling MTFO Hot Reload](guides/enabling-mtfo-hot-reload.md)
 * [VS Code Tips](guides/vs-code-tips.md)
 * [External Guides](guides/external-guides.md)
 

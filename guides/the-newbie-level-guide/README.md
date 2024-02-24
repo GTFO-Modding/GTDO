@@ -38,7 +38,7 @@ At this point you should be familiar with JSON, datablocks, and the following:
 Recommended:
 
 * [VS Code tips](../vs-code-tips.md)
-* Enable MTFO hot reload (TODO)
+* [Enable MTFO hot reloading](../enabling-mtfo-hot-reload.md)
 * [CConsole](https://gtfo.thunderstore.io/package/GTFOModding/CConsole/) or some other modding toolkit
 
 ## Guide content
