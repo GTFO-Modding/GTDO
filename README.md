@@ -8,6 +8,8 @@ coverY: -22.26086956521739
 
 # 🏠 Home
 
+This wiki is connected to the [GTFO modding discord](https://discord.gg/rRMPtv4FAh).
+
 {% hint style="info" %}
 **Current Wiki Status: About as good as it'll get**
 
