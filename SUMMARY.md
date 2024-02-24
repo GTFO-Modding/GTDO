@@ -26,7 +26,7 @@
   * [Creating a Sound Event](guides/adding-custom-audio/creating-a-sound-event.md)
   * [Creating a SoundBank](guides/adding-custom-audio/creating-a-soundbank.md)
   * [Using SoundBanks in GTFO](guides/adding-custom-audio/using-soundbanks-in-gtfo.md)
-* [⛏ Datamining](guides/datamining.md)
+* [⛏️ Datamining](guides/datamining.md)
   * [Audio files](guides/datamining/audio-files.md)
   * [Export asset files from GTFO](guides/datamining/export-asset-files-from-gtfo.md)
   * [Import asset files to Unity](guides/datamining/import-asset-files-to-unity.md)
