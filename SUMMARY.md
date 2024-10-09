@@ -20,6 +20,7 @@
   * [Writing a Plugin class](guides/your-first-plugin/writing-a-entrypoint-class.md)
   * [Compiling for release](guides/your-first-plugin/compiling-for-release.md)
   * [Creating a Patch class](guides/your-first-plugin/creating-a-patch-class.md)
+  * [Patching in slightly more detail](guides/your-first-plugin/patching-in-slightly-more-detail.md)
 * [🎹 Adding Custom Audio](guides/adding-custom-audio/README.md)
   * [Project Setup](guides/adding-custom-audio/project-setup.md)
   * [Adding Sounds into Wwise](guides/adding-custom-audio/adding-sounds-into-wwise.md)

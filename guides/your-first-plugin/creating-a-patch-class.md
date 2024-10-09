@@ -18,6 +18,7 @@ using UnityEngine.Diagnostics;
 
 namespace MyFirstPlugin;
 
+[HarmonyPatch]
 internal static class Patch
 {
     [HarmonyPatch(typeof(CM_PageRundown_New), nameof(CM_PageRundown_New.Setup))]
@@ -33,21 +34,23 @@ internal static class Patch
 After that go back to our Plugin class and add the following line to your Load method
 
 ```csharp
-_ = Harmony.CreateAndPatchAll(typeof(Patch), "MyFirstPlugin");
+new Harmony("NewbiePluginAuthor.MyFirstPlugin").PatchAll();
 ```
 
 You can now compile the plugin and when you click the About Rundown button in-game you will unlock a new rundown
 
 #### Explaining how this works
 
-When the plugin loads it will create a Harmony instance and apply our patch using the attributes we gave to the MyPatch method. When an object of CM\_PageRundown\_New calls the Setup method our code will be executed. Our patch replaces the action of the about rundown button with our own code.
+The line we added to our load method means that when the plugin loads it will create a Harmony instance and apply all the patches it can find (note we supply Harmony with the same GUID we saw earlier). The `[HarmonyPatch]` attribute we gave our Patch class helps Harmony find it (though it isn't always required depending on how you go about patching).
+
+When Harmony finds our Patch class it'll then look for any patching methods. The attributes we gave to the MyPatch method label it as such a patching method. The `[HarmonyPostfix]` attribute tells Harmony a little about _how_ we want to do our patch while the `[HarmonyPatch(...)]` attribute tells Harmony _what_ we want to patch. In this case it specifies that we want to patch the Setup method in the CM\_PageRundown\_New class. Our patch replaces the action of the about rundown button with our own code.
 
 {% hint style="danger" %}
 If multiple patch classes are desired first create a harmony instance and then use the types
 {% endhint %}
 
 ```csharp
-var harmony = new Harmony("MyFirstPlugin");
+var harmony = new Harmony("NewbiePluginAuthor.MyFirstPlugin");
 harmony.PatchAll(typeof(RundownPatch));
 harmony.PatchAll(typeof(PlayerPatch));
 harmony.PatchAll(typeof(EnemyPatch));
