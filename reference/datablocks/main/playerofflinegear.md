@@ -16,6 +16,6 @@ The only known use and difference here is "RundownSpecificInventory" which simpl
 
 ### GearJSON - String
 
-This innocent little string here contains an absurd amount of information in an even more absurd format. It's most likely this way because it's sent over networking and devs didn't care enough to make it more readable in datablocks.
+This innocent little string here contains an absurd amount of information in an even more absurd format (it's JSON embedded into JSON). It's most likely this way because it's sent over the network to all other players, so the devs didn't make it more readable in a DataBlock.
 
-This JSON and its meaning (including various related datablocks) is covered in the weapons guide in [External Guides](../../../guides/external-guides.md#weapon-guide).
+This JSON and its meaning (including various related DataBlocks) is covered in the [Creating Custom Weapons guide](../../../guides/creating-custom-weapons.md).

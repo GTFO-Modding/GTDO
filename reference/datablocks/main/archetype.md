@@ -108,7 +108,7 @@ Shell casing ejection speed range.
 
 Whether this weapon can pierce.
 
-Pierce is currently broken for sentries.
+Pierce is currently broken for the Shotgun sentries. It functions as intended for others.
 
 ### PiercingDamageCountLimit - Int32
 
@@ -230,30 +230,35 @@ Should sentry only target biotracker-tagged enemies.
 
 ### Sentry\_PrioTag - Boolean
 
-Should sentry prioritize targetting biotracker-tagged enemies.
+Should sentry prioritize targeting biotracker-tagged enemies.
 
 ### Sentry\_StartFireDelayTagMulti - Single
 
-Start fire delay multiplier when targetting biotracker-tagged enemies.
+Start fire delay multiplier when targeting biotracker-tagged enemies.
 
 ### Sentry\_RotationSpeedTagMulti - Single
 
-Rotation speed multiplier when targetting biotracker-tagged enemies.
+Rotation speed multiplier when targeting biotracker-tagged enemies.
 
 ### Sentry\_DamageTagMulti - Single
 
-Damage multiplier when targetting biotracker-tagged enemies.
+Damage multiplier when targeting biotracker-tagged enemies.
 
 ### Sentry\_StaggerDamageTagMulti - Single
 
-Stagger damage multiplier when targetting biotracker-tagged enemies.
+Stagger damage multiplier when targeting biotracker-tagged enemies.
 
 ### Sentry\_CostOfBulletTagMulti - Single
 
-Cost of bullet multiplier when targetting biotracker-tagged enemies.
-
-Makes perfect sense.
+CostOfBullet multiplier when targeting biotracker-tagged enemies.
 
 ### Sentry\_ShotDelayTagMulti - Single
 
-Shot delay multiplier when targetting biotracker-tagged enemies.
+Shot delay multiplier when targeting biotracker-tagged enemies.
+
+### name - String
+
+Internal name string for this DataBlock entry.
+
+Not used in-game.
+

@@ -10,15 +10,17 @@ description: >-
 
 Partly an explanation on how level generation works, mostly a list of all geomorphs and what they look like.
 
-## [Weapon guide](https://docs.google.com/document/d/1vnMhPE5eB0xHsHEETj7XGD\_f8hyjYRoweNfqpdeNDxQ/edit)
+## [Weapon guide](https://docs.google.com/document/d/1vnMhPE5eB0xHsHEETj7XGD_f8hyjYRoweNfqpdeNDxQ/edit)
 
-Explains most things about how weapons work and how to make them.
+Explains most things about how weapons work and how to make them - for archival purposes.
+
+**This has been transcribed and updated, as the** [**Creating Custom Weapons**](creating-custom-weapons.md) **guide.**
 
 ## [Datablock (level layout) editor](https://gtfo-modding.github.io/DatablockEditor/)
 
 A way to make level layout blocks online instead of working with JSON.
 
-## [Unity setup](https://docs.google.com/document/d/1ZsEVyd81Rqk3VF5xYyQa\_g56glqqM5qJk2oFmX\_jgts/edit)
+## [Unity setup](https://docs.google.com/document/d/1ZsEVyd81Rqk3VF5xYyQa_g56glqqM5qJk2oFmX_jgts/edit)
 
 Mostly focused on how to setup unity for making geomorphs, but works for datamining unity assets and making other things in unity as well.
 
